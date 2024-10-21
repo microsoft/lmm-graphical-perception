@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Determine the effective rate in January 2000.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the month and year with the highest effective rate.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the average effective rate for the year 2000.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any months where the effective rate significantly deviates from the surrounding months.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a noticeable trend in the effective rate over the 20-year period?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "List the years where the effective rate was consistently above 0.05.",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the years from the highest to the lowest average effective rate.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of effective rates recorded from January 2000 to December 2020?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify any clusters of years with similar effective rate trends.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of the months had an effective rate higher than 0.06?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

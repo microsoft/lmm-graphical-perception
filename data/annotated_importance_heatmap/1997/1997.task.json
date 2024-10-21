@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest number of new vehicle registrations.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total number of new vehicle registrations in 2005.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average number of new vehicle registrations from 2003 to 2019.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Are there any years where the number of new vehicle registrations significantly deviated from the general trend?",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Identify if there is a general upward or downward trend in new vehicle registrations over the years.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Find the range of new vehicle registrations between 2003 and 2019.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Group the years into clusters based on similar numbers of new vehicle registrations.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the percentage of years with more than 380,000 new vehicle registrations?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Filter out the years where new vehicle registrations were below 370,000.",
+            "type": "Filter"
+        },
+        {
+            "description": "Arrange the years in ascending order based on the number of new vehicle registrations.",
+            "type": "Order"
+        }
+    ]
+]

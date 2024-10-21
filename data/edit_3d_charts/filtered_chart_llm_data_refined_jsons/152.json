@@ -1,0 +1,1026 @@
+{
+    "img_id": 152,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": {
+            "text": "PL Team Expenditure, 2014-2022",
+            "fontSize": 18,
+            "subtitle": [
+                "Figure 2: hover over bars for team names.",
+                "Source: Transfermarkt"
+            ],
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 12,
+            "anchor": "start",
+            "color": "black"
+        },
+        "description": "Football Data",
+        "height": 300,
+        "width": "container",
+        "mark": {
+            "type": "bar"
+        },
+        "selection": {
+            "Team": {
+                "type": "single",
+                "fields": [
+                    "Team"
+                ],
+                "bind": {
+                    "input": "select",
+                    "options": [
+                        null,
+                        "Arsenal",
+                        "Aston Villa",
+                        "Bournemouth",
+                        "Brentford FC",
+                        "Brighton & Hove Albion",
+                        "Burnley",
+                        "Cardiff City",
+                        "Chelsea FC",
+                        "Crystal Palace",
+                        "Everton FC",
+                        "Fulham FC",
+                        "Huddersfield Town",
+                        "Hull City",
+                        "Leeds United",
+                        "Leicester City",
+                        "Liverpool FC",
+                        "Manchester City",
+                        "Manchester United",
+                        "Middlesbrough",
+                        "Newcastle United",
+                        "Norwich City",
+                        "Nottingham Forest",
+                        "Queens Park Rangers",
+                        "Sheffield United",
+                        "Southampton FC",
+                        "Stoke City",
+                        "Sunderland",
+                        "Swansea City",
+                        "Tottenham Hotspur",
+                        "Watford",
+                        "West Ham United",
+                        "Wolverhampton Wanderers"
+                    ],
+                    "name": "Select a Team: "
+                }
+            }
+        },
+        "transform": [
+            {
+                "filter": {
+                    "selection": "Team"
+                }
+            }
+        ],
+        "encoding": {
+            "x": {
+                "field": "Year",
+                "type": "nominal",
+                "title": null,
+                "axis": {
+                    "labelAngle": 0
+                }
+            },
+            "y": {
+                "field": "Expenditure",
+                "type": "quantitative",
+                "title": "Expenditure (\u00a3 millions)",
+                "axis": {
+                    "grid": false
+                }
+            },
+            "color": {
+                "field": "Team",
+                "type": "nominal",
+                "legend": null,
+                "scale": {
+                    "scheme": "plasma"
+                }
+            },
+            "order": {
+                "aggregate": "sum",
+                "field": "Expendtiure"
+            },
+            "tooltip": [
+                {
+                    "field": "Team",
+                    "type": "nominal",
+                    "title": "Team"
+                },
+                {
+                    "field": "Expenditure",
+                    "type": "quantitative",
+                    "title": "Total Expenditure (\u00a3M)"
+                }
+            ]
+        }
+    },
+    "data_dict": [
+        {
+            "Year": 2014,
+            "Team": "Arsenal",
+            "Expenditure": 118.98
+        },
+        {
+            "Year": 2015,
+            "Team": "Arsenal",
+            "Expenditure": 26.5
+        },
+        {
+            "Year": 2016,
+            "Team": "Arsenal",
+            "Expenditure": 113.0
+        },
+        {
+            "Year": 2017,
+            "Team": "Arsenal",
+            "Expenditure": 152.85
+        },
+        {
+            "Year": 2018,
+            "Team": "Arsenal",
+            "Expenditure": 80.15
+        },
+        {
+            "Year": 2019,
+            "Team": "Arsenal",
+            "Expenditure": 160.8
+        },
+        {
+            "Year": 2020,
+            "Team": "Arsenal",
+            "Expenditure": 86.0
+        },
+        {
+            "Year": 2021,
+            "Team": "Arsenal",
+            "Expenditure": 167.4
+        },
+        {
+            "Year": 2022,
+            "Team": "Arsenal",
+            "Expenditure": 132.06
+        },
+        {
+            "Year": 2014,
+            "Team": "Aston Villa",
+            "Expenditure": 13.45
+        },
+        {
+            "Year": 2015,
+            "Team": "Aston Villa",
+            "Expenditure": 66.55
+        },
+        {
+            "Year": 2019,
+            "Team": "Aston Villa",
+            "Expenditure": 159.5
+        },
+        {
+            "Year": 2020,
+            "Team": "Aston Villa",
+            "Expenditure": 101.35
+        },
+        {
+            "Year": 2021,
+            "Team": "Aston Villa",
+            "Expenditure": 129.82
+        },
+        {
+            "Year": 2022,
+            "Team": "Aston Villa",
+            "Expenditure": 70.0
+        },
+        {
+            "Year": 2015,
+            "Team": "Bournemouth",
+            "Expenditure": 55.11
+        },
+        {
+            "Year": 2016,
+            "Team": "Bournemouth",
+            "Expenditure": 40.69
+        },
+        {
+            "Year": 2017,
+            "Team": "Bournemouth",
+            "Expenditure": 34.3
+        },
+        {
+            "Year": 2018,
+            "Team": "Bournemouth",
+            "Expenditure": 91.6
+        },
+        {
+            "Year": 2019,
+            "Team": "Bournemouth",
+            "Expenditure": 54.91
+        },
+        {
+            "Year": 2022,
+            "Team": "Bournemouth",
+            "Expenditure": 26.9
+        },
+        {
+            "Year": 2021,
+            "Team": "Brentford FC",
+            "Expenditure": 36.7
+        },
+        {
+            "Year": 2022,
+            "Team": "Brentford FC",
+            "Expenditure": 50.5
+        },
+        {
+            "Year": 2017,
+            "Team": "Brighton & Hove Albion",
+            "Expenditure": 66.5
+        },
+        {
+            "Year": 2018,
+            "Team": "Brighton & Hove Albion",
+            "Expenditure": 87.12
+        },
+        {
+            "Year": 2019,
+            "Team": "Brighton & Hove Albion",
+            "Expenditure": 61.74
+        },
+        {
+            "Year": 2020,
+            "Team": "Brighton & Hove Albion",
+            "Expenditure": 28.5
+        },
+        {
+            "Year": 2021,
+            "Team": "Brighton & Hove Albion",
+            "Expenditure": 75.0
+        },
+        {
+            "Year": 2022,
+            "Team": "Brighton & Hove Albion",
+            "Expenditure": 45.73
+        },
+        {
+            "Year": 2014,
+            "Team": "Burnley",
+            "Expenditure": 11.11
+        },
+        {
+            "Year": 2016,
+            "Team": "Burnley",
+            "Expenditure": 40.13
+        },
+        {
+            "Year": 2017,
+            "Team": "Burnley",
+            "Expenditure": 31.45
+        },
+        {
+            "Year": 2018,
+            "Team": "Burnley",
+            "Expenditure": 29.04
+        },
+        {
+            "Year": 2019,
+            "Team": "Burnley",
+            "Expenditure": 20.99
+        },
+        {
+            "Year": 2020,
+            "Team": "Burnley",
+            "Expenditure": 0.97
+        },
+        {
+            "Year": 2021,
+            "Team": "Burnley",
+            "Expenditure": 43.47
+        },
+        {
+            "Year": 2018,
+            "Team": "Cardiff City",
+            "Expenditure": 35.38
+        },
+        {
+            "Year": 2014,
+            "Team": "Chelsea FC",
+            "Expenditure": 137.7
+        },
+        {
+            "Year": 2015,
+            "Team": "Chelsea FC",
+            "Expenditure": 96.5
+        },
+        {
+            "Year": 2016,
+            "Team": "Chelsea FC",
+            "Expenditure": 132.8
+        },
+        {
+            "Year": 2017,
+            "Team": "Chelsea FC",
+            "Expenditure": 260.5
+        },
+        {
+            "Year": 2018,
+            "Team": "Chelsea FC",
+            "Expenditure": 208.8
+        },
+        {
+            "Year": 2019,
+            "Team": "Chelsea FC",
+            "Expenditure": 45.0
+        },
+        {
+            "Year": 2020,
+            "Team": "Chelsea FC",
+            "Expenditure": 247.2
+        },
+        {
+            "Year": 2021,
+            "Team": "Chelsea FC",
+            "Expenditure": 118.0
+        },
+        {
+            "Year": 2022,
+            "Team": "Chelsea FC",
+            "Expenditure": 281.99
+        },
+        {
+            "Year": 2014,
+            "Team": "Crystal Palace",
+            "Expenditure": 31.22
+        },
+        {
+            "Year": 2015,
+            "Team": "Crystal Palace",
+            "Expenditure": 28.8
+        },
+        {
+            "Year": 2016,
+            "Team": "Crystal Palace",
+            "Expenditure": 101.2
+        },
+        {
+            "Year": 2017,
+            "Team": "Crystal Palace",
+            "Expenditure": 48.95
+        },
+        {
+            "Year": 2018,
+            "Team": "Crystal Palace",
+            "Expenditure": 11.85
+        },
+        {
+            "Year": 2019,
+            "Team": "Crystal Palace",
+            "Expenditure": 7.6
+        },
+        {
+            "Year": 2020,
+            "Team": "Crystal Palace",
+            "Expenditure": 22.4
+        },
+        {
+            "Year": 2021,
+            "Team": "Crystal Palace",
+            "Expenditure": 85.62
+        },
+        {
+            "Year": 2022,
+            "Team": "Crystal Palace",
+            "Expenditure": 34.6
+        },
+        {
+            "Year": 2014,
+            "Team": "Everton FC",
+            "Expenditure": 40.16
+        },
+        {
+            "Year": 2015,
+            "Team": "Everton FC",
+            "Expenditure": 48.9
+        },
+        {
+            "Year": 2016,
+            "Team": "Everton FC",
+            "Expenditure": 86.0
+        },
+        {
+            "Year": 2017,
+            "Team": "Everton FC",
+            "Expenditure": 203.2
+        },
+        {
+            "Year": 2018,
+            "Team": "Everton FC",
+            "Expenditure": 99.8
+        },
+        {
+            "Year": 2019,
+            "Team": "Everton FC",
+            "Expenditure": 121.0
+        },
+        {
+            "Year": 2020,
+            "Team": "Everton FC",
+            "Expenditure": 73.37
+        },
+        {
+            "Year": 2021,
+            "Team": "Everton FC",
+            "Expenditure": 39.5
+        },
+        {
+            "Year": 2022,
+            "Team": "Everton FC",
+            "Expenditure": 78.2
+        },
+        {
+            "Year": 2018,
+            "Team": "Fulham FC",
+            "Expenditure": 116.5
+        },
+        {
+            "Year": 2020,
+            "Team": "Fulham FC",
+            "Expenditure": 37.25
+        },
+        {
+            "Year": 2022,
+            "Team": "Fulham FC",
+            "Expenditure": 61.4
+        },
+        {
+            "Year": 2017,
+            "Team": "Huddersfield Town",
+            "Expenditure": 49.94
+        },
+        {
+            "Year": 2018,
+            "Team": "Huddersfield Town",
+            "Expenditure": 44.62
+        },
+        {
+            "Year": 2014,
+            "Team": "Hull City",
+            "Expenditure": 42.43
+        },
+        {
+            "Year": 2016,
+            "Team": "Hull City",
+            "Expenditure": 35.2
+        },
+        {
+            "Year": 2020,
+            "Team": "Leeds United",
+            "Expenditure": 127.8
+        },
+        {
+            "Year": 2021,
+            "Team": "Leeds United",
+            "Expenditure": 58.9
+        },
+        {
+            "Year": 2022,
+            "Team": "Leeds United",
+            "Expenditure": 104.34
+        },
+        {
+            "Year": 2014,
+            "Team": "Leicester City",
+            "Expenditure": 22.86
+        },
+        {
+            "Year": 2015,
+            "Team": "Leicester City",
+            "Expenditure": 49.9
+        },
+        {
+            "Year": 2016,
+            "Team": "Leicester City",
+            "Expenditure": 92.1
+        },
+        {
+            "Year": 2017,
+            "Team": "Leicester City",
+            "Expenditure": 83.85
+        },
+        {
+            "Year": 2018,
+            "Team": "Leicester City",
+            "Expenditure": 114.6
+        },
+        {
+            "Year": 2019,
+            "Team": "Leicester City",
+            "Expenditure": 104.3
+        },
+        {
+            "Year": 2020,
+            "Team": "Leicester City",
+            "Expenditure": 59.4
+        },
+        {
+            "Year": 2021,
+            "Team": "Leicester City",
+            "Expenditure": 67.6
+        },
+        {
+            "Year": 2022,
+            "Team": "Leicester City",
+            "Expenditure": 17.0
+        },
+        {
+            "Year": 2014,
+            "Team": "Liverpool FC",
+            "Expenditure": 151.43
+        },
+        {
+            "Year": 2015,
+            "Team": "Liverpool FC",
+            "Expenditure": 126.5
+        },
+        {
+            "Year": 2016,
+            "Team": "Liverpool FC",
+            "Expenditure": 79.9
+        },
+        {
+            "Year": 2017,
+            "Team": "Liverpool FC",
+            "Expenditure": 173.65
+        },
+        {
+            "Year": 2018,
+            "Team": "Liverpool FC",
+            "Expenditure": 182.2
+        },
+        {
+            "Year": 2019,
+            "Team": "Liverpool FC",
+            "Expenditure": 10.4
+        },
+        {
+            "Year": 2020,
+            "Team": "Liverpool FC",
+            "Expenditure": 84.05
+        },
+        {
+            "Year": 2021,
+            "Team": "Liverpool FC",
+            "Expenditure": 87.0
+        },
+        {
+            "Year": 2022,
+            "Team": "Liverpool FC",
+            "Expenditure": 95.3
+        },
+        {
+            "Year": 2014,
+            "Team": "Manchester City",
+            "Expenditure": 102.8
+        },
+        {
+            "Year": 2015,
+            "Team": "Manchester City",
+            "Expenditure": 208.47
+        },
+        {
+            "Year": 2016,
+            "Team": "Manchester City",
+            "Expenditure": 215.0
+        },
+        {
+            "Year": 2017,
+            "Team": "Manchester City",
+            "Expenditure": 317.5
+        },
+        {
+            "Year": 2018,
+            "Team": "Manchester City",
+            "Expenditure": 78.59
+        },
+        {
+            "Year": 2019,
+            "Team": "Manchester City",
+            "Expenditure": 159.52
+        },
+        {
+            "Year": 2020,
+            "Team": "Manchester City",
+            "Expenditure": 173.4
+        },
+        {
+            "Year": 2021,
+            "Team": "Manchester City",
+            "Expenditure": 138.9
+        },
+        {
+            "Year": 2022,
+            "Team": "Manchester City",
+            "Expenditure": 139.5
+        },
+        {
+            "Year": 2014,
+            "Team": "Manchester United",
+            "Expenditure": 195.35
+        },
+        {
+            "Year": 2015,
+            "Team": "Manchester United",
+            "Expenditure": 156.0
+        },
+        {
+            "Year": 2016,
+            "Team": "Manchester United",
+            "Expenditure": 185.0
+        },
+        {
+            "Year": 2017,
+            "Team": "Manchester United",
+            "Expenditure": 198.4
+        },
+        {
+            "Year": 2018,
+            "Team": "Manchester United",
+            "Expenditure": 82.7
+        },
+        {
+            "Year": 2019,
+            "Team": "Manchester United",
+            "Expenditure": 234.8
+        },
+        {
+            "Year": 2020,
+            "Team": "Manchester United",
+            "Expenditure": 83.8
+        },
+        {
+            "Year": 2021,
+            "Team": "Manchester United",
+            "Expenditure": 142.0
+        },
+        {
+            "Year": 2022,
+            "Team": "Manchester United",
+            "Expenditure": 240.32
+        },
+        {
+            "Year": 2016,
+            "Team": "Middlesbrough",
+            "Expenditure": 42.2
+        },
+        {
+            "Year": 2014,
+            "Team": "Newcastle United",
+            "Expenditure": 45.02
+        },
+        {
+            "Year": 2015,
+            "Team": "Newcastle United",
+            "Expenditure": 107.91
+        },
+        {
+            "Year": 2017,
+            "Team": "Newcastle United",
+            "Expenditure": 46.5
+        },
+        {
+            "Year": 2018,
+            "Team": "Newcastle United",
+            "Expenditure": 59.75
+        },
+        {
+            "Year": 2019,
+            "Team": "Newcastle United",
+            "Expenditure": 72.9
+        },
+        {
+            "Year": 2020,
+            "Team": "Newcastle United",
+            "Expenditure": 39.0
+        },
+        {
+            "Year": 2021,
+            "Team": "Newcastle United",
+            "Expenditure": 130.5
+        },
+        {
+            "Year": 2022,
+            "Team": "Newcastle United",
+            "Expenditure": 136.35
+        },
+        {
+            "Year": 2015,
+            "Team": "Norwich City",
+            "Expenditure": 44.44
+        },
+        {
+            "Year": 2019,
+            "Team": "Norwich City",
+            "Expenditure": 7.76
+        },
+        {
+            "Year": 2021,
+            "Team": "Norwich City",
+            "Expenditure": 55.95
+        },
+        {
+            "Year": 2022,
+            "Team": "Nottingham Forest",
+            "Expenditure": 161.95
+        },
+        {
+            "Year": 2014,
+            "Team": "Queens Park Rangers",
+            "Expenditure": 38.32
+        },
+        {
+            "Year": 2019,
+            "Team": "Sheffield United",
+            "Expenditure": 62.04
+        },
+        {
+            "Year": 2020,
+            "Team": "Sheffield United",
+            "Expenditure": 55.18
+        },
+        {
+            "Year": 2014,
+            "Team": "Southampton FC",
+            "Expenditure": 96.0
+        },
+        {
+            "Year": 2015,
+            "Team": "Southampton FC",
+            "Expenditure": 60.1
+        },
+        {
+            "Year": 2016,
+            "Team": "Southampton FC",
+            "Expenditure": 68.9
+        },
+        {
+            "Year": 2017,
+            "Team": "Southampton FC",
+            "Expenditure": 61.25
+        },
+        {
+            "Year": 2018,
+            "Team": "Southampton FC",
+            "Expenditure": 62.25
+        },
+        {
+            "Year": 2019,
+            "Team": "Southampton FC",
+            "Expenditure": 61.5
+        },
+        {
+            "Year": 2020,
+            "Team": "Southampton FC",
+            "Expenditure": 37.3
+        },
+        {
+            "Year": 2021,
+            "Team": "Southampton FC",
+            "Expenditure": 43.1
+        },
+        {
+            "Year": 2022,
+            "Team": "Southampton FC",
+            "Expenditure": 79.4
+        },
+        {
+            "Year": 2014,
+            "Team": "Stoke City",
+            "Expenditure": 1.58
+        },
+        {
+            "Year": 2015,
+            "Team": "Stoke City",
+            "Expenditure": 47.21
+        },
+        {
+            "Year": 2016,
+            "Team": "Stoke City",
+            "Expenditure": 34.13
+        },
+        {
+            "Year": 2017,
+            "Team": "Stoke City",
+            "Expenditure": 50.78
+        },
+        {
+            "Year": 2014,
+            "Team": "Sunderland",
+            "Expenditure": 19.82
+        },
+        {
+            "Year": 2015,
+            "Team": "Sunderland",
+            "Expenditure": 58.12
+        },
+        {
+            "Year": 2016,
+            "Team": "Sunderland",
+            "Expenditure": 36.87
+        },
+        {
+            "Year": 2014,
+            "Team": "Swansea City",
+            "Expenditure": 36.55
+        },
+        {
+            "Year": 2015,
+            "Team": "Swansea City",
+            "Expenditure": 19.19
+        },
+        {
+            "Year": 2016,
+            "Team": "Swansea City",
+            "Expenditure": 51.13
+        },
+        {
+            "Year": 2017,
+            "Team": "Swansea City",
+            "Expenditure": 64.58
+        },
+        {
+            "Year": 2014,
+            "Team": "Tottenham Hotspur",
+            "Expenditure": 48.48
+        },
+        {
+            "Year": 2015,
+            "Team": "Tottenham Hotspur",
+            "Expenditure": 71.0
+        },
+        {
+            "Year": 2016,
+            "Team": "Tottenham Hotspur",
+            "Expenditure": 83.5
+        },
+        {
+            "Year": 2017,
+            "Team": "Tottenham Hotspur",
+            "Expenditure": 123.5
+        },
+        {
+            "Year": 2018,
+            "Team": "Tottenham Hotspur",
+            "Expenditure": 0.0
+        },
+        {
+            "Year": 2019,
+            "Team": "Tottenham Hotspur",
+            "Expenditure": 148.5
+        },
+        {
+            "Year": 2020,
+            "Team": "Tottenham Hotspur",
+            "Expenditure": 110.5
+        },
+        {
+            "Year": 2021,
+            "Team": "Tottenham Hotspur",
+            "Expenditure": 95.9
+        },
+        {
+            "Year": 2022,
+            "Team": "Tottenham Hotspur",
+            "Expenditure": 169.9
+        },
+        {
+            "Year": 2015,
+            "Team": "Watford",
+            "Expenditure": 72.86
+        },
+        {
+            "Year": 2016,
+            "Team": "Watford",
+            "Expenditure": 62.0
+        },
+        {
+            "Year": 2017,
+            "Team": "Watford",
+            "Expenditure": 64.59
+        },
+        {
+            "Year": 2018,
+            "Team": "Watford",
+            "Expenditure": 26.54
+        },
+        {
+            "Year": 2019,
+            "Team": "Watford",
+            "Expenditure": 49.38
+        },
+        {
+            "Year": 2021,
+            "Team": "Watford",
+            "Expenditure": 38.36
+        },
+        {
+            "Year": 2014,
+            "Team": "West Bromwich Albion",
+            "Expenditure": 21.89
+        },
+        {
+            "Year": 2015,
+            "Team": "West Bromwich Albion",
+            "Expenditure": 37.75
+        },
+        {
+            "Year": 2016,
+            "Team": "West Bromwich Albion",
+            "Expenditure": 33.35
+        },
+        {
+            "Year": 2017,
+            "Team": "West Bromwich Albion",
+            "Expenditure": 47.08
+        },
+        {
+            "Year": 2020,
+            "Team": "West Bromwich Albion",
+            "Expenditure": 37.08
+        },
+        {
+            "Year": 2014,
+            "Team": "West Ham United",
+            "Expenditure": 35.15
+        },
+        {
+            "Year": 2015,
+            "Team": "West Ham United",
+            "Expenditure": 52.7
+        },
+        {
+            "Year": 2016,
+            "Team": "West Ham United",
+            "Expenditure": 83.5
+        },
+        {
+            "Year": 2017,
+            "Team": "West Ham United",
+            "Expenditure": 56.8
+        },
+        {
+            "Year": 2018,
+            "Team": "West Ham United",
+            "Expenditure": 100.9
+        },
+        {
+            "Year": 2019,
+            "Team": "West Ham United",
+            "Expenditure": 119.8
+        },
+        {
+            "Year": 2020,
+            "Team": "West Ham United",
+            "Expenditure": 54.7
+        },
+        {
+            "Year": 2021,
+            "Team": "West Ham United",
+            "Expenditure": 74.5
+        },
+        {
+            "Year": 2022,
+            "Team": "West Ham United",
+            "Expenditure": 182.0
+        },
+        {
+            "Year": 2018,
+            "Team": "Wolverhampton Wanderers",
+            "Expenditure": 112.75
+        },
+        {
+            "Year": 2019,
+            "Team": "Wolverhampton Wanderers",
+            "Expenditure": 116.7
+        },
+        {
+            "Year": 2020,
+            "Team": "Wolverhampton Wanderers",
+            "Expenditure": 87.59
+        },
+        {
+            "Year": 2021,
+            "Team": "Wolverhampton Wanderers",
+            "Expenditure": 37.6
+        },
+        {
+            "Year": 2022,
+            "Team": "Wolverhampton Wanderers",
+            "Expenditure": 136.6
+        }
+    ],
+    "imgs": [
+        "152_NQN_bar_chart_2.png",
+        "152_NQN_bar_chart.png"
+    ]
+}

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Determine the share of respondents who voted for Jackson 5.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the boy band with the highest share of respondents.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Compute the total share of respondents for The Monkees and Boys II Men.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any boy band that has a share of respondents significantly lower than the others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Identify if there is any correlation between the popularity of the boy bands and their share of respondents.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which boy bands have a share of respondents greater than 0.1?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the boy bands from the highest to the lowest share of respondents.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of the share of respondents across all boy bands.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the boy bands have a share of respondents less than 0.1?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of boy bands with similar shares of respondents.",
+            "type": "Find Clusters"
+        }
+    ]
+]

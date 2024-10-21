@@ -1,0 +1,4954 @@
+{
+    "img_id": "1821",
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "transform": [
+            {
+                "filter": "datum.classificacao === 'mortos'"
+            }
+        ],
+        "width": "container",
+        "mark": "rect",
+        "encoding": {
+            "x": {
+                "timeUnit": "monthdate",
+                "field": "data",
+                "type": "ordinal",
+                "axis": {
+                    "labelAngle": 315,
+                    "labelFontSize": 12,
+                    "title": "Data",
+                    "titleFontSize": 14
+                }
+            },
+            "y": {
+                "field": "faixa_etaria",
+                "type": "nominal",
+                "title": "faixa et\u00e1ria",
+                "sort": "descending",
+                "axis": {
+                    "labelFontSize": 12,
+                    "title": "Faixa Et\u00e1ria",
+                    "titleFontSize": 14
+                }
+            },
+            "color": {
+                "field": "total",
+                "type": "quantitative",
+                "legend": {
+                    "columns": 1,
+                    "labelFontSize": 12,
+                    "orient": "bottom",
+                    "title": "\u00d3bitos",
+                    "titleFontSize": 14
+                },
+                "scale": {
+                    "type": "threshold",
+                    "domain": [
+                        1,
+                        10,
+                        30,
+                        50,
+                        70,
+                        100
+                    ],
+                    "range": [
+                        "#F0F0F0",
+                        "#FFBD00",
+                        "#FF5400",
+                        "#FF0054",
+                        "#9E0059",
+                        "#390099",
+                        "#000000"
+                    ]
+                }
+            }
+        }
+    },
+    "data_dict": [
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "20 a 29",
+            "total": 14
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "30 a 39",
+            "total": 38
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "40 a 49",
+            "total": 27
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "50 a 59",
+            "total": 22
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "60 a 69",
+            "total": 11
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "70 a 79",
+            "total": 5
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "80 ou mais",
+            "total": 15
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "20 a 29",
+            "total": 26
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "30 a 39",
+            "total": 77
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "40 a 49",
+            "total": 59
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "50 a 59",
+            "total": 38
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "60 a 69",
+            "total": 20
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "70 a 79",
+            "total": 13
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "80 ou mais",
+            "total": 25
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "00 a 19",
+            "total": 12
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "20 a 29",
+            "total": 50
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "30 a 39",
+            "total": 121
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "40 a 49",
+            "total": 105
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "50 a 59",
+            "total": 67
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "60 a 69",
+            "total": 31
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "70 a 79",
+            "total": 25
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "80 ou mais",
+            "total": 33
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "00 a 09",
+            "total": 0
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "10 a 19",
+            "total": 14
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "20 a 29",
+            "total": 95
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "30 a 39",
+            "total": 183
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "40 a 49",
+            "total": 149
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "50 a 59",
+            "total": 109
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "60 a 69",
+            "total": 55
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "70 a 79",
+            "total": 34
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "80 ou mais",
+            "total": 34
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "00 a 09",
+            "total": 768
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "10 a 19",
+            "total": 1583
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "20 a 29",
+            "total": 6127
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "30 a 39",
+            "total": 9092
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "40 a 49",
+            "total": 7418
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "50 a 59",
+            "total": 5029
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "60 a 69",
+            "total": 2580
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "70 a 79",
+            "total": 1475
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "80 ou mais",
+            "total": 1021
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "00 a 09",
+            "total": 862
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "10 a 19",
+            "total": 1742
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "20 a 29",
+            "total": 6563
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "30 a 39",
+            "total": 9733
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "40 a 49",
+            "total": 7945
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "50 a 59",
+            "total": 5337
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "60 a 69",
+            "total": 2682
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "70 a 79",
+            "total": 1467
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "80 ou mais",
+            "total": 922
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "00 a 09",
+            "total": 896
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "10 a 19",
+            "total": 1848
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "20 a 29",
+            "total": 6911
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "30 a 39",
+            "total": 10287
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "40 a 49",
+            "total": 8389
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "50 a 59",
+            "total": 5773
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "60 a 69",
+            "total": 2930
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "70 a 79",
+            "total": 1700
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "80 ou mais",
+            "total": 1178
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "00 a 09",
+            "total": 989
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "10 a 19",
+            "total": 2021
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "20 a 29",
+            "total": 7467
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "30 a 39",
+            "total": 10998
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "40 a 49",
+            "total": 8990
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "50 a 59",
+            "total": 6178
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "60 a 69",
+            "total": 3140
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "70 a 79",
+            "total": 1809
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "80 ou mais",
+            "total": 1250
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "00 a 09",
+            "total": 1138
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "10 a 19",
+            "total": 2360
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "20 a 29",
+            "total": 8375
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "30 a 39",
+            "total": 12268
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "40 a 49",
+            "total": 11115
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "50 a 59",
+            "total": 6959
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "60 a 69",
+            "total": 3555
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "70 a 79",
+            "total": 2031
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "80 ou mais",
+            "total": 1374
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "00 a 09",
+            "total": 1240
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "10 a 19",
+            "total": 2465
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "20 a 29",
+            "total": 8629
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "30 a 39",
+            "total": 12800
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "40 a 49",
+            "total": 10566
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "50 a 59",
+            "total": 7449
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "60 a 69",
+            "total": 3854
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "70 a 79",
+            "total": 2206
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "80 ou mais",
+            "total": 1556
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "00 a 09",
+            "total": 1263
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "10 a 19",
+            "total": 2706
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "20 a 29",
+            "total": 9255
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "30 a 39",
+            "total": 13470
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "40 a 49",
+            "total": 11085
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "50 a 59",
+            "total": 7622
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "60 a 69",
+            "total": 3953
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "70 a 79",
+            "total": 2274
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "80 ou mais",
+            "total": 1523
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "00 a 09",
+            "total": 1374
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "10 a 19",
+            "total": 2904
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "20 a 29",
+            "total": 9802
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "30 a 39",
+            "total": 14192
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "40 a 49",
+            "total": 11740
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "50 a 59",
+            "total": 8100
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "60 a 69",
+            "total": 4182
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "70 a 79",
+            "total": 2424
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "80 ou mais",
+            "total": 1626
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "00 a 09",
+            "total": 1459
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "10 a 19",
+            "total": 3083
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "20 a 29",
+            "total": 10306
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "30 a 39",
+            "total": 14819
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "40 a 49",
+            "total": 12267
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "50 a 59",
+            "total": 8492
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "60 a 69",
+            "total": 4424
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "70 a 79",
+            "total": 2549
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "80 ou mais",
+            "total": 1719
+        },
+        {
+            "data": "2020-07-13",
+            "faixa_etaria": "00 a 09",
+            "total": 1514
+        },
+        {
+            "data": "2020-07-13",
+            "faixa_etaria": "10 a 19",
+            "total": 3225
+        },
+        {
+            "data": "2020-07-13",
+            "faixa_etaria": "20 a 29",
+            "total": 10633
+        },
+        {
+            "data": "2020-07-13",
+            "faixa_etaria": "30 a 39",
+            "total": 15249
+        },
+        {
+            "data": "2020-07-13",
+            "faixa_etaria": "40 a 49",
+            "total": 12677
+        },
+        {
+            "data": "2020-07-13",
+            "faixa_etaria": "50 a 59",
+            "total": 8814
+        },
+        {
+            "data": "2020-07-13",
+            "faixa_etaria": "60 a 69",
+            "total": 4592
+        },
+        {
+            "data": "2020-07-13",
+            "faixa_etaria": "70 a 79",
+            "total": 2636
+        },
+        {
+            "data": "2020-07-13",
+            "faixa_etaria": "80 ou mais",
+            "total": 1768
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "00 a 09",
+            "total": 1695
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "10 a 19",
+            "total": 3578
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "20 a 29",
+            "total": 11533
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "30 a 39",
+            "total": 16309
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "40 a 49",
+            "total": 13716
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "50 a 59",
+            "total": 9523
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "60 a 69",
+            "total": 4996
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "70 a 79",
+            "total": 2885
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "80 ou mais",
+            "total": 1912
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "00 a 09",
+            "total": 1731
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "10 a 19",
+            "total": 3657
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "20 a 29",
+            "total": 11722
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "30 a 39",
+            "total": 16818
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "40 a 49",
+            "total": 13969
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "50 a 59",
+            "total": 9739
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "60 a 69",
+            "total": 5122
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "70 a 79",
+            "total": 2951
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "80 ou mais",
+            "total": 1971
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "00 a 09",
+            "total": 1869
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "10 a 19",
+            "total": 3911
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "20 a 29",
+            "total": 12277
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "30 a 39",
+            "total": 17552
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "40 a 49",
+            "total": 14572
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "50 a 59",
+            "total": 10261
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "60 a 69",
+            "total": 5358
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "70 a 79",
+            "total": 3117
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "80 ou mais",
+            "total": 2055
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "00 a 09",
+            "total": 1997
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "10 a 19",
+            "total": 4132
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "20 a 29",
+            "total": 12909
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "30 a 39",
+            "total": 18332
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "40 a 49",
+            "total": 15316
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "50 a 59",
+            "total": 10771
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "60 a 69",
+            "total": 5634
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "70 a 79",
+            "total": 3288
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "80 ou mais",
+            "total": 2171
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "00 a 09",
+            "total": 2053
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "10 a 19",
+            "total": 4271
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "20 a 29",
+            "total": 13268
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "30 a 39",
+            "total": 18816
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "40 a 49",
+            "total": 15720
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "50 a 59",
+            "total": 11119
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "60 a 69",
+            "total": 5815
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "70 a 79",
+            "total": 3402
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "80 ou mais",
+            "total": 2249
+        },
+        {
+            "data": "2020-03-31",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-03-31",
+            "faixa_etaria": "20 a 29",
+            "total": 0
+        },
+        {
+            "data": "2020-03-31",
+            "faixa_etaria": "30 a 39",
+            "total": 1
+        },
+        {
+            "data": "2020-03-31",
+            "faixa_etaria": "40 a 49",
+            "total": 0
+        },
+        {
+            "data": "2020-03-31",
+            "faixa_etaria": "50 a 59",
+            "total": 0
+        },
+        {
+            "data": "2020-03-31",
+            "faixa_etaria": "60 a 69",
+            "total": 0
+        },
+        {
+            "data": "2020-03-31",
+            "faixa_etaria": "70 a 79",
+            "total": 0
+        },
+        {
+            "data": "2020-03-31",
+            "faixa_etaria": "80 ou mais",
+            "total": 0
+        },
+        {
+            "data": "2020-04-01",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-04-01",
+            "faixa_etaria": "20 a 29",
+            "total": 0
+        },
+        {
+            "data": "2020-04-01",
+            "faixa_etaria": "30 a 39",
+            "total": 1
+        },
+        {
+            "data": "2020-04-01",
+            "faixa_etaria": "40 a 49",
+            "total": 0
+        },
+        {
+            "data": "2020-04-01",
+            "faixa_etaria": "50 a 59",
+            "total": 0
+        },
+        {
+            "data": "2020-04-01",
+            "faixa_etaria": "60 a 69",
+            "total": 0
+        },
+        {
+            "data": "2020-04-01",
+            "faixa_etaria": "70 a 79",
+            "total": 0
+        },
+        {
+            "data": "2020-04-01",
+            "faixa_etaria": "80 ou mais",
+            "total": 0
+        },
+        {
+            "data": "2020-04-02",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-04-02",
+            "faixa_etaria": "20 a 29",
+            "total": 0
+        },
+        {
+            "data": "2020-04-02",
+            "faixa_etaria": "30 a 39",
+            "total": 1
+        },
+        {
+            "data": "2020-04-02",
+            "faixa_etaria": "40 a 49",
+            "total": 0
+        },
+        {
+            "data": "2020-04-02",
+            "faixa_etaria": "50 a 59",
+            "total": 0
+        },
+        {
+            "data": "2020-04-02",
+            "faixa_etaria": "60 a 69",
+            "total": 0
+        },
+        {
+            "data": "2020-04-02",
+            "faixa_etaria": "70 a 79",
+            "total": 0
+        },
+        {
+            "data": "2020-04-02",
+            "faixa_etaria": "80 ou mais",
+            "total": 0
+        },
+        {
+            "data": "2020-04-03",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-04-03",
+            "faixa_etaria": "20 a 29",
+            "total": 0
+        },
+        {
+            "data": "2020-04-03",
+            "faixa_etaria": "30 a 39",
+            "total": 1
+        },
+        {
+            "data": "2020-04-03",
+            "faixa_etaria": "40 a 49",
+            "total": 1
+        },
+        {
+            "data": "2020-04-03",
+            "faixa_etaria": "50 a 59",
+            "total": 0
+        },
+        {
+            "data": "2020-04-03",
+            "faixa_etaria": "60 a 69",
+            "total": 0
+        },
+        {
+            "data": "2020-04-03",
+            "faixa_etaria": "70 a 79",
+            "total": 0
+        },
+        {
+            "data": "2020-04-03",
+            "faixa_etaria": "80 ou mais",
+            "total": 1
+        },
+        {
+            "data": "2020-04-04",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-04-04",
+            "faixa_etaria": "20 a 29",
+            "total": 0
+        },
+        {
+            "data": "2020-04-04",
+            "faixa_etaria": "30 a 39",
+            "total": 1
+        },
+        {
+            "data": "2020-04-04",
+            "faixa_etaria": "40 a 49",
+            "total": 1
+        },
+        {
+            "data": "2020-04-04",
+            "faixa_etaria": "50 a 59",
+            "total": 0
+        },
+        {
+            "data": "2020-04-04",
+            "faixa_etaria": "60 a 69",
+            "total": 0
+        },
+        {
+            "data": "2020-04-04",
+            "faixa_etaria": "70 a 79",
+            "total": 0
+        },
+        {
+            "data": "2020-04-04",
+            "faixa_etaria": "80 ou mais",
+            "total": 1
+        },
+        {
+            "data": "2020-04-05",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-04-05",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-05",
+            "faixa_etaria": "30 a 39",
+            "total": 1
+        },
+        {
+            "data": "2020-04-05",
+            "faixa_etaria": "40 a 49",
+            "total": 1
+        },
+        {
+            "data": "2020-04-05",
+            "faixa_etaria": "50 a 59",
+            "total": 0
+        },
+        {
+            "data": "2020-04-05",
+            "faixa_etaria": "60 a 69",
+            "total": 0
+        },
+        {
+            "data": "2020-04-05",
+            "faixa_etaria": "70 a 79",
+            "total": 0
+        },
+        {
+            "data": "2020-04-05",
+            "faixa_etaria": "80 ou mais",
+            "total": 1
+        },
+        {
+            "data": "2020-04-06",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-04-06",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-06",
+            "faixa_etaria": "30 a 39",
+            "total": 1
+        },
+        {
+            "data": "2020-04-06",
+            "faixa_etaria": "40 a 49",
+            "total": 1
+        },
+        {
+            "data": "2020-04-06",
+            "faixa_etaria": "50 a 59",
+            "total": 0
+        },
+        {
+            "data": "2020-04-06",
+            "faixa_etaria": "60 a 69",
+            "total": 0
+        },
+        {
+            "data": "2020-04-06",
+            "faixa_etaria": "70 a 79",
+            "total": 0
+        },
+        {
+            "data": "2020-04-06",
+            "faixa_etaria": "80 ou mais",
+            "total": 1
+        },
+        {
+            "data": "2020-04-07",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-04-07",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-07",
+            "faixa_etaria": "30 a 39",
+            "total": 1
+        },
+        {
+            "data": "2020-04-07",
+            "faixa_etaria": "40 a 49",
+            "total": 1
+        },
+        {
+            "data": "2020-04-07",
+            "faixa_etaria": "50 a 59",
+            "total": 0
+        },
+        {
+            "data": "2020-04-07",
+            "faixa_etaria": "60 a 69",
+            "total": 0
+        },
+        {
+            "data": "2020-04-07",
+            "faixa_etaria": "70 a 79",
+            "total": 0
+        },
+        {
+            "data": "2020-04-07",
+            "faixa_etaria": "80 ou mais",
+            "total": 1
+        },
+        {
+            "data": "2020-04-08",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-04-08",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-08",
+            "faixa_etaria": "30 a 39",
+            "total": 2
+        },
+        {
+            "data": "2020-04-08",
+            "faixa_etaria": "40 a 49",
+            "total": 1
+        },
+        {
+            "data": "2020-04-08",
+            "faixa_etaria": "50 a 59",
+            "total": 1
+        },
+        {
+            "data": "2020-04-08",
+            "faixa_etaria": "60 a 69",
+            "total": 0
+        },
+        {
+            "data": "2020-04-08",
+            "faixa_etaria": "70 a 79",
+            "total": 1
+        },
+        {
+            "data": "2020-04-08",
+            "faixa_etaria": "80 ou mais",
+            "total": 1
+        },
+        {
+            "data": "2020-04-09",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-04-09",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-09",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-09",
+            "faixa_etaria": "40 a 49",
+            "total": 1
+        },
+        {
+            "data": "2020-04-09",
+            "faixa_etaria": "50 a 59",
+            "total": 1
+        },
+        {
+            "data": "2020-04-09",
+            "faixa_etaria": "60 a 69",
+            "total": 1
+        },
+        {
+            "data": "2020-04-09",
+            "faixa_etaria": "70 a 79",
+            "total": 1
+        },
+        {
+            "data": "2020-04-09",
+            "faixa_etaria": "80 ou mais",
+            "total": 3
+        },
+        {
+            "data": "2020-04-10",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-04-10",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-10",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-10",
+            "faixa_etaria": "40 a 49",
+            "total": 1
+        },
+        {
+            "data": "2020-04-10",
+            "faixa_etaria": "50 a 59",
+            "total": 1
+        },
+        {
+            "data": "2020-04-10",
+            "faixa_etaria": "60 a 69",
+            "total": 1
+        },
+        {
+            "data": "2020-04-10",
+            "faixa_etaria": "70 a 79",
+            "total": 1
+        },
+        {
+            "data": "2020-04-10",
+            "faixa_etaria": "80 ou mais",
+            "total": 3
+        },
+        {
+            "data": "2020-04-11",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-04-11",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-11",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-11",
+            "faixa_etaria": "40 a 49",
+            "total": 1
+        },
+        {
+            "data": "2020-04-11",
+            "faixa_etaria": "50 a 59",
+            "total": 1
+        },
+        {
+            "data": "2020-04-11",
+            "faixa_etaria": "60 a 69",
+            "total": 1
+        },
+        {
+            "data": "2020-04-11",
+            "faixa_etaria": "70 a 79",
+            "total": 1
+        },
+        {
+            "data": "2020-04-11",
+            "faixa_etaria": "80 ou mais",
+            "total": 5
+        },
+        {
+            "data": "2020-04-12",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-04-12",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-12",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-12",
+            "faixa_etaria": "40 a 49",
+            "total": 1
+        },
+        {
+            "data": "2020-04-12",
+            "faixa_etaria": "50 a 59",
+            "total": 1
+        },
+        {
+            "data": "2020-04-12",
+            "faixa_etaria": "60 a 69",
+            "total": 1
+        },
+        {
+            "data": "2020-04-12",
+            "faixa_etaria": "70 a 79",
+            "total": 1
+        },
+        {
+            "data": "2020-04-12",
+            "faixa_etaria": "80 ou mais",
+            "total": 5
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "00 a 19",
+            "total": 0
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "40 a 49",
+            "total": 1
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "50 a 59",
+            "total": 1
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "60 a 69",
+            "total": 3
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "70 a 79",
+            "total": 1
+        },
+        {
+            "data": "2020-04-13",
+            "faixa_etaria": "80 ou mais",
+            "total": 6
+        },
+        {
+            "data": "2020-04-14",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-14",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-14",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-14",
+            "faixa_etaria": "40 a 49",
+            "total": 2
+        },
+        {
+            "data": "2020-04-14",
+            "faixa_etaria": "50 a 59",
+            "total": 1
+        },
+        {
+            "data": "2020-04-14",
+            "faixa_etaria": "60 a 69",
+            "total": 4
+        },
+        {
+            "data": "2020-04-14",
+            "faixa_etaria": "70 a 79",
+            "total": 1
+        },
+        {
+            "data": "2020-04-14",
+            "faixa_etaria": "80 ou mais",
+            "total": 8
+        },
+        {
+            "data": "2020-04-15",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-15",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-15",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-15",
+            "faixa_etaria": "40 a 49",
+            "total": 2
+        },
+        {
+            "data": "2020-04-15",
+            "faixa_etaria": "50 a 59",
+            "total": 1
+        },
+        {
+            "data": "2020-04-15",
+            "faixa_etaria": "60 a 69",
+            "total": 4
+        },
+        {
+            "data": "2020-04-15",
+            "faixa_etaria": "70 a 79",
+            "total": 1
+        },
+        {
+            "data": "2020-04-15",
+            "faixa_etaria": "80 ou mais",
+            "total": 11
+        },
+        {
+            "data": "2020-04-16",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-16",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-16",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-16",
+            "faixa_etaria": "40 a 49",
+            "total": 3
+        },
+        {
+            "data": "2020-04-16",
+            "faixa_etaria": "50 a 59",
+            "total": 1
+        },
+        {
+            "data": "2020-04-16",
+            "faixa_etaria": "60 a 69",
+            "total": 5
+        },
+        {
+            "data": "2020-04-16",
+            "faixa_etaria": "70 a 79",
+            "total": 1
+        },
+        {
+            "data": "2020-04-16",
+            "faixa_etaria": "80 ou mais",
+            "total": 11
+        },
+        {
+            "data": "2020-04-17",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-17",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-17",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-17",
+            "faixa_etaria": "40 a 49",
+            "total": 3
+        },
+        {
+            "data": "2020-04-17",
+            "faixa_etaria": "50 a 59",
+            "total": 2
+        },
+        {
+            "data": "2020-04-17",
+            "faixa_etaria": "60 a 69",
+            "total": 5
+        },
+        {
+            "data": "2020-04-17",
+            "faixa_etaria": "70 a 79",
+            "total": 1
+        },
+        {
+            "data": "2020-04-17",
+            "faixa_etaria": "80 ou mais",
+            "total": 12
+        },
+        {
+            "data": "2020-04-18",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-18",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-18",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-18",
+            "faixa_etaria": "40 a 49",
+            "total": 4
+        },
+        {
+            "data": "2020-04-18",
+            "faixa_etaria": "50 a 59",
+            "total": 2
+        },
+        {
+            "data": "2020-04-18",
+            "faixa_etaria": "60 a 69",
+            "total": 5
+        },
+        {
+            "data": "2020-04-18",
+            "faixa_etaria": "70 a 79",
+            "total": 1
+        },
+        {
+            "data": "2020-04-18",
+            "faixa_etaria": "80 ou mais",
+            "total": 12
+        },
+        {
+            "data": "2020-04-19",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-19",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-19",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-19",
+            "faixa_etaria": "40 a 49",
+            "total": 5
+        },
+        {
+            "data": "2020-04-19",
+            "faixa_etaria": "50 a 59",
+            "total": 2
+        },
+        {
+            "data": "2020-04-19",
+            "faixa_etaria": "60 a 69",
+            "total": 5
+        },
+        {
+            "data": "2020-04-19",
+            "faixa_etaria": "70 a 79",
+            "total": 1
+        },
+        {
+            "data": "2020-04-19",
+            "faixa_etaria": "80 ou mais",
+            "total": 14
+        },
+        {
+            "data": "2020-04-20",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-20",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-20",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-20",
+            "faixa_etaria": "40 a 49",
+            "total": 5
+        },
+        {
+            "data": "2020-04-20",
+            "faixa_etaria": "50 a 59",
+            "total": 2
+        },
+        {
+            "data": "2020-04-20",
+            "faixa_etaria": "60 a 69",
+            "total": 5
+        },
+        {
+            "data": "2020-04-20",
+            "faixa_etaria": "70 a 79",
+            "total": 1
+        },
+        {
+            "data": "2020-04-20",
+            "faixa_etaria": "80 ou mais",
+            "total": 15
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "40 a 49",
+            "total": 5
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "50 a 59",
+            "total": 3
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "60 a 69",
+            "total": 8
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "70 a 79",
+            "total": 2
+        },
+        {
+            "data": "2020-04-21",
+            "faixa_etaria": "80 ou mais",
+            "total": 16
+        },
+        {
+            "data": "2020-04-22",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-22",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-22",
+            "faixa_etaria": "30 a 39",
+            "total": 3
+        },
+        {
+            "data": "2020-04-22",
+            "faixa_etaria": "40 a 49",
+            "total": 5
+        },
+        {
+            "data": "2020-04-22",
+            "faixa_etaria": "50 a 59",
+            "total": 3
+        },
+        {
+            "data": "2020-04-22",
+            "faixa_etaria": "60 a 69",
+            "total": 8
+        },
+        {
+            "data": "2020-04-22",
+            "faixa_etaria": "70 a 79",
+            "total": 3
+        },
+        {
+            "data": "2020-04-22",
+            "faixa_etaria": "80 ou mais",
+            "total": 16
+        },
+        {
+            "data": "2020-04-23",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-23",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-23",
+            "faixa_etaria": "30 a 39",
+            "total": 4
+        },
+        {
+            "data": "2020-04-23",
+            "faixa_etaria": "40 a 49",
+            "total": 6
+        },
+        {
+            "data": "2020-04-23",
+            "faixa_etaria": "50 a 59",
+            "total": 4
+        },
+        {
+            "data": "2020-04-23",
+            "faixa_etaria": "60 a 69",
+            "total": 8
+        },
+        {
+            "data": "2020-04-23",
+            "faixa_etaria": "70 a 79",
+            "total": 4
+        },
+        {
+            "data": "2020-04-23",
+            "faixa_etaria": "80 ou mais",
+            "total": 16
+        },
+        {
+            "data": "2020-04-24",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-24",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-24",
+            "faixa_etaria": "30 a 39",
+            "total": 4
+        },
+        {
+            "data": "2020-04-24",
+            "faixa_etaria": "40 a 49",
+            "total": 6
+        },
+        {
+            "data": "2020-04-24",
+            "faixa_etaria": "50 a 59",
+            "total": 5
+        },
+        {
+            "data": "2020-04-24",
+            "faixa_etaria": "60 a 69",
+            "total": 8
+        },
+        {
+            "data": "2020-04-24",
+            "faixa_etaria": "70 a 79",
+            "total": 5
+        },
+        {
+            "data": "2020-04-24",
+            "faixa_etaria": "80 ou mais",
+            "total": 16
+        },
+        {
+            "data": "2020-04-25",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-25",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-25",
+            "faixa_etaria": "30 a 39",
+            "total": 4
+        },
+        {
+            "data": "2020-04-25",
+            "faixa_etaria": "40 a 49",
+            "total": 6
+        },
+        {
+            "data": "2020-04-25",
+            "faixa_etaria": "50 a 59",
+            "total": 5
+        },
+        {
+            "data": "2020-04-25",
+            "faixa_etaria": "60 a 69",
+            "total": 10
+        },
+        {
+            "data": "2020-04-25",
+            "faixa_etaria": "70 a 79",
+            "total": 6
+        },
+        {
+            "data": "2020-04-25",
+            "faixa_etaria": "80 ou mais",
+            "total": 16
+        },
+        {
+            "data": "2020-04-26",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-26",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-26",
+            "faixa_etaria": "30 a 39",
+            "total": 5
+        },
+        {
+            "data": "2020-04-26",
+            "faixa_etaria": "40 a 49",
+            "total": 6
+        },
+        {
+            "data": "2020-04-26",
+            "faixa_etaria": "50 a 59",
+            "total": 5
+        },
+        {
+            "data": "2020-04-26",
+            "faixa_etaria": "60 a 69",
+            "total": 10
+        },
+        {
+            "data": "2020-04-26",
+            "faixa_etaria": "70 a 79",
+            "total": 6
+        },
+        {
+            "data": "2020-04-26",
+            "faixa_etaria": "80 ou mais",
+            "total": 16
+        },
+        {
+            "data": "2020-04-27",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-27",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-27",
+            "faixa_etaria": "30 a 39",
+            "total": 5
+        },
+        {
+            "data": "2020-04-27",
+            "faixa_etaria": "40 a 49",
+            "total": 6
+        },
+        {
+            "data": "2020-04-27",
+            "faixa_etaria": "50 a 59",
+            "total": 7
+        },
+        {
+            "data": "2020-04-27",
+            "faixa_etaria": "60 a 69",
+            "total": 10
+        },
+        {
+            "data": "2020-04-27",
+            "faixa_etaria": "70 a 79",
+            "total": 7
+        },
+        {
+            "data": "2020-04-27",
+            "faixa_etaria": "80 ou mais",
+            "total": 16
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "20 a 29",
+            "total": 1
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "30 a 39",
+            "total": 5
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "40 a 49",
+            "total": 6
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "50 a 59",
+            "total": 7
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "60 a 69",
+            "total": 11
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "70 a 79",
+            "total": 10
+        },
+        {
+            "data": "2020-04-28",
+            "faixa_etaria": "80 ou mais",
+            "total": 16
+        },
+        {
+            "data": "2020-04-29",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-29",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-04-29",
+            "faixa_etaria": "30 a 39",
+            "total": 5
+        },
+        {
+            "data": "2020-04-29",
+            "faixa_etaria": "40 a 49",
+            "total": 7
+        },
+        {
+            "data": "2020-04-29",
+            "faixa_etaria": "50 a 59",
+            "total": 8
+        },
+        {
+            "data": "2020-04-29",
+            "faixa_etaria": "60 a 69",
+            "total": 11
+        },
+        {
+            "data": "2020-04-29",
+            "faixa_etaria": "70 a 79",
+            "total": 10
+        },
+        {
+            "data": "2020-04-29",
+            "faixa_etaria": "80 ou mais",
+            "total": 18
+        },
+        {
+            "data": "2020-04-30",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-04-30",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-04-30",
+            "faixa_etaria": "30 a 39",
+            "total": 5
+        },
+        {
+            "data": "2020-04-30",
+            "faixa_etaria": "40 a 49",
+            "total": 9
+        },
+        {
+            "data": "2020-04-30",
+            "faixa_etaria": "50 a 59",
+            "total": 10
+        },
+        {
+            "data": "2020-04-30",
+            "faixa_etaria": "60 a 69",
+            "total": 12
+        },
+        {
+            "data": "2020-04-30",
+            "faixa_etaria": "70 a 79",
+            "total": 10
+        },
+        {
+            "data": "2020-04-30",
+            "faixa_etaria": "80 ou mais",
+            "total": 18
+        },
+        {
+            "data": "2020-05-01",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-01",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-01",
+            "faixa_etaria": "30 a 39",
+            "total": 7
+        },
+        {
+            "data": "2020-05-01",
+            "faixa_etaria": "40 a 49",
+            "total": 9
+        },
+        {
+            "data": "2020-05-01",
+            "faixa_etaria": "50 a 59",
+            "total": 11
+        },
+        {
+            "data": "2020-05-01",
+            "faixa_etaria": "60 a 69",
+            "total": 12
+        },
+        {
+            "data": "2020-05-01",
+            "faixa_etaria": "70 a 79",
+            "total": 11
+        },
+        {
+            "data": "2020-05-01",
+            "faixa_etaria": "80 ou mais",
+            "total": 21
+        },
+        {
+            "data": "2020-05-02",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-02",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-02",
+            "faixa_etaria": "30 a 39",
+            "total": 7
+        },
+        {
+            "data": "2020-05-02",
+            "faixa_etaria": "40 a 49",
+            "total": 9
+        },
+        {
+            "data": "2020-05-02",
+            "faixa_etaria": "50 a 59",
+            "total": 12
+        },
+        {
+            "data": "2020-05-02",
+            "faixa_etaria": "60 a 69",
+            "total": 12
+        },
+        {
+            "data": "2020-05-02",
+            "faixa_etaria": "70 a 79",
+            "total": 12
+        },
+        {
+            "data": "2020-05-02",
+            "faixa_etaria": "80 ou mais",
+            "total": 21
+        },
+        {
+            "data": "2020-05-03",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-03",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-03",
+            "faixa_etaria": "30 a 39",
+            "total": 7
+        },
+        {
+            "data": "2020-05-03",
+            "faixa_etaria": "40 a 49",
+            "total": 9
+        },
+        {
+            "data": "2020-05-03",
+            "faixa_etaria": "50 a 59",
+            "total": 13
+        },
+        {
+            "data": "2020-05-03",
+            "faixa_etaria": "60 a 69",
+            "total": 14
+        },
+        {
+            "data": "2020-05-03",
+            "faixa_etaria": "70 a 79",
+            "total": 12
+        },
+        {
+            "data": "2020-05-03",
+            "faixa_etaria": "80 ou mais",
+            "total": 21
+        },
+        {
+            "data": "2020-05-04",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-04",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-04",
+            "faixa_etaria": "30 a 39",
+            "total": 7
+        },
+        {
+            "data": "2020-05-04",
+            "faixa_etaria": "40 a 49",
+            "total": 10
+        },
+        {
+            "data": "2020-05-04",
+            "faixa_etaria": "50 a 59",
+            "total": 14
+        },
+        {
+            "data": "2020-05-04",
+            "faixa_etaria": "60 a 69",
+            "total": 17
+        },
+        {
+            "data": "2020-05-04",
+            "faixa_etaria": "70 a 79",
+            "total": 12
+        },
+        {
+            "data": "2020-05-04",
+            "faixa_etaria": "80 ou mais",
+            "total": 22
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "30 a 39",
+            "total": 9
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "40 a 49",
+            "total": 11
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "50 a 59",
+            "total": 15
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "60 a 69",
+            "total": 18
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "70 a 79",
+            "total": 13
+        },
+        {
+            "data": "2020-05-05",
+            "faixa_etaria": "80 ou mais",
+            "total": 23
+        },
+        {
+            "data": "2020-05-06",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-06",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-06",
+            "faixa_etaria": "30 a 39",
+            "total": 9
+        },
+        {
+            "data": "2020-05-06",
+            "faixa_etaria": "40 a 49",
+            "total": 14
+        },
+        {
+            "data": "2020-05-06",
+            "faixa_etaria": "50 a 59",
+            "total": 17
+        },
+        {
+            "data": "2020-05-06",
+            "faixa_etaria": "60 a 69",
+            "total": 20
+        },
+        {
+            "data": "2020-05-06",
+            "faixa_etaria": "70 a 79",
+            "total": 14
+        },
+        {
+            "data": "2020-05-06",
+            "faixa_etaria": "80 ou mais",
+            "total": 24
+        },
+        {
+            "data": "2020-05-07",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-07",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-07",
+            "faixa_etaria": "30 a 39",
+            "total": 10
+        },
+        {
+            "data": "2020-05-07",
+            "faixa_etaria": "40 a 49",
+            "total": 15
+        },
+        {
+            "data": "2020-05-07",
+            "faixa_etaria": "50 a 59",
+            "total": 18
+        },
+        {
+            "data": "2020-05-07",
+            "faixa_etaria": "60 a 69",
+            "total": 23
+        },
+        {
+            "data": "2020-05-07",
+            "faixa_etaria": "70 a 79",
+            "total": 15
+        },
+        {
+            "data": "2020-05-07",
+            "faixa_etaria": "80 ou mais",
+            "total": 27
+        },
+        {
+            "data": "2020-05-08",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-08",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-08",
+            "faixa_etaria": "30 a 39",
+            "total": 10
+        },
+        {
+            "data": "2020-05-08",
+            "faixa_etaria": "40 a 49",
+            "total": 15
+        },
+        {
+            "data": "2020-05-08",
+            "faixa_etaria": "50 a 59",
+            "total": 18
+        },
+        {
+            "data": "2020-05-08",
+            "faixa_etaria": "60 a 69",
+            "total": 25
+        },
+        {
+            "data": "2020-05-08",
+            "faixa_etaria": "70 a 79",
+            "total": 16
+        },
+        {
+            "data": "2020-05-08",
+            "faixa_etaria": "80 ou mais",
+            "total": 27
+        },
+        {
+            "data": "2020-05-09",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-09",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-09",
+            "faixa_etaria": "30 a 39",
+            "total": 10
+        },
+        {
+            "data": "2020-05-09",
+            "faixa_etaria": "40 a 49",
+            "total": 16
+        },
+        {
+            "data": "2020-05-09",
+            "faixa_etaria": "50 a 59",
+            "total": 19
+        },
+        {
+            "data": "2020-05-09",
+            "faixa_etaria": "60 a 69",
+            "total": 26
+        },
+        {
+            "data": "2020-05-09",
+            "faixa_etaria": "70 a 79",
+            "total": 18
+        },
+        {
+            "data": "2020-05-09",
+            "faixa_etaria": "80 ou mais",
+            "total": 32
+        },
+        {
+            "data": "2020-05-10",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-10",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-10",
+            "faixa_etaria": "30 a 39",
+            "total": 10
+        },
+        {
+            "data": "2020-05-10",
+            "faixa_etaria": "40 a 49",
+            "total": 19
+        },
+        {
+            "data": "2020-05-10",
+            "faixa_etaria": "50 a 59",
+            "total": 19
+        },
+        {
+            "data": "2020-05-10",
+            "faixa_etaria": "60 a 69",
+            "total": 26
+        },
+        {
+            "data": "2020-05-10",
+            "faixa_etaria": "70 a 79",
+            "total": 24
+        },
+        {
+            "data": "2020-05-10",
+            "faixa_etaria": "80 ou mais",
+            "total": 34
+        },
+        {
+            "data": "2020-05-11",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-11",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-11",
+            "faixa_etaria": "30 a 39",
+            "total": 10
+        },
+        {
+            "data": "2020-05-11",
+            "faixa_etaria": "40 a 49",
+            "total": 19
+        },
+        {
+            "data": "2020-05-11",
+            "faixa_etaria": "50 a 59",
+            "total": 20
+        },
+        {
+            "data": "2020-05-11",
+            "faixa_etaria": "60 a 69",
+            "total": 28
+        },
+        {
+            "data": "2020-05-11",
+            "faixa_etaria": "70 a 79",
+            "total": 25
+        },
+        {
+            "data": "2020-05-11",
+            "faixa_etaria": "80 ou mais",
+            "total": 34
+        },
+        {
+            "data": "2020-05-12",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-12",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-12",
+            "faixa_etaria": "30 a 39",
+            "total": 10
+        },
+        {
+            "data": "2020-05-12",
+            "faixa_etaria": "40 a 49",
+            "total": 25
+        },
+        {
+            "data": "2020-05-12",
+            "faixa_etaria": "50 a 59",
+            "total": 21
+        },
+        {
+            "data": "2020-05-12",
+            "faixa_etaria": "60 a 69",
+            "total": 29
+        },
+        {
+            "data": "2020-05-12",
+            "faixa_etaria": "70 a 79",
+            "total": 27
+        },
+        {
+            "data": "2020-05-12",
+            "faixa_etaria": "80 ou mais",
+            "total": 39
+        },
+        {
+            "data": "2020-05-13",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-13",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-13",
+            "faixa_etaria": "30 a 39",
+            "total": 10
+        },
+        {
+            "data": "2020-05-13",
+            "faixa_etaria": "40 a 49",
+            "total": 25
+        },
+        {
+            "data": "2020-05-13",
+            "faixa_etaria": "50 a 59",
+            "total": 21
+        },
+        {
+            "data": "2020-05-13",
+            "faixa_etaria": "60 a 69",
+            "total": 31
+        },
+        {
+            "data": "2020-05-13",
+            "faixa_etaria": "70 a 79",
+            "total": 28
+        },
+        {
+            "data": "2020-05-13",
+            "faixa_etaria": "80 ou mais",
+            "total": 39
+        },
+        {
+            "data": "2020-05-14",
+            "faixa_etaria": "00 a 19",
+            "total": 1
+        },
+        {
+            "data": "2020-05-14",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-14",
+            "faixa_etaria": "30 a 39",
+            "total": 10
+        },
+        {
+            "data": "2020-05-14",
+            "faixa_etaria": "40 a 49",
+            "total": 25
+        },
+        {
+            "data": "2020-05-14",
+            "faixa_etaria": "50 a 59",
+            "total": 22
+        },
+        {
+            "data": "2020-05-14",
+            "faixa_etaria": "60 a 69",
+            "total": 31
+        },
+        {
+            "data": "2020-05-14",
+            "faixa_etaria": "70 a 79",
+            "total": 29
+        },
+        {
+            "data": "2020-05-14",
+            "faixa_etaria": "80 ou mais",
+            "total": 40
+        },
+        {
+            "data": "2020-05-15",
+            "faixa_etaria": "00 a 19",
+            "total": 2
+        },
+        {
+            "data": "2020-05-15",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-15",
+            "faixa_etaria": "30 a 39",
+            "total": 11
+        },
+        {
+            "data": "2020-05-15",
+            "faixa_etaria": "40 a 49",
+            "total": 29
+        },
+        {
+            "data": "2020-05-15",
+            "faixa_etaria": "50 a 59",
+            "total": 22
+        },
+        {
+            "data": "2020-05-15",
+            "faixa_etaria": "60 a 69",
+            "total": 33
+        },
+        {
+            "data": "2020-05-15",
+            "faixa_etaria": "70 a 79",
+            "total": 29
+        },
+        {
+            "data": "2020-05-15",
+            "faixa_etaria": "80 ou mais",
+            "total": 42
+        },
+        {
+            "data": "2020-05-16",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-16",
+            "faixa_etaria": "20 a 29",
+            "total": 2
+        },
+        {
+            "data": "2020-05-16",
+            "faixa_etaria": "30 a 39",
+            "total": 12
+        },
+        {
+            "data": "2020-05-16",
+            "faixa_etaria": "40 a 49",
+            "total": 30
+        },
+        {
+            "data": "2020-05-16",
+            "faixa_etaria": "50 a 59",
+            "total": 27
+        },
+        {
+            "data": "2020-05-16",
+            "faixa_etaria": "60 a 69",
+            "total": 35
+        },
+        {
+            "data": "2020-05-16",
+            "faixa_etaria": "70 a 79",
+            "total": 31
+        },
+        {
+            "data": "2020-05-16",
+            "faixa_etaria": "80 ou mais",
+            "total": 43
+        },
+        {
+            "data": "2020-05-17",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-17",
+            "faixa_etaria": "20 a 29",
+            "total": 3
+        },
+        {
+            "data": "2020-05-17",
+            "faixa_etaria": "30 a 39",
+            "total": 12
+        },
+        {
+            "data": "2020-05-17",
+            "faixa_etaria": "40 a 49",
+            "total": 32
+        },
+        {
+            "data": "2020-05-17",
+            "faixa_etaria": "50 a 59",
+            "total": 28
+        },
+        {
+            "data": "2020-05-17",
+            "faixa_etaria": "60 a 69",
+            "total": 37
+        },
+        {
+            "data": "2020-05-17",
+            "faixa_etaria": "70 a 79",
+            "total": 34
+        },
+        {
+            "data": "2020-05-17",
+            "faixa_etaria": "80 ou mais",
+            "total": 45
+        },
+        {
+            "data": "2020-05-18",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-18",
+            "faixa_etaria": "20 a 29",
+            "total": 4
+        },
+        {
+            "data": "2020-05-18",
+            "faixa_etaria": "30 a 39",
+            "total": 12
+        },
+        {
+            "data": "2020-05-18",
+            "faixa_etaria": "40 a 49",
+            "total": 33
+        },
+        {
+            "data": "2020-05-18",
+            "faixa_etaria": "50 a 59",
+            "total": 30
+        },
+        {
+            "data": "2020-05-18",
+            "faixa_etaria": "60 a 69",
+            "total": 38
+        },
+        {
+            "data": "2020-05-18",
+            "faixa_etaria": "70 a 79",
+            "total": 36
+        },
+        {
+            "data": "2020-05-18",
+            "faixa_etaria": "80 ou mais",
+            "total": 51
+        },
+        {
+            "data": "2020-05-19",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-19",
+            "faixa_etaria": "20 a 29",
+            "total": 4
+        },
+        {
+            "data": "2020-05-19",
+            "faixa_etaria": "30 a 39",
+            "total": 12
+        },
+        {
+            "data": "2020-05-19",
+            "faixa_etaria": "40 a 49",
+            "total": 33
+        },
+        {
+            "data": "2020-05-19",
+            "faixa_etaria": "50 a 59",
+            "total": 31
+        },
+        {
+            "data": "2020-05-19",
+            "faixa_etaria": "60 a 69",
+            "total": 42
+        },
+        {
+            "data": "2020-05-19",
+            "faixa_etaria": "70 a 79",
+            "total": 38
+        },
+        {
+            "data": "2020-05-19",
+            "faixa_etaria": "80 ou mais",
+            "total": 56
+        },
+        {
+            "data": "2020-05-20",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-20",
+            "faixa_etaria": "20 a 29",
+            "total": 4
+        },
+        {
+            "data": "2020-05-20",
+            "faixa_etaria": "30 a 39",
+            "total": 13
+        },
+        {
+            "data": "2020-05-20",
+            "faixa_etaria": "40 a 49",
+            "total": 34
+        },
+        {
+            "data": "2020-05-20",
+            "faixa_etaria": "50 a 59",
+            "total": 31
+        },
+        {
+            "data": "2020-05-20",
+            "faixa_etaria": "60 a 69",
+            "total": 44
+        },
+        {
+            "data": "2020-05-20",
+            "faixa_etaria": "70 a 79",
+            "total": 43
+        },
+        {
+            "data": "2020-05-20",
+            "faixa_etaria": "80 ou mais",
+            "total": 58
+        },
+        {
+            "data": "2020-05-21",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-21",
+            "faixa_etaria": "20 a 29",
+            "total": 5
+        },
+        {
+            "data": "2020-05-21",
+            "faixa_etaria": "30 a 39",
+            "total": 15
+        },
+        {
+            "data": "2020-05-21",
+            "faixa_etaria": "40 a 49",
+            "total": 34
+        },
+        {
+            "data": "2020-05-21",
+            "faixa_etaria": "50 a 59",
+            "total": 33
+        },
+        {
+            "data": "2020-05-21",
+            "faixa_etaria": "60 a 69",
+            "total": 49
+        },
+        {
+            "data": "2020-05-21",
+            "faixa_etaria": "70 a 79",
+            "total": 44
+        },
+        {
+            "data": "2020-05-21",
+            "faixa_etaria": "80 ou mais",
+            "total": 62
+        },
+        {
+            "data": "2020-05-22",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-22",
+            "faixa_etaria": "20 a 29",
+            "total": 5
+        },
+        {
+            "data": "2020-05-22",
+            "faixa_etaria": "30 a 39",
+            "total": 15
+        },
+        {
+            "data": "2020-05-22",
+            "faixa_etaria": "40 a 49",
+            "total": 35
+        },
+        {
+            "data": "2020-05-22",
+            "faixa_etaria": "50 a 59",
+            "total": 34
+        },
+        {
+            "data": "2020-05-22",
+            "faixa_etaria": "60 a 69",
+            "total": 50
+        },
+        {
+            "data": "2020-05-22",
+            "faixa_etaria": "70 a 79",
+            "total": 44
+        },
+        {
+            "data": "2020-05-22",
+            "faixa_etaria": "80 ou mais",
+            "total": 62
+        },
+        {
+            "data": "2020-05-23",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-23",
+            "faixa_etaria": "20 a 29",
+            "total": 5
+        },
+        {
+            "data": "2020-05-23",
+            "faixa_etaria": "30 a 39",
+            "total": 15
+        },
+        {
+            "data": "2020-05-23",
+            "faixa_etaria": "40 a 49",
+            "total": 36
+        },
+        {
+            "data": "2020-05-23",
+            "faixa_etaria": "50 a 59",
+            "total": 35
+        },
+        {
+            "data": "2020-05-23",
+            "faixa_etaria": "60 a 69",
+            "total": 55
+        },
+        {
+            "data": "2020-05-23",
+            "faixa_etaria": "70 a 79",
+            "total": 45
+        },
+        {
+            "data": "2020-05-23",
+            "faixa_etaria": "80 ou mais",
+            "total": 64
+        },
+        {
+            "data": "2020-05-24",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-24",
+            "faixa_etaria": "20 a 29",
+            "total": 6
+        },
+        {
+            "data": "2020-05-24",
+            "faixa_etaria": "30 a 39",
+            "total": 17
+        },
+        {
+            "data": "2020-05-24",
+            "faixa_etaria": "40 a 49",
+            "total": 37
+        },
+        {
+            "data": "2020-05-24",
+            "faixa_etaria": "50 a 59",
+            "total": 36
+        },
+        {
+            "data": "2020-05-24",
+            "faixa_etaria": "60 a 69",
+            "total": 58
+        },
+        {
+            "data": "2020-05-24",
+            "faixa_etaria": "70 a 79",
+            "total": 48
+        },
+        {
+            "data": "2020-05-24",
+            "faixa_etaria": "80 ou mais",
+            "total": 67
+        },
+        {
+            "data": "2020-05-25",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-25",
+            "faixa_etaria": "20 a 29",
+            "total": 6
+        },
+        {
+            "data": "2020-05-25",
+            "faixa_etaria": "30 a 39",
+            "total": 18
+        },
+        {
+            "data": "2020-05-25",
+            "faixa_etaria": "40 a 49",
+            "total": 37
+        },
+        {
+            "data": "2020-05-25",
+            "faixa_etaria": "50 a 59",
+            "total": 37
+        },
+        {
+            "data": "2020-05-25",
+            "faixa_etaria": "60 a 69",
+            "total": 58
+        },
+        {
+            "data": "2020-05-25",
+            "faixa_etaria": "70 a 79",
+            "total": 50
+        },
+        {
+            "data": "2020-05-25",
+            "faixa_etaria": "80 ou mais",
+            "total": 70
+        },
+        {
+            "data": "2020-05-26",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-26",
+            "faixa_etaria": "20 a 29",
+            "total": 7
+        },
+        {
+            "data": "2020-05-26",
+            "faixa_etaria": "30 a 39",
+            "total": 18
+        },
+        {
+            "data": "2020-05-26",
+            "faixa_etaria": "40 a 49",
+            "total": 37
+        },
+        {
+            "data": "2020-05-26",
+            "faixa_etaria": "50 a 59",
+            "total": 37
+        },
+        {
+            "data": "2020-05-26",
+            "faixa_etaria": "60 a 69",
+            "total": 59
+        },
+        {
+            "data": "2020-05-26",
+            "faixa_etaria": "70 a 79",
+            "total": 51
+        },
+        {
+            "data": "2020-05-26",
+            "faixa_etaria": "80 ou mais",
+            "total": 74
+        },
+        {
+            "data": "2020-05-27",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-27",
+            "faixa_etaria": "20 a 29",
+            "total": 8
+        },
+        {
+            "data": "2020-05-27",
+            "faixa_etaria": "30 a 39",
+            "total": 19
+        },
+        {
+            "data": "2020-05-27",
+            "faixa_etaria": "40 a 49",
+            "total": 37
+        },
+        {
+            "data": "2020-05-27",
+            "faixa_etaria": "50 a 59",
+            "total": 39
+        },
+        {
+            "data": "2020-05-27",
+            "faixa_etaria": "60 a 69",
+            "total": 62
+        },
+        {
+            "data": "2020-05-27",
+            "faixa_etaria": "70 a 79",
+            "total": 53
+        },
+        {
+            "data": "2020-05-27",
+            "faixa_etaria": "80 ou mais",
+            "total": 77
+        },
+        {
+            "data": "2020-05-28",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-28",
+            "faixa_etaria": "20 a 29",
+            "total": 8
+        },
+        {
+            "data": "2020-05-28",
+            "faixa_etaria": "30 a 39",
+            "total": 20
+        },
+        {
+            "data": "2020-05-28",
+            "faixa_etaria": "40 a 49",
+            "total": 38
+        },
+        {
+            "data": "2020-05-28",
+            "faixa_etaria": "50 a 59",
+            "total": 45
+        },
+        {
+            "data": "2020-05-28",
+            "faixa_etaria": "60 a 69",
+            "total": 63
+        },
+        {
+            "data": "2020-05-28",
+            "faixa_etaria": "70 a 79",
+            "total": 58
+        },
+        {
+            "data": "2020-05-28",
+            "faixa_etaria": "80 ou mais",
+            "total": 83
+        },
+        {
+            "data": "2020-05-29",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-29",
+            "faixa_etaria": "20 a 29",
+            "total": 8
+        },
+        {
+            "data": "2020-05-29",
+            "faixa_etaria": "30 a 39",
+            "total": 20
+        },
+        {
+            "data": "2020-05-29",
+            "faixa_etaria": "40 a 49",
+            "total": 39
+        },
+        {
+            "data": "2020-05-29",
+            "faixa_etaria": "50 a 59",
+            "total": 46
+        },
+        {
+            "data": "2020-05-29",
+            "faixa_etaria": "60 a 69",
+            "total": 65
+        },
+        {
+            "data": "2020-05-29",
+            "faixa_etaria": "70 a 79",
+            "total": 60
+        },
+        {
+            "data": "2020-05-29",
+            "faixa_etaria": "80 ou mais",
+            "total": 86
+        },
+        {
+            "data": "2020-05-30",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-30",
+            "faixa_etaria": "20 a 29",
+            "total": 8
+        },
+        {
+            "data": "2020-05-30",
+            "faixa_etaria": "30 a 39",
+            "total": 21
+        },
+        {
+            "data": "2020-05-30",
+            "faixa_etaria": "40 a 49",
+            "total": 41
+        },
+        {
+            "data": "2020-05-30",
+            "faixa_etaria": "50 a 59",
+            "total": 49
+        },
+        {
+            "data": "2020-05-30",
+            "faixa_etaria": "60 a 69",
+            "total": 68
+        },
+        {
+            "data": "2020-05-30",
+            "faixa_etaria": "70 a 79",
+            "total": 66
+        },
+        {
+            "data": "2020-05-30",
+            "faixa_etaria": "80 ou mais",
+            "total": 90
+        },
+        {
+            "data": "2020-05-31",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-05-31",
+            "faixa_etaria": "20 a 29",
+            "total": 8
+        },
+        {
+            "data": "2020-05-31",
+            "faixa_etaria": "30 a 39",
+            "total": 23
+        },
+        {
+            "data": "2020-05-31",
+            "faixa_etaria": "40 a 49",
+            "total": 42
+        },
+        {
+            "data": "2020-05-31",
+            "faixa_etaria": "50 a 59",
+            "total": 50
+        },
+        {
+            "data": "2020-05-31",
+            "faixa_etaria": "60 a 69",
+            "total": 70
+        },
+        {
+            "data": "2020-05-31",
+            "faixa_etaria": "70 a 79",
+            "total": 67
+        },
+        {
+            "data": "2020-05-31",
+            "faixa_etaria": "80 ou mais",
+            "total": 97
+        },
+        {
+            "data": "2020-06-01",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-06-01",
+            "faixa_etaria": "20 a 29",
+            "total": 8
+        },
+        {
+            "data": "2020-06-01",
+            "faixa_etaria": "30 a 39",
+            "total": 24
+        },
+        {
+            "data": "2020-06-01",
+            "faixa_etaria": "40 a 49",
+            "total": 44
+        },
+        {
+            "data": "2020-06-01",
+            "faixa_etaria": "50 a 59",
+            "total": 50
+        },
+        {
+            "data": "2020-06-01",
+            "faixa_etaria": "60 a 69",
+            "total": 71
+        },
+        {
+            "data": "2020-06-01",
+            "faixa_etaria": "70 a 79",
+            "total": 71
+        },
+        {
+            "data": "2020-06-01",
+            "faixa_etaria": "80 ou mais",
+            "total": 99
+        },
+        {
+            "data": "2020-06-02",
+            "faixa_etaria": "00 a 19",
+            "total": 3
+        },
+        {
+            "data": "2020-06-02",
+            "faixa_etaria": "20 a 29",
+            "total": 8
+        },
+        {
+            "data": "2020-06-02",
+            "faixa_etaria": "30 a 39",
+            "total": 24
+        },
+        {
+            "data": "2020-06-02",
+            "faixa_etaria": "40 a 49",
+            "total": 44
+        },
+        {
+            "data": "2020-06-02",
+            "faixa_etaria": "50 a 59",
+            "total": 50
+        },
+        {
+            "data": "2020-06-02",
+            "faixa_etaria": "60 a 69",
+            "total": 71
+        },
+        {
+            "data": "2020-06-02",
+            "faixa_etaria": "70 a 79",
+            "total": 75
+        },
+        {
+            "data": "2020-06-02",
+            "faixa_etaria": "80 ou mais",
+            "total": 104
+        },
+        {
+            "data": "2020-06-03",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-03",
+            "faixa_etaria": "20 a 29",
+            "total": 8
+        },
+        {
+            "data": "2020-06-03",
+            "faixa_etaria": "30 a 39",
+            "total": 25
+        },
+        {
+            "data": "2020-06-03",
+            "faixa_etaria": "40 a 49",
+            "total": 45
+        },
+        {
+            "data": "2020-06-03",
+            "faixa_etaria": "50 a 59",
+            "total": 54
+        },
+        {
+            "data": "2020-06-03",
+            "faixa_etaria": "60 a 69",
+            "total": 83
+        },
+        {
+            "data": "2020-06-03",
+            "faixa_etaria": "70 a 79",
+            "total": 83
+        },
+        {
+            "data": "2020-06-03",
+            "faixa_etaria": "80 ou mais",
+            "total": 113
+        },
+        {
+            "data": "2020-06-04",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-04",
+            "faixa_etaria": "20 a 29",
+            "total": 9
+        },
+        {
+            "data": "2020-06-04",
+            "faixa_etaria": "30 a 39",
+            "total": 25
+        },
+        {
+            "data": "2020-06-04",
+            "faixa_etaria": "40 a 49",
+            "total": 49
+        },
+        {
+            "data": "2020-06-04",
+            "faixa_etaria": "50 a 59",
+            "total": 55
+        },
+        {
+            "data": "2020-06-04",
+            "faixa_etaria": "60 a 69",
+            "total": 91
+        },
+        {
+            "data": "2020-06-04",
+            "faixa_etaria": "70 a 79",
+            "total": 88
+        },
+        {
+            "data": "2020-06-04",
+            "faixa_etaria": "80 ou mais",
+            "total": 118
+        },
+        {
+            "data": "2020-06-05",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-05",
+            "faixa_etaria": "20 a 29",
+            "total": 9
+        },
+        {
+            "data": "2020-06-05",
+            "faixa_etaria": "30 a 39",
+            "total": 26
+        },
+        {
+            "data": "2020-06-05",
+            "faixa_etaria": "40 a 49",
+            "total": 50
+        },
+        {
+            "data": "2020-06-05",
+            "faixa_etaria": "50 a 59",
+            "total": 55
+        },
+        {
+            "data": "2020-06-05",
+            "faixa_etaria": "60 a 69",
+            "total": 95
+        },
+        {
+            "data": "2020-06-05",
+            "faixa_etaria": "70 a 79",
+            "total": 91
+        },
+        {
+            "data": "2020-06-05",
+            "faixa_etaria": "80 ou mais",
+            "total": 121
+        },
+        {
+            "data": "2020-06-06",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-06",
+            "faixa_etaria": "20 a 29",
+            "total": 9
+        },
+        {
+            "data": "2020-06-06",
+            "faixa_etaria": "30 a 39",
+            "total": 28
+        },
+        {
+            "data": "2020-06-06",
+            "faixa_etaria": "40 a 49",
+            "total": 53
+        },
+        {
+            "data": "2020-06-06",
+            "faixa_etaria": "50 a 59",
+            "total": 57
+        },
+        {
+            "data": "2020-06-06",
+            "faixa_etaria": "60 a 69",
+            "total": 96
+        },
+        {
+            "data": "2020-06-06",
+            "faixa_etaria": "70 a 79",
+            "total": 94
+        },
+        {
+            "data": "2020-06-06",
+            "faixa_etaria": "80 ou mais",
+            "total": 126
+        },
+        {
+            "data": "2020-06-07",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-07",
+            "faixa_etaria": "20 a 29",
+            "total": 9
+        },
+        {
+            "data": "2020-06-07",
+            "faixa_etaria": "30 a 39",
+            "total": 28
+        },
+        {
+            "data": "2020-06-07",
+            "faixa_etaria": "40 a 49",
+            "total": 56
+        },
+        {
+            "data": "2020-06-07",
+            "faixa_etaria": "50 a 59",
+            "total": 59
+        },
+        {
+            "data": "2020-06-07",
+            "faixa_etaria": "60 a 69",
+            "total": 98
+        },
+        {
+            "data": "2020-06-07",
+            "faixa_etaria": "70 a 79",
+            "total": 100
+        },
+        {
+            "data": "2020-06-07",
+            "faixa_etaria": "80 ou mais",
+            "total": 130
+        },
+        {
+            "data": "2020-06-08",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-08",
+            "faixa_etaria": "20 a 29",
+            "total": 9
+        },
+        {
+            "data": "2020-06-08",
+            "faixa_etaria": "30 a 39",
+            "total": 28
+        },
+        {
+            "data": "2020-06-08",
+            "faixa_etaria": "40 a 49",
+            "total": 57
+        },
+        {
+            "data": "2020-06-08",
+            "faixa_etaria": "50 a 59",
+            "total": 65
+        },
+        {
+            "data": "2020-06-08",
+            "faixa_etaria": "60 a 69",
+            "total": 100
+        },
+        {
+            "data": "2020-06-08",
+            "faixa_etaria": "70 a 79",
+            "total": 105
+        },
+        {
+            "data": "2020-06-08",
+            "faixa_etaria": "80 ou mais",
+            "total": 139
+        },
+        {
+            "data": "2020-06-09",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-06-09",
+            "faixa_etaria": "20 a 29",
+            "total": 9
+        },
+        {
+            "data": "2020-06-09",
+            "faixa_etaria": "30 a 39",
+            "total": 29
+        },
+        {
+            "data": "2020-06-09",
+            "faixa_etaria": "40 a 49",
+            "total": 61
+        },
+        {
+            "data": "2020-06-09",
+            "faixa_etaria": "50 a 59",
+            "total": 69
+        },
+        {
+            "data": "2020-06-09",
+            "faixa_etaria": "60 a 69",
+            "total": 103
+        },
+        {
+            "data": "2020-06-09",
+            "faixa_etaria": "70 a 79",
+            "total": 109
+        },
+        {
+            "data": "2020-06-09",
+            "faixa_etaria": "80 ou mais",
+            "total": 149
+        },
+        {
+            "data": "2020-06-10",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-06-10",
+            "faixa_etaria": "20 a 29",
+            "total": 9
+        },
+        {
+            "data": "2020-06-10",
+            "faixa_etaria": "30 a 39",
+            "total": 29
+        },
+        {
+            "data": "2020-06-10",
+            "faixa_etaria": "40 a 49",
+            "total": 65
+        },
+        {
+            "data": "2020-06-10",
+            "faixa_etaria": "50 a 59",
+            "total": 72
+        },
+        {
+            "data": "2020-06-10",
+            "faixa_etaria": "60 a 69",
+            "total": 105
+        },
+        {
+            "data": "2020-06-10",
+            "faixa_etaria": "70 a 79",
+            "total": 119
+        },
+        {
+            "data": "2020-06-10",
+            "faixa_etaria": "80 ou mais",
+            "total": 155
+        },
+        {
+            "data": "2020-06-11",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-06-11",
+            "faixa_etaria": "20 a 29",
+            "total": 9
+        },
+        {
+            "data": "2020-06-11",
+            "faixa_etaria": "30 a 39",
+            "total": 29
+        },
+        {
+            "data": "2020-06-11",
+            "faixa_etaria": "40 a 49",
+            "total": 66
+        },
+        {
+            "data": "2020-06-11",
+            "faixa_etaria": "50 a 59",
+            "total": 74
+        },
+        {
+            "data": "2020-06-11",
+            "faixa_etaria": "60 a 69",
+            "total": 106
+        },
+        {
+            "data": "2020-06-11",
+            "faixa_etaria": "70 a 79",
+            "total": 121
+        },
+        {
+            "data": "2020-06-11",
+            "faixa_etaria": "80 ou mais",
+            "total": 160
+        },
+        {
+            "data": "2020-06-12",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-12",
+            "faixa_etaria": "20 a 29",
+            "total": 10
+        },
+        {
+            "data": "2020-06-12",
+            "faixa_etaria": "30 a 39",
+            "total": 30
+        },
+        {
+            "data": "2020-06-12",
+            "faixa_etaria": "40 a 49",
+            "total": 68
+        },
+        {
+            "data": "2020-06-12",
+            "faixa_etaria": "50 a 59",
+            "total": 78
+        },
+        {
+            "data": "2020-06-12",
+            "faixa_etaria": "60 a 69",
+            "total": 113
+        },
+        {
+            "data": "2020-06-12",
+            "faixa_etaria": "70 a 79",
+            "total": 133
+        },
+        {
+            "data": "2020-06-12",
+            "faixa_etaria": "80 ou mais",
+            "total": 174
+        },
+        {
+            "data": "2020-06-13",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-13",
+            "faixa_etaria": "20 a 29",
+            "total": 10
+        },
+        {
+            "data": "2020-06-13",
+            "faixa_etaria": "30 a 39",
+            "total": 30
+        },
+        {
+            "data": "2020-06-13",
+            "faixa_etaria": "40 a 49",
+            "total": 71
+        },
+        {
+            "data": "2020-06-13",
+            "faixa_etaria": "50 a 59",
+            "total": 79
+        },
+        {
+            "data": "2020-06-13",
+            "faixa_etaria": "60 a 69",
+            "total": 116
+        },
+        {
+            "data": "2020-06-13",
+            "faixa_etaria": "70 a 79",
+            "total": 135
+        },
+        {
+            "data": "2020-06-13",
+            "faixa_etaria": "80 ou mais",
+            "total": 178
+        },
+        {
+            "data": "2020-06-14",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-14",
+            "faixa_etaria": "20 a 29",
+            "total": 10
+        },
+        {
+            "data": "2020-06-14",
+            "faixa_etaria": "30 a 39",
+            "total": 30
+        },
+        {
+            "data": "2020-06-14",
+            "faixa_etaria": "40 a 49",
+            "total": 72
+        },
+        {
+            "data": "2020-06-14",
+            "faixa_etaria": "50 a 59",
+            "total": 82
+        },
+        {
+            "data": "2020-06-14",
+            "faixa_etaria": "60 a 69",
+            "total": 118
+        },
+        {
+            "data": "2020-06-14",
+            "faixa_etaria": "70 a 79",
+            "total": 137
+        },
+        {
+            "data": "2020-06-14",
+            "faixa_etaria": "80 ou mais",
+            "total": 180
+        },
+        {
+            "data": "2020-06-15",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-15",
+            "faixa_etaria": "20 a 29",
+            "total": 10
+        },
+        {
+            "data": "2020-06-15",
+            "faixa_etaria": "30 a 39",
+            "total": 31
+        },
+        {
+            "data": "2020-06-15",
+            "faixa_etaria": "40 a 49",
+            "total": 74
+        },
+        {
+            "data": "2020-06-15",
+            "faixa_etaria": "50 a 59",
+            "total": 87
+        },
+        {
+            "data": "2020-06-15",
+            "faixa_etaria": "60 a 69",
+            "total": 122
+        },
+        {
+            "data": "2020-06-15",
+            "faixa_etaria": "70 a 79",
+            "total": 138
+        },
+        {
+            "data": "2020-06-15",
+            "faixa_etaria": "80 ou mais",
+            "total": 190
+        },
+        {
+            "data": "2020-06-16",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-16",
+            "faixa_etaria": "20 a 29",
+            "total": 10
+        },
+        {
+            "data": "2020-06-16",
+            "faixa_etaria": "30 a 39",
+            "total": 33
+        },
+        {
+            "data": "2020-06-16",
+            "faixa_etaria": "40 a 49",
+            "total": 75
+        },
+        {
+            "data": "2020-06-16",
+            "faixa_etaria": "50 a 59",
+            "total": 90
+        },
+        {
+            "data": "2020-06-16",
+            "faixa_etaria": "60 a 69",
+            "total": 126
+        },
+        {
+            "data": "2020-06-16",
+            "faixa_etaria": "70 a 79",
+            "total": 140
+        },
+        {
+            "data": "2020-06-16",
+            "faixa_etaria": "80 ou mais",
+            "total": 193
+        },
+        {
+            "data": "2020-06-17",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-17",
+            "faixa_etaria": "20 a 29",
+            "total": 10
+        },
+        {
+            "data": "2020-06-17",
+            "faixa_etaria": "30 a 39",
+            "total": 35
+        },
+        {
+            "data": "2020-06-17",
+            "faixa_etaria": "40 a 49",
+            "total": 76
+        },
+        {
+            "data": "2020-06-17",
+            "faixa_etaria": "50 a 59",
+            "total": 92
+        },
+        {
+            "data": "2020-06-17",
+            "faixa_etaria": "60 a 69",
+            "total": 130
+        },
+        {
+            "data": "2020-06-17",
+            "faixa_etaria": "70 a 79",
+            "total": 150
+        },
+        {
+            "data": "2020-06-17",
+            "faixa_etaria": "80 ou mais",
+            "total": 199
+        },
+        {
+            "data": "2020-06-18",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-18",
+            "faixa_etaria": "20 a 29",
+            "total": 11
+        },
+        {
+            "data": "2020-06-18",
+            "faixa_etaria": "30 a 39",
+            "total": 35
+        },
+        {
+            "data": "2020-06-18",
+            "faixa_etaria": "40 a 49",
+            "total": 76
+        },
+        {
+            "data": "2020-06-18",
+            "faixa_etaria": "50 a 59",
+            "total": 95
+        },
+        {
+            "data": "2020-06-18",
+            "faixa_etaria": "60 a 69",
+            "total": 133
+        },
+        {
+            "data": "2020-06-18",
+            "faixa_etaria": "70 a 79",
+            "total": 151
+        },
+        {
+            "data": "2020-06-18",
+            "faixa_etaria": "80 ou mais",
+            "total": 204
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "00 a 19",
+            "total": 4
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "20 a 29",
+            "total": 11
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "30 a 39",
+            "total": 36
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "40 a 49",
+            "total": 77
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "50 a 59",
+            "total": 97
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "60 a 69",
+            "total": 134
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "70 a 79",
+            "total": 154
+        },
+        {
+            "data": "2020-06-19",
+            "faixa_etaria": "80 ou mais",
+            "total": 211
+        },
+        {
+            "data": "2020-06-20",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-06-20",
+            "faixa_etaria": "20 a 29",
+            "total": 11
+        },
+        {
+            "data": "2020-06-20",
+            "faixa_etaria": "30 a 39",
+            "total": 37
+        },
+        {
+            "data": "2020-06-20",
+            "faixa_etaria": "40 a 49",
+            "total": 77
+        },
+        {
+            "data": "2020-06-20",
+            "faixa_etaria": "50 a 59",
+            "total": 100
+        },
+        {
+            "data": "2020-06-20",
+            "faixa_etaria": "60 a 69",
+            "total": 140
+        },
+        {
+            "data": "2020-06-20",
+            "faixa_etaria": "70 a 79",
+            "total": 157
+        },
+        {
+            "data": "2020-06-20",
+            "faixa_etaria": "80 ou mais",
+            "total": 216
+        },
+        {
+            "data": "2020-06-21",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-06-21",
+            "faixa_etaria": "20 a 29",
+            "total": 11
+        },
+        {
+            "data": "2020-06-21",
+            "faixa_etaria": "30 a 39",
+            "total": 37
+        },
+        {
+            "data": "2020-06-21",
+            "faixa_etaria": "40 a 49",
+            "total": 79
+        },
+        {
+            "data": "2020-06-21",
+            "faixa_etaria": "50 a 59",
+            "total": 103
+        },
+        {
+            "data": "2020-06-21",
+            "faixa_etaria": "60 a 69",
+            "total": 145
+        },
+        {
+            "data": "2020-06-21",
+            "faixa_etaria": "70 a 79",
+            "total": 162
+        },
+        {
+            "data": "2020-06-21",
+            "faixa_etaria": "80 ou mais",
+            "total": 224
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "20 a 29",
+            "total": 11
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "30 a 39",
+            "total": 37
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "40 a 49",
+            "total": 80
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "50 a 59",
+            "total": 104
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "60 a 69",
+            "total": 150
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "70 a 79",
+            "total": 165
+        },
+        {
+            "data": "2020-06-22",
+            "faixa_etaria": "80 ou mais",
+            "total": 232
+        },
+        {
+            "data": "2020-06-23",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-06-23",
+            "faixa_etaria": "20 a 29",
+            "total": 11
+        },
+        {
+            "data": "2020-06-23",
+            "faixa_etaria": "30 a 39",
+            "total": 40
+        },
+        {
+            "data": "2020-06-23",
+            "faixa_etaria": "40 a 49",
+            "total": 82
+        },
+        {
+            "data": "2020-06-23",
+            "faixa_etaria": "50 a 59",
+            "total": 107
+        },
+        {
+            "data": "2020-06-23",
+            "faixa_etaria": "60 a 69",
+            "total": 152
+        },
+        {
+            "data": "2020-06-23",
+            "faixa_etaria": "70 a 79",
+            "total": 168
+        },
+        {
+            "data": "2020-06-23",
+            "faixa_etaria": "80 ou mais",
+            "total": 242
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "20 a 29",
+            "total": 11
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "30 a 39",
+            "total": 42
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "40 a 49",
+            "total": 82
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "50 a 59",
+            "total": 113
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "60 a 69",
+            "total": 156
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "70 a 79",
+            "total": 172
+        },
+        {
+            "data": "2020-06-24",
+            "faixa_etaria": "80 ou mais",
+            "total": 247
+        },
+        {
+            "data": "2020-06-25",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-06-25",
+            "faixa_etaria": "20 a 29",
+            "total": 11
+        },
+        {
+            "data": "2020-06-25",
+            "faixa_etaria": "30 a 39",
+            "total": 42
+        },
+        {
+            "data": "2020-06-25",
+            "faixa_etaria": "40 a 49",
+            "total": 84
+        },
+        {
+            "data": "2020-06-25",
+            "faixa_etaria": "50 a 59",
+            "total": 117
+        },
+        {
+            "data": "2020-06-25",
+            "faixa_etaria": "60 a 69",
+            "total": 156
+        },
+        {
+            "data": "2020-06-25",
+            "faixa_etaria": "70 a 79",
+            "total": 175
+        },
+        {
+            "data": "2020-06-25",
+            "faixa_etaria": "80 ou mais",
+            "total": 252
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "20 a 29",
+            "total": 11
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "30 a 39",
+            "total": 42
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "40 a 49",
+            "total": 87
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "50 a 59",
+            "total": 120
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "60 a 69",
+            "total": 161
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "70 a 79",
+            "total": 182
+        },
+        {
+            "data": "2020-06-26",
+            "faixa_etaria": "80 ou mais",
+            "total": 256
+        },
+        {
+            "data": "2020-06-27",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-06-27",
+            "faixa_etaria": "20 a 29",
+            "total": 12
+        },
+        {
+            "data": "2020-06-27",
+            "faixa_etaria": "30 a 39",
+            "total": 43
+        },
+        {
+            "data": "2020-06-27",
+            "faixa_etaria": "40 a 49",
+            "total": 89
+        },
+        {
+            "data": "2020-06-27",
+            "faixa_etaria": "50 a 59",
+            "total": 129
+        },
+        {
+            "data": "2020-06-27",
+            "faixa_etaria": "60 a 69",
+            "total": 164
+        },
+        {
+            "data": "2020-06-27",
+            "faixa_etaria": "70 a 79",
+            "total": 188
+        },
+        {
+            "data": "2020-06-27",
+            "faixa_etaria": "80 ou mais",
+            "total": 266
+        },
+        {
+            "data": "2020-06-28",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-06-28",
+            "faixa_etaria": "20 a 29",
+            "total": 12
+        },
+        {
+            "data": "2020-06-28",
+            "faixa_etaria": "30 a 39",
+            "total": 43
+        },
+        {
+            "data": "2020-06-28",
+            "faixa_etaria": "40 a 49",
+            "total": 90
+        },
+        {
+            "data": "2020-06-28",
+            "faixa_etaria": "50 a 59",
+            "total": 131
+        },
+        {
+            "data": "2020-06-28",
+            "faixa_etaria": "60 a 69",
+            "total": 165
+        },
+        {
+            "data": "2020-06-28",
+            "faixa_etaria": "70 a 79",
+            "total": 194
+        },
+        {
+            "data": "2020-06-28",
+            "faixa_etaria": "80 ou mais",
+            "total": 271
+        },
+        {
+            "data": "2020-06-29",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-06-29",
+            "faixa_etaria": "20 a 29",
+            "total": 12
+        },
+        {
+            "data": "2020-06-29",
+            "faixa_etaria": "30 a 39",
+            "total": 43
+        },
+        {
+            "data": "2020-06-29",
+            "faixa_etaria": "40 a 49",
+            "total": 91
+        },
+        {
+            "data": "2020-06-29",
+            "faixa_etaria": "50 a 59",
+            "total": 134
+        },
+        {
+            "data": "2020-06-29",
+            "faixa_etaria": "60 a 69",
+            "total": 172
+        },
+        {
+            "data": "2020-06-29",
+            "faixa_etaria": "70 a 79",
+            "total": 199
+        },
+        {
+            "data": "2020-06-29",
+            "faixa_etaria": "80 ou mais",
+            "total": 275
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "00 a 19",
+            "total": 5
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "20 a 29",
+            "total": 14
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "30 a 39",
+            "total": 45
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "40 a 49",
+            "total": 96
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "50 a 59",
+            "total": 139
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "60 a 69",
+            "total": 189
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "70 a 79",
+            "total": 217
+        },
+        {
+            "data": "2020-07-01",
+            "faixa_etaria": "80 ou mais",
+            "total": 297
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "00 a 19",
+            "total": 7
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "20 a 29",
+            "total": 17
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "30 a 39",
+            "total": 47
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "40 a 49",
+            "total": 97
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "50 a 59",
+            "total": 142
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "60 a 69",
+            "total": 200
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "70 a 79",
+            "total": 230
+        },
+        {
+            "data": "2020-07-03",
+            "faixa_etaria": "80 ou mais",
+            "total": 322
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "00 a 19",
+            "total": 7
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "20 a 29",
+            "total": 17
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "30 a 39",
+            "total": 47
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "40 a 49",
+            "total": 100
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "50 a 59",
+            "total": 148
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "60 a 69",
+            "total": 219
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "70 a 79",
+            "total": 244
+        },
+        {
+            "data": "2020-07-06",
+            "faixa_etaria": "80 ou mais",
+            "total": 336
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "00 a 19",
+            "total": 11
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "20 a 29",
+            "total": 23
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "30 a 39",
+            "total": 48
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "40 a 49",
+            "total": 105
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "50 a 59",
+            "total": 151
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "60 a 69",
+            "total": 219
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "70 a 79",
+            "total": 268
+        },
+        {
+            "data": "2020-07-08",
+            "faixa_etaria": "80 ou mais",
+            "total": 346
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "00 a 19",
+            "total": 7
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "20 a 29",
+            "total": 20
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "30 a 39",
+            "total": 51
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "40 a 49",
+            "total": 107
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "50 a 59",
+            "total": 158
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "60 a 69",
+            "total": 241
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "70 a 79",
+            "total": 280
+        },
+        {
+            "data": "2020-07-10",
+            "faixa_etaria": "80 ou mais",
+            "total": 365
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "00 a 19",
+            "total": 9
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "20 a 29",
+            "total": 22
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "30 a 39",
+            "total": 56
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "40 a 49",
+            "total": 119
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "50 a 59",
+            "total": 187
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "60 a 69",
+            "total": 285
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "70 a 79",
+            "total": 319
+        },
+        {
+            "data": "2020-07-17",
+            "faixa_etaria": "80 ou mais",
+            "total": 449
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "00 a 19",
+            "total": 9
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "20 a 29",
+            "total": 23
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "30 a 39",
+            "total": 61
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "40 a 49",
+            "total": 125
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "50 a 59",
+            "total": 197
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "60 a 69",
+            "total": 298
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "70 a 79",
+            "total": 335
+        },
+        {
+            "data": "2020-07-20",
+            "faixa_etaria": "80 ou mais",
+            "total": 469
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "00 a 19",
+            "total": 9
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "20 a 29",
+            "total": 25
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "30 a 39",
+            "total": 61
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "40 a 49",
+            "total": 127
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "50 a 59",
+            "total": 208
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "60 a 69",
+            "total": 311
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "70 a 79",
+            "total": 355
+        },
+        {
+            "data": "2020-07-22",
+            "faixa_etaria": "80 ou mais",
+            "total": 485
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "00 a 19",
+            "total": 11
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "20 a 29",
+            "total": 26
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "30 a 39",
+            "total": 63
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "40 a 49",
+            "total": 134
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "50 a 59",
+            "total": 218
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "60 a 69",
+            "total": 328
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "70 a 79",
+            "total": 371
+        },
+        {
+            "data": "2020-07-24",
+            "faixa_etaria": "80 ou mais",
+            "total": 502
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "00 a 19",
+            "total": 10
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "20 a 29",
+            "total": 26
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "30 a 39",
+            "total": 67
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "40 a 49",
+            "total": 143
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "50 a 59",
+            "total": 227
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "60 a 69",
+            "total": 340
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "70 a 79",
+            "total": 390
+        },
+        {
+            "data": "2020-07-27",
+            "faixa_etaria": "80 ou mais",
+            "total": 524
+        }
+    ],
+    "imgs": [
+        "1821_ONQ_rect_chart.png",
+        "1821_ONQ_rect_chart_2.png"
+    ]
+}

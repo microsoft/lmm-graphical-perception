@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Determine the number of downloads for the app 'Tuenti'.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the app with the highest number of downloads.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Compute the total number of downloads for all the listed apps.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any app that has a significantly lower number of downloads compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Determine if there is a correlation between the mobile app name and the number of downloads.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which apps have more than 5 million downloads?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the apps from the highest to the lowest number of downloads.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of the number of downloads across all mobile apps?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the apps have more than 7 million downloads?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of apps with similar download counts.",
+            "type": "Find Clusters"
+        }
+    ]
+]

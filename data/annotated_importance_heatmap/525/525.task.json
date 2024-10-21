@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest national debt in relation to GDP.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the national debt in relation to GDP for the year 2023.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average national debt in relation to GDP from 2015 to 2025.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any year where the national debt in relation to GDP significantly deviates from the trend.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there an observable trend in the national debt in relation to GDP over the years?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "List the years where the national debt in relation to GDP is above 0.45.",
+            "type": "Filter"
+        },
+        {
+            "description": "Arrange the years in ascending order based on their national debt in relation to GDP.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify the range of national debt in relation to GDP values from 2015 to 2025.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the years have a national debt in relation to GDP below 0.4?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify clusters of years with similar national debt in relation to GDP values.",
+            "type": "Find Clusters"
+        }
+    ]
+]

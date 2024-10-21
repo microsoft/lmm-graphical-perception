@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the Bundesliga club with the highest points.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total points accumulated by Borussia Dortmund.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "How many clubs have more than 20 points?",
+            "type": "Filter"
+        },
+        {
+            "description": "Calculate the average points of all the Bundesliga clubs.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any club with significantly fewer points compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Are there any clusters of clubs with similar points?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Rank the clubs from the highest to the lowest points.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of points among the Bundesliga clubs?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the clubs have points greater than 18?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Is there a correlation between the club name and the points they have?",
+            "type": "Find Correlation"
+        }
+    ]
+]

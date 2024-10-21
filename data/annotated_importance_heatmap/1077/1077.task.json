@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "What was the coffee consumption in Canada for the year 2018/19?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the year with the highest coffee consumption.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the total coffee consumption from 2016/17 to 2020/21.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Is there any year that shows a significantly lower coffee consumption compared to others?",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Identify if there is a trend in coffee consumption over the years.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which years had a coffee consumption greater than 4.80 million 60-kilogram bags?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the years from the highest to the lowest coffee consumption.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of coffee consumption values across the years.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of years have a coffee consumption higher than 4.75 million 60-kilogram bags?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of years with similar coffee consumption values.",
+            "type": "Find Clusters"
+        }
+    ]
+]

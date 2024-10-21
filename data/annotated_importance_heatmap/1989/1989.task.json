@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the news publisher with the highest user actions in millions.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the user actions in millions for ABC 7 Chicago.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Find any news publisher that has significantly lower user actions compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Compute the total user actions in millions for all the listed news publishers.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "How many news publishers have user actions in millions greater than 1?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the news publishers from the highest to the lowest user actions in millions.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any clusters of news publishers with similar user actions in millions.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the range of user actions in millions across all news publishers?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Is there a correlation between the news publisher and the number of user actions in millions?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Characterize the distribution of user actions in millions among the news publishers.",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

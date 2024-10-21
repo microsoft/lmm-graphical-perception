@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the YouTube channel with the highest monthly views.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total monthly views of the top three YouTube channels combined.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any YouTube channel that has significantly lower monthly views compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "How many YouTube channels have monthly views greater than 3 billion?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the YouTube channels from the highest to the lowest monthly views.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of monthly views among the YouTube channels?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify clusters of YouTube channels with similar monthly views.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of YouTube channels have monthly views above 2.5 billion?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Is there a strong correlation between the YouTube channel name and the monthly views?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Retrieve the monthly views for the channel 'SET India'.",
+            "type": "Retrieve Value"
+        }
+    ]
+]

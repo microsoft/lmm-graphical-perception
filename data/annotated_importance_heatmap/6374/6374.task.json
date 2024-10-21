@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the region with the highest average cigarette price on April 1, 2014.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the average cigarette price in Manitoba on April 1, 2014.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the total average cigarette price for Alberta and Ontario combined.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find the range of average cigarette prices across all regions on April 1, 2014.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify any regions where the average cigarette price is significantly higher or lower compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Rank the regions from the lowest to the highest average cigarette price on April 1, 2014.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine if there is a correlation between the region and the average cigarette price on April 1, 2014.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which regions have average cigarette prices above 100 Canadian dollars?",
+            "type": "Filter"
+        },
+        {
+            "description": "Identify any clusters of regions with similar average cigarette prices on April 1, 2014.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of regions have average cigarette prices higher than 100 Canadian dollars?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

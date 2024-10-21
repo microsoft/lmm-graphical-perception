@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest sales volume of tea.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the sales volume in tonnes for the year 2011.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Find the range of sales volumes recorded from 2008 to 2019.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Calculate the average sales volume of tea from 2008 to 2019.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any year where the sales volume significantly deviated from the general trend.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Are there any observable clusters of years with similar sales volumes?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Analyze the correlation between the year and the sales volume.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which years had a sales volume higher than 140,000 tonnes?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the years from highest to lowest sales volume.",
+            "type": "Order"
+        },
+        {
+            "description": "What percentage of years had a sales volume below 135,000 tonnes?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

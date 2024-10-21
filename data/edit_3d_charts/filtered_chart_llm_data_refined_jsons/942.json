@@ -1,0 +1,415 @@
+{
+    "img_id": 942,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": {
+            "text": "House Prices and Real Incomes- heat map",
+            "subtitle": [
+                "12 month growth rate, by quarter. Source: ONS,"
+            ],
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start",
+            "color": "black"
+        },
+        "mark": "rect",
+        "width": 300,
+        "height": 300,
+        "transform": [
+            {
+                "filter": "datum.hp_growth<0.25"
+            },
+            {
+                "filter": "datum.rrp_growth<0.25"
+            }
+        ],
+        "encoding": {
+            "x": {
+                "bin": {
+                    "maxbins": 10
+                },
+                "field": "rrp_growth",
+                "type": "quantitative",
+                "scale": {
+                    "domain": [
+                        0.005,
+                        0.035
+                    ]
+                },
+                "title": "Real Income Growth",
+                "axis": {
+                    "format": "00%"
+                }
+            },
+            "y": {
+                "bin": {
+                    "maxbins": 20
+                },
+                "field": "hp_growth",
+                "type": "quantitative",
+                "scale": {
+                    "domain": [
+                        -0.08,
+                        0.25
+                    ]
+                },
+                "title": "House Price Growth ",
+                "axis": {
+                    "format": ".0%"
+                }
+            },
+            "color": {
+                "aggregate": "count",
+                "type": "quantitative",
+                "legend": null,
+                "scale": {
+                    "scheme": "magma",
+                    "reverse": true
+                }
+            }
+        },
+        "config": {
+            "view": {
+                "stroke": "transparent"
+            }
+        }
+    },
+    "data_dict": [
+        {
+            "rrp_growth": 0.032,
+            "hp_growth": 0.06142
+        },
+        {
+            "rrp_growth": 0.034,
+            "hp_growth": 0.11952
+        },
+        {
+            "rrp_growth": 0.034,
+            "hp_growth": 0.15439
+        },
+        {
+            "rrp_growth": 0.033,
+            "hp_growth": 0.19165
+        },
+        {
+            "rrp_growth": 0.033,
+            "hp_growth": 0.17811
+        },
+        {
+            "rrp_growth": 0.032,
+            "hp_growth": 0.12779
+        },
+        {
+            "rrp_growth": 0.03,
+            "hp_growth": 0.19568
+        },
+        {
+            "rrp_growth": 0.03,
+            "hp_growth": 0.23787
+        },
+        {
+            "rrp_growth": 0.03,
+            "hp_growth": 0.26338
+        },
+        {
+            "rrp_growth": 0.029,
+            "hp_growth": 0.24897
+        },
+        {
+            "rrp_growth": 0.028,
+            "hp_growth": 0.16665
+        },
+        {
+            "rrp_growth": 0.029,
+            "hp_growth": 0.11786
+        },
+        {
+            "rrp_growth": 0.029,
+            "hp_growth": 0.09629
+        },
+        {
+            "rrp_growth": 0.025,
+            "hp_growth": 0.07184
+        },
+        {
+            "rrp_growth": 0.021,
+            "hp_growth": 0.05241
+        },
+        {
+            "rrp_growth": 0.018,
+            "hp_growth": 0.01694
+        },
+        {
+            "rrp_growth": 0.017,
+            "hp_growth": 0.04442
+        },
+        {
+            "rrp_growth": 0.014,
+            "hp_growth": 0.05072
+        },
+        {
+            "rrp_growth": 0.015,
+            "hp_growth": 0.07524
+        },
+        {
+            "rrp_growth": 0.016,
+            "hp_growth": 0.12373
+        },
+        {
+            "rrp_growth": 0.015,
+            "hp_growth": 0.12379
+        },
+        {
+            "rrp_growth": 0.014,
+            "hp_growth": 0.09646
+        },
+        {
+            "rrp_growth": 0.015,
+            "hp_growth": 0.08413
+        },
+        {
+            "rrp_growth": 0.018,
+            "hp_growth": 0.06207
+        },
+        {
+            "rrp_growth": 0.018,
+            "hp_growth": 0.04491
+        },
+        {
+            "rrp_growth": 0.019,
+            "hp_growth": 0.04403
+        },
+        {
+            "rrp_growth": 0.021,
+            "hp_growth": 0.00631
+        },
+        {
+            "rrp_growth": 0.023,
+            "hp_growth": -0.01515
+        },
+        {
+            "rrp_growth": 0.023,
+            "hp_growth": -0.04468
+        },
+        {
+            "rrp_growth": 0.026,
+            "hp_growth": -0.05528
+        },
+        {
+            "rrp_growth": 0.024,
+            "hp_growth": 0.01249
+        },
+        {
+            "rrp_growth": 0.022,
+            "hp_growth": 0.05876
+        },
+        {
+            "rrp_growth": 0.02,
+            "hp_growth": 0.16783
+        },
+        {
+            "rrp_growth": 0.022,
+            "hp_growth": 0.15506
+        },
+        {
+            "rrp_growth": 0.023,
+            "hp_growth": 0.09165
+        },
+        {
+            "rrp_growth": 0.022,
+            "hp_growth": 0.03788
+        },
+        {
+            "rrp_growth": 0.021,
+            "hp_growth": -0.03641
+        },
+        {
+            "rrp_growth": 0.023,
+            "hp_growth": -0.03572
+        },
+        {
+            "rrp_growth": 0.024,
+            "hp_growth": -0.01414
+        },
+        {
+            "rrp_growth": 0.025,
+            "hp_growth": -0.00673
+        },
+        {
+            "rrp_growth": 0.024,
+            "hp_growth": -0.01966
+        },
+        {
+            "rrp_growth": 0.024,
+            "hp_growth": 0.01607
+        },
+        {
+            "rrp_growth": 0.023,
+            "hp_growth": -0.0022
+        },
+        {
+            "rrp_growth": 0.025,
+            "hp_growth": 0.01795
+        },
+        {
+            "rrp_growth": 0.025,
+            "hp_growth": 0.01691
+        },
+        {
+            "rrp_growth": 0.024,
+            "hp_growth": 0.00157
+        },
+        {
+            "rrp_growth": 0.023,
+            "hp_growth": 0.02511
+        },
+        {
+            "rrp_growth": 0.022,
+            "hp_growth": 0.03298
+        },
+        {
+            "rrp_growth": 0.022,
+            "hp_growth": 0.06972
+        },
+        {
+            "rrp_growth": 0.021,
+            "hp_growth": 0.08117
+        },
+        {
+            "rrp_growth": 0.02,
+            "hp_growth": 0.06721
+        },
+        {
+            "rrp_growth": 0.019,
+            "hp_growth": 0.04373
+        },
+        {
+            "rrp_growth": 0.019,
+            "hp_growth": 0.03677
+        },
+        {
+            "rrp_growth": 0.018,
+            "hp_growth": 0.00933
+        },
+        {
+            "rrp_growth": 0.018,
+            "hp_growth": 0.03788
+        },
+        {
+            "rrp_growth": 0.018,
+            "hp_growth": 0.05689
+        },
+        {
+            "rrp_growth": 0.018,
+            "hp_growth": 0.08626
+        },
+        {
+            "rrp_growth": 0.017,
+            "hp_growth": 0.00442
+        },
+        {
+            "rrp_growth": 0.016,
+            "hp_growth": -0.00777
+        },
+        {
+            "rrp_growth": 0.015,
+            "hp_growth": 0.00567
+        },
+        {
+            "rrp_growth": 0.014,
+            "hp_growth": -0.06177
+        },
+        {
+            "rrp_growth": 0.011,
+            "hp_growth": 0.0418
+        },
+        {
+            "rrp_growth": 0.009,
+            "hp_growth": 0.00767
+        },
+        {
+            "rrp_growth": 0.01,
+            "hp_growth": -0.01453
+        },
+        {
+            "rrp_growth": 0.012,
+            "hp_growth": 0.02263
+        },
+        {
+            "rrp_growth": 0.013,
+            "hp_growth": 0.00011
+        },
+        {
+            "rrp_growth": 0.012,
+            "hp_growth": 0.00451
+        },
+        {
+            "rrp_growth": 0.011,
+            "hp_growth": 0.00746
+        },
+        {
+            "rrp_growth": 0.011,
+            "hp_growth": -0.01993
+        },
+        {
+            "rrp_growth": 0.011,
+            "hp_growth": -0.012
+        },
+        {
+            "rrp_growth": 0.013,
+            "hp_growth": -0.00414
+        },
+        {
+            "rrp_growth": 0.015,
+            "hp_growth": 0.02851
+        },
+        {
+            "rrp_growth": 0.02,
+            "hp_growth": 0.05456
+        },
+        {
+            "rrp_growth": 0.024,
+            "hp_growth": 0.01902
+        },
+        {
+            "rrp_growth": 0.027,
+            "hp_growth": 0.09477
+        },
+        {
+            "rrp_growth": 0.024,
+            "hp_growth": 0.12747
+        },
+        {
+            "rrp_growth": 0.02,
+            "hp_growth": 0.18758
+        },
+        {
+            "rrp_growth": 0.017,
+            "hp_growth": 0.21914
+        },
+        {
+            "rrp_growth": 0.017,
+            "hp_growth": -0.06432
+        },
+        {
+            "rrp_growth": 0.016,
+            "hp_growth": -0.04482
+        },
+        {
+            "rrp_growth": 0.016,
+            "hp_growth": -0.04451
+        },
+        {
+            "rrp_growth": 0.016,
+            "hp_growth": -0.02126
+        },
+        {
+            "rrp_growth": 0.012,
+            "hp_growth": 0.19704
+        }
+    ],
+    "imgs": [
+        "942_QQQ_rect_chart.png",
+        "942_QQQ_rect_chart_2.png"
+    ]
+}

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the age group with the highest number of murder victims.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "How many murder victims were infants (under 1 year old)?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the total number of murder victims in the age group '1 to 4 years'.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Find any age group that has a significantly lower number of murder victims compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Compute the average number of murder victims across all age groups.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Determine the range of the number of murder victims across all age groups.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify if there is a correlation between the age of the victims and the number of murder victims.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "What age groups have more than 200 murder victims?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the age groups from the highest to the lowest number of murder victims.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any clusters of age groups with similar numbers of murder victims.",
+            "type": "Find Clusters"
+        }
+    ]
+]

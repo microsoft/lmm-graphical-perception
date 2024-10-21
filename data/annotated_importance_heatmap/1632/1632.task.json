@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the country with the highest percentage of older people experiencing depression.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the percentage of older people experiencing depression in Germany.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average percentage of older people experiencing depression across all listed countries.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find the range of percentages of older people experiencing depression.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "List the countries where the percentage of older people experiencing depression is above 0.1.",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the countries from the lowest to the highest percentage of older people experiencing depression.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any countries that stand out as having significantly lower percentages of older people experiencing depression compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "What is the percentage of countries with a percentage of older people experiencing depression above 0.1?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Are there any clusters of countries with similar percentages of older people experiencing depression? If so, how many clusters can you identify?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Is there a noticeable correlation between the country and the percentage of older people experiencing depression?",
+            "type": "Find Correlation"
+        }
+    ]
+]

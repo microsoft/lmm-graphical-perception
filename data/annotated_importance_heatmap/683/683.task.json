@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the autonomous community with the highest unemployment rate.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "What is the unemployment rate for the Canary Islands?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the range of unemployment rates across all autonomous communities.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Compute the average unemployment rate for all the listed communities.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Are there any autonomous communities with an unemployment rate significantly lower than others?",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "List the autonomous communities with an unemployment rate above 20%.",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the autonomous communities from the lowest to the highest unemployment rate.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any clusters of autonomous communities with similar unemployment rates.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of autonomous communities have an unemployment rate higher than 24%?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Is there a noticeable pattern or trend in the unemployment rates across the autonomous communities?",
+            "type": "Find Correlation"
+        }
+    ]
+]

@@ -1,0 +1,2512 @@
+{
+    "img_id": "1857",
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "config": {
+            "view": {
+                "stroke": ""
+            }
+        },
+        "background": "#f9f9fc",
+        "title": {
+            "text": "likelyOperating",
+            "fontsize": 18
+        },
+        "width": 400,
+        "height": 400,
+        "transform": [
+            {
+                "lookup": "source",
+                "from": {
+                    "data": {
+                        "url": "https://gicentre.github.io/scrc/data/geo/scotLACentroids.csv"
+                    },
+                    "key": "lad17cd",
+                    "fields": [
+                        "lad17nm"
+                    ]
+                },
+                "as": [
+                    "srcName"
+                ]
+            },
+            {
+                "lookup": "dest",
+                "from": {
+                    "data": {
+                        "url": "https://gicentre.github.io/scrc/data/geo/scotLACentroids.csv"
+                    },
+                    "key": "lad17cd",
+                    "fields": [
+                        "lad17nm"
+                    ]
+                },
+                "as": [
+                    "dstName"
+                ]
+            }
+        ],
+        "encoding": {
+            "x": {
+                "field": "srcName",
+                "type": "ordinal",
+                "title": "Origin"
+            },
+            "y": {
+                "field": "dstName",
+                "type": "ordinal",
+                "title": "Destination"
+            },
+            "color": {
+                "field": "likelyOperating",
+                "type": "quantitative",
+                "scale": {
+                    "type": "symlog",
+                    "domain": [
+                        0,
+                        60000
+                    ],
+                    "scheme": "yelloworangebrown"
+                },
+                "legend": {
+                    "tickCount": 5,
+                    "gradientLength": 400,
+                    "title": null
+                }
+            },
+            "tooltip": [
+                {
+                    "field": "srcName",
+                    "type": "nominal",
+                    "title": "origin"
+                },
+                {
+                    "field": "dstName",
+                    "type": "nominal",
+                    "title": "destination"
+                },
+                {
+                    "field": "likelyOperating",
+                    "type": "nominal"
+                }
+            ]
+        },
+        "mark": {
+            "type": "rect",
+            "stroke": "white",
+            "strokeWidth": 2
+        }
+    },
+    "data_dict": [
+        {
+            "likelyOperating": 2650
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 661
+        },
+        {
+            "likelyOperating": 357
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 117
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 31
+        },
+        {
+            "likelyOperating": 1817
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 41
+        },
+        {
+            "likelyOperating": 213
+        },
+        {
+            "likelyOperating": 15
+        },
+        {
+            "likelyOperating": 16
+        },
+        {
+            "likelyOperating": 75
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 17
+        },
+        {
+            "likelyOperating": 97
+        },
+        {
+            "likelyOperating": 10
+        },
+        {
+            "likelyOperating": 157
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 18076
+        },
+        {
+            "likelyOperating": 58
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 22
+        },
+        {
+            "likelyOperating": 13
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 12
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 20
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 30
+        },
+        {
+            "likelyOperating": 72
+        },
+        {
+            "likelyOperating": 56
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 18
+        },
+        {
+            "likelyOperating": 73
+        },
+        {
+            "likelyOperating": 12
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 11
+        },
+        {
+            "likelyOperating": 50
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 80
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 49
+        },
+        {
+            "likelyOperating": 9374
+        },
+        {
+            "likelyOperating": 182
+        },
+        {
+            "likelyOperating": 10
+        },
+        {
+            "likelyOperating": 17
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 24
+        },
+        {
+            "likelyOperating": 20
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 999
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 3039
+        },
+        {
+            "likelyOperating": 488
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 12
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 45
+        },
+        {
+            "likelyOperating": 29
+        },
+        {
+            "likelyOperating": 410
+        },
+        {
+            "likelyOperating": 33
+        },
+        {
+            "likelyOperating": 17
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 132
+        },
+        {
+            "likelyOperating": 18
+        },
+        {
+            "likelyOperating": 1773
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 5939
+        },
+        {
+            "likelyOperating": 27
+        },
+        {
+            "likelyOperating": 52
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 704
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 10
+        },
+        {
+            "likelyOperating": 126
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 16
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 6154
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 132
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 33
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 58
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 231
+        },
+        {
+            "likelyOperating": 1940
+        },
+        {
+            "likelyOperating": 24
+        },
+        {
+            "likelyOperating": 16
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 109
+        },
+        {
+            "likelyOperating": 101
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 100
+        },
+        {
+            "likelyOperating": 838
+        },
+        {
+            "likelyOperating": 16
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 42
+        },
+        {
+            "likelyOperating": 80
+        },
+        {
+            "likelyOperating": 1492
+        },
+        {
+            "likelyOperating": 124
+        },
+        {
+            "likelyOperating": 22
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 307
+        },
+        {
+            "likelyOperating": 59
+        },
+        {
+            "likelyOperating": 5665
+        },
+        {
+            "likelyOperating": 3954
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 38
+        },
+        {
+            "likelyOperating": 21
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 39
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 33
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 18
+        },
+        {
+            "likelyOperating": 402
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 28
+        },
+        {
+            "likelyOperating": 13
+        },
+        {
+            "likelyOperating": 12806
+        },
+        {
+            "likelyOperating": 378
+        },
+        {
+            "likelyOperating": 12
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 60
+        },
+        {
+            "likelyOperating": 10
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 61
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 142
+        },
+        {
+            "likelyOperating": 2482
+        },
+        {
+            "likelyOperating": 26
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 41
+        },
+        {
+            "likelyOperating": 1932
+        },
+        {
+            "likelyOperating": 67
+        },
+        {
+            "likelyOperating": 23
+        },
+        {
+            "likelyOperating": 1121
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 30
+        },
+        {
+            "likelyOperating": 1038
+        },
+        {
+            "likelyOperating": 113
+        },
+        {
+            "likelyOperating": 1001
+        },
+        {
+            "likelyOperating": 191
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 49
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 386
+        },
+        {
+            "likelyOperating": 34375
+        },
+        {
+            "likelyOperating": 80
+        },
+        {
+            "likelyOperating": 13
+        },
+        {
+            "likelyOperating": 87
+        },
+        {
+            "likelyOperating": 68
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 1135
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 53
+        },
+        {
+            "likelyOperating": 272
+        },
+        {
+            "likelyOperating": 92
+        },
+        {
+            "likelyOperating": 24
+        },
+        {
+            "likelyOperating": 117
+        },
+        {
+            "likelyOperating": 4822
+        },
+        {
+            "likelyOperating": 34
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 491
+        },
+        {
+            "likelyOperating": 107
+        },
+        {
+            "likelyOperating": 1736
+        },
+        {
+            "likelyOperating": 111
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 234
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 25
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 19
+        },
+        {
+            "likelyOperating": 30657
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 420
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 23
+        },
+        {
+            "likelyOperating": 17
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 18
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 21
+        },
+        {
+            "likelyOperating": 145
+        },
+        {
+            "likelyOperating": 20
+        },
+        {
+            "likelyOperating": 122
+        },
+        {
+            "likelyOperating": 69
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 10
+        },
+        {
+            "likelyOperating": 11
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 67
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 26
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 38
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 17
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 7517
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 144
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 16
+        },
+        {
+            "likelyOperating": 52
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 285
+        },
+        {
+            "likelyOperating": 24
+        },
+        {
+            "likelyOperating": 1094
+        },
+        {
+            "likelyOperating": 147
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 44
+        },
+        {
+            "likelyOperating": 17
+        },
+        {
+            "likelyOperating": 1351
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 454
+        },
+        {
+            "likelyOperating": 30
+        },
+        {
+            "likelyOperating": 62
+        },
+        {
+            "likelyOperating": 3899
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 116
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 17
+        },
+        {
+            "likelyOperating": 12
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 12
+        },
+        {
+            "likelyOperating": 6706
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 200
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 27
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 34
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 574
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 10944
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 324
+        },
+        {
+            "likelyOperating": 443
+        },
+        {
+            "likelyOperating": 64
+        },
+        {
+            "likelyOperating": 15
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 12
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 41
+        },
+        {
+            "likelyOperating": 2479
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 104
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 13
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 560
+        },
+        {
+            "likelyOperating": 13
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 9245
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 1226
+        },
+        {
+            "likelyOperating": 157
+        },
+        {
+            "likelyOperating": 11
+        },
+        {
+            "likelyOperating": 23
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 97
+        },
+        {
+            "likelyOperating": 41
+        },
+        {
+            "likelyOperating": 1351
+        },
+        {
+            "likelyOperating": 89
+        },
+        {
+            "likelyOperating": 11
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 94
+        },
+        {
+            "likelyOperating": 22
+        },
+        {
+            "likelyOperating": 1786
+        },
+        {
+            "likelyOperating": 17
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 3100
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 37
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 11
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 88
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 88
+        },
+        {
+            "likelyOperating": 852
+        },
+        {
+            "likelyOperating": 44
+        },
+        {
+            "likelyOperating": 10
+        },
+        {
+            "likelyOperating": 16
+        },
+        {
+            "likelyOperating": 14977
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 26
+        },
+        {
+            "likelyOperating": 354
+        },
+        {
+            "likelyOperating": 52
+        },
+        {
+            "likelyOperating": 23
+        },
+        {
+            "likelyOperating": 24
+        },
+        {
+            "likelyOperating": 516
+        },
+        {
+            "likelyOperating": 30
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 54
+        },
+        {
+            "likelyOperating": 271
+        },
+        {
+            "likelyOperating": 2011
+        },
+        {
+            "likelyOperating": 53
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 142
+        },
+        {
+            "likelyOperating": 24
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 354
+        },
+        {
+            "likelyOperating": 26
+        },
+        {
+            "likelyOperating": 23
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 378
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 11167
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 56
+        },
+        {
+            "likelyOperating": 13
+        },
+        {
+            "likelyOperating": 10
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 11
+        },
+        {
+            "likelyOperating": 1525
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 61
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 16
+        },
+        {
+            "likelyOperating": 34
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 4297
+        },
+        {
+            "likelyOperating": 36
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 117
+        },
+        {
+            "likelyOperating": 1924
+        },
+        {
+            "likelyOperating": 52
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 13
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 36
+        },
+        {
+            "likelyOperating": 11
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 1026
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 9518
+        },
+        {
+            "likelyOperating": 143
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 16
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 17
+        },
+        {
+            "likelyOperating": 42
+        },
+        {
+            "likelyOperating": 341
+        },
+        {
+            "likelyOperating": 24
+        },
+        {
+            "likelyOperating": 12
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 69
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 937
+        },
+        {
+            "likelyOperating": 17
+        },
+        {
+            "likelyOperating": 59
+        },
+        {
+            "likelyOperating": 227
+        },
+        {
+            "likelyOperating": 23
+        },
+        {
+            "likelyOperating": 397
+        },
+        {
+            "likelyOperating": 10
+        },
+        {
+            "likelyOperating": 157
+        },
+        {
+            "likelyOperating": 72
+        },
+        {
+            "likelyOperating": 20
+        },
+        {
+            "likelyOperating": 62
+        },
+        {
+            "likelyOperating": 63
+        },
+        {
+            "likelyOperating": 13
+        },
+        {
+            "likelyOperating": 68
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 72
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 100
+        },
+        {
+            "likelyOperating": 21848
+        },
+        {
+            "likelyOperating": 117
+        },
+        {
+            "likelyOperating": 23
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 99
+        },
+        {
+            "likelyOperating": 679
+        },
+        {
+            "likelyOperating": 724
+        },
+        {
+            "likelyOperating": 183
+        },
+        {
+            "likelyOperating": 593
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 6142
+        },
+        {
+            "likelyOperating": 170
+        },
+        {
+            "likelyOperating": 11055
+        },
+        {
+            "likelyOperating": 464
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 1141
+        },
+        {
+            "likelyOperating": 142
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 195
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 61
+        },
+        {
+            "likelyOperating": 6324
+        },
+        {
+            "likelyOperating": 11
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 71
+        },
+        {
+            "likelyOperating": 411
+        },
+        {
+            "likelyOperating": 77
+        },
+        {
+            "likelyOperating": 130
+        },
+        {
+            "likelyOperating": 95
+        },
+        {
+            "likelyOperating": 10
+        },
+        {
+            "likelyOperating": 41
+        },
+        {
+            "likelyOperating": 281
+        },
+        {
+            "likelyOperating": 94
+        },
+        {
+            "likelyOperating": 880
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 33
+        },
+        {
+            "likelyOperating": 27
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 42
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 26294
+        },
+        {
+            "likelyOperating": 1679
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 28
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 26
+        },
+        {
+            "likelyOperating": 19
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 19
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 24
+        },
+        {
+            "likelyOperating": 46
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 288
+        },
+        {
+            "likelyOperating": 16
+        },
+        {
+            "likelyOperating": 47
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 12728
+        },
+        {
+            "likelyOperating": 16850
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 39
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 286
+        },
+        {
+            "likelyOperating": 40
+        },
+        {
+            "likelyOperating": 20
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 12
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 24
+        },
+        {
+            "likelyOperating": 91
+        },
+        {
+            "likelyOperating": 180
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 41
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 33
+        },
+        {
+            "likelyOperating": 32
+        },
+        {
+            "likelyOperating": 24
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 10937
+        },
+        {
+            "likelyOperating": 36
+        },
+        {
+            "likelyOperating": 212
+        },
+        {
+            "likelyOperating": 566
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 11
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 18
+        },
+        {
+            "likelyOperating": 19
+        },
+        {
+            "likelyOperating": 666
+        },
+        {
+            "likelyOperating": 22
+        },
+        {
+            "likelyOperating": 22
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 1218
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 303
+        },
+        {
+            "likelyOperating": 986
+        },
+        {
+            "likelyOperating": 19
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 1417
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 142
+        },
+        {
+            "likelyOperating": 207
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 121
+        },
+        {
+            "likelyOperating": 196
+        },
+        {
+            "likelyOperating": 40
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 36
+        },
+        {
+            "likelyOperating": 50380
+        },
+        {
+            "likelyOperating": 52
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 1736
+        },
+        {
+            "likelyOperating": 12
+        },
+        {
+            "likelyOperating": 74
+        },
+        {
+            "likelyOperating": 166
+        },
+        {
+            "likelyOperating": 15
+        },
+        {
+            "likelyOperating": 496
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 99
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 574
+        },
+        {
+            "likelyOperating": 26
+        },
+        {
+            "likelyOperating": 27
+        },
+        {
+            "likelyOperating": 10
+        },
+        {
+            "likelyOperating": 851
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 258
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 91
+        },
+        {
+            "likelyOperating": 354
+        },
+        {
+            "likelyOperating": 31
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 216
+        },
+        {
+            "likelyOperating": 70
+        },
+        {
+            "likelyOperating": 13161
+        },
+        {
+            "likelyOperating": 630
+        },
+        {
+            "likelyOperating": 32
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 274
+        },
+        {
+            "likelyOperating": 125
+        },
+        {
+            "likelyOperating": 7965
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 19
+        },
+        {
+            "likelyOperating": 13
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 103
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 22
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 10
+        },
+        {
+            "likelyOperating": 105
+        },
+        {
+            "likelyOperating": 85
+        },
+        {
+            "likelyOperating": 10
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 1674
+        },
+        {
+            "likelyOperating": 39
+        },
+        {
+            "likelyOperating": 651
+        },
+        {
+            "likelyOperating": 6112
+        },
+        {
+            "likelyOperating": 25
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 101
+        },
+        {
+            "likelyOperating": 263
+        },
+        {
+            "likelyOperating": 4007
+        },
+        {
+            "likelyOperating": 38
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 73
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 642
+        },
+        {
+            "likelyOperating": 241
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 213
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 32
+        },
+        {
+            "likelyOperating": 20
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 238
+        },
+        {
+            "likelyOperating": 177
+        },
+        {
+            "likelyOperating": 19
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 20
+        },
+        {
+            "likelyOperating": 6296
+        },
+        {
+            "likelyOperating": 54
+        },
+        {
+            "likelyOperating": 16
+        },
+        {
+            "likelyOperating": 13706
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 16
+        },
+        {
+            "likelyOperating": 609
+        },
+        {
+            "likelyOperating": 18
+        },
+        {
+            "likelyOperating": 476
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 7
+        },
+        {
+            "likelyOperating": 142
+        },
+        {
+            "likelyOperating": 13
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 26
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 451
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 13
+        },
+        {
+            "likelyOperating": 518
+        },
+        {
+            "likelyOperating": 433
+        },
+        {
+            "likelyOperating": 27
+        },
+        {
+            "likelyOperating": 46
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 10
+        },
+        {
+            "likelyOperating": 9191
+        },
+        {
+            "likelyOperating": 4479
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 18
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 11
+        },
+        {
+            "likelyOperating": 477
+        },
+        {
+            "likelyOperating": 12
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 16
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 840
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 21
+        },
+        {
+            "likelyOperating": 73
+        },
+        {
+            "likelyOperating": 31
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 71
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 1138
+        },
+        {
+            "likelyOperating": 15613
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 24
+        },
+        {
+            "likelyOperating": 51
+        },
+        {
+            "likelyOperating": 22
+        },
+        {
+            "likelyOperating": 54
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 64
+        },
+        {
+            "likelyOperating": 716
+        },
+        {
+            "likelyOperating": 98
+        },
+        {
+            "likelyOperating": 27
+        },
+        {
+            "likelyOperating": 35
+        },
+        {
+            "likelyOperating": 33
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 19
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 31
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 52
+        },
+        {
+            "likelyOperating": 5176
+        },
+        {
+            "likelyOperating": 383
+        },
+        {
+            "likelyOperating": 38
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 76
+        },
+        {
+            "likelyOperating": 677
+        },
+        {
+            "likelyOperating": 545
+        },
+        {
+            "likelyOperating": 203
+        },
+        {
+            "likelyOperating": 1031
+        },
+        {
+            "likelyOperating": 4
+        },
+        {
+            "likelyOperating": 12
+        },
+        {
+            "likelyOperating": 25790
+        },
+        {
+            "likelyOperating": 782
+        },
+        {
+            "likelyOperating": 10400
+        },
+        {
+            "likelyOperating": 25
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 36
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 33
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 128
+        },
+        {
+            "likelyOperating": 29
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 67
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 3
+        },
+        {
+            "likelyOperating": 17
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 27
+        },
+        {
+            "likelyOperating": 320
+        },
+        {
+            "likelyOperating": 171
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 74
+        },
+        {
+            "likelyOperating": 131
+        },
+        {
+            "likelyOperating": 483
+        },
+        {
+            "likelyOperating": 541
+        },
+        {
+            "likelyOperating": 42
+        },
+        {
+            "likelyOperating": 6
+        },
+        {
+            "likelyOperating": 891
+        },
+        {
+            "likelyOperating": 2876
+        },
+        {
+            "likelyOperating": 7689
+        },
+        {
+            "likelyOperating": 14
+        },
+        {
+            "likelyOperating": 53
+        },
+        {
+            "likelyOperating": 412
+        },
+        {
+            "likelyOperating": 11
+        },
+        {
+            "likelyOperating": 1196
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 213
+        },
+        {
+            "likelyOperating": 99
+        },
+        {
+            "likelyOperating": 18
+        },
+        {
+            "likelyOperating": 417
+        },
+        {
+            "likelyOperating": 30
+        },
+        {
+            "likelyOperating": 9
+        },
+        {
+            "likelyOperating": 212
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 45
+        },
+        {
+            "likelyOperating": 0
+        },
+        {
+            "likelyOperating": 5
+        },
+        {
+            "likelyOperating": 299
+        },
+        {
+            "likelyOperating": 2731
+        },
+        {
+            "likelyOperating": 292
+        },
+        {
+            "likelyOperating": 42
+        },
+        {
+            "likelyOperating": 8
+        },
+        {
+            "likelyOperating": 279
+        },
+        {
+            "likelyOperating": 640
+        },
+        {
+            "likelyOperating": 3307
+        },
+        {
+            "likelyOperating": 1644
+        },
+        {
+            "likelyOperating": 209
+        },
+        {
+            "likelyOperating": 11
+        },
+        {
+            "likelyOperating": 25
+        },
+        {
+            "likelyOperating": 2487
+        },
+        {
+            "likelyOperating": 1148
+        },
+        {
+            "likelyOperating": 53850
+        }
+    ],
+    "imgs": [
+        "1857_OOQ_rect_chart_2.png",
+        "1857_OOQ_rect_chart.png"
+    ]
+}

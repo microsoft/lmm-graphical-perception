@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the cause of death with the highest number of deaths.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the total number of deaths from all causes combined.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find the cause of death with the lowest number of deaths.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine if there is a significant difference in the number of deaths between neoplasms and diseases of the circulatory system.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "What is the range of the number of deaths across all causes?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Order the causes of death from the highest to the lowest number of deaths.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any clusters of causes of death with similar numbers of deaths.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of deaths are caused by neoplasms?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Determine the number of deaths caused by mental and behavioural disorders.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Find any causes of death that have a significantly lower number of deaths compared to the majority.",
+            "type": "Find Anomalies"
+        }
+    ]
+]

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest number of trucks sold.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total number of trucks sold in the year Jul 2016 - Jun 2017.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "What is the range of the number of trucks sold across all years?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Calculate the average number of trucks sold per year.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any year with a significantly lower number of trucks sold compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Are there any clusters of years with similar truck sales numbers?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of years have truck sales exceeding 5,000?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "List the years where the number of trucks sold was less than 4,000.",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the years from the highest to the lowest number of trucks sold.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify if there is a trend in truck sales over the years.",
+            "type": "Find Correlation"
+        }
+    ]
+]

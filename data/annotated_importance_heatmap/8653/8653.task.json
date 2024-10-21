@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Which country has the highest pharmaceutical exports?",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the pharmaceutical export value for Kenya.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Compute the total pharmaceutical exports of South Africa, Egypt, and Morocco.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any country with significantly lower pharmaceutical exports compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Are there any clusters of countries with similar pharmaceutical export values?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the range of pharmaceutical exports across all countries?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "List the countries in order of their pharmaceutical export values from highest to lowest.",
+            "type": "Order"
+        },
+        {
+            "description": "Find the percentage of countries with pharmaceutical exports higher than 100 million USD.",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify if there is a noticeable correlation between the country and its pharmaceutical export value.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which countries have pharmaceutical exports greater than 200 million USD?",
+            "type": "Filter"
+        }
+    ]
+]

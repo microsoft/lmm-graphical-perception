@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "What is the installed power capacity in megawatts for FY 2016?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the financial year with the highest installed power capacity.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the range of installed power capacities across the financial years.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Calculate the total installed power capacity from FY 2014 to FY 2018.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any financial year that has a significantly lower installed power capacity compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Order the financial years from the lowest to the highest installed power capacity.",
+            "type": "Order"
+        },
+        {
+            "description": "Examine if there is a correlation between the financial year and the installed power capacity.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which financial years have an installed power capacity greater than 25,000 megawatts?",
+            "type": "Filter"
+        },
+        {
+            "description": "Identify any clusters of financial years with similar installed power capacities.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Determine the percentage of financial years with an installed power capacity higher than 20,000 megawatts.",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

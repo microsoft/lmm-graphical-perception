@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the city with the highest number of community gardens per 10,000 residents.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the average number of community gardens per 10,000 residents across all listed cities.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Determine the number of cities that have more than 3 community gardens per 10,000 residents.",
+            "type": "Filter"
+        },
+        {
+            "description": "List the cities in descending order based on the number of community gardens per 10,000 residents.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any cities that have an exceptionally high or low number of community gardens compared to the others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Find the range of the number of community gardens per 10,000 residents across all cities.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What is the number of community gardens per 10,000 residents for Washington, DC?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine if there is a correlation between the city size and the number of community gardens per 10,000 residents.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Compute the total number of community gardens per 10,000 residents for the top 3 cities.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "How many cities have a similar number of community gardens per 10,000 residents?",
+            "type": "Find Clusters"
+        }
+    ]
+]

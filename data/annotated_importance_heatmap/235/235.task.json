@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "What was the spending on research and development in 2018?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the year with the highest spending on research and development.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the total spending on research and development from 2015 to 2019.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any year where the spending on research and development significantly deviates from the trend.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Determine if there is an upward or downward trend in spending from 2015 to 2019.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which years have spending on research and development greater than 200 million euros?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the years from highest to lowest spending on research and development.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify the range of spending on research and development from 2001 to 2019.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the years have spending on research and development exceeding 190 million euros?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of years with similar spending on research and development.",
+            "type": "Find Clusters"
+        }
+    ]
+]

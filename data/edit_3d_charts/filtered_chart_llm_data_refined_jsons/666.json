@@ -1,0 +1,368 @@
+{
+    "img_id": 666,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": {
+            "text": "2021: ODA, plotted against percentage Gross National Income (GNI) spent on ODA",
+            "subtitle": [
+                "ODA, millions (x), GNI (%)(y)",
+                "Size of points based on Total GNI, billions",
+                "source: World Bank API, 2021 and OECD for ODA data",
+                ""
+            ],
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start",
+            "color": "black"
+        },
+        "config": {
+            "background": "white",
+            "view": {
+                "stroke": "transparent"
+            }
+        },
+        "mark": {
+            "type": "circle",
+            "color": "red",
+            "opacity": 0.7
+        },
+        "height": 300,
+        "width": 400,
+        "encoding": {
+            "x": {
+                "field": "ODA_mil",
+                "type": "quantitative",
+                "scale": {
+                    "domain": [
+                        0,
+                        12000
+                    ]
+                },
+                "axis": {
+                    "grid": false
+                },
+                "title": null
+            },
+            "y": {
+                "field": "GNI_perc",
+                "type": "quantitative",
+                "scale": {
+                    "domain": [
+                        0,
+                        3.0
+                    ]
+                },
+                "axis": {
+                    "grid": false
+                },
+                "title": null
+            },
+            "color": {
+                "field": "UN",
+                "type": "ordinal",
+                "scale": {
+                    "scheme": "set1"
+                },
+                "legend": {
+                    "orient": "bottom"
+                },
+                "title": "UN benchmark: ODA = 0.7% GNI "
+            },
+            "size": {
+                "field": "GNI_bil",
+                "type": "quantitative",
+                "title": "Prison Rate",
+                "scale": {
+                    "range": [
+                        50,
+                        800
+                    ]
+                },
+                "legend": null
+            },
+            "tooltip": [
+                {
+                    "field": "Country",
+                    "type": "ordinal",
+                    "title": "Country"
+                },
+                {
+                    "field": "GNI_perc",
+                    "type": "quantitative",
+                    "title": "Percent of GNI",
+                    "format": ".2f"
+                },
+                {
+                    "field": "ODA_mil",
+                    "type": "quantitative",
+                    "title": "ODA, millions",
+                    "format": ".0f"
+                },
+                {
+                    "field": "GNI_bil",
+                    "type": "quantitative",
+                    "title": "GNI",
+                    "format": ".0f"
+                }
+            ]
+        }
+    },
+    "data_dict": [
+        {
+            "GNI_perc": 0.384764896,
+            "GNI_bil": 1535.457124,
+            "Country": "Australia",
+            "ODA_mil": 590.79,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.176093536,
+            "GNI_bil": 482.5276501,
+            "Country": "Austria",
+            "ODA_mil": 84.97,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.741625537,
+            "GNI_bil": 599.601791,
+            "Country": "Belgium",
+            "ODA_mil": 444.68,
+            "UN": 1
+        },
+        {
+            "GNI_perc": 0.536334008,
+            "GNI_bil": 1974.180237,
+            "Country": "Canada",
+            "ODA_mil": 1058.82,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.067245364,
+            "GNI_bil": 269.1635363,
+            "Country": "Czechia",
+            "ODA_mil": 18.1,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 1.442752475,
+            "GNI_bil": 412.0803882,
+            "Country": "Denmark",
+            "ODA_mil": 594.53,
+            "UN": 1
+        },
+        {
+            "GNI_perc": 0.658641377,
+            "GNI_bil": 302.8962452,
+            "Country": "Finland",
+            "ODA_mil": 199.5,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.615887543,
+            "GNI_bil": 3045.182553,
+            "Country": "France",
+            "ODA_mil": 1875.49,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.760335298,
+            "GNI_bil": 4411.027621,
+            "Country": "Germany",
+            "ODA_mil": 3353.86,
+            "UN": 1
+        },
+        {
+            "GNI_perc": 0.028232848,
+            "GNI_bil": 213.9352027,
+            "Country": "Greece",
+            "ODA_mil": 6.04,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.185601252,
+            "GNI_bil": 176.1302772,
+            "Country": "Hungary",
+            "ODA_mil": 32.69,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.861048402,
+            "GNI_bil": 24.3772591,
+            "Country": "Iceland",
+            "ODA_mil": 20.99,
+            "UN": 1
+        },
+        {
+            "GNI_perc": 0.699932881,
+            "GNI_bil": 382.5938278,
+            "Country": "Ireland",
+            "ODA_mil": 267.79,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.409728994,
+            "GNI_bil": 2145.466913,
+            "Country": "Italy",
+            "ODA_mil": 879.06,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.837763219,
+            "GNI_bil": 5129.301337,
+            "Country": "Japan",
+            "ODA_mil": 4297.14,
+            "UN": 1
+        },
+        {
+            "GNI_perc": 2.977752699,
+            "GNI_bil": 59.6926669,
+            "Country": "Luxembourg",
+            "ODA_mil": 177.75,
+            "UN": 1
+        },
+        {
+            "GNI_perc": 0.517059161,
+            "GNI_bil": 990.138147,
+            "Country": "Netherlands",
+            "ODA_mil": 511.96,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.43707261,
+            "GNI_bil": 245.5884849,
+            "Country": "New Zealand",
+            "ODA_mil": 107.34,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 1.222165577,
+            "GNI_bil": 503.2869616,
+            "Country": "Norway",
+            "ODA_mil": 615.1,
+            "UN": 1
+        },
+        {
+            "GNI_perc": 0.047213568,
+            "GNI_bil": 647.4833631,
+            "Country": "Poland",
+            "ODA_mil": 30.57,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.32826177,
+            "GNI_bil": 250.5926904,
+            "Country": "Portugal",
+            "ODA_mil": 82.26,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.109682336,
+            "GNI_bil": 1434.870976,
+            "Country": "Spain",
+            "ODA_mil": 157.38,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 1.8593776,
+            "GNI_bil": 653.8693379,
+            "Country": "Sweden",
+            "ODA_mil": 1215.79,
+            "UN": 1
+        },
+        {
+            "GNI_perc": 0.863085335,
+            "GNI_bil": 797.4645987,
+            "Country": "Switzerland",
+            "ODA_mil": 688.28,
+            "UN": 1
+        },
+        {
+            "GNI_perc": 0.563130462,
+            "GNI_bil": 3117.696729,
+            "Country": "United Kingdom",
+            "ODA_mil": 1755.67,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.500008193,
+            "GNI_bil": 23617.113,
+            "Country": "United States",
+            "ODA_mil": 11808.75,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.003844992,
+            "GNI_bil": 26.00785684,
+            "Country": "Cyprus",
+            "ODA_mil": 0.1,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.103705016,
+            "GNI_bil": 36.54596594,
+            "Country": "Estonia",
+            "ODA_mil": 3.79,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.008708044,
+            "GNI_bil": 481.1642862,
+            "Country": "Israel",
+            "ODA_mil": 4.19,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.000511256,
+            "GNI_bil": 39.1193522,
+            "Country": "Latvia",
+            "ODA_mil": 0.02,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.012052527,
+            "GNI_bil": 63.88701886,
+            "Country": "Lithuania",
+            "ODA_mil": 0.77,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.003437294,
+            "GNI_bil": 279.2894523,
+            "Country": "Romania",
+            "ODA_mil": 0.96,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.05979231,
+            "GNI_bil": 60.87739422,
+            "Country": "Slovenia",
+            "ODA_mil": 3.64,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.122485917,
+            "GNI_bil": 488.5459595,
+            "Country": "Thailand",
+            "ODA_mil": 59.84,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.036523605,
+            "GNI_bil": 81.86486455,
+            "Country": "Bulgaria",
+            "ODA_mil": 2.99,
+            "UN": 0
+        },
+        {
+            "GNI_perc": 0.122716486,
+            "GNI_bil": 16.21624009,
+            "Country": "Malta",
+            "ODA_mil": 1.99,
+            "UN": 0
+        }
+    ],
+    "imgs": [
+        "666_QQQ_point_chart_2.png",
+        "666_QQQ_point_chart.png"
+    ]
+}

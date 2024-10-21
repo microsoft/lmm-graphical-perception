@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the type of media read by the highest proportion of young people in 2015.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the proportion of young people reading social networking in 2015.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average proportion of young people reading all listed media types in 2015.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any media type that has a significantly lower proportion of young people reading it compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Are there any clusters of media types with similar proportions of young people reading them?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Identify if there is a correlation between the type of media and the proportion of young people reading it.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which media types have a proportion of young people reading them greater than 0.5?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the media types from the highest to the lowest proportion of young people reading them.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of proportions of young people reading the different media types in 2015.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the media types have a proportion of young people reading them greater than 0.45?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

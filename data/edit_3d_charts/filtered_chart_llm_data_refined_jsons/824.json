@@ -1,0 +1,750 @@
+{
+    "img_id": 824,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "width": "container",
+        "height": 300,
+        "title": {
+            "text": "Transfer Expenditure vs League Position",
+            "fontSize": 18,
+            "subtitle": [
+                "Figure 1: 6 clusters based on investment level.",
+                "Source: Transfermarkt + Kaggle",
+                "Note: All charts have a legend at the bottom",
+                "to make them mobile-friendly"
+            ],
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 12,
+            "color": "black"
+        },
+        "mark": {
+            "type": "point",
+            "filled": true,
+            "size": 100,
+            "opacity": 0.8
+        },
+        "selection": {
+            "club": {
+                "type": "single",
+                "fields": [
+                    "club"
+                ],
+                "bind": {
+                    "input": "select",
+                    "options": [
+                        null,
+                        "AFC Bournemouth",
+                        "Arsenal FC",
+                        "Aston Villa",
+                        "Brentford FC",
+                        "Brighton & Hove Albion",
+                        "Chelsea FC",
+                        "Crystal Palace",
+                        "Everton FC",
+                        "Fulham FC",
+                        "Liverpool FC",
+                        "Manchester City",
+                        "Manchester United",
+                        "Newcastle United",
+                        "Nottingham Forest",
+                        "Southampton FC",
+                        "Tottenham Hotspur",
+                        "West Ham United",
+                        "Wolverhampton Wanderers"
+                    ],
+                    "name": "Select a Team: "
+                }
+            }
+        },
+        "transform": [
+            {
+                "filter": {
+                    "selection": "club"
+                }
+            }
+        ],
+        "encoding": {
+            "x": {
+                "field": "pl_seasonfinish",
+                "title": "League Position",
+                "type": "quantitative",
+                "scale": {
+                    "zero": false
+                },
+                "axis": {
+                    "grid": false
+                }
+            },
+            "y": {
+                "field": "5year_spend",
+                "title": "5 year rolling spend (\u00a3 Millions)",
+                "type": "quantitative",
+                "scale": {
+                    "zero": false
+                },
+                "axis": {
+                    "grid": false
+                }
+            },
+            "tooltip": [
+                {
+                    "field": "club",
+                    "type": "nominal",
+                    "title": "Team"
+                },
+                {
+                    "field": "season_id",
+                    "type": "nominal",
+                    "title": "Season"
+                },
+                {
+                    "field": "5year_spend",
+                    "type": "nominal",
+                    "title": "5 year spend (\u00a3 Millions)"
+                },
+                {
+                    "field": "pl_seasonfinish",
+                    "type": "quantitative",
+                    "title": "League Position"
+                }
+            ],
+            "color": {
+                "field": "cluster_clubs",
+                "title": "Level of Investment",
+                "type": "nominal",
+                "legend": {
+                    "orient": "bottom",
+                    "columns": 1,
+                    "fillColor": "#FfFfFf",
+                    "labelExpr": "{'0': 'Low: Aiming to comfortably survive', '2': 'Above Average: Aiming for Europe', '1': 'High: Aiming for Top 4', '3': 'Average: Aiming for Mid-Table','4': 'Very High: Aiming for 1st','5': 'Very Low: Aiming to survive'}[datum.label]"
+                },
+                "scale": {
+                    "domain": [
+                        "4",
+                        "1",
+                        "2",
+                        "3",
+                        "0",
+                        "5"
+                    ],
+                    "range": [
+                        "green",
+                        "#90EE90",
+                        "#4fc3f7",
+                        "#FBE122",
+                        "orange",
+                        "#EF0107"
+                    ]
+                }
+            }
+        }
+    },
+    "data_dict": [
+        {
+            "season_id": 2018,
+            "5year_spend": 226.52,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 14,
+            "club": "AFC Bournemouth"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 276.61,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 18,
+            "club": "AFC Bournemouth"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 186.05,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 14,
+            "club": "AFC Bournemouth"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 491.48,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 5,
+            "club": "Arsenal FC"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 533.3,
+            "cluster_clubs": 2,
+            "pl_seasonfinish": 8,
+            "club": "Arsenal FC"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 592.8,
+            "cluster_clubs": 2,
+            "pl_seasonfinish": 8,
+            "club": "Arsenal FC"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 647.2,
+            "cluster_clubs": 2,
+            "pl_seasonfinish": 5,
+            "club": "Arsenal FC"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 626.41,
+            "cluster_clubs": 2,
+            "pl_seasonfinish": 1,
+            "club": "Arsenal FC"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 333.45,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 17,
+            "club": "Aston Villa"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 368.25,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 11,
+            "club": "Aston Villa"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 412.57,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 14,
+            "club": "Aston Villa"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 479.77,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 12,
+            "club": "Aston Villa"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 96.52,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 13,
+            "club": "Brentford FC"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 135.7,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 10,
+            "club": "Brentford FC"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 179.64,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 17,
+            "club": "Brighton & Hove Albion"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 237.58,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 15,
+            "club": "Brighton & Hove Albion"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 252.61,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 16,
+            "club": "Brighton & Hove Albion"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 318.86,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 9,
+            "club": "Brighton & Hove Albion"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 298.09,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 7,
+            "club": "Brighton & Hove Albion"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 836.3,
+            "cluster_clubs": 4,
+            "pl_seasonfinish": 3,
+            "club": "Chelsea FC"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 743.6,
+            "cluster_clubs": 1,
+            "pl_seasonfinish": 4,
+            "club": "Chelsea FC"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 894.3,
+            "cluster_clubs": 4,
+            "pl_seasonfinish": 4,
+            "club": "Chelsea FC"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 879.5,
+            "cluster_clubs": 4,
+            "pl_seasonfinish": 3,
+            "club": "Chelsea FC"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 900.99,
+            "cluster_clubs": 4,
+            "pl_seasonfinish": 8,
+            "club": "Chelsea FC"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 222.02,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 12,
+            "club": "Crystal Palace"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 198.4,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 14,
+            "club": "Crystal Palace"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 192.0,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 14,
+            "club": "Crystal Palace"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 176.42,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 12,
+            "club": "Crystal Palace"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 162.07,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 11,
+            "club": "Crystal Palace"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 478.06,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 8,
+            "club": "Everton FC"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 558.9,
+            "cluster_clubs": 2,
+            "pl_seasonfinish": 12,
+            "club": "Everton FC"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 583.37,
+            "cluster_clubs": 2,
+            "pl_seasonfinish": 10,
+            "club": "Everton FC"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 536.87,
+            "cluster_clubs": 2,
+            "pl_seasonfinish": 16,
+            "club": "Everton FC"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 411.87,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 17,
+            "club": "Everton FC"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 188.32,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 19,
+            "club": "Fulham FC"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 236.47,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 18,
+            "club": "Fulham FC"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 274.15,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 9,
+            "club": "Fulham FC"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 176.5,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 9,
+            "club": "Leeds United"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 226.82,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 17,
+            "club": "Leeds United"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 302.73,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 15,
+            "club": "Leeds United"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 363.31,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 9,
+            "club": "Leicester City"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 444.75,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 5,
+            "club": "Leicester City"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 454.25,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 5,
+            "club": "Leicester City"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 429.75,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 8,
+            "club": "Leicester City"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 362.9,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 13,
+            "club": "Leicester City"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 713.68,
+            "cluster_clubs": 1,
+            "pl_seasonfinish": 2,
+            "club": "Liverpool FC"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 572.65,
+            "cluster_clubs": 2,
+            "pl_seasonfinish": 1,
+            "club": "Liverpool FC"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 530.2,
+            "cluster_clubs": 2,
+            "pl_seasonfinish": 3,
+            "club": "Liverpool FC"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 537.3,
+            "cluster_clubs": 2,
+            "pl_seasonfinish": 2,
+            "club": "Liverpool FC"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 458.95,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 6,
+            "club": "Liverpool FC"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 922.36,
+            "cluster_clubs": 4,
+            "pl_seasonfinish": 1,
+            "club": "Manchester City"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 979.08,
+            "cluster_clubs": 4,
+            "pl_seasonfinish": 2,
+            "club": "Manchester City"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 944.01,
+            "cluster_clubs": 4,
+            "pl_seasonfinish": 1,
+            "club": "Manchester City"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 867.91,
+            "cluster_clubs": 4,
+            "pl_seasonfinish": 1,
+            "club": "Manchester City"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 689.91,
+            "cluster_clubs": 1,
+            "pl_seasonfinish": 2,
+            "club": "Manchester City"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 956.95,
+            "cluster_clubs": 4,
+            "pl_seasonfinish": 6,
+            "club": "Manchester United"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 856.9,
+            "cluster_clubs": 4,
+            "pl_seasonfinish": 3,
+            "club": "Manchester United"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 784.7,
+            "cluster_clubs": 1,
+            "pl_seasonfinish": 2,
+            "club": "Manchester United"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 741.7,
+            "cluster_clubs": 1,
+            "pl_seasonfinish": 6,
+            "club": "Manchester United"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 783.62,
+            "cluster_clubs": 1,
+            "pl_seasonfinish": 5,
+            "club": "Manchester United"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 323.43,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 13,
+            "club": "Newcastle United"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 351.31,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 13,
+            "club": "Newcastle United"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 282.4,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 12,
+            "club": "Newcastle United"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 348.65,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 11,
+            "club": "Newcastle United"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 438.5,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 3,
+            "club": "Newcastle United"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 219.51,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 18,
+            "club": "Nottingham Forest"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 348.5,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 16,
+            "club": "Southampton FC"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 314.0,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 11,
+            "club": "Southampton FC"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 291.2,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 15,
+            "club": "Southampton FC"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 265.4,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 15,
+            "club": "Southampton FC"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 283.55,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 19,
+            "club": "Southampton FC"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 326.48,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 4,
+            "club": "Tottenham Hotspur"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 426.5,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 6,
+            "club": "Tottenham Hotspur"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 466.0,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 7,
+            "club": "Tottenham Hotspur"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 478.4,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 4,
+            "club": "Tottenham Hotspur"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 524.8,
+            "cluster_clubs": 2,
+            "pl_seasonfinish": 4,
+            "club": "Tottenham Hotspur"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 329.05,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 10,
+            "club": "West Ham United"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 413.7,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 16,
+            "club": "West Ham United"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 415.7,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 6,
+            "club": "West Ham United"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 406.7,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 7,
+            "club": "West Ham United"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 531.9,
+            "cluster_clubs": 2,
+            "pl_seasonfinish": 16,
+            "club": "West Ham United"
+        },
+        {
+            "season_id": 2018,
+            "5year_spend": 186.65,
+            "cluster_clubs": 5,
+            "pl_seasonfinish": 7,
+            "club": "Wolverhampton Wanderers"
+        },
+        {
+            "season_id": 2019,
+            "5year_spend": 299.5,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 7,
+            "club": "Wolverhampton Wanderers"
+        },
+        {
+            "season_id": 2020,
+            "5year_spend": 377.75,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 13,
+            "club": "Wolverhampton Wanderers"
+        },
+        {
+            "season_id": 2021,
+            "5year_spend": 379.25,
+            "cluster_clubs": 0,
+            "pl_seasonfinish": 10,
+            "club": "Wolverhampton Wanderers"
+        },
+        {
+            "season_id": 2022,
+            "5year_spend": 491.24,
+            "cluster_clubs": 3,
+            "pl_seasonfinish": 20,
+            "club": "Wolverhampton Wanderers"
+        }
+    ],
+    "imgs": [
+        "824_QQN_point_chart_2.png",
+        "824_QQN_point_chart.png"
+    ]
+}

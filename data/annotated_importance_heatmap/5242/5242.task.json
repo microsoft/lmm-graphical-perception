@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the keyword with the highest search volume.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total search volume for 'Cheap holidays' and 'City breaks'.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any keyword with a significantly lower search volume compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "How many keywords have a search volume greater than 400,000?",
+            "type": "Filter"
+        },
+        {
+            "description": "What is the search volume for 'All inclusive holidays'?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Rank the keywords from the highest to the lowest search volume.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of search volumes across all keywords.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify any clusters of keywords with similar search volumes.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the percentage of keywords with search volumes below 200,000?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Is there any keyword that stands out as an outlier in terms of search volume?",
+            "type": "Find Anomalies"
+        }
+    ]
+]

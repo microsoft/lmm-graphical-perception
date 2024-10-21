@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the province with the highest expenditure on policing.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "What is the expenditure value for Manitoba?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the range of expenditures across all provinces.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Calculate the total expenditure on policing for all provinces combined.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Rank the provinces from highest to lowest based on their policing expenditures.",
+            "type": "Order"
+        },
+        {
+            "description": "Is there a significant difference between the expenditures of Ontario and Quebec?",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Identify any clusters of provinces with similar policing expenditures.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of the provinces have expenditures less than 2 million Canadian dollars?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Which provinces have expenditures greater than 3 million Canadian dollars?",
+            "type": "Filter"
+        },
+        {
+            "description": "Is there a correlation between the province size (population-wise) and their policing expenditures?",
+            "type": "Find Correlation"
+        }
+    ]
+]

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the real estate buyer with the highest number of properties.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "What is the total number of properties purchased by AXA Group and Patrizia?",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Determine the number of properties purchased by Blackstone.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Which real estate buyer has the lowest number of properties?",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Are there any buyers with a significantly higher or lower number of properties compared to the rest?",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "How many buyers have purchased more than 200 properties?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the real estate buyers from the highest to the lowest number of properties.",
+            "type": "Order"
+        },
+        {
+            "description": "Calculate the range of properties purchased by the buyers.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify any clusters of buyers with similar numbers of properties.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of buyers have purchased over 100 properties?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "What is the ratio of government expenditure to GDP in the year 2022?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the year with the highest ratio of government expenditure to GDP.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the average ratio of government expenditure to GDP from 2020 to 2025.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any year where the ratio of government expenditure to GDP is significantly lower compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a noticeable upward or downward trend in the ratio of government expenditure to GDP from 2015 to 2025?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "List the years where the ratio of government expenditure to GDP exceeds 0.240.",
+            "type": "Filter"
+        },
+        {
+            "description": "Arrange the years in descending order of the ratio of government expenditure to GDP.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of the ratio of government expenditure to GDP over the observed years?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of years have a ratio of government expenditure to GDP higher than 0.240?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of years with similar ratios of government expenditure to GDP.",
+            "type": "Find Clusters"
+        }
+    ]
+]

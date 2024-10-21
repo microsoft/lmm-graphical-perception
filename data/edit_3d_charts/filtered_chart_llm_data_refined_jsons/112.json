@@ -1,0 +1,3355 @@
+{
+    "img_id": 112,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "mark": {
+            "type": "point",
+            "tooltip": true
+        },
+        "encoding": {
+            "x": {
+                "field": "Salary",
+                "type": "quantitative",
+                "aggregate": null,
+                "axis": {
+                    "format": "s"
+                }
+            },
+            "y": {
+                "field": "Goals",
+                "type": "quantitative",
+                "aggregate": null,
+                "axis": {
+                    "format": "s"
+                }
+            },
+            "color": {
+                "field": "Foot",
+                "type": "nominal",
+                "aggregate": null
+            },
+            "tooltip": {
+                "field": "Name"
+            }
+        },
+        "transform": []
+    },
+    "data_dict": [
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Etrit Berisha"
+        },
+        {
+            "Salary": 700000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Andi Lila"
+        },
+        {
+            "Salary": 1250000,
+            "Goals": 3,
+            "Foot": "Left",
+            "Name": "Ermir Lenjani"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Elseid Hysaj"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Lorik Cana"
+        },
+        {
+            "Salary": 800000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Frederik Veseli"
+        },
+        {
+            "Salary": 300000,
+            "Goals": 2,
+            "Foot": "Both",
+            "Name": "Ansi Agolli"
+        },
+        {
+            "Salary": 800000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Migjen Basha"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Ledian Memushaj"
+        },
+        {
+            "Salary": 750000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Armando Sadiku"
+        },
+        {
+            "Salary": 2750000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "Shk\u00eblzen Gashi"
+        },
+        {
+            "Salary": 125000,
+            "Goals": 0,
+            "Foot": "Unknown",
+            "Name": "Orges Shehi"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Burim Kukeli"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Taulant Xhaka"
+        },
+        {
+            "Salary": 1750000,
+            "Goals": 3,
+            "Foot": "Left",
+            "Name": "M\u00ebrgim Mavraj"
+        },
+        {
+            "Salary": 2800000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Sokol Cikalleshi"
+        },
+        {
+            "Salary": 700000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Naser Aliji"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Arlind Ajeti"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Bekim Balaj"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Ergys Ka\u00e7e"
+        },
+        {
+            "Salary": 350000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Odise Roshi"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Amir Abrashi"
+        },
+        {
+            "Salary": 575000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Alban Hoxha"
+        },
+        {
+            "Salary": 24000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Hugo Lloris"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Christophe Jallet"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Patrice Evra"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Adil Rami"
+        },
+        {
+            "Salary": 20000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "N'Golo Kant\u00e9"
+        },
+        {
+            "Salary": 18000000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Yohan Cabaye"
+        },
+        {
+            "Salary": 70000000,
+            "Goals": 7,
+            "Foot": "Left",
+            "Name": "Antoine Griezmann"
+        },
+        {
+            "Salary": 23000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Dimitri Payet"
+        },
+        {
+            "Salary": 25000000,
+            "Goals": 14,
+            "Foot": "Left",
+            "Name": "Olivier Giroud"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 7,
+            "Foot": "Right",
+            "Name": "Andr\u00e9-Pierre Gignac"
+        },
+        {
+            "Salary": 32000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Anthony Martial"
+        },
+        {
+            "Salary": 30000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Morgan Schneiderlin"
+        },
+        {
+            "Salary": 23000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Eliaquim Mangala"
+        },
+        {
+            "Salary": 30000000,
+            "Goals": 7,
+            "Foot": "Left",
+            "Name": "Blaise Matuidi"
+        },
+        {
+            "Salary": 70000000,
+            "Goals": 5,
+            "Foot": "Both",
+            "Name": "Paul Pogba"
+        },
+        {
+            "Salary": 10000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Steve Mandanda"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Lucas Digne"
+        },
+        {
+            "Salary": 13000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Moussa Sissoko"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Bacary Sagna"
+        },
+        {
+            "Salary": 17000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Kingsley Coman"
+        },
+        {
+            "Salary": 22000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Laurent Koscielny"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Samuel Umtiti"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Beno\u00eet Costil"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Costel Pantilimon"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Alexandru M\u0103\u021bel"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "R\u0103zvan Ra\u021b"
+        },
+        {
+            "Salary": 1250000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Cosmin Mo\u021bi"
+        },
+        {
+            "Salary": 800000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Ovidiu Hoban"
+        },
+        {
+            "Salary": 5500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Vlad Chiriche\u0219"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Alexandru Chipciu"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Mihai Pintilii"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "Denis Alibec"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Nicolae Stanciu"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 10,
+            "Foot": "Both",
+            "Name": "Gabriel Torje"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Ciprian T\u0103t\u0103ru\u0219anu"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 4,
+            "Foot": "Left",
+            "Name": "Claudiu Ke\u0219er\u00fc"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Florin Andone"
+        },
+        {
+            "Salary": 2200000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Valeric\u0103 G\u0103man"
+        },
+        {
+            "Salary": 1250000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Steliano Filip"
+        },
+        {
+            "Salary": 300000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Lucian S\u00e2nm\u0103rtean"
+        },
+        {
+            "Salary": 1900000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Andrei Prepeli\u021b\u0103"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 9,
+            "Foot": "Right",
+            "Name": "Bogdan Stancu"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Adrian Popa"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Drago\u0219 Grigore"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Cristian S\u0103punaru"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Silviu Lung Jr."
+        },
+        {
+            "Salary": 10000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Yann Sommer"
+        },
+        {
+            "Salary": 6000000,
+            "Goals": 5,
+            "Foot": "Right",
+            "Name": "Stephan Lichtsteiner"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Fran\u00e7ois Moubandje"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Nico Elvedi"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Steve von Bergen"
+        },
+        {
+            "Salary": 4250000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Michael Lang"
+        },
+        {
+            "Salary": 20000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Breel Embolo"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Fabian Frei"
+        },
+        {
+            "Salary": 5500000,
+            "Goals": 7,
+            "Foot": "Left",
+            "Name": "Haris Seferovi\u0107"
+        },
+        {
+            "Salary": 35000000,
+            "Goals": 6,
+            "Foot": "Left",
+            "Name": "Granit Xhaka"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Valon Behrami"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Marwin Hitz"
+        },
+        {
+            "Salary": 25000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Ricardo Rodr\u00edguez"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Denis Zakaria"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 6,
+            "Foot": "Right",
+            "Name": "Blerim D\u017eemaili"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "G\u00e9lson Fernandes"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Shani Tarashaj"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Admir Mehmedi"
+        },
+        {
+            "Salary": 4600000,
+            "Goals": 10,
+            "Foot": "Right",
+            "Name": "Eren Derdiyok"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Johan Djourou"
+        },
+        {
+            "Salary": 6000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Roman B\u00fcrki"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 5,
+            "Foot": "Right",
+            "Name": "Fabian Sch\u00e4r"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 17,
+            "Foot": "Left",
+            "Name": "Xherdan Shaqiri"
+        },
+        {
+            "Salary": 17000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Joe Hart"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Kyle Walker"
+        },
+        {
+            "Salary": 14000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Danny Rose"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "James Milner"
+        },
+        {
+            "Salary": 16000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Gary Cahill"
+        },
+        {
+            "Salary": 20000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Chris Smalling"
+        },
+        {
+            "Salary": 45000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Raheem Sterling"
+        },
+        {
+            "Salary": 19000000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Adam Lallana"
+        },
+        {
+            "Salary": 40000000,
+            "Goals": 5,
+            "Foot": "Right",
+            "Name": "Harry Kane"
+        },
+        {
+            "Salary": 35000000,
+            "Goals": 52,
+            "Foot": "Right",
+            "Name": "Wayne Rooney"
+        },
+        {
+            "Salary": 18000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Jamie Vardy"
+        },
+        {
+            "Salary": 21000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Nathaniel Clyne"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Fraser Forster"
+        },
+        {
+            "Salary": 28000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Jordan Henderson"
+        },
+        {
+            "Salary": 25000000,
+            "Goals": 5,
+            "Foot": "Left",
+            "Name": "Daniel Sturridge"
+        },
+        {
+            "Salary": 28000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "John Stones"
+        },
+        {
+            "Salary": 18000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Eric Dier"
+        },
+        {
+            "Salary": 23000000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Jack Wilshere"
+        },
+        {
+            "Salary": 22000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Ross Barkley"
+        },
+        {
+            "Salary": 20000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Dele Alli"
+        },
+        {
+            "Salary": 14000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Ryan Bertrand"
+        },
+        {
+            "Salary": 6000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Marcus Rashford"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Tom Heaton"
+        },
+        {
+            "Salary": 14000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Igor Akinfeev"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Roman Shishkin"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Igor Smolnikov"
+        },
+        {
+            "Salary": 200000,
+            "Goals": 8,
+            "Foot": "Right",
+            "Name": "Sergei Ignashevich"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Roman Neust\u00e4dter"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Aleksei Berezutski"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Igor Denisov"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 4,
+            "Foot": "Both",
+            "Name": "Denis Glushakov"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 11,
+            "Foot": "Right",
+            "Name": "Aleksandr Kokorin"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 5,
+            "Foot": "Right",
+            "Name": "Fyodor Smolov"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Pavel Mamayev"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Yuri Lodygin"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Aleksandr Golovin"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Vasili Berezutski"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 13,
+            "Foot": "Right",
+            "Name": "Roman Shirokov"
+        },
+        {
+            "Salary": 6000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Guilherme Marinato"
+        },
+        {
+            "Salary": 14000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Oleg Shatov"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Oleg Ivanov"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Aleksandr Samedov"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Dmitri Torbinski"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Georgi Shchennikov"
+        },
+        {
+            "Salary": 10000000,
+            "Goals": 8,
+            "Foot": "Right",
+            "Name": "Artem Dzyuba"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Dmitri Kombarov"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "J\u00e1n Mucha"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Peter Pekar\u00edk"
+        },
+        {
+            "Salary": 10000000,
+            "Goals": 5,
+            "Foot": "Right",
+            "Name": "Martin \u0160krtel"
+        },
+        {
+            "Salary": 250000,
+            "Goals": 4,
+            "Foot": "Left",
+            "Name": "J\u00e1n \u010eurica"
+        },
+        {
+            "Salary": 750000,
+            "Goals": 0,
+            "Foot": "Unknown",
+            "Name": "Norbert Gy\u00f6mb\u00e9r"
+        },
+        {
+            "Salary": 2800000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "J\u00e1n Gregu\u0161"
+        },
+        {
+            "Salary": 3200000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Vladim\u00edr Weiss"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Ondrej Duda"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 13,
+            "Foot": "Right",
+            "Name": "Stanislav \u0160est\u00e1k"
+        },
+        {
+            "Salary": 300000,
+            "Goals": 6,
+            "Foot": "Both",
+            "Name": "Miroslav Stoch"
+        },
+        {
+            "Salary": 700000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Adam Nemec"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "J\u00e1n Novota"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Patrik Hro\u0161ovsk\u00fd"
+        },
+        {
+            "Salary": 700000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Milan \u0160kriniar"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Tom\u00e1\u0161 Hubo\u010dan"
+        },
+        {
+            "Salary": 35000000,
+            "Goals": 2,
+            "Foot": "Both",
+            "Name": "Kornel Sal\u00e1ta"
+        },
+        {
+            "Salary": 750000,
+            "Goals": 17,
+            "Foot": "Left",
+            "Name": "Marek Ham\u0161\u00edk"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Du\u0161an \u0160vento"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Juraj Kucka"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 7,
+            "Foot": "Right",
+            "Name": "R\u00f3bert Mak"
+        },
+        {
+            "Salary": 350000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Michal \u010euri\u0161"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 1,
+            "Foot": "Unknown",
+            "Name": "Viktor Pe\u010dovsk\u00fd"
+        },
+        {
+            "Salary": 600000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Mat\u00fa\u0161 Koz\u00e1\u010dik"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Wayne Hennessey"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Chris Gunter"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Neil Taylor"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Ben Davies"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "James Chester"
+        },
+        {
+            "Salary": 6500000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Ashley Williams"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Joe Allen"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Andy King"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Hal Robson-Kanu"
+        },
+        {
+            "Salary": 30000000,
+            "Goals": 10,
+            "Foot": "Both",
+            "Name": "Aaron Ramsey"
+        },
+        {
+            "Salary": 80000000,
+            "Goals": 19,
+            "Foot": "Left",
+            "Name": "Gareth Bale"
+        },
+        {
+            "Salary": 250000,
+            "Goals": 0,
+            "Foot": "Unknown",
+            "Name": "Owain F\u00f4n Williams"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "George Williams"
+        },
+        {
+            "Salary": 850000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "David Edwards"
+        },
+        {
+            "Salary": 750000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Jazz Richards"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 4,
+            "Foot": "Left",
+            "Name": "Joe Ledley"
+        },
+        {
+            "Salary": 750000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "David Cotterill"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 6,
+            "Foot": "Right",
+            "Name": "Sam Vokes"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "James Collins"
+        },
+        {
+            "Salary": 750000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Jonathan Williams"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Danny Ward"
+        },
+        {
+            "Salary": 1250000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "David Vaughan"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Simon Church"
+        },
+        {
+            "Salary": 45000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Manuel Neuer"
+        },
+        {
+            "Salary": 20000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Shkodran Mustafi"
+        },
+        {
+            "Salary": 11000000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "Jonas Hector"
+        },
+        {
+            "Salary": 16000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Benedikt H\u00f6wedes"
+        },
+        {
+            "Salary": 38000000,
+            "Goals": 4,
+            "Foot": "Left",
+            "Name": "Mats Hummels"
+        },
+        {
+            "Salary": 20000000,
+            "Goals": 5,
+            "Foot": "Right",
+            "Name": "Sami Khedira"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 23,
+            "Foot": "Right",
+            "Name": "Bastian Schweinsteiger"
+        },
+        {
+            "Salary": 50000000,
+            "Goals": 19,
+            "Foot": "Left",
+            "Name": "Mesut \u00d6zil"
+        },
+        {
+            "Salary": 18000000,
+            "Goals": 20,
+            "Foot": "Right",
+            "Name": "Andr\u00e9 Sch\u00fcrrle"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 48,
+            "Foot": "Left",
+            "Name": "Lukas Podolski"
+        },
+        {
+            "Salary": 24000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Julian Draxler"
+        },
+        {
+            "Salary": 16000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Bernd Leno"
+        },
+        {
+            "Salary": 75000000,
+            "Goals": 31,
+            "Foot": "Right",
+            "Name": "Thomas M\u00fcller"
+        },
+        {
+            "Salary": 18000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Emre Can"
+        },
+        {
+            "Salary": 14000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Julian Weigl"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Antonio R\u00fcdiger"
+        },
+        {
+            "Salary": 40000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "J\u00e9r\u00f4me Boateng"
+        },
+        {
+            "Salary": 50000000,
+            "Goals": 11,
+            "Foot": "Both",
+            "Name": "Toni Kroos"
+        },
+        {
+            "Salary": 35000000,
+            "Goals": 17,
+            "Foot": "Right",
+            "Name": "Mario G\u00f6tze"
+        },
+        {
+            "Salary": 13000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Leroy San\u00e9"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Joshua Kimmich"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Marc-Andr\u00e9 ter Stegen"
+        },
+        {
+            "Salary": 18000000,
+            "Goals": 27,
+            "Foot": "Left",
+            "Name": "Mario G\u00f3mez"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Michael McGovern"
+        },
+        {
+            "Salary": 250000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Conor McLaughlin"
+        },
+        {
+            "Salary": 750000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "Shane Ferguson"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 7,
+            "Foot": "Right",
+            "Name": "Gareth McAuley"
+        },
+        {
+            "Salary": 6000000,
+            "Goals": 1,
+            "Foot": "Both",
+            "Name": "Jonny Evans"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Chris Baird"
+        },
+        {
+            "Salary": 750000,
+            "Goals": 2,
+            "Foot": "Both",
+            "Name": "Niall McGinn"
+        },
+        {
+            "Salary": 6000000,
+            "Goals": 8,
+            "Foot": "Right",
+            "Name": "Steven Davis"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Will Grigg"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 17,
+            "Foot": "Right",
+            "Name": "Kyle Lafferty"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 2,
+            "Foot": "Unknown",
+            "Name": "Conor Washington"
+        },
+        {
+            "Salary": 150000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Roy Carroll"
+        },
+        {
+            "Salary": 1250000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Corry Evans"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 1,
+            "Foot": "Unknown",
+            "Name": "Stuart Dallas"
+        },
+        {
+            "Salary": 250000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Luke McCullough"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Oliver Norwood"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Paddy McNair"
+        },
+        {
+            "Salary": 350000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Aaron Hughes"
+        },
+        {
+            "Salary": 1750000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Jamie Ward"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Craig Cathcart"
+        },
+        {
+            "Salary": 300000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Josh Magennis"
+        },
+        {
+            "Salary": 350000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Lee Hodson"
+        },
+        {
+            "Salary": 450000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Alan Mannus"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Wojciech Szcz\u0119sny"
+        },
+        {
+            "Salary": 1700000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Micha\u0142 Pazdan"
+        },
+        {
+            "Salary": 2700000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Artur J\u0119drzejczyk"
+        },
+        {
+            "Salary": 900000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Thiago Cionek"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Krzysztof M\u0105czy\u0144ski"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Tomasz Jod\u0142owiec"
+        },
+        {
+            "Salary": 10000000,
+            "Goals": 10,
+            "Foot": "Left",
+            "Name": "Arkadiusz Milik"
+        },
+        {
+            "Salary": 3200000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Karol Linetty"
+        },
+        {
+            "Salary": 75000000,
+            "Goals": 34,
+            "Foot": "Right",
+            "Name": "Robert Lewandowski"
+        },
+        {
+            "Salary": 30000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Grzegorz Krychowiak"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 8,
+            "Foot": "Right",
+            "Name": "Kamil Grosicki"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Artur Boruc"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Mariusz St\u0119pi\u0144ski"
+        },
+        {
+            "Salary": 350000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "Jakub Wawrzyniak"
+        },
+        {
+            "Salary": 10000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Kamil Glik"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 16,
+            "Foot": "Right",
+            "Name": "Jakub B\u0142aszczykowski"
+        },
+        {
+            "Salary": 400000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "S\u0142awomir Peszko"
+        },
+        {
+            "Salary": 2200000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Bartosz Salamon"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Piotr Zieli\u0144ski"
+        },
+        {
+            "Salary": 6000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "\u0141ukasz Piszczek"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Bartosz Kapustka"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "\u0141ukasz Fabia\u0144ski"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Filip Starzy\u0144ski"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Denys Boyko"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Bohdan Butko"
+        },
+        {
+            "Salary": 8500000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Yevhen Khacheridi"
+        },
+        {
+            "Salary": 200000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Anatoliy Tymoshchuk"
+        },
+        {
+            "Salary": 1200000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Oleksandr Kucher"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Taras Stepanenko"
+        },
+        {
+            "Salary": 22000000,
+            "Goals": 24,
+            "Foot": "Left",
+            "Name": "Andriy Yarmolenko"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Roman Zozulya"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Viktor Kovalenko"
+        },
+        {
+            "Salary": 25000000,
+            "Goals": 13,
+            "Foot": "Right",
+            "Name": "Yevhen Konoplyanka"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 11,
+            "Foot": "Right",
+            "Name": "Yevhen Seleznyov"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Andriy Pyatov"
+        },
+        {
+            "Salary": 200000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Vyacheslav Shevchuk"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 7,
+            "Foot": "Both",
+            "Name": "Ruslan Rotan"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Pylyp Budkivskyi"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Serhiy Sydorchuk"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Artem Fedetskyi"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Serhiy Rybalka"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Denys Harmash"
+        },
+        {
+            "Salary": 10000000,
+            "Goals": 4,
+            "Foot": "Left",
+            "Name": "Yaroslav Rakitskiy"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "Oleksandr Zinchenko"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Oleksandr Karavayev"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Mykyta Shevchenko"
+        },
+        {
+            "Salary": 1750000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Ivan Vargi\u0107"
+        },
+        {
+            "Salary": 9000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "\u0160ime Vrsaljko"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Ivan Strini\u0107"
+        },
+        {
+            "Salary": 19000000,
+            "Goals": 12,
+            "Foot": "Both",
+            "Name": "Ivan Peri\u0161i\u0107"
+        },
+        {
+            "Salary": 11000000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Vedran \u0106orluka"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Tin Jedvaj"
+        },
+        {
+            "Salary": 45000000,
+            "Goals": 10,
+            "Foot": "Right",
+            "Name": "Ivan Rakiti\u0107"
+        },
+        {
+            "Salary": 20000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Mateo Kova\u010di\u0107"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Andrej Kramari\u0107"
+        },
+        {
+            "Salary": 50000000,
+            "Goals": 10,
+            "Foot": "Both",
+            "Name": "Luka Modri\u0107"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 21,
+            "Foot": "Right",
+            "Name": "Darijo Srna"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Lovre Kalini\u0107"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Gordon Schildenfeld"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 4,
+            "Foot": "Both",
+            "Name": "Marcelo Brozovi\u0107"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Ante \u0106ori\u0107"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 8,
+            "Foot": "Both",
+            "Name": "Nikola Kalini\u0107"
+        },
+        {
+            "Salary": 19000000,
+            "Goals": 21,
+            "Foot": "Right",
+            "Name": "Mario Mand\u017euki\u0107"
+        },
+        {
+            "Salary": 6000000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Marko Rog"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Milan Badelj"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Marko Pjaca"
+        },
+        {
+            "Salary": 7500000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Domagoj Vida"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Duje \u010cop"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Danijel Suba\u0161i\u0107"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Petr \u010cech"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Pavel Kade\u0159\u00e1bek"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 8,
+            "Foot": "Left",
+            "Name": "Michal Kadlec"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Theodor Gebre Selassie"
+        },
+        {
+            "Salary": 400000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Roman Hubn\u00edk"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 5,
+            "Foot": "Right",
+            "Name": "Tom\u00e1\u0161 Sivok"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 9,
+            "Foot": "Right",
+            "Name": "Tom\u00e1\u0161 Necid"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 1,
+            "Foot": "Both",
+            "Name": "David Limbersk\u00fd"
+        },
+        {
+            "Salary": 2750000,
+            "Goals": 6,
+            "Foot": "Right",
+            "Name": "Bo\u0159ek Do\u010dkal"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 22,
+            "Foot": "Both",
+            "Name": "Tom\u00e1\u0161 Rosick\u00fd"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Daniel Pudil"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 2,
+            "Foot": "Unknown",
+            "Name": "Milan \u0160koda"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 6,
+            "Foot": "Right",
+            "Name": "Jaroslav Pla\u0161il"
+        },
+        {
+            "Salary": 1750000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Daniel Kol\u00e1\u0159"
+        },
+        {
+            "Salary": 900000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "David Pavelka"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Tom\u00e1\u0161 Vacl\u00edk"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Marek Such\u00fd"
+        },
+        {
+            "Salary": 1750000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Josef \u0160ural"
+        },
+        {
+            "Salary": 3750000,
+            "Goals": 4,
+            "Foot": "Left",
+            "Name": "Ladislav Krej\u010d\u00ed"
+        },
+        {
+            "Salary": 1250000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Ji\u0159\u00ed Skal\u00e1k"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 8,
+            "Foot": "Right",
+            "Name": "David Lafata"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 1,
+            "Foot": "Both",
+            "Name": "Vladim\u00edr Darida"
+        },
+        {
+            "Salary": 900000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Tom\u00e1\u0161 Koubek"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Iker Casillas"
+        },
+        {
+            "Salary": 20000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "C\u00e9sar Azpilicueta"
+        },
+        {
+            "Salary": 40000000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Gerard Piqu\u00e9"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Marc Bartra"
+        },
+        {
+            "Salary": 50000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Sergio Busquets"
+        },
+        {
+            "Salary": 35000000,
+            "Goals": 13,
+            "Foot": "Right",
+            "Name": "Andr\u00e9s Iniesta"
+        },
+        {
+            "Salary": 25000000,
+            "Goals": 1,
+            "Foot": "Both",
+            "Name": "\u00c1lvaro Morata"
+        },
+        {
+            "Salary": 50000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Koke"
+        },
+        {
+            "Salary": 7500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Lucas V\u00e1zquez"
+        },
+        {
+            "Salary": 45000000,
+            "Goals": 14,
+            "Foot": "Right",
+            "Name": "Cesc F\u00e0bregas"
+        },
+        {
+            "Salary": 23000000,
+            "Goals": 16,
+            "Foot": "Both",
+            "Name": "Pedro"
+        },
+        {
+            "Salary": 13000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "H\u00e9ctor Beller\u00edn"
+        },
+        {
+            "Salary": 35000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "David de Gea"
+        },
+        {
+            "Salary": 25000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Thiago"
+        },
+        {
+            "Salary": 40000000,
+            "Goals": 10,
+            "Foot": "Right",
+            "Name": "Sergio Ramos"
+        },
+        {
+            "Salary": 16000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Juanfran"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Mikel San Jos\u00e9"
+        },
+        {
+            "Salary": 35000000,
+            "Goals": 6,
+            "Foot": "Left",
+            "Name": "Jordi Alba"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Bruno Soriano"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Aritz Aduriz"
+        },
+        {
+            "Salary": 38000000,
+            "Goals": 23,
+            "Foot": "Left",
+            "Name": "David Silva"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Nolito"
+        },
+        {
+            "Salary": 10000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Sergio Rico"
+        },
+        {
+            "Salary": 7500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Volkan Babacan"
+        },
+        {
+            "Salary": 7500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Semih Kaya"
+        },
+        {
+            "Salary": 1200000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Hakan Balta"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Ahmet Y\u0131lmaz \u00c7al\u0131k"
+        },
+        {
+            "Salary": 7500000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Nuri \u015eahin"
+        },
+        {
+            "Salary": 18000000,
+            "Goals": 6,
+            "Foot": "Right",
+            "Name": "Hakan \u00c7alhano\u011flu"
+        },
+        {
+            "Salary": 6500000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "G\u00f6khan G\u00f6n\u00fcl"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 8,
+            "Foot": "Right",
+            "Name": "Sel\u00e7uk \u0130nan"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Cenk Tosun"
+        },
+        {
+            "Salary": 35000000,
+            "Goals": 17,
+            "Foot": "Both",
+            "Name": "Arda Turan"
+        },
+        {
+            "Salary": 7500000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Olcay \u015eahan"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Onur K\u0131vrak"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "\u0130smail K\u00f6yba\u015f\u0131"
+        },
+        {
+            "Salary": 9500000,
+            "Goals": 1,
+            "Foot": "Both",
+            "Name": "O\u011fuzhan \u00d6zyakup"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 1,
+            "Foot": "Both",
+            "Name": "Mehmet Topal"
+        },
+        {
+            "Salary": 7500000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Ozan Tufan"
+        },
+        {
+            "Salary": 5500000,
+            "Goals": 19,
+            "Foot": "Both",
+            "Name": "Burak Y\u0131lmaz"
+        },
+        {
+            "Salary": 11000000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Caner Erkin"
+        },
+        {
+            "Salary": 9000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Yunus Mall\u0131"
+        },
+        {
+            "Salary": 5250000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Volkan \u015een"
+        },
+        {
+            "Salary": 100000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Emre Mor"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "\u015eener \u00d6zbayrakl\u0131"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Harun Tekin"
+        },
+        {
+            "Salary": 35000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Thibaut Courtois"
+        },
+        {
+            "Salary": 22000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Toby Alderweireld"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "Thomas Vermaelen"
+        },
+        {
+            "Salary": 27000000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Radja Nainggolan"
+        },
+        {
+            "Salary": 21000000,
+            "Goals": 6,
+            "Foot": "Left",
+            "Name": "Jan Vertonghen"
+        },
+        {
+            "Salary": 28000000,
+            "Goals": 6,
+            "Foot": "Right",
+            "Name": "Axel Witsel"
+        },
+        {
+            "Salary": 60000000,
+            "Goals": 12,
+            "Foot": "Right",
+            "Name": "Kevin De Bruyne"
+        },
+        {
+            "Salary": 19000000,
+            "Goals": 15,
+            "Foot": "Right",
+            "Name": "Marouane Fellaini"
+        },
+        {
+            "Salary": 35000000,
+            "Goals": 11,
+            "Foot": "Left",
+            "Name": "Romelu Lukaku"
+        },
+        {
+            "Salary": 70000000,
+            "Goals": 12,
+            "Foot": "Both",
+            "Name": "Eden Hazard"
+        },
+        {
+            "Salary": 20000000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Yannick Ferreira Carrasco"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Simon Mignolet"
+        },
+        {
+            "Salary": 400000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Jean-Fran\u00e7ois Gillet"
+        },
+        {
+            "Salary": 17000000,
+            "Goals": 8,
+            "Foot": "Right",
+            "Name": "Dries Mertens"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Jason Denayer"
+        },
+        {
+            "Salary": 6000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Thomas Meunier"
+        },
+        {
+            "Salary": 9000000,
+            "Goals": 3,
+            "Foot": "Both",
+            "Name": "Divock Origi"
+        },
+        {
+            "Salary": 6000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Christian Kabasele"
+        },
+        {
+            "Salary": 16000000,
+            "Goals": 5,
+            "Foot": "Left",
+            "Name": "Mousa Demb\u00e9l\u00e9"
+        },
+        {
+            "Salary": 30000000,
+            "Goals": 6,
+            "Foot": "Right",
+            "Name": "Christian Benteke"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Jordan Lukaku"
+        },
+        {
+            "Salary": 14000000,
+            "Goals": 2,
+            "Foot": "Both",
+            "Name": "Michy Batshuayi"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Laurent Ciman"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Gianluigi Buffon"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Mattia De Sciglio"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 6,
+            "Foot": "Left",
+            "Name": "Giorgio Chiellini"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Matteo Darmian"
+        },
+        {
+            "Salary": 9000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Angelo Ogbonna"
+        },
+        {
+            "Salary": 25000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Antonio Candreva"
+        },
+        {
+            "Salary": 11000000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "Simone Zaza"
+        },
+        {
+            "Salary": 20000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Alessandro Florenzi"
+        },
+        {
+            "Salary": 11000000,
+            "Goals": 5,
+            "Foot": "Right",
+            "Name": "Graziano Pell\u00e8"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "Thiago Motta"
+        },
+        {
+            "Salary": 10000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Ciro Immobile"
+        },
+        {
+            "Salary": 9000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Salvatore Sirigu"
+        },
+        {
+            "Salary": 5500000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Federico Marchetti"
+        },
+        {
+            "Salary": 10000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Stefano Sturaro"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Andrea Barzagli"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 17,
+            "Foot": "Both",
+            "Name": "Daniele De Rossi"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "\u00c9der"
+        },
+        {
+            "Salary": 7500000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Marco Parolo"
+        },
+        {
+            "Salary": 30000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Leonardo Bonucci"
+        },
+        {
+            "Salary": 25000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Lorenzo Insigne"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Federico Bernardeschi"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Stephan El Shaarawy"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Emanuele Giaccherini"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Keiren Westwood"
+        },
+        {
+            "Salary": 19000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "S\u00e9amus Coleman"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Ciaran Clark"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "John O'Shea"
+        },
+        {
+            "Salary": 1800000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Richard Keogh"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Glenn Whelan"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 5,
+            "Foot": "Both",
+            "Name": "Aiden McGeady"
+        },
+        {
+            "Salary": 17000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "James McCarthy"
+        },
+        {
+            "Salary": 10000000,
+            "Goals": 16,
+            "Foot": "Both",
+            "Name": "Shane Long"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 67,
+            "Foot": "Right",
+            "Name": "Robbie Keane"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 5,
+            "Foot": "Left",
+            "Name": "James McClean"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Shane Duffy"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Jeff Hendrick"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 10,
+            "Foot": "Right",
+            "Name": "Jonathan Walters"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Cyrus Christie"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Shay Given"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 3,
+            "Foot": "Left",
+            "Name": "Stephen Ward"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "David Meyler"
+        },
+        {
+            "Salary": 6000000,
+            "Goals": 4,
+            "Foot": "Left",
+            "Name": "Robbie Brady"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Wes Hoolahan"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Daryl Murphy"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Stephen Quinn"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Darren Randolph"
+        },
+        {
+            "Salary": 1200000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Andreas Isaksson"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Mikael Lustig"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Erik Johansson"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Andreas Granqvist"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 5,
+            "Foot": "Left",
+            "Name": "Martin Olsson"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Emil Forsberg"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 6,
+            "Foot": "Right",
+            "Name": "Sebastian Larsson"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Albin Ekdal"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 16,
+            "Foot": "Left",
+            "Name": "Kim K\u00e4llstr\u00f6m"
+        },
+        {
+            "Salary": 15000000,
+            "Goals": 62,
+            "Foot": "Both",
+            "Name": "Zlatan Ibrahimovi\u0107"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 10,
+            "Foot": "Right",
+            "Name": "Marcus Berg"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 0,
+            "Foot": "Unknown",
+            "Name": "Robin Olsen"
+        },
+        {
+            "Salary": 1300000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Pontus Jansson"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Victor Lindel\u00f6f"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Oscar Hiljemark"
+        },
+        {
+            "Salary": 10000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Pontus Wernbloom"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Ludwig Augustinsson"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Oscar Lewicki"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 1,
+            "Foot": "Both",
+            "Name": "Emir Kujovi\u0107"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "John Guidetti"
+        },
+        {
+            "Salary": 3750000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Jimmy Durmaz"
+        },
+        {
+            "Salary": 3300000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Erkan Zengin"
+        },
+        {
+            "Salary": 800000,
+            "Goals": 0,
+            "Foot": "Unknown",
+            "Name": "Patrik Carlgren"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Robert Almer"
+        },
+        {
+            "Salary": 750000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Gy\u00f6rgy Garics"
+        },
+        {
+            "Salary": 13000000,
+            "Goals": 1,
+            "Foot": "Both",
+            "Name": "Aleksandar Dragovi\u0107"
+        },
+        {
+            "Salary": 9000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Martin Hinteregger"
+        },
+        {
+            "Salary": 4500000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "Christian Fuchs"
+        },
+        {
+            "Salary": 1800000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Stefan Ilsanker"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 11,
+            "Foot": "Both",
+            "Name": "Marko Arnautovi\u0107"
+        },
+        {
+            "Salary": 45000000,
+            "Goals": 11,
+            "Foot": "Left",
+            "Name": "David Alaba"
+        },
+        {
+            "Salary": 1300000,
+            "Goals": 2,
+            "Foot": "Both",
+            "Name": "Rubin Okotie"
+        },
+        {
+            "Salary": 7000000,
+            "Goals": 7,
+            "Foot": "Right",
+            "Name": "Zlatko Junuzovi\u0107"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 14,
+            "Foot": "Right",
+            "Name": "Martin Harnik"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Heinz Lindner"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Markus Suttner"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Julian Baumgartlinger"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Sebastian Pr\u00f6dl"
+        },
+        {
+            "Salary": 6500000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Kevin Wimmer"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Florian Klein"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Alessandro Sch\u00f6pf"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Lukas Hinterseer"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Marcel Sabitzer"
+        },
+        {
+            "Salary": 1750000,
+            "Goals": 26,
+            "Foot": "Left",
+            "Name": "Marc Janko"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 1,
+            "Foot": "Both",
+            "Name": "Jakob Jantscher"
+        },
+        {
+            "Salary": 1250000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Ramazan \u00d6zcan"
+        },
+        {
+            "Salary": 250000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "G\u00e1bor Kir\u00e1ly"
+        },
+        {
+            "Salary": 700000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "\u00c1d\u00e1m Lang"
+        },
+        {
+            "Salary": 450000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Mih\u00e1ly Korhut"
+        },
+        {
+            "Salary": 750000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Tam\u00e1s K\u00e1d\u00e1r"
+        },
+        {
+            "Salary": 750000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Attila Fiola"
+        },
+        {
+            "Salary": 600000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "\u00c1kos Elek"
+        },
+        {
+            "Salary": 6250000,
+            "Goals": 18,
+            "Foot": "Left",
+            "Name": "Bal\u00e1zs Dzsudzs\u00e1k"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "\u00c1d\u00e1m Nagy"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 8,
+            "Foot": "Right",
+            "Name": "\u00c1d\u00e1m Szalai"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 24,
+            "Foot": "Both",
+            "Name": "Zolt\u00e1n Gera"
+        },
+        {
+            "Salary": 1400000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Kriszti\u00e1n N\u00e9meth"
+        },
+        {
+            "Salary": 1200000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "D\u00e9nes Dibusz"
+        },
+        {
+            "Salary": 800000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "D\u00e1niel B\u00f6de"
+        },
+        {
+            "Salary": 800000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Gerg\u0151 Lovrencsics"
+        },
+        {
+            "Salary": 600000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "L\u00e1szl\u00f3 Kleinheisler"
+        },
+        {
+            "Salary": 650000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "\u00c1d\u00e1m Pint\u00e9r"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 3,
+            "Foot": "Both",
+            "Name": "Nemanja Nikoli\u0107"
+        },
+        {
+            "Salary": 1300000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Zolt\u00e1n Stieber"
+        },
+        {
+            "Salary": 700000,
+            "Goals": 17,
+            "Foot": "Right",
+            "Name": "Tam\u00e1s Priskin"
+        },
+        {
+            "Salary": 750000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Rich\u00e1rd Guzmics"
+        },
+        {
+            "Salary": 350000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Barnab\u00e1s Bese"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "P\u00e9ter Gul\u00e1csi"
+        },
+        {
+            "Salary": 1000000,
+            "Goals": 6,
+            "Foot": "Right",
+            "Name": "Roland Juh\u00e1sz"
+        },
+        {
+            "Salary": 400000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Hannes \u00de\u00f3r Halld\u00f3rsson"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Birkir M\u00e1r S\u00e6varsson"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Haukur Hei\u00f0ar Hauksson"
+        },
+        {
+            "Salary": 200000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Hj\u00f6rtur Hermannsson"
+        },
+        {
+            "Salary": 900000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Sverrir Ingi Ingason"
+        },
+        {
+            "Salary": 6000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Ragnar Sigur\u00f0sson"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 5,
+            "Foot": "Left",
+            "Name": "J\u00f3hann Berg Gu\u00f0mundsson"
+        },
+        {
+            "Salary": 2500000,
+            "Goals": 6,
+            "Foot": "Right",
+            "Name": "Birkir Bjarnason"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 19,
+            "Foot": "Right",
+            "Name": "Kolbeinn Sig\u00fe\u00f3rsson"
+        },
+        {
+            "Salary": 11000000,
+            "Goals": 12,
+            "Foot": "Right",
+            "Name": "Gylfi Sigur\u00f0sson"
+        },
+        {
+            "Salary": 3500000,
+            "Goals": 7,
+            "Foot": "Right",
+            "Name": "Alfre\u00f0 Finnbogason"
+        },
+        {
+            "Salary": 350000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "\u00d6gmundur Kristinsson"
+        },
+        {
+            "Salary": 100000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Ingvar J\u00f3nsson"
+        },
+        {
+            "Salary": 600000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "K\u00e1ri \u00c1rnason"
+        },
+        {
+            "Salary": 800000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "J\u00f3n Da\u00f0i B\u00f6\u00f0varsson"
+        },
+        {
+            "Salary": 400000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "R\u00fanar M\u00e1r Sigurj\u00f3nsson"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 2,
+            "Foot": "Right",
+            "Name": "Aron Gunnarsson"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "The\u00f3d\u00f3r Elmar Bjarnason"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "H\u00f6r\u00f0ur Bj\u00f6rgvin Magn\u00fasson"
+        },
+        {
+            "Salary": 3000000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "Emil Hallfre\u00f0sson"
+        },
+        {
+            "Salary": 800000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Arn\u00f3r Ingvi Traustason"
+        },
+        {
+            "Salary": 300000,
+            "Goals": 25,
+            "Foot": "Right",
+            "Name": "Ei\u00f0ur Gu\u00f0johnsen"
+        },
+        {
+            "Salary": 700000,
+            "Goals": 0,
+            "Foot": "Both",
+            "Name": "Ari Freyr Sk\u00falason"
+        },
+        {
+            "Salary": 14000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Rui Patr\u00edcio"
+        },
+        {
+            "Salary": 2200000,
+            "Goals": 10,
+            "Foot": "Right",
+            "Name": "Bruno Alves"
+        },
+        {
+            "Salary": 6000000,
+            "Goals": 3,
+            "Foot": "Right",
+            "Name": "Pepe"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Jos\u00e9 Fonte"
+        },
+        {
+            "Salary": 7500000,
+            "Goals": 2,
+            "Foot": "Left",
+            "Name": "Rapha\u00ebl Guerreiro"
+        },
+        {
+            "Salary": 500000,
+            "Goals": 5,
+            "Foot": "Right",
+            "Name": "Ricardo Carvalho"
+        },
+        {
+            "Salary": 110000000,
+            "Goals": 56,
+            "Foot": "Both",
+            "Name": "Cristiano Ronaldo"
+        },
+        {
+            "Salary": 18000000,
+            "Goals": 4,
+            "Foot": "Right",
+            "Name": "Jo\u00e3o Moutinho"
+        },
+        {
+            "Salary": 5000000,
+            "Goals": 2,
+            "Foot": "Both",
+            "Name": "\u00c9der"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Jo\u00e3o M\u00e1rio"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 1,
+            "Foot": "Right",
+            "Name": "Vieirinha"
+        },
+        {
+            "Salary": 12000000,
+            "Goals": 0,
+            "Foot": "Left",
+            "Name": "Anthony Lopes"
+        },
+        {
+            "Salary": 8000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Danilo"
+        },
+        {
+            "Salary": 26000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "William Carvalho"
+        },
+        {
+            "Salary": 18000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Andr\u00e9 Gomes"
+        },
+        {
+            "Salary": 10000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Renato Sanches"
+        },
+        {
+            "Salary": 16000000,
+            "Goals": 18,
+            "Foot": "Both",
+            "Name": "Nani"
+        },
+        {
+            "Salary": 11000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Rafa Silva"
+        },
+        {
+            "Salary": 2000000,
+            "Goals": 1,
+            "Foot": "Left",
+            "Name": "Eliseu"
+        },
+        {
+            "Salary": 4000000,
+            "Goals": 5,
+            "Foot": "Right",
+            "Name": "Ricardo Quaresma"
+        },
+        {
+            "Salary": 11000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "C\u00e9dric Soares"
+        },
+        {
+            "Salary": 1500000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Eduardo"
+        },
+        {
+            "Salary": 14000000,
+            "Goals": 0,
+            "Foot": "Right",
+            "Name": "Adrien Silva"
+        }
+    ],
+    "imgs": [
+        "112_QQN_point_chart.png",
+        "112_QQN_point_chart_2.png"
+    ]
+}

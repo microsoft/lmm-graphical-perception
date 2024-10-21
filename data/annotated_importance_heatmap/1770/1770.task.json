@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest birth rate.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the birth rate in the year 1980.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average birth rate between 1960 and 2000.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any year where the birth rate significantly deviates from the overall trend.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a noticeable trend in the birth rate over the years?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Order the following years by birth rate from highest to lowest: 1965, 1975, 1985.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify the range of birth rates from 1960 to 2018.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Which years have a birth rate lower than 10 per thousand population?",
+            "type": "Filter"
+        },
+        {
+            "description": "What percentage of the years have a birth rate above 12 per thousand population?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of years with similar birth rates.",
+            "type": "Find Clusters"
+        }
+    ]
+]

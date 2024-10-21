@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the TV personality with the highest positive opinion share.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "How many TV personalities have a positive opinion share of more than 0.70?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the TV personalities from the highest to the lowest positive opinion share.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of the positive opinion share among the TV personalities.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Calculate the average positive opinion share for the listed TV personalities.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any TV personality that has a significantly lower positive opinion share compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a noticeable cluster of TV personalities with a positive opinion share between 0.65 and 0.70?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Identify the TV personalities with a positive opinion share equal to 0.71.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the percentage of TV personalities with a positive opinion share higher than 0.68.",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Is there a correlation between the TV personalities and their positive opinion share?",
+            "type": "Find Correlation"
+        }
+    ]
+]

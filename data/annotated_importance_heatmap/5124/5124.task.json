@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Retrieve the estimated number of people with hearing loss in the United Kingdom.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify which country has the highest estimated number of people with hearing loss.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the total estimated number of people with hearing loss in Europe* and the European Union.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any country that has an unusually low estimated number of people with hearing loss compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Determine if there is a correlation between being part of the European Union and the estimated number of people with hearing loss.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which countries have an estimated number of people with hearing loss greater than 50 million?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the countries from the highest to the lowest estimated number of people with hearing loss.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of the estimated number of people with hearing loss across all countries?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify what percentage of the countries have an estimated number of people with hearing loss above 10 million.",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify clusters of countries with similar estimated numbers of people with hearing loss.",
+            "type": "Find Clusters"
+        }
+    ]
+]

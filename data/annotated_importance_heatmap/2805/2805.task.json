@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the transport company with the highest turnover.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the total turnover of the top three transport companies.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Determine the range of turnovers among the listed transport companies.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Find any transport company with a turnover significantly lower than the others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Are there any clusters of transport companies with similar turnover values?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "List the transport companies in descending order of turnover.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify the transport company with a turnover close to 300 million euros.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "What percentage of transport companies have a turnover exceeding 1000 million euros?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Is there a noticeable correlation between the company name and its turnover?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Find the transport companies with turnovers ranging between 250 and 300 million euros.",
+            "type": "Filter"
+        }
+    ]
+]

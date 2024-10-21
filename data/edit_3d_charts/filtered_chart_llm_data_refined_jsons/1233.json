@@ -1,0 +1,196 @@
+{
+    "img_id": 1233,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "A scatterplot showing PAX count in millions and bailouts in millions.",
+        "width": 300,
+        "height": 300,
+        "title": {
+            "text": "European Airline Groups: Passenger Count (2019) and Bailouts (2021)",
+            "fontSize": 12,
+            "subtitle": [
+                "Sources: Statista (2021) & Wikipedia (2022)"
+            ],
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start"
+        },
+        "mark": "point",
+        "encoding": {
+            "x": {
+                "field": "PAX count 2019",
+                "type": "quantitative",
+                "title": "Passenger count (millions)",
+                "scale": {
+                    "zero": false
+                }
+            },
+            "y": {
+                "field": "Bailout 2021",
+                "type": "quantitative",
+                "title": "Bailout (billions \u20ac)",
+                "scale": {
+                    "zero": false
+                }
+            },
+            "color": {
+                "field": "Indicator",
+                "type": "nominal",
+                "title": "Carrier type"
+            },
+            "shape": {
+                "field": "Indicator",
+                "type": "nominal"
+            },
+            "tooltip": [
+                {
+                    "field": "Airline",
+                    "type": "nominal",
+                    "title": "Airline Group"
+                },
+                {
+                    "field": "PAX count 2019",
+                    "type": "nominal",
+                    "title": "PAX count (millions)"
+                },
+                {
+                    "field": "Bailout 2021",
+                    "type": "nominal",
+                    "title": "Bailout (in billion \u20ac)"
+                }
+            ]
+        }
+    },
+    "data_dict": [
+        {
+            "Bailout 2021": 11.4,
+            "Indicator": "N",
+            "PAX count 2019": 104.2,
+            "Airline": "Air-France KLM Group"
+        },
+        {
+            "Bailout 2021": 9.0,
+            "Indicator": "N",
+            "PAX count 2019": 145.2,
+            "Airline": "Lufthansa Group - Lufthansa, SWISS/Edelweiss"
+        },
+        {
+            "Bailout 2021": 0.344,
+            "Indicator": "L",
+            "PAX count 2019": 39.8,
+            "Airline": "Wizzair"
+        },
+        {
+            "Bailout 2021": 0.67,
+            "Indicator": "L",
+            "PAX count 2019": 152.4,
+            "Airline": "Ryanair"
+        },
+        {
+            "Bailout 2021": 2.24,
+            "Indicator": "L",
+            "PAX count 2019": 103.3,
+            "Airline": "EasyJet"
+        },
+        {
+            "Bailout 2021": 1.13,
+            "Indicator": "N",
+            "PAX count 2019": 29.8,
+            "Airline": "SAS Group"
+        },
+        {
+            "Bailout 2021": 0.65,
+            "Indicator": "N",
+            "PAX count 2019": 11.79,
+            "Airline": "LOT"
+        },
+        {
+            "Bailout 2021": 0.12,
+            "Indicator": "N",
+            "PAX count 2019": 14.99,
+            "Airline": "Aegan Airlines"
+        },
+        {
+            "Bailout 2021": 1.2,
+            "Indicator": "N",
+            "PAX count 2019": 17.05,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Bailout 2021": 0.475,
+            "Indicator": "L",
+            "PAX count 2019": 11.84,
+            "Airline": "Air Europa"
+        },
+        {
+            "Bailout 2021": 3.667,
+            "Indicator": "N",
+            "PAX count 2019": 11.82,
+            "Airline": "TUI Group (incl. Corsair Int.)"
+        },
+        {
+            "Bailout 2021": 0.25,
+            "Indicator": "L",
+            "PAX count 2019": 5.05,
+            "Airline": "Air Baltic"
+        },
+        {
+            "Bailout 2021": 1.237,
+            "Indicator": "N",
+            "PAX count 2019": 14.65,
+            "Airline": "Finnair"
+        },
+        {
+            "Bailout 2021": 0.277,
+            "Indicator": "L",
+            "PAX count 2019": 36.2,
+            "Airline": "Norwegian Airlines Shuttle"
+        },
+        {
+            "Bailout 2021": 0.0193,
+            "Indicator": "N",
+            "PAX count 2019": 3.3,
+            "Airline": "TAROM"
+        },
+        {
+            "Bailout 2021": 0.0117,
+            "Indicator": "N",
+            "PAX count 2019": 2.18,
+            "Airline": "Croatia Airlines"
+        },
+        {
+            "Bailout 2021": 0.45,
+            "Indicator": "N",
+            "PAX count 2019": 14.7,
+            "Airline": "Lufthansa Group - Austrian Airlines"
+        },
+        {
+            "Bailout 2021": 0.29,
+            "Indicator": "N",
+            "PAX count 2019": 10.26,
+            "Airline": "Lufthansa Group - Brussels Airlines"
+        },
+        {
+            "Bailout 2021": 0.26,
+            "Indicator": "L",
+            "PAX count 2019": 34.5,
+            "Airline": "IAG - Vueling"
+        },
+        {
+            "Bailout 2021": 0.75,
+            "Indicator": "N",
+            "PAX count 2019": 22.5,
+            "Airline": "IAG - Iberia"
+        },
+        {
+            "Bailout 2021": 2.553,
+            "Indicator": "N",
+            "PAX count 2019": 47.7,
+            "Airline": "IAG - British Airlines"
+        }
+    ],
+    "imgs": [
+        "1233_QQN_point_chart_2.png",
+        "1233_QQN_point_chart.png"
+    ]
+}

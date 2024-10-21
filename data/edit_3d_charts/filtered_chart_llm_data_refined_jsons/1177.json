@@ -1,0 +1,2833 @@
+{
+    "img_id": "1177",
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "mark": "rect",
+        "height": 660,
+        "width": 950,
+        "encoding": {
+            "y": {
+                "field": "Age Group",
+                "type": "nominal",
+                "sort": [
+                    "",
+                    "Retired",
+                    "Adult",
+                    "Teen",
+                    "Pre-Teen",
+                    "Kid"
+                ]
+            },
+            "x": {
+                "bin": {
+                    "maxbins": 20
+                },
+                "field": "Time (seconds)",
+                "title": "Time (seconds)",
+                "type": "quantitative"
+            },
+            "color": {
+                "aggregate": "count",
+                "type": "quantitative",
+                "legend": {
+                    "title": "Count"
+                }
+            }
+        },
+        "config": {
+            "view": {
+                "stroke": "transparent"
+            }
+        }
+    },
+    "data_dict": [
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 7.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 8.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 7.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 14.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 7.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 15.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 8.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 8.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 8.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 15.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 8.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 7.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 14.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 7.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 10.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 7.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 7.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 0.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 13.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 0.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 10.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 7.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 8.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 0.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 0.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 0.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 10.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 11.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 8.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 10.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 7.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 7.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 0.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 13.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 0.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 10.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 7.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 8.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 0.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 7.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 7.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 14.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 8.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 15.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 8.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": 0.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 0.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 0.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 8.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 13.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 14.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 9.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 17.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 16.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 4.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 0.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 6.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Kid"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": NaN
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 1.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 5.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 3.0,
+            "Age Group": "Pre-Teen"
+        },
+        {
+            "Time (seconds)": 8.0,
+            "Age Group": "Retired"
+        },
+        {
+            "Time (seconds)": NaN,
+            "Age Group": "Adult"
+        },
+        {
+            "Time (seconds)": 2.0,
+            "Age Group": "Adult"
+        }
+    ],
+    "imgs": [
+        "1177_QNQ_rect_chart_2.png",
+        "1177_QNQ_rect_chart.png"
+    ]
+}

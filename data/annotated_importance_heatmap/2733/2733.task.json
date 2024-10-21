@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the Netflix Original production with the highest rating.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the range of ratings for the listed Netflix Original productions.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Find any Netflix Original production that stands out with a significantly lower rating compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Compute the average rating of the Netflix Original productions shown in the chart.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Which Netflix Original production has a rating closest to 8.00?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "List the Netflix Original productions in descending order of their ratings.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any clusters of Netflix Original productions with similar ratings.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Are there more Netflix Original productions with ratings above 8.00 or below 8.00?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "How many Netflix Original productions have ratings above 8.50?",
+            "type": "Filter"
+        },
+        {
+            "description": "Determine if there is a significant correlation between the production title and its rating.",
+            "type": "Find Correlation"
+        }
+    ]
+]

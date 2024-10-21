@@ -1,0 +1,269 @@
+{
+    "img_id": 1407,
+    "vl_spec": {
+        "mark": "point",
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "encoding": {
+            "size": {
+                "field": "total_pop",
+                "type": "quantitative"
+            },
+            "x": {
+                "field": "povertyR",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "moneyPct",
+                "type": "quantitative"
+            }
+        },
+        "background": "white",
+        "description": "Vega Lite Attempt"
+    },
+    "data_dict": [
+        {
+            "total_pop": 467547,
+            "povertyR": 9.276940713981697,
+            "moneyPct": 0.8208856568941422
+        },
+        {
+            "total_pop": 320737,
+            "povertyR": 19.24240327745162,
+            "moneyPct": 0.7460228564537339
+        },
+        {
+            "total_pop": 163221,
+            "povertyR": 12.253177593569454,
+            "moneyPct": 0.5587496138178605
+        },
+        {
+            "total_pop": 340335,
+            "povertyR": 14.606941395977492,
+            "moneyPct": 0.8458182563204056
+        },
+        {
+            "total_pop": 78600,
+            "povertyR": 29.72556488549618,
+            "moneyPct": 0.7189234277530123
+        },
+        {
+            "total_pop": 586310,
+            "povertyR": 10.42034589210486,
+            "moneyPct": 0.7546083514711344
+        },
+        {
+            "total_pop": 322140,
+            "povertyR": 19.0,
+            "moneyPct": 0.7449463822595215
+        },
+        {
+            "total_pop": 610359,
+            "povertyR": 14.054507593072277,
+            "moneyPct": 0.4393962056805106
+        },
+        {
+            "total_pop": 625608,
+            "povertyR": 13.047558375212594,
+            "moneyPct": 0.7759187908006695
+        },
+        {
+            "total_pop": 1617639,
+            "povertyR": 12.410630369322202,
+            "moneyPct": 0.9067036291247402
+        },
+        {
+            "total_pop": 1165010,
+            "povertyR": 8.32983390700509,
+            "moneyPct": 0.8549350901102949
+        },
+        {
+            "total_pop": 47058,
+            "povertyR": 5.9,
+            "moneyPct": 0.7869997937293729
+        },
+        {
+            "total_pop": 732018,
+            "povertyR": 3.7492323959246887,
+            "moneyPct": 0.8325745208390122
+        },
+        {
+            "total_pop": 1213678,
+            "povertyR": 11.2,
+            "moneyPct": 0.7307222598808143
+        },
+        {
+            "total_pop": 938754,
+            "povertyR": 12.9,
+            "moneyPct": 0.9586668888742776
+        },
+        {
+            "total_pop": 648049,
+            "povertyR": 15.9,
+            "moneyPct": 0.7501965408805031
+        },
+        {
+            "total_pop": 462863,
+            "povertyR": 10.977812441262316,
+            "moneyPct": 0.6981731068873066
+        },
+        {
+            "total_pop": 466332,
+            "povertyR": 18.241058516250224,
+            "moneyPct": 0.8070450057938262
+        },
+        {
+            "total_pop": 84274,
+            "povertyR": 18.17857939578043,
+            "moneyPct": 0.5461081423675544
+        },
+        {
+            "total_pop": 317330,
+            "povertyR": 8.547923927772352,
+            "moneyPct": 0.860382232182176
+        },
+        {
+            "total_pop": 42220,
+            "povertyR": 35.19947891994316,
+            "moneyPct": 0.6583154313525051
+        },
+        {
+            "total_pop": 551168,
+            "povertyR": 11.3,
+            "moneyPct": 0.6624706793111443
+        },
+        {
+            "total_pop": 322838,
+            "povertyR": 19.8,
+            "moneyPct": 0.6237152500311887
+        },
+        {
+            "total_pop": 618103,
+            "povertyR": 13.105054659174929,
+            "moneyPct": 0.4450195022677493
+        },
+        {
+            "total_pop": 1370446,
+            "povertyR": 10.92477164368388,
+            "moneyPct": 0.9072374372660827
+        },
+        {
+            "total_pop": 948683,
+            "povertyR": 12.265881859377686,
+            "moneyPct": 0.7988938967331782
+        },
+        {
+            "total_pop": 1796843,
+            "povertyR": 8.388227463389956,
+            "moneyPct": 0.8300548626848046
+        },
+        {
+            "total_pop": 171408,
+            "povertyR": 5.180010267898815,
+            "moneyPct": 0.8873210934424877
+        },
+        {
+            "total_pop": 628500,
+            "povertyR": 3.4000000000000004,
+            "moneyPct": 0.723901630284609
+        },
+        {
+            "total_pop": 617385,
+            "povertyR": 9.2,
+            "moneyPct": 0.4876860266034505
+        },
+        {
+            "total_pop": 958976,
+            "povertyR": 12.8,
+            "moneyPct": 0.9331298506336848
+        },
+        {
+            "total_pop": 663271,
+            "povertyR": 15.7,
+            "moneyPct": 0.753688141923436
+        },
+        {
+            "total_pop": 435392,
+            "povertyR": 8.228334007055711,
+            "moneyPct": 0.803236138863423
+        },
+        {
+            "total_pop": 314725,
+            "povertyR": 18.11138072920804,
+            "moneyPct": 0.8207249377125198
+        },
+        {
+            "total_pop": 142741,
+            "povertyR": 16.82936157095719,
+            "moneyPct": 0.5211162760449227
+        },
+        {
+            "total_pop": 377622,
+            "povertyR": 12.154069413328672,
+            "moneyPct": 0.7017161487394701
+        },
+        {
+            "total_pop": 111630,
+            "povertyR": 28.38786168592673,
+            "moneyPct": 0.6507867673225857
+        },
+        {
+            "total_pop": 617222,
+            "povertyR": 11.33822352411288,
+            "moneyPct": 0.4331783352952141
+        },
+        {
+            "total_pop": 326086,
+            "povertyR": 19.9,
+            "moneyPct": 0.6285961065794201
+        },
+        {
+            "total_pop": 296232,
+            "povertyR": 15.0,
+            "moneyPct": 0.5059617157180565
+        },
+        {
+            "total_pop": 1368283,
+            "povertyR": 11.465830168174271,
+            "moneyPct": 0.914072627309983
+        },
+        {
+            "total_pop": 1276535,
+            "povertyR": 11.036431668540228,
+            "moneyPct": 0.7496861322914778
+        },
+        {
+            "total_pop": 1149545,
+            "povertyR": 7.013872706157654,
+            "moneyPct": 0.8460447663290765
+        },
+        {
+            "total_pop": 178698,
+            "povertyR": 5.492359175816182,
+            "moneyPct": 0.7500319781709542
+        },
+        {
+            "total_pop": 642968,
+            "povertyR": 3.4000000000000004,
+            "moneyPct": 0.7352417270493765
+        },
+        {
+            "total_pop": 1300331,
+            "povertyR": 8.998751317933664,
+            "moneyPct": 0.7533709441569759
+        },
+        {
+            "total_pop": 979644,
+            "povertyR": 11.7,
+            "moneyPct": 0.835630907960199
+        },
+        {
+            "total_pop": 681618,
+            "povertyR": 14.0,
+            "moneyPct": 0.6108337116053866
+        }
+    ],
+    "imgs": [
+        "1407_QQQ_rect_chart_2.png",
+        "1407_QQQ_rect_chart.png"
+    ]
+}

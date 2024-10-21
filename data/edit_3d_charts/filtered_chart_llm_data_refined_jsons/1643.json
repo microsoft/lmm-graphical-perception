@@ -1,0 +1,75 @@
+{
+    "img_id": 1643,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "encoding": {
+            "color": {
+                "field": "c",
+                "type": "nominal"
+            },
+            "x": {
+                "field": "a",
+                "scale": {
+                    "nice": 1
+                },
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "b",
+                "type": "quantitative"
+            }
+        },
+        "mark": "line",
+        "transform": [
+            {
+                "groupby": [
+                    "c"
+                ],
+                "impute": "b",
+                "key": "a",
+                "value": 0
+            }
+        ]
+    },
+    "data_dict": [
+        {
+            "a": 0,
+            "b": 28,
+            "c": 0
+        },
+        {
+            "a": 0,
+            "b": 91,
+            "c": 1
+        },
+        {
+            "a": 1,
+            "b": 43,
+            "c": 0
+        },
+        {
+            "a": 1,
+            "b": 55,
+            "c": 1
+        },
+        {
+            "a": 2,
+            "b": 81,
+            "c": 0
+        },
+        {
+            "a": 2,
+            "b": 53,
+            "c": 1
+        },
+        {
+            "a": 3,
+            "b": 19,
+            "c": 0
+        }
+    ],
+    "imgs": [
+        "1643_QQN_line_chart.png",
+        "1643_QQN_line_chart_2.png"
+    ]
+}

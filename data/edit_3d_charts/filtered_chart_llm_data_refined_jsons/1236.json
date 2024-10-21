@@ -1,0 +1,1675 @@
+{
+    "img_id": 1236,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": {
+            "text": "Passenger count by major European airline and airline groups",
+            "subtitle": "Data spans between 2006-2021 and is presented in millions. Source: Wikipedia (2022)",
+            "fontSize": 13,
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start",
+            "color": "#000000",
+            "subtitleColor": "#000000"
+        },
+        "height": 340,
+        "width": 220,
+        "mark": {
+            "type": "bar"
+        },
+        "transform": [
+            {
+                "filter": "datum.Year==Year"
+            }
+        ],
+        "params": [
+            {
+                "name": "Year",
+                "value": 2019,
+                "bind": {
+                    "input": "range",
+                    "min": 2006,
+                    "max": 2021,
+                    "step": 1,
+                    "name": "Select year:"
+                }
+            }
+        ],
+        "encoding": {
+            "y": {
+                "field": "Airline",
+                "type": "nominal",
+                "title": null,
+                "axis": {
+                    "grid": false,
+                    "labelFontSize": 11
+                },
+                "sort": "-x"
+            },
+            "x": {
+                "field": "Passengers",
+                "type": "quantitative",
+                "title": "Passengers (millions)",
+                "axis": {
+                    "grid": false,
+                    "titleColor": "black",
+                    "titleFontSize": 13,
+                    "titleFontWeight": "normal",
+                    "labelFontSize": 11
+                }
+            },
+            "color": {
+                "field": "Category",
+                "type": "nominal",
+                "title": "Category",
+                "scale": {
+                    "scheme": "set2"
+                },
+                "legend": "right"
+            },
+            "tooltip": [
+                {
+                    "field": "Airline",
+                    "type": "nominal",
+                    "title": "Airline"
+                },
+                {
+                    "field": "Category",
+                    "type": "nominal",
+                    "title": "Category"
+                },
+                {
+                    "field": "Passengers",
+                    "type": "quantitative",
+                    "title": "Passengers (millions)"
+                }
+            ]
+        }
+    },
+    "data_dict": [
+        {
+            "Category": "LCC",
+            "Passengers": 72.4,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 52.01,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 152.4,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 139.2,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 128.77,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 116.8,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 101.4,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 86.4,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 81.4,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 79.6,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 76.4,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 72.7,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 65.3,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 57.7,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 49.0,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 40.5,
+            "Airline": "Ryanair"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 46.9,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 36.35,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 145.2,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 142.3,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 130.04,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 117.4,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 115.2,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 112.5,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 110.4,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 108.9,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 112.0,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 95.1,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 81.2,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 76.4,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 68.8,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 59.1,
+            "Airline": "Lufthansa Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 45.81,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 30.16,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 60.7,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 55.7,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 50.13,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 43.4,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 39.4,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 34.7,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 31.4,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 27.5,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 16.4,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 14.1,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 11.1,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 11.6,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 10.2,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 8.7,
+            "Airline": "Aeroflot Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 44.8,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 27.95,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 74.28,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 75.16,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 68.61,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 62.8,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 61.2,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 54.8,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 48.3,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 39.0,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 32.6,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 29.1,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 25.1,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 22.6,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 19.6,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 16.9,
+            "Airline": "Turkish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 44.67,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 34.1,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 104.2,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 101.45,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 98.72,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 93.4,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 89.8,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 87.4,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 78.4,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 77.5,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 75.8,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 70.8,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 71.4,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 73.8,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 74.8,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 73.5,
+            "Airline": "Air France-KLM"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 38.86,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 31.3,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 118.3,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 112.92,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 104.83,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 100.7,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 94.9,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 77.3,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 67.2,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 54.6,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 51.7,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 50.6,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 53.3,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 59.8,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 61.7,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 63.2,
+            "Airline": "International Airlines Group"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 21.7,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 16.67,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 39.8,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 33.81,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 28.27,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 22.78,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 19.2,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 15.8,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 13.5,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 12.0,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 11.2,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 9.6,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 7.8,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 5.8,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 4.2,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 3.0,
+            "Airline": "Wizz Air"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 20.4,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 16.09,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 103.3,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 88.5,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 81.63,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 74.5,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 69.9,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 65.3,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 61.4,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 59.2,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 55.5,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 49.7,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 46.1,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 44.6,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 38.2,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 33.0,
+            "Airline": "EasyJet"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 20.16,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 14.71,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 30.76,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 29.97,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 27.82,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 24.14,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 22.3,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 19.7,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 16.8,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 13.6,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 11.3,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 8.6,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 5.9,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 4.4,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 0.0,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 3.1,
+            "Airline": "Pegasus Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 17.83,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 12.35,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 17.9,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 15.96,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 14.25,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 13.15,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 10.6,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 10.1,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 9.3,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 8.3,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 5.1,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 4.8,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 5.6,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 5.9,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 5.7,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 4.9,
+            "Airline": "S7 Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 10.19,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 8.81,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 29.8,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 30.0,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 28.37,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 29.4,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 27.1,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 27.3,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 25.4,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 25.4,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 24.7,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 23.1,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 22.8,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 27.0,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 27.2,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 26.9,
+            "Airline": "SAS Group"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 9.2,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 5.6,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 9.62,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 9.0,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 8.0,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 6.47,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 5.4,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 5.1,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 4.4,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 3.5,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 2.5,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 1.8,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 1.5,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 1.5,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 1.2,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 1.0,
+            "Airline": "Ural Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 7.19,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 5.17,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 14.99,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 13.97,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 13.22,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 12.46,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 11.6,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 10.2,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 8.8,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 8.9,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 9.9,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 10.1,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 10.2,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 11.3,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 11.1,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 10.1,
+            "Airline": "Aegean Airlines"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 7.12,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 4.9,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 8.09,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 7.65,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 7.3,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 6.65,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 8.8,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 11.2,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 10.4,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 7.8,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 5.8,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 5.2,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 3.9,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 3.2,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 2.9,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "Hybrid",
+            "Passengers": 2.4,
+            "Airline": "UTair Aviation"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 6.19,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 6.87,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 36.2,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 37.34,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 33.15,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 29.3,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 25.8,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 24.0,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 20.7,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 17.7,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 15.7,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 13.0,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 10.8,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 9.1,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 6.9,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 5.1,
+            "Airline": "Norwegian Air Shuttle ASA"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 5.83,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 4.66,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 17.05,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 15.89,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 14.27,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 11.72,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 11.3,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 11.4,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 10.7,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 10.2,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 9.8,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 9.1,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 8.4,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 8.7,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 7.9,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 6.9,
+            "Airline": "TAP Air Portugal"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 3.8,
+            "Airline": "Volotea"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 7.6,
+            "Airline": "Volotea"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 6.57,
+            "Airline": "Volotea"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 4.82,
+            "Airline": "Volotea"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 4.3,
+            "Airline": "Volotea"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 1.8,
+            "Airline": "Volotea"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 1.4,
+            "Airline": "Volotea"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 0.0,
+            "Airline": "Volotea"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 0.0,
+            "Airline": "Volotea"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 0.0,
+            "Airline": "Volotea"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 0.0,
+            "Airline": "Volotea"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 0.0,
+            "Airline": "Volotea"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 0.0,
+            "Airline": "Volotea"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 4.2,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 3.59,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 11.79,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 10.61,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 6.89,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 5.58,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 6.1,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 5.9,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 6.3,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 5.8,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 5.5,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 5.0,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 4.0,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 4.3,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 3.7,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "FSC",
+            "Passengers": 0.0,
+            "Airline": "LOT Polish Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 3.13,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 11.84,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 10.6,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 10.6,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 10.2,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 8.1,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 9.0,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 8.1,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 8.7,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 8.9,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 9.0,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 9.7,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 9.9,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 8.1,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 59.0,
+            "Airline": "Air Europa"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 5.93,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 2.94,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 5.54,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 4.92,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 3.55,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 1.79,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 2.67,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 4.47,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 3.66,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 2.17,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 1.72,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 1.19,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 0.0,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 0.0,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 0.0,
+            "Airline": "Nordwind Airlines"
+        },
+        {
+            "Category": "LCC",
+            "Passengers": 0.0,
+            "Airline": "Nordwind Airlines"
+        }
+    ],
+    "imgs": [
+        "1236_QNN_bar_chart_2.png",
+        "1236_QNN_bar_chart.png"
+    ]
+}

@@ -1,0 +1,421 @@
+{
+    "img_id": 1149,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": {
+            "text": "Total number of points in World Cup final history",
+            "subtitleFontSize": 11,
+            "fontSize": 12,
+            "subtitle": "Source: Wikipedia",
+            "subtitleFontStyle": "italic"
+        },
+        "background": "floralwhite",
+        "height": 580,
+        "width": 260,
+        "mark": {
+            "type": "bar",
+            "size": 5.5
+        },
+        "type": "text",
+        "selection": {
+            "Continent": {
+                "type": "single",
+                "fields": [
+                    "Continent"
+                ],
+                "bind": {
+                    "input": "select",
+                    "options": [
+                        null,
+                        "Africa",
+                        "Asia",
+                        "Europe",
+                        "North and Central America",
+                        "South America"
+                    ],
+                    "name": "Continent"
+                }
+            }
+        },
+        "transform": [
+            {
+                "filter": {
+                    "selection": "Continent"
+                }
+            }
+        ],
+        "encoding": {
+            "y": {
+                "field": "Country",
+                "type": "nominal",
+                "title": "",
+                "sort": "-x",
+                "axis": {
+                    "labelAngle": 0,
+                    "labelFontSize": 9.4
+                }
+            },
+            "color": {
+                "field": "Continent",
+                "type": "nominal",
+                "title": "Continent:",
+                "scale": {
+                    "scheme": "set1"
+                }
+            },
+            "tooltip": [
+                {
+                    "field": "Country",
+                    "type": "nominal",
+                    "title": "Country"
+                },
+                {
+                    "field": "Points",
+                    "type": "nominal",
+                    "title": "Total points"
+                }
+            ],
+            "x": {
+                "field": "Points",
+                "type": "quantitative",
+                "axis": {
+                    "labelAngle": 0,
+                    "grid": true,
+                    "gridColor": "#C2C3C0"
+                }
+            }
+        },
+        "config": {}
+    },
+    "data_dict": [
+        {
+            "Country": "Algeria",
+            "Continent": "Africa",
+            "Points": 12
+        },
+        {
+            "Country": "Angola",
+            "Continent": "Africa",
+            "Points": 2
+        },
+        {
+            "Country": "Argentina",
+            "Continent": "South America",
+            "Points": 157
+        },
+        {
+            "Country": "Australia",
+            "Continent": "Asia",
+            "Points": 16
+        },
+        {
+            "Country": "Austria",
+            "Continent": "Europe",
+            "Points": 40
+        },
+        {
+            "Country": "Belgium",
+            "Continent": "Europe",
+            "Points": 73
+        },
+        {
+            "Country": "Bolivia",
+            "Continent": "South America",
+            "Points": 1
+        },
+        {
+            "Country": "Bosnia and Herzegovina",
+            "Continent": "Europe",
+            "Points": 3
+        },
+        {
+            "Country": "Brazil",
+            "Continent": "South America",
+            "Points": 247
+        },
+        {
+            "Country": "Bulgaria",
+            "Continent": "Europe",
+            "Points": 17
+        },
+        {
+            "Country": "Cameroon",
+            "Continent": "Africa",
+            "Points": 23
+        },
+        {
+            "Country": "Canada",
+            "Continent": "North and Central America",
+            "Points": 0
+        },
+        {
+            "Country": "Chile",
+            "Continent": "South America",
+            "Points": 40
+        },
+        {
+            "Country": "China",
+            "Continent": "Asia",
+            "Points": 0
+        },
+        {
+            "Country": "Colombia",
+            "Continent": "South America",
+            "Points": 30
+        },
+        {
+            "Country": "Costa Rica",
+            "Continent": "North and Central America",
+            "Points": 23
+        },
+        {
+            "Country": "C\u00b6te d'Ivoire",
+            "Continent": "Africa",
+            "Points": 10
+        },
+        {
+            "Country": "Croatia",
+            "Continent": "Europe",
+            "Points": 44
+        },
+        {
+            "Country": "Czech Republic",
+            "Continent": "Europe",
+            "Points": 41
+        },
+        {
+            "Country": "Denmark",
+            "Continent": "Europe",
+            "Points": 33
+        },
+        {
+            "Country": "Ecuador",
+            "Continent": "South America",
+            "Points": 17
+        },
+        {
+            "Country": "Egypt",
+            "Continent": "Africa",
+            "Points": 2
+        },
+        {
+            "Country": "France",
+            "Continent": "Europe",
+            "Points": 130
+        },
+        {
+            "Country": "Germany",
+            "Continent": "Europe",
+            "Points": 225
+        },
+        {
+            "Country": "Ghana",
+            "Continent": "Africa",
+            "Points": 18
+        },
+        {
+            "Country": "Greece",
+            "Continent": "Europe",
+            "Points": 8
+        },
+        {
+            "Country": "Honduras",
+            "Continent": "South America",
+            "Points": 3
+        },
+        {
+            "Country": "Hungary",
+            "Continent": "Europe",
+            "Points": 48
+        },
+        {
+            "Country": "Iceland",
+            "Continent": "Europe",
+            "Points": 1
+        },
+        {
+            "Country": "Islamic Republic of Iran",
+            "Continent": "Asia",
+            "Points": 13
+        },
+        {
+            "Country": "Israel",
+            "Continent": "Asia",
+            "Points": 2
+        },
+        {
+            "Country": "Italy",
+            "Continent": "Europe",
+            "Points": 156
+        },
+        {
+            "Country": "Jamaica",
+            "Continent": "North and Central America",
+            "Points": 3
+        },
+        {
+            "Country": "Japan",
+            "Continent": "Asia",
+            "Points": 27
+        },
+        {
+            "Country": "Korea",
+            "Continent": "Asia",
+            "Points": 31
+        },
+        {
+            "Country": "Mexico",
+            "Continent": "North and Central America",
+            "Points": 66
+        },
+        {
+            "Country": "Morocco",
+            "Continent": "Africa",
+            "Points": 22
+        },
+        {
+            "Country": "Netherlands",
+            "Continent": "Europe",
+            "Points": 104
+        },
+        {
+            "Country": "New Zealand",
+            "Continent": "Asia",
+            "Points": 3
+        },
+        {
+            "Country": "Nigeria",
+            "Continent": "Africa",
+            "Points": 21
+        },
+        {
+            "Country": "Norway",
+            "Continent": "Europe",
+            "Points": 9
+        },
+        {
+            "Country": "Panama",
+            "Continent": "South America",
+            "Points": 0
+        },
+        {
+            "Country": "Paraguay",
+            "Continent": "South America",
+            "Points": 31
+        },
+        {
+            "Country": "Peru",
+            "Continent": "South America",
+            "Points": 18
+        },
+        {
+            "Country": "Poland",
+            "Continent": "Europe",
+            "Points": 57
+        },
+        {
+            "Country": "Portugal",
+            "Continent": "Europe",
+            "Points": 57
+        },
+        {
+            "Country": "Qatar",
+            "Continent": "Asia",
+            "Points": 0
+        },
+        {
+            "Country": "Romania",
+            "Continent": "Europe",
+            "Points": 29
+        },
+        {
+            "Country": "Russia",
+            "Continent": "Europe",
+            "Points": 67
+        },
+        {
+            "Country": "Saudi Arabia",
+            "Continent": "Asia",
+            "Points": 14
+        },
+        {
+            "Country": "Senegal",
+            "Continent": "Africa",
+            "Points": 18
+        },
+        {
+            "Country": "Serbia",
+            "Continent": "Europe",
+            "Points": 63
+        },
+        {
+            "Country": "Slovenia",
+            "Continent": "Europe",
+            "Points": 4
+        },
+        {
+            "Country": "South Africa",
+            "Continent": "Africa",
+            "Points": 10
+        },
+        {
+            "Country": "Spain",
+            "Continent": "Europe",
+            "Points": 110
+        },
+        {
+            "Country": "Sweden",
+            "Continent": "Europe",
+            "Points": 70
+        },
+        {
+            "Country": "Switzerland",
+            "Continent": "Europe",
+            "Points": 50
+        },
+        {
+            "Country": "Togo",
+            "Continent": "Africa",
+            "Points": 0
+        },
+        {
+            "Country": "Trinidad and Tobago",
+            "Continent": "North and Central America",
+            "Points": 1
+        },
+        {
+            "Country": "Tunisia",
+            "Continent": "Africa",
+            "Points": 14
+        },
+        {
+            "Country": "Turkey",
+            "Continent": "Europe",
+            "Points": 16
+        },
+        {
+            "Country": "Ukraine",
+            "Continent": "Europe",
+            "Points": 7
+        },
+        {
+            "Country": "United Arab Emirates",
+            "Continent": "Asia",
+            "Points": 0
+        },
+        {
+            "Country": "United States",
+            "Continent": "North and Central America",
+            "Points": 35
+        },
+        {
+            "Country": "Uruguay",
+            "Continent": "South America",
+            "Points": 88
+        }
+    ],
+    "imgs": [
+        "1149_QNN_bar_chart_2.png",
+        "1149_QNN_bar_chart.png"
+    ]
+}

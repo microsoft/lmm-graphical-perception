@@ -1,0 +1,2259 @@
+{
+    "img_id": 278,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "width": 800,
+        "height": 450,
+        "mark": {
+            "type": "rect",
+            "strokeWidth": 2
+        },
+        "params": [
+            {
+                "name": "highlight",
+                "select": "point"
+            },
+            {
+                "name": "grid",
+                "select": "interval",
+                "bind": "scales"
+            },
+            {
+                "name": "hover",
+                "select": {
+                    "type": "point",
+                    "on": "mouseover"
+                }
+            }
+        ],
+        "transform": [
+            {
+                "calculate": "datum.FDP+1",
+                "as": "FDPlog"
+            },
+            {
+                "window": [
+                    {
+                        "op": "rank",
+                        "as": "ranking"
+                    }
+                ],
+                "sort": [
+                    {
+                        "field": "FDP",
+                        "order": "descending"
+                    }
+                ]
+            },
+            {
+                "filter": "datum.rank < 100"
+            }
+        ],
+        "encoding": {
+            "y": {
+                "field": "Country of origin",
+                "type": "nominal",
+                "title": "Country of Origin"
+            },
+            "x": {
+                "field": "Country of asylum",
+                "type": "nominal",
+                "title": "Country of Asylum",
+                "axis": {
+                    "labelAngle": 60
+                }
+            },
+            "color": {
+                "field": "FDP",
+                "type": "quantitative",
+                "scale": {
+                    "type": "log"
+                },
+                "title": "Number of FDPs"
+            },
+            "opacity": {
+                "condition": {
+                    "param": "highlight",
+                    "value": 1
+                },
+                "value": 0.2
+            },
+            "order": {
+                "condition": {
+                    "param": "highlight",
+                    "value": 1
+                },
+                "value": 0
+            },
+            "stroke": {
+                "condition": [
+                    {
+                        "param": "highlight",
+                        "empty": false,
+                        "value": "black"
+                    },
+                    {
+                        "param": "hover",
+                        "empty": false,
+                        "value": "black"
+                    }
+                ],
+                "value": null
+            },
+            "tooltip": [
+                {
+                    "field": "Country of asylum"
+                },
+                {
+                    "field": "FDP",
+                    "format": ",",
+                    "title": "FDPs"
+                }
+            ]
+        },
+        "config": {
+            "scale": {
+                "bandPaddingInner": 0,
+                "bandPaddingOuter": 0
+            },
+            "view": {
+                "step": 20,
+                "stroke": null
+            },
+            "range": {
+                "ramp": {
+                    "scheme": "reds"
+                }
+            },
+            "axis": {
+                "domain": false
+            }
+        }
+    },
+    "data_dict": [
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 25722822,
+            "Country of asylum": "T\u00fcrkiye"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 18485160,
+            "Country of asylum": "Pakistan"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 10772077,
+            "Country of asylum": "Iran"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 8748763,
+            "Country of asylum": "Lebanon"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 6140313,
+            "Country of asylum": "Bangladesh"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 6047808,
+            "Country of asylum": "Jordan"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 5571316,
+            "Country of asylum": "Uganda"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 4583054,
+            "Country of asylum": "Sudan"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 3911579,
+            "Country of asylum": "Germany"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 2933642,
+            "Country of asylum": "Ethiopia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 2234696,
+            "Country of asylum": "Iraq"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 1823071,
+            "Country of asylum": "Peru"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 1548994,
+            "Country of asylum": "Malaysia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 1413414,
+            "Country of asylum": "Germany"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 1258822,
+            "Country of asylum": "Thailand"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 1172699,
+            "Country of asylum": "Egypt"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 1024856,
+            "Country of asylum": "T\u00fcrkiye"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 962179,
+            "Country of asylum": "Kenya"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 864494,
+            "Country of asylum": "Sweden"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 780848,
+            "Country of asylum": "USA"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 505762,
+            "Country of asylum": "Brazil"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 463549,
+            "Country of asylum": "Dem. Rep. of the Congo"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 407127,
+            "Country of asylum": "Austria"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 397748,
+            "Country of asylum": "Sudan"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 372489,
+            "Country of asylum": "Austria"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 330999,
+            "Country of asylum": "Sweden"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 322440,
+            "Country of asylum": "Spain"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 260920,
+            "Country of asylum": "Netherlands"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 236119,
+            "Country of asylum": "Greece"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 217839,
+            "Country of asylum": "France"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 202893,
+            "Country of asylum": "India"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 191553,
+            "Country of asylum": "Greece"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 168321,
+            "Country of asylum": "Libya"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 160366,
+            "Country of asylum": "United Kingdom"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 152667,
+            "Country of asylum": "India"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 151101,
+            "Country of asylum": "Italy"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 148998,
+            "Country of asylum": "Denmark"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 144995,
+            "Country of asylum": "France"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 143837,
+            "Country of asylum": "Switzerland"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 142013,
+            "Country of asylum": "Bulgaria"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 122121,
+            "Country of asylum": "Armenia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 121914,
+            "Country of asylum": "Australia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 120194,
+            "Country of asylum": "Switzerland"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 107684,
+            "Country of asylum": "Belgium"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 106978,
+            "Country of asylum": "Norway"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 99784,
+            "Country of asylum": "Egypt"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 98375,
+            "Country of asylum": "Spain"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 92393,
+            "Country of asylum": "United Kingdom"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 89757,
+            "Country of asylum": "USA"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 84534,
+            "Country of asylum": "Netherlands"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 81190,
+            "Country of asylum": "Norway"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 78724,
+            "Country of asylum": "Mexico"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 71840,
+            "Country of asylum": "Belgium"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 71627,
+            "Country of asylum": "Cyprus"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 69115,
+            "Country of asylum": "Indonesia"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 66734,
+            "Country of asylum": "Trinidad and Tobago"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 63694,
+            "Country of asylum": "Colombia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 56927,
+            "Country of asylum": "Tajikistan"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 51339,
+            "Country of asylum": "Algeria"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 48630,
+            "Country of asylum": "Brazil"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 41216,
+            "Country of asylum": "Ecuador"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 39260,
+            "Country of asylum": "Canada"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 38529,
+            "Country of asylum": "Ukraine"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 36265,
+            "Country of asylum": "Denmark"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 35829,
+            "Country of asylum": "USA"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 35437,
+            "Country of asylum": "Costa Rica"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 34750,
+            "Country of asylum": "Italy"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 33327,
+            "Country of asylum": "Finland"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 31385,
+            "Country of asylum": "Yemen"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 29187,
+            "Country of asylum": "Hungary"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 28842,
+            "Country of asylum": "United Arab Emirates"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 28457,
+            "Country of asylum": "Bulgaria"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 27956,
+            "Country of asylum": "Morocco"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 26930,
+            "Country of asylum": "Hungary"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 26892,
+            "Country of asylum": "Canada"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 25657,
+            "Country of asylum": "Japan"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 23261,
+            "Country of asylum": "USA"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 22667,
+            "Country of asylum": "Saudi Arabia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 19636,
+            "Country of asylum": "Malaysia"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 19017,
+            "Country of asylum": "Panama"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 18538,
+            "Country of asylum": "Canada"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 17920,
+            "Country of asylum": "Romania"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 17734,
+            "Country of asylum": "Finland"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 17687,
+            "Country of asylum": "Syrian Arab Republic"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 16042,
+            "Country of asylum": "Russian Federation"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 15967,
+            "Country of asylum": "Central African Rep."
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 15930,
+            "Country of asylum": "Malta"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 15275,
+            "Country of asylum": "Chile"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 14362,
+            "Country of asylum": "Argentina"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 14197,
+            "Country of asylum": "Malaysia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 14172,
+            "Country of asylum": "Uzbekistan"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 13008,
+            "Country of asylum": "Ireland"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 12183,
+            "Country of asylum": "Germany"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 11820,
+            "Country of asylum": "Italy"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 11820,
+            "Country of asylum": "Russian Federation"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 10092,
+            "Country of asylum": "Luxembourg"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 9941,
+            "Country of asylum": "United Kingdom"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 9521,
+            "Country of asylum": "Azerbaijan"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 9464,
+            "Country of asylum": "Rep. of Korea"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 9209,
+            "Country of asylum": "Tunisia"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 9082,
+            "Country of asylum": "Indonesia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 8428,
+            "Country of asylum": "Ukraine"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 8253,
+            "Country of asylum": "Netherlands"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 8200,
+            "Country of asylum": "Australia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 8066,
+            "Country of asylum": "Kosovo and Serbia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 7636,
+            "Country of asylum": "Kazakhstan"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 6792,
+            "Country of asylum": "Paraguay"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 5925,
+            "Country of asylum": "Spain"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 5833,
+            "Country of asylum": "Germany"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 5759,
+            "Country of asylum": "France"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 5712,
+            "Country of asylum": "Australia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 5135,
+            "Country of asylum": "Kyrgyzstan"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 5017,
+            "Country of asylum": "Ireland"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 4398,
+            "Country of asylum": "Romania"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 4220,
+            "Country of asylum": "France"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 4068,
+            "Country of asylum": "Georgia"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 4006,
+            "Country of asylum": "Uruguay"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 3922,
+            "Country of asylum": "Belarus"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 3838,
+            "Country of asylum": "Poland"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 3820,
+            "Country of asylum": "Portugal"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 3688,
+            "Country of asylum": "Argentina"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 3500,
+            "Country of asylum": "Czechia"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 3482,
+            "Country of asylum": "Rep. of Korea"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 3274,
+            "Country of asylum": "Mauritania"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 3010,
+            "Country of asylum": "Slovakia"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 2942,
+            "Country of asylum": "Belgium"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 2726,
+            "Country of asylum": "Croatia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 2678,
+            "Country of asylum": "Somalia"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 2603,
+            "Country of asylum": "Nepal"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 2591,
+            "Country of asylum": "Nigeria"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 2539,
+            "Country of asylum": "Lithuania"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 2460,
+            "Country of asylum": "Thailand"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 2437,
+            "Country of asylum": "Poland"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 2428,
+            "Country of asylum": "Lithuania"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 2273,
+            "Country of asylum": "Czechia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 2261,
+            "Country of asylum": "Luxembourg"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 2220,
+            "Country of asylum": "Latvia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 1965,
+            "Country of asylum": "Rep. of Moldova"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 1955,
+            "Country of asylum": "Brazil"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 1906,
+            "Country of asylum": "Canada"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 1845,
+            "Country of asylum": "Kuwait"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 1844,
+            "Country of asylum": "Croatia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 1815,
+            "Country of asylum": "Mali"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 1785,
+            "Country of asylum": "Slovenia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 1751,
+            "Country of asylum": "Ethiopia"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 1738,
+            "Country of asylum": "Czechia"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 1694,
+            "Country of asylum": "Israel"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 1685,
+            "Country of asylum": "Australia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 1647,
+            "Country of asylum": "Ghana"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 1636,
+            "Country of asylum": "Norway"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 1634,
+            "Country of asylum": "Curacao "
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 1476,
+            "Country of asylum": "Ecuador"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 1458,
+            "Country of asylum": "Sri Lanka"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 1445,
+            "Country of asylum": "Kosovo and Serbia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 1426,
+            "Country of asylum": "North Macedonia"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 1382,
+            "Country of asylum": "Germany"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 1236,
+            "Country of asylum": "Morocco"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 1158,
+            "Country of asylum": "Slovenia"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 1133,
+            "Country of asylum": "Iceland"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 1072,
+            "Country of asylum": "Kuwait"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 1013,
+            "Country of asylum": "North Macedonia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 1010,
+            "Country of asylum": "Philippines"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 999,
+            "Country of asylum": "Iraq"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 963,
+            "Country of asylum": "Libya"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 957,
+            "Country of asylum": "Thailand"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 948,
+            "Country of asylum": "Aruba"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 941,
+            "Country of asylum": "Dominican Rep."
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 935,
+            "Country of asylum": "Ecuador"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 912,
+            "Country of asylum": "Portugal"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 904,
+            "Country of asylum": "Sweden"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 885,
+            "Country of asylum": "Suriname"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 877,
+            "Country of asylum": "Bolivia"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 847,
+            "Country of asylum": "Syrian Arab Republic"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 815,
+            "Country of asylum": "Kyrgyzstan"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 810,
+            "Country of asylum": "Netherlands"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 803,
+            "Country of asylum": "India"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 799,
+            "Country of asylum": "Iceland"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 796,
+            "Country of asylum": "Belarus"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 793,
+            "Country of asylum": "Chile"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 792,
+            "Country of asylum": "New Zealand"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 786,
+            "Country of asylum": "Ireland"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 740,
+            "Country of asylum": "Denmark"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 737,
+            "Country of asylum": "Estonia"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 727,
+            "Country of asylum": "Italy"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 707,
+            "Country of asylum": "Iceland"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 700,
+            "Country of asylum": "New Zealand"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 699,
+            "Country of asylum": "Latvia"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 698,
+            "Country of asylum": "Greece"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 694,
+            "Country of asylum": "Rep. of Korea"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 652,
+            "Country of asylum": "Ivory Coast"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 649,
+            "Country of asylum": "Japan"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 631,
+            "Country of asylum": "Cyprus"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 624,
+            "Country of asylum": "United Kingdom"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 622,
+            "Country of asylum": "Indonesia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 615,
+            "Country of asylum": "Trinidad and Tobago"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 614,
+            "Country of asylum": "Paraguay"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 613,
+            "Country of asylum": "United Kingdom"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 587,
+            "Country of asylum": "Japan"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 577,
+            "Country of asylum": "Papua New Guinea"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 569,
+            "Country of asylum": "Nauru"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 557,
+            "Country of asylum": "Switzerland"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 545,
+            "Country of asylum": "South Africa"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 535,
+            "Country of asylum": "France"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 521,
+            "Country of asylum": "Uruguay"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 511,
+            "Country of asylum": "Nauru"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 500,
+            "Country of asylum": "India"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 488,
+            "Country of asylum": "Nepal"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 476,
+            "Country of asylum": "Bosnia and Herzegovina"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 473,
+            "Country of asylum": "Sri Lanka"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 461,
+            "Country of asylum": "Qatar"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 452,
+            "Country of asylum": "Egypt"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 452,
+            "Country of asylum": "USA"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 431,
+            "Country of asylum": "Austria"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 421,
+            "Country of asylum": "Romania"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 410,
+            "Country of asylum": "Bosnia and Herzegovina"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 409,
+            "Country of asylum": "China"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 407,
+            "Country of asylum": "Malta"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 398,
+            "Country of asylum": "Sweden"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 395,
+            "Country of asylum": "Guatemala"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 386,
+            "Country of asylum": "Chad"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 370,
+            "Country of asylum": "Pakistan"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 367,
+            "Country of asylum": "Cuba"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 367,
+            "Country of asylum": "Italy"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 355,
+            "Country of asylum": "Lebanon"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 355,
+            "Country of asylum": "Peru"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 344,
+            "Country of asylum": "Malta"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 343,
+            "Country of asylum": "Austria"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 337,
+            "Country of asylum": "Finland"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 337,
+            "Country of asylum": "Slovakia"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 328,
+            "Country of asylum": "Israel"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 328,
+            "Country of asylum": "Switzerland"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 324,
+            "Country of asylum": "Kazakhstan"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 324,
+            "Country of asylum": "Pakistan"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 321,
+            "Country of asylum": "Lebanon"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 320,
+            "Country of asylum": "Saudi Arabia"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 303,
+            "Country of asylum": "New Zealand"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 302,
+            "Country of asylum": "Iran"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 294,
+            "Country of asylum": "Chile"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 279,
+            "Country of asylum": "Mexico"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 273,
+            "Country of asylum": "Australia"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 272,
+            "Country of asylum": "Cambodia"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 270,
+            "Country of asylum": "Sweden"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 267,
+            "Country of asylum": "Luxembourg"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 265,
+            "Country of asylum": "Jordan"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 262,
+            "Country of asylum": "Rep. of Moldova"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 261,
+            "Country of asylum": "Cuba"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 251,
+            "Country of asylum": "China"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 245,
+            "Country of asylum": "Georgia"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 240,
+            "Country of asylum": "Malaysia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 235,
+            "Country of asylum": "Montenegro"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 229,
+            "Country of asylum": "Belgium"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 227,
+            "Country of asylum": "Greece"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 224,
+            "Country of asylum": "Portugal"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 221,
+            "Country of asylum": "Turkmenistan"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 211,
+            "Country of asylum": "Liechtenstein"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 209,
+            "Country of asylum": "Ireland"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 202,
+            "Country of asylum": "Saudi Arabia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 199,
+            "Country of asylum": "Azerbaijan"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 195,
+            "Country of asylum": "United Arab Emirates"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 193,
+            "Country of asylum": "Cameroon"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 186,
+            "Country of asylum": "South Africa"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 184,
+            "Country of asylum": "Switzerland"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 178,
+            "Country of asylum": "Estonia"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 178,
+            "Country of asylum": "Norway"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 177,
+            "Country of asylum": "Greece"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 174,
+            "Country of asylum": "Oman"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 169,
+            "Country of asylum": "Dem. Rep. of the Congo"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 163,
+            "Country of asylum": "Albania"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 160,
+            "Country of asylum": "Costa Rica"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 154,
+            "Country of asylum": "Bolivia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 152,
+            "Country of asylum": "Uganda"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 147,
+            "Country of asylum": "Liberia"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 146,
+            "Country of asylum": "Norway"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 145,
+            "Country of asylum": "Senegal"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 144,
+            "Country of asylum": "Zambia"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 142,
+            "Country of asylum": "T\u00fcrkiye"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 129,
+            "Country of asylum": "Benin"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 129,
+            "Country of asylum": "Jordan"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 122,
+            "Country of asylum": "Canada"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 121,
+            "Country of asylum": "Congo"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 121,
+            "Country of asylum": "Togo"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 118,
+            "Country of asylum": "Austria"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 113,
+            "Country of asylum": "Philippines"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 112,
+            "Country of asylum": "Eritrea"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 109,
+            "Country of asylum": "Kenya"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 108,
+            "Country of asylum": "Cameroon"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 108,
+            "Country of asylum": "Finland"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 105,
+            "Country of asylum": "Portugal"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 105,
+            "Country of asylum": "Zimbabwe"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 104,
+            "Country of asylum": "Colombia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 103,
+            "Country of asylum": "Venezuela"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 98,
+            "Country of asylum": "Panama"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 93,
+            "Country of asylum": "Czechia"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 91,
+            "Country of asylum": "Ukraine"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 90,
+            "Country of asylum": "Hong Kong"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 90,
+            "Country of asylum": "Fiji"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 90,
+            "Country of asylum": "Venezuela"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 86,
+            "Country of asylum": "Denmark"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 86,
+            "Country of asylum": "Iraq"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 84,
+            "Country of asylum": "Philippines"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 82,
+            "Country of asylum": "Montenegro"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 81,
+            "Country of asylum": "Djibouti"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 80,
+            "Country of asylum": "Hungary"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 78,
+            "Country of asylum": "Argentina"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 78,
+            "Country of asylum": "Sri Lanka"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 78,
+            "Country of asylum": "Tunisia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 77,
+            "Country of asylum": "Kenya"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 74,
+            "Country of asylum": "Bahrain"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 74,
+            "Country of asylum": "Colombia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 74,
+            "Country of asylum": "Madagascar"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 74,
+            "Country of asylum": "Papua New Guinea"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 73,
+            "Country of asylum": "United Rep. of Tanzania"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 71,
+            "Country of asylum": "Niger"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 70,
+            "Country of asylum": "Belgium"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 69,
+            "Country of asylum": "Morocco"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 67,
+            "Country of asylum": "Guinea"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 62,
+            "Country of asylum": "Chad"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 62,
+            "Country of asylum": "Ghana"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 60,
+            "Country of asylum": "Spain"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 57,
+            "Country of asylum": "Dominican Rep."
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 57,
+            "Country of asylum": "Mexico"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 55,
+            "Country of asylum": "Honduras"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 52,
+            "Country of asylum": "Congo"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 52,
+            "Country of asylum": "Niger"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 50,
+            "Country of asylum": "Rep. of Korea"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 50,
+            "Country of asylum": "Spain"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 49,
+            "Country of asylum": "Sint Maarten (Dutch part)"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 48,
+            "Country of asylum": "Rwanda"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 46,
+            "Country of asylum": "Brazil"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 45,
+            "Country of asylum": "Nigeria"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 43,
+            "Country of asylum": "Bulgaria"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 43,
+            "Country of asylum": "Libya"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 42,
+            "Country of asylum": "Finland"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 41,
+            "Country of asylum": "El Salvador"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 40,
+            "Country of asylum": "Mexico"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 40,
+            "Country of asylum": "Senegal"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 39,
+            "Country of asylum": "Liechtenstein"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 36,
+            "Country of asylum": "Armenia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 36,
+            "Country of asylum": "Malta"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 35,
+            "Country of asylum": "El Salvador"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 35,
+            "Country of asylum": "Mongolia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 35,
+            "Country of asylum": "Nauru"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 35,
+            "Country of asylum": "Panama"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 35,
+            "Country of asylum": "T\u00fcrkiye"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 35,
+            "Country of asylum": "United Rep. of Tanzania"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 31,
+            "Country of asylum": "Ivory Coast"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 31,
+            "Country of asylum": "India"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 28,
+            "Country of asylum": "Gabon"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 27,
+            "Country of asylum": "Poland"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 25,
+            "Country of asylum": "Albania"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 25,
+            "Country of asylum": "Iceland"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 25,
+            "Country of asylum": "Jamaica"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 25,
+            "Country of asylum": "Portugal"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 23,
+            "Country of asylum": "Dominican Rep."
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 23,
+            "Country of asylum": "Uruguay"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 22,
+            "Country of asylum": "Mauritania"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 22,
+            "Country of asylum": "Netherlands"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 21,
+            "Country of asylum": "Egypt"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 21,
+            "Country of asylum": "Namibia"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 20,
+            "Country of asylum": "Antigua and Barbuda"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 20,
+            "Country of asylum": "Israel"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 20,
+            "Country of asylum": "Malawi"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 19,
+            "Country of asylum": "Saudi Arabia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 18,
+            "Country of asylum": "Sudan"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 16,
+            "Country of asylum": "Central African Rep."
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 16,
+            "Country of asylum": "Rep. of Korea"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 16,
+            "Country of asylum": "Zambia"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 15,
+            "Country of asylum": "Barbados"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 15,
+            "Country of asylum": "Burkina Faso"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 15,
+            "Country of asylum": "Burkina Faso"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 15,
+            "Country of asylum": "Djibouti"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 15,
+            "Country of asylum": "Hungary"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 15,
+            "Country of asylum": "Jordan"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 15,
+            "Country of asylum": "Madagascar"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 15,
+            "Country of asylum": "Mauritius"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 15,
+            "Country of asylum": "South Africa"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 10,
+            "Country of asylum": "Angola"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 10,
+            "Country of asylum": "Bulgaria"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 10,
+            "Country of asylum": "Indonesia"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 10,
+            "Country of asylum": "Lebanon"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 10,
+            "Country of asylum": "Liberia"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 10,
+            "Country of asylum": "Luxembourg"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 10,
+            "Country of asylum": "Mauritania"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 10,
+            "Country of asylum": "Mongolia"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 10,
+            "Country of asylum": "Montenegro"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 10,
+            "Country of asylum": "Mozambique"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 10,
+            "Country of asylum": "New Zealand"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 10,
+            "Country of asylum": "North Macedonia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 10,
+            "Country of asylum": "Peru"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 10,
+            "Country of asylum": "Singapore"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 8,
+            "Country of asylum": "Burundi"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 7,
+            "Country of asylum": "Qatar"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 6,
+            "Country of asylum": "Estonia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 6,
+            "Country of asylum": "Rwanda"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 5,
+            "Country of asylum": "Albania"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 5,
+            "Country of asylum": "Algeria"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 5,
+            "Country of asylum": "Armenia"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 5,
+            "Country of asylum": "Bangladesh"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 5,
+            "Country of asylum": "Botswana"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 5,
+            "Country of asylum": "Cayman Islands"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 5,
+            "Country of asylum": "Hong Kong"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 5,
+            "Country of asylum": "Ivory Coast"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 5,
+            "Country of asylum": "Curacao "
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 5,
+            "Country of asylum": "Cyprus"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 5,
+            "Country of asylum": "Guinea-Bissau"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 5,
+            "Country of asylum": "Ireland"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 5,
+            "Country of asylum": "Kuwait"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 5,
+            "Country of asylum": "Kyrgyzstan"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 5,
+            "Country of asylum": "Monaco"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 5,
+            "Country of asylum": "Russian Federation"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 5,
+            "Country of asylum": "Russian Federation"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 5,
+            "Country of asylum": "Sint Maarten (Dutch part)"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 5,
+            "Country of asylum": "South Sudan"
+        },
+        {
+            "Country of origin": "Afghanistan",
+            "FDP": 0,
+            "Country of asylum": "Afghanistan"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 0,
+            "Country of asylum": "Anguilla"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 0,
+            "Country of asylum": "Cayman Islands"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 0,
+            "Country of asylum": "Grenada"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 0,
+            "Country of asylum": "Guyana"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 0,
+            "Country of asylum": "Jamaica"
+        },
+        {
+            "Country of origin": "Myanmar",
+            "FDP": 0,
+            "Country of asylum": "Myanmar"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 0,
+            "Country of asylum": "Saint Kitts and Nevis"
+        },
+        {
+            "Country of origin": "Venezuela",
+            "FDP": 0,
+            "Country of asylum": "Saint Vincent and the Grenadines"
+        },
+        {
+            "Country of origin": "South Sudan",
+            "FDP": 0,
+            "Country of asylum": "South Sudan"
+        },
+        {
+            "Country of origin": "Syrian Arab Republic",
+            "FDP": 0,
+            "Country of asylum": "Syrian Arab Republic"
+        }
+    ],
+    "imgs": [
+        "278_NNQ_rect_chart_2.png",
+        "278_NNQ_rect_chart.png"
+    ]
+}

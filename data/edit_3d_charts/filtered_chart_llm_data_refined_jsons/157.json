@@ -1,0 +1,3912 @@
+{
+    "img_id": 157,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "mark": {
+            "type": "rect",
+            "tooltip": true
+        },
+        "encoding": {
+            "y": {
+                "field": "Position",
+                "type": "nominal",
+                "aggregate": "null"
+            },
+            "x": {
+                "field": "Country",
+                "type": "nominal",
+                "aggregate": null
+            },
+            "color": {
+                "field": "Salary",
+                "type": "quantitative",
+                "aggregate": null
+            },
+            "tooltip": {
+                "field": "Name"
+            }
+        },
+        "transform": [
+            {
+                "filter": {
+                    "field": "Foot",
+                    "oneOf": [
+                        "Right"
+                    ]
+                }
+            }
+        ],
+        "ignore_orientation": "True",
+        "config": {}
+    },
+    "data_dict": [
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Left",
+            "Name": "Etrit Berisha",
+            "Country": "Albania",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Andi Lila",
+            "Country": "Albania",
+            "Salary": 700000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Ermir Lenjani",
+            "Country": "Albania",
+            "Salary": 1250000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Elseid Hysaj",
+            "Country": "Albania",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Lorik Cana",
+            "Country": "Albania",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Frederik Veseli",
+            "Country": "Albania",
+            "Salary": 800000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Both",
+            "Name": "Ansi Agolli",
+            "Country": "Albania",
+            "Salary": 300000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Migjen Basha",
+            "Country": "Albania",
+            "Salary": 800000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Ledian Memushaj",
+            "Country": "Albania",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Armando Sadiku",
+            "Country": "Albania",
+            "Salary": 750000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Shk\u00eblzen Gashi",
+            "Country": "Albania",
+            "Salary": 2750000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Unknown",
+            "Name": "Orges Shehi",
+            "Country": "Albania",
+            "Salary": 125000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Burim Kukeli",
+            "Country": "Albania",
+            "Salary": 500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Taulant Xhaka",
+            "Country": "Albania",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "M\u00ebrgim Mavraj",
+            "Country": "Albania",
+            "Salary": 1750000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Sokol Cikalleshi",
+            "Country": "Albania",
+            "Salary": 2800000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Naser Aliji",
+            "Country": "Albania",
+            "Salary": 700000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Arlind Ajeti",
+            "Country": "Albania",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Bekim Balaj",
+            "Country": "Albania",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Ergys Ka\u00e7e",
+            "Country": "Albania",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Odise Roshi",
+            "Country": "Albania",
+            "Salary": 350000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Amir Abrashi",
+            "Country": "Albania",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Alban Hoxha",
+            "Country": "Albania",
+            "Salary": 575000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Left",
+            "Name": "Hugo Lloris",
+            "Country": "France",
+            "Salary": 24000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Christophe Jallet",
+            "Country": "France",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Patrice Evra",
+            "Country": "France",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Adil Rami",
+            "Country": "France",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "N'Golo Kant\u00e9",
+            "Country": "France",
+            "Salary": 20000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Yohan Cabaye",
+            "Country": "France",
+            "Salary": 18000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Antoine Griezmann",
+            "Country": "France",
+            "Salary": 70000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Dimitri Payet",
+            "Country": "France",
+            "Salary": 23000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Olivier Giroud",
+            "Country": "France",
+            "Salary": 25000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Andr\u00e9-Pierre Gignac",
+            "Country": "France",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Anthony Martial",
+            "Country": "France",
+            "Salary": 32000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Morgan Schneiderlin",
+            "Country": "France",
+            "Salary": 30000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Eliaquim Mangala",
+            "Country": "France",
+            "Salary": 23000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Blaise Matuidi",
+            "Country": "France",
+            "Salary": 30000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Paul Pogba",
+            "Country": "France",
+            "Salary": 70000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Steve Mandanda",
+            "Country": "France",
+            "Salary": 10000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Lucas Digne",
+            "Country": "France",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Moussa Sissoko",
+            "Country": "France",
+            "Salary": 13000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Bacary Sagna",
+            "Country": "France",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Kingsley Coman",
+            "Country": "France",
+            "Salary": 17000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Laurent Koscielny",
+            "Country": "France",
+            "Salary": 22000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Samuel Umtiti",
+            "Country": "France",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Beno\u00eet Costil",
+            "Country": "France",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Costel Pantilimon",
+            "Country": "Romania",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Alexandru M\u0103\u021bel",
+            "Country": "Romania",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "R\u0103zvan Ra\u021b",
+            "Country": "Romania",
+            "Salary": 500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Cosmin Mo\u021bi",
+            "Country": "Romania",
+            "Salary": 1250000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Ovidiu Hoban",
+            "Country": "Romania",
+            "Salary": 800000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Vlad Chiriche\u0219",
+            "Country": "Romania",
+            "Salary": 5500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Alexandru Chipciu",
+            "Country": "Romania",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Mihai Pintilii",
+            "Country": "Romania",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Denis Alibec",
+            "Country": "Romania",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Nicolae Stanciu",
+            "Country": "Romania",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Gabriel Torje",
+            "Country": "Romania",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Ciprian T\u0103t\u0103ru\u0219anu",
+            "Country": "Romania",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Claudiu Ke\u0219er\u00fc",
+            "Country": "Romania",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Florin Andone",
+            "Country": "Romania",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Valeric\u0103 G\u0103man",
+            "Country": "Romania",
+            "Salary": 2200000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Steliano Filip",
+            "Country": "Romania",
+            "Salary": 1250000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Lucian S\u00e2nm\u0103rtean",
+            "Country": "Romania",
+            "Salary": 300000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Andrei Prepeli\u021b\u0103",
+            "Country": "Romania",
+            "Salary": 1900000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Bogdan Stancu",
+            "Country": "Romania",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Adrian Popa",
+            "Country": "Romania",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Drago\u0219 Grigore",
+            "Country": "Romania",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Cristian S\u0103punaru",
+            "Country": "Romania",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Silviu Lung Jr.",
+            "Country": "Romania",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Yann Sommer",
+            "Country": "Switzerland",
+            "Salary": 10000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Stephan Lichtsteiner",
+            "Country": "Switzerland",
+            "Salary": 6000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Fran\u00e7ois Moubandje",
+            "Country": "Switzerland",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Nico Elvedi",
+            "Country": "Switzerland",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Steve von Bergen",
+            "Country": "Switzerland",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Michael Lang",
+            "Country": "Switzerland",
+            "Salary": 4250000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Breel Embolo",
+            "Country": "Switzerland",
+            "Salary": 20000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Fabian Frei",
+            "Country": "Switzerland",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Haris Seferovi\u0107",
+            "Country": "Switzerland",
+            "Salary": 5500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Granit Xhaka",
+            "Country": "Switzerland",
+            "Salary": 35000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Valon Behrami",
+            "Country": "Switzerland",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Marwin Hitz",
+            "Country": "Switzerland",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Ricardo Rodr\u00edguez",
+            "Country": "Switzerland",
+            "Salary": 25000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Denis Zakaria",
+            "Country": "Switzerland",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Blerim D\u017eemaili",
+            "Country": "Switzerland",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "G\u00e9lson Fernandes",
+            "Country": "Switzerland",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Shani Tarashaj",
+            "Country": "Switzerland",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Admir Mehmedi",
+            "Country": "Switzerland",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Eren Derdiyok",
+            "Country": "Switzerland",
+            "Salary": 4600000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Johan Djourou",
+            "Country": "Switzerland",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Roman B\u00fcrki",
+            "Country": "Switzerland",
+            "Salary": 6000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Fabian Sch\u00e4r",
+            "Country": "Switzerland",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Xherdan Shaqiri",
+            "Country": "Switzerland",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Joe Hart",
+            "Country": "England",
+            "Salary": 17000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Kyle Walker",
+            "Country": "England",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Danny Rose",
+            "Country": "England",
+            "Salary": 14000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "James Milner",
+            "Country": "England",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Gary Cahill",
+            "Country": "England",
+            "Salary": 16000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Chris Smalling",
+            "Country": "England",
+            "Salary": 20000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Raheem Sterling",
+            "Country": "England",
+            "Salary": 45000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Adam Lallana",
+            "Country": "England",
+            "Salary": 19000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Harry Kane",
+            "Country": "England",
+            "Salary": 40000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Wayne Rooney",
+            "Country": "England",
+            "Salary": 35000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Jamie Vardy",
+            "Country": "England",
+            "Salary": 18000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Nathaniel Clyne",
+            "Country": "England",
+            "Salary": 21000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Fraser Forster",
+            "Country": "England",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Jordan Henderson",
+            "Country": "England",
+            "Salary": 28000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Daniel Sturridge",
+            "Country": "England",
+            "Salary": 25000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "John Stones",
+            "Country": "England",
+            "Salary": 28000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Eric Dier",
+            "Country": "England",
+            "Salary": 18000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Jack Wilshere",
+            "Country": "England",
+            "Salary": 23000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Ross Barkley",
+            "Country": "England",
+            "Salary": 22000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Dele Alli",
+            "Country": "England",
+            "Salary": 20000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Ryan Bertrand",
+            "Country": "England",
+            "Salary": 14000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Marcus Rashford",
+            "Country": "England",
+            "Salary": 6000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Tom Heaton",
+            "Country": "England",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Igor Akinfeev",
+            "Country": "Russia",
+            "Salary": 14000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Roman Shishkin",
+            "Country": "Russia",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Igor Smolnikov",
+            "Country": "Russia",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Sergei Ignashevich",
+            "Country": "Russia",
+            "Salary": 200000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Roman Neust\u00e4dter",
+            "Country": "Russia",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Both",
+            "Name": "Aleksei Berezutski",
+            "Country": "Russia",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Igor Denisov",
+            "Country": "Russia",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Denis Glushakov",
+            "Country": "Russia",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Aleksandr Kokorin",
+            "Country": "Russia",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Fyodor Smolov",
+            "Country": "Russia",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Pavel Mamayev",
+            "Country": "Russia",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Yuri Lodygin",
+            "Country": "Russia",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Aleksandr Golovin",
+            "Country": "Russia",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Vasili Berezutski",
+            "Country": "Russia",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Roman Shirokov",
+            "Country": "Russia",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Guilherme Marinato",
+            "Country": "Russia",
+            "Salary": 6000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Oleg Shatov",
+            "Country": "Russia",
+            "Salary": 14000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Oleg Ivanov",
+            "Country": "Russia",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Aleksandr Samedov",
+            "Country": "Russia",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Dmitri Torbinski",
+            "Country": "Russia",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Georgi Shchennikov",
+            "Country": "Russia",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Artem Dzyuba",
+            "Country": "Russia",
+            "Salary": 10000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Dmitri Kombarov",
+            "Country": "Russia",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "J\u00e1n Mucha",
+            "Country": "Slovakia",
+            "Salary": 500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Peter Pekar\u00edk",
+            "Country": "Slovakia",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Martin \u0160krtel",
+            "Country": "Slovakia",
+            "Salary": 10000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "J\u00e1n \u010eurica",
+            "Country": "Slovakia",
+            "Salary": 250000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Unknown",
+            "Name": "Norbert Gy\u00f6mb\u00e9r",
+            "Country": "Slovakia",
+            "Salary": 750000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "J\u00e1n Gregu\u0161",
+            "Country": "Slovakia",
+            "Salary": 2800000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Vladim\u00edr Weiss",
+            "Country": "Slovakia",
+            "Salary": 3200000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Ondrej Duda",
+            "Country": "Slovakia",
+            "Salary": 500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Stanislav \u0160est\u00e1k",
+            "Country": "Slovakia",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Miroslav Stoch",
+            "Country": "Slovakia",
+            "Salary": 300000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Adam Nemec",
+            "Country": "Slovakia",
+            "Salary": 700000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "J\u00e1n Novota",
+            "Country": "Slovakia",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Patrik Hro\u0161ovsk\u00fd",
+            "Country": "Slovakia",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Milan \u0160kriniar",
+            "Country": "Slovakia",
+            "Salary": 700000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Tom\u00e1\u0161 Hubo\u010dan",
+            "Country": "Slovakia",
+            "Salary": 500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Both",
+            "Name": "Kornel Sal\u00e1ta",
+            "Country": "Slovakia",
+            "Salary": 35000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Marek Ham\u0161\u00edk",
+            "Country": "Slovakia",
+            "Salary": 750000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Du\u0161an \u0160vento",
+            "Country": "Slovakia",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Juraj Kucka",
+            "Country": "Slovakia",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "R\u00f3bert Mak",
+            "Country": "Slovakia",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Michal \u010euri\u0161",
+            "Country": "Slovakia",
+            "Salary": 350000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Unknown",
+            "Name": "Viktor Pe\u010dovsk\u00fd",
+            "Country": "Slovakia",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Left",
+            "Name": "Mat\u00fa\u0161 Koz\u00e1\u010dik",
+            "Country": "Slovakia",
+            "Salary": 600000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Wayne Hennessey",
+            "Country": "Wales",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Chris Gunter",
+            "Country": "Wales",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Neil Taylor",
+            "Country": "Wales",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Ben Davies",
+            "Country": "Wales",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "James Chester",
+            "Country": "Wales",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Ashley Williams",
+            "Country": "Wales",
+            "Salary": 6500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Joe Allen",
+            "Country": "Wales",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Andy King",
+            "Country": "Wales",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Hal Robson-Kanu",
+            "Country": "Wales",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Aaron Ramsey",
+            "Country": "Wales",
+            "Salary": 30000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Gareth Bale",
+            "Country": "Wales",
+            "Salary": 80000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Unknown",
+            "Name": "Owain F\u00f4n Williams",
+            "Country": "Wales",
+            "Salary": 250000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "George Williams",
+            "Country": "Wales",
+            "Salary": 500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "David Edwards",
+            "Country": "Wales",
+            "Salary": 850000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Jazz Richards",
+            "Country": "Wales",
+            "Salary": 750000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Joe Ledley",
+            "Country": "Wales",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "David Cotterill",
+            "Country": "Wales",
+            "Salary": 750000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Sam Vokes",
+            "Country": "Wales",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "James Collins",
+            "Country": "Wales",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Jonathan Williams",
+            "Country": "Wales",
+            "Salary": 750000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Danny Ward",
+            "Country": "Wales",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "David Vaughan",
+            "Country": "Wales",
+            "Salary": 1250000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Simon Church",
+            "Country": "Wales",
+            "Salary": 500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Manuel Neuer",
+            "Country": "Germany",
+            "Salary": 45000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Shkodran Mustafi",
+            "Country": "Germany",
+            "Salary": 20000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Jonas Hector",
+            "Country": "Germany",
+            "Salary": 11000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Benedikt H\u00f6wedes",
+            "Country": "Germany",
+            "Salary": 16000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Mats Hummels",
+            "Country": "Germany",
+            "Salary": 38000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Sami Khedira",
+            "Country": "Germany",
+            "Salary": 20000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Bastian Schweinsteiger",
+            "Country": "Germany",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Mesut \u00d6zil",
+            "Country": "Germany",
+            "Salary": 50000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Andr\u00e9 Sch\u00fcrrle",
+            "Country": "Germany",
+            "Salary": 18000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Lukas Podolski",
+            "Country": "Germany",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Julian Draxler",
+            "Country": "Germany",
+            "Salary": 24000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Bernd Leno",
+            "Country": "Germany",
+            "Salary": 16000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Thomas M\u00fcller",
+            "Country": "Germany",
+            "Salary": 75000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Emre Can",
+            "Country": "Germany",
+            "Salary": 18000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Julian Weigl",
+            "Country": "Germany",
+            "Salary": 14000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Antonio R\u00fcdiger",
+            "Country": "Germany",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "J\u00e9r\u00f4me Boateng",
+            "Country": "Germany",
+            "Salary": 40000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Toni Kroos",
+            "Country": "Germany",
+            "Salary": 50000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Mario G\u00f6tze",
+            "Country": "Germany",
+            "Salary": 35000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Leroy San\u00e9",
+            "Country": "Germany",
+            "Salary": 13000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Joshua Kimmich",
+            "Country": "Germany",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Both",
+            "Name": "Marc-Andr\u00e9 ter Stegen",
+            "Country": "Germany",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Mario G\u00f3mez",
+            "Country": "Germany",
+            "Salary": 18000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Michael McGovern",
+            "Country": "Northern Ireland",
+            "Salary": 500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Conor McLaughlin",
+            "Country": "Northern Ireland",
+            "Salary": 250000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Shane Ferguson",
+            "Country": "Northern Ireland",
+            "Salary": 750000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Gareth McAuley",
+            "Country": "Northern Ireland",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Both",
+            "Name": "Jonny Evans",
+            "Country": "Northern Ireland",
+            "Salary": 6000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Chris Baird",
+            "Country": "Northern Ireland",
+            "Salary": 500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Niall McGinn",
+            "Country": "Northern Ireland",
+            "Salary": 750000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Steven Davis",
+            "Country": "Northern Ireland",
+            "Salary": 6000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Will Grigg",
+            "Country": "Northern Ireland",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Kyle Lafferty",
+            "Country": "Northern Ireland",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Unknown",
+            "Name": "Conor Washington",
+            "Country": "Northern Ireland",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Roy Carroll",
+            "Country": "Northern Ireland",
+            "Salary": 150000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Corry Evans",
+            "Country": "Northern Ireland",
+            "Salary": 1250000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Unknown",
+            "Name": "Stuart Dallas",
+            "Country": "Northern Ireland",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Luke McCullough",
+            "Country": "Northern Ireland",
+            "Salary": 250000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Oliver Norwood",
+            "Country": "Northern Ireland",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Paddy McNair",
+            "Country": "Northern Ireland",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Aaron Hughes",
+            "Country": "Northern Ireland",
+            "Salary": 350000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Jamie Ward",
+            "Country": "Northern Ireland",
+            "Salary": 1750000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Craig Cathcart",
+            "Country": "Northern Ireland",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Josh Magennis",
+            "Country": "Northern Ireland",
+            "Salary": 300000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Lee Hodson",
+            "Country": "Northern Ireland",
+            "Salary": 350000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Alan Mannus",
+            "Country": "Northern Ireland",
+            "Salary": 450000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Wojciech Szcz\u0119sny",
+            "Country": "Poland",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Both",
+            "Name": "Micha\u0142 Pazdan",
+            "Country": "Poland",
+            "Salary": 1700000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Artur J\u0119drzejczyk",
+            "Country": "Poland",
+            "Salary": 2700000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Thiago Cionek",
+            "Country": "Poland",
+            "Salary": 900000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Krzysztof M\u0105czy\u0144ski",
+            "Country": "Poland",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Tomasz Jod\u0142owiec",
+            "Country": "Poland",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Arkadiusz Milik",
+            "Country": "Poland",
+            "Salary": 10000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Karol Linetty",
+            "Country": "Poland",
+            "Salary": 3200000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Robert Lewandowski",
+            "Country": "Poland",
+            "Salary": 75000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Grzegorz Krychowiak",
+            "Country": "Poland",
+            "Salary": 30000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Kamil Grosicki",
+            "Country": "Poland",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Artur Boruc",
+            "Country": "Poland",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Mariusz St\u0119pi\u0144ski",
+            "Country": "Poland",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Jakub Wawrzyniak",
+            "Country": "Poland",
+            "Salary": 350000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Kamil Glik",
+            "Country": "Poland",
+            "Salary": 10000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Jakub B\u0142aszczykowski",
+            "Country": "Poland",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "S\u0142awomir Peszko",
+            "Country": "Poland",
+            "Salary": 400000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Bartosz Salamon",
+            "Country": "Poland",
+            "Salary": 2200000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Piotr Zieli\u0144ski",
+            "Country": "Poland",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "\u0141ukasz Piszczek",
+            "Country": "Poland",
+            "Salary": 6000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Bartosz Kapustka",
+            "Country": "Poland",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "\u0141ukasz Fabia\u0144ski",
+            "Country": "Poland",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Filip Starzy\u0144ski",
+            "Country": "Poland",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Denys Boyko",
+            "Country": "Ukraine",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Bohdan Butko",
+            "Country": "Ukraine",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Yevhen Khacheridi",
+            "Country": "Ukraine",
+            "Salary": 8500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Anatoliy Tymoshchuk",
+            "Country": "Ukraine",
+            "Salary": 200000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Oleksandr Kucher",
+            "Country": "Ukraine",
+            "Salary": 1200000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Taras Stepanenko",
+            "Country": "Ukraine",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Andriy Yarmolenko",
+            "Country": "Ukraine",
+            "Salary": 22000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Roman Zozulya",
+            "Country": "Ukraine",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Viktor Kovalenko",
+            "Country": "Ukraine",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Yevhen Konoplyanka",
+            "Country": "Ukraine",
+            "Salary": 25000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Yevhen Seleznyov",
+            "Country": "Ukraine",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Andriy Pyatov",
+            "Country": "Ukraine",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Both",
+            "Name": "Vyacheslav Shevchuk",
+            "Country": "Ukraine",
+            "Salary": 200000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Ruslan Rotan",
+            "Country": "Ukraine",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Pylyp Budkivskyi",
+            "Country": "Ukraine",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Serhiy Sydorchuk",
+            "Country": "Ukraine",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Artem Fedetskyi",
+            "Country": "Ukraine",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Serhiy Rybalka",
+            "Country": "Ukraine",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Denys Harmash",
+            "Country": "Ukraine",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Yaroslav Rakitskiy",
+            "Country": "Ukraine",
+            "Salary": 10000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Oleksandr Zinchenko",
+            "Country": "Ukraine",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Oleksandr Karavayev",
+            "Country": "Ukraine",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Mykyta Shevchenko",
+            "Country": "Ukraine",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Ivan Vargi\u0107",
+            "Country": "Croatia",
+            "Salary": 1750000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "\u0160ime Vrsaljko",
+            "Country": "Croatia",
+            "Salary": 9000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Ivan Strini\u0107",
+            "Country": "Croatia",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Ivan Peri\u0161i\u0107",
+            "Country": "Croatia",
+            "Salary": 19000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Vedran \u0106orluka",
+            "Country": "Croatia",
+            "Salary": 11000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Tin Jedvaj",
+            "Country": "Croatia",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Ivan Rakiti\u0107",
+            "Country": "Croatia",
+            "Salary": 45000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Mateo Kova\u010di\u0107",
+            "Country": "Croatia",
+            "Salary": 20000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Andrej Kramari\u0107",
+            "Country": "Croatia",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Luka Modri\u0107",
+            "Country": "Croatia",
+            "Salary": 50000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Darijo Srna",
+            "Country": "Croatia",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Lovre Kalini\u0107",
+            "Country": "Croatia",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Gordon Schildenfeld",
+            "Country": "Croatia",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Marcelo Brozovi\u0107",
+            "Country": "Croatia",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Ante \u0106ori\u0107",
+            "Country": "Croatia",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Nikola Kalini\u0107",
+            "Country": "Croatia",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Mario Mand\u017euki\u0107",
+            "Country": "Croatia",
+            "Salary": 19000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Marko Rog",
+            "Country": "Croatia",
+            "Salary": 6000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Milan Badelj",
+            "Country": "Croatia",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Marko Pjaca",
+            "Country": "Croatia",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Domagoj Vida",
+            "Country": "Croatia",
+            "Salary": 7500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Duje \u010cop",
+            "Country": "Croatia",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Danijel Suba\u0161i\u0107",
+            "Country": "Croatia",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Left",
+            "Name": "Petr \u010cech",
+            "Country": "Czech Republic",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Pavel Kade\u0159\u00e1bek",
+            "Country": "Czech Republic",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Michal Kadlec",
+            "Country": "Czech Republic",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Theodor Gebre Selassie",
+            "Country": "Czech Republic",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Roman Hubn\u00edk",
+            "Country": "Czech Republic",
+            "Salary": 400000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Tom\u00e1\u0161 Sivok",
+            "Country": "Czech Republic",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Tom\u00e1\u0161 Necid",
+            "Country": "Czech Republic",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Both",
+            "Name": "David Limbersk\u00fd",
+            "Country": "Czech Republic",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Bo\u0159ek Do\u010dkal",
+            "Country": "Czech Republic",
+            "Salary": 2750000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Tom\u00e1\u0161 Rosick\u00fd",
+            "Country": "Czech Republic",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Daniel Pudil",
+            "Country": "Czech Republic",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Unknown",
+            "Name": "Milan \u0160koda",
+            "Country": "Czech Republic",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Jaroslav Pla\u0161il",
+            "Country": "Czech Republic",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Daniel Kol\u00e1\u0159",
+            "Country": "Czech Republic",
+            "Salary": 1750000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "David Pavelka",
+            "Country": "Czech Republic",
+            "Salary": 900000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Tom\u00e1\u0161 Vacl\u00edk",
+            "Country": "Czech Republic",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Marek Such\u00fd",
+            "Country": "Czech Republic",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Josef \u0160ural",
+            "Country": "Czech Republic",
+            "Salary": 1750000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Ladislav Krej\u010d\u00ed",
+            "Country": "Czech Republic",
+            "Salary": 3750000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Ji\u0159\u00ed Skal\u00e1k",
+            "Country": "Czech Republic",
+            "Salary": 1250000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "David Lafata",
+            "Country": "Czech Republic",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Vladim\u00edr Darida",
+            "Country": "Czech Republic",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Tom\u00e1\u0161 Koubek",
+            "Country": "Czech Republic",
+            "Salary": 900000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Left",
+            "Name": "Iker Casillas",
+            "Country": "Spain",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "C\u00e9sar Azpilicueta",
+            "Country": "Spain",
+            "Salary": 20000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Gerard Piqu\u00e9",
+            "Country": "Spain",
+            "Salary": 40000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Marc Bartra",
+            "Country": "Spain",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Sergio Busquets",
+            "Country": "Spain",
+            "Salary": 50000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Andr\u00e9s Iniesta",
+            "Country": "Spain",
+            "Salary": 35000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "\u00c1lvaro Morata",
+            "Country": "Spain",
+            "Salary": 25000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Koke",
+            "Country": "Spain",
+            "Salary": 50000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Lucas V\u00e1zquez",
+            "Country": "Spain",
+            "Salary": 7500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Cesc F\u00e0bregas",
+            "Country": "Spain",
+            "Salary": 45000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Pedro",
+            "Country": "Spain",
+            "Salary": 23000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "H\u00e9ctor Beller\u00edn",
+            "Country": "Spain",
+            "Salary": 13000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "David de Gea",
+            "Country": "Spain",
+            "Salary": 35000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Thiago",
+            "Country": "Spain",
+            "Salary": 25000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Sergio Ramos",
+            "Country": "Spain",
+            "Salary": 40000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Juanfran",
+            "Country": "Spain",
+            "Salary": 16000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Mikel San Jos\u00e9",
+            "Country": "Spain",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Jordi Alba",
+            "Country": "Spain",
+            "Salary": 35000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Bruno Soriano",
+            "Country": "Spain",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Aritz Aduriz",
+            "Country": "Spain",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "David Silva",
+            "Country": "Spain",
+            "Salary": 38000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Nolito",
+            "Country": "Spain",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Sergio Rico",
+            "Country": "Spain",
+            "Salary": 10000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Volkan Babacan",
+            "Country": "Turkey",
+            "Salary": 7500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Semih Kaya",
+            "Country": "Turkey",
+            "Salary": 7500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Hakan Balta",
+            "Country": "Turkey",
+            "Salary": 1200000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Ahmet Y\u0131lmaz \u00c7al\u0131k",
+            "Country": "Turkey",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Nuri \u015eahin",
+            "Country": "Turkey",
+            "Salary": 7500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Hakan \u00c7alhano\u011flu",
+            "Country": "Turkey",
+            "Salary": 18000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "G\u00f6khan G\u00f6n\u00fcl",
+            "Country": "Turkey",
+            "Salary": 6500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Sel\u00e7uk \u0130nan",
+            "Country": "Turkey",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Cenk Tosun",
+            "Country": "Turkey",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Arda Turan",
+            "Country": "Turkey",
+            "Salary": 35000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Olcay \u015eahan",
+            "Country": "Turkey",
+            "Salary": 7500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Onur K\u0131vrak",
+            "Country": "Turkey",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "\u0130smail K\u00f6yba\u015f\u0131",
+            "Country": "Turkey",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "O\u011fuzhan \u00d6zyakup",
+            "Country": "Turkey",
+            "Salary": 9500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Mehmet Topal",
+            "Country": "Turkey",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Ozan Tufan",
+            "Country": "Turkey",
+            "Salary": 7500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Burak Y\u0131lmaz",
+            "Country": "Turkey",
+            "Salary": 5500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Caner Erkin",
+            "Country": "Turkey",
+            "Salary": 11000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Yunus Mall\u0131",
+            "Country": "Turkey",
+            "Salary": 9000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Volkan \u015een",
+            "Country": "Turkey",
+            "Salary": 5250000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Emre Mor",
+            "Country": "Turkey",
+            "Salary": 100000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "\u015eener \u00d6zbayrakl\u0131",
+            "Country": "Turkey",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Harun Tekin",
+            "Country": "Turkey",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Left",
+            "Name": "Thibaut Courtois",
+            "Country": "Belgium",
+            "Salary": 35000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Toby Alderweireld",
+            "Country": "Belgium",
+            "Salary": 22000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Thomas Vermaelen",
+            "Country": "Belgium",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Radja Nainggolan",
+            "Country": "Belgium",
+            "Salary": 27000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Jan Vertonghen",
+            "Country": "Belgium",
+            "Salary": 21000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Axel Witsel",
+            "Country": "Belgium",
+            "Salary": 28000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Kevin De Bruyne",
+            "Country": "Belgium",
+            "Salary": 60000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Marouane Fellaini",
+            "Country": "Belgium",
+            "Salary": 19000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Romelu Lukaku",
+            "Country": "Belgium",
+            "Salary": 35000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Eden Hazard",
+            "Country": "Belgium",
+            "Salary": 70000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Yannick Ferreira Carrasco",
+            "Country": "Belgium",
+            "Salary": 20000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Simon Mignolet",
+            "Country": "Belgium",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Jean-Fran\u00e7ois Gillet",
+            "Country": "Belgium",
+            "Salary": 400000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Dries Mertens",
+            "Country": "Belgium",
+            "Salary": 17000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Jason Denayer",
+            "Country": "Belgium",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Thomas Meunier",
+            "Country": "Belgium",
+            "Salary": 6000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Divock Origi",
+            "Country": "Belgium",
+            "Salary": 9000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Christian Kabasele",
+            "Country": "Belgium",
+            "Salary": 6000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Mousa Demb\u00e9l\u00e9",
+            "Country": "Belgium",
+            "Salary": 16000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Christian Benteke",
+            "Country": "Belgium",
+            "Salary": 30000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Jordan Lukaku",
+            "Country": "Belgium",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Michy Batshuayi",
+            "Country": "Belgium",
+            "Salary": 14000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Laurent Ciman",
+            "Country": "Belgium",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Gianluigi Buffon",
+            "Country": "Italy",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Mattia De Sciglio",
+            "Country": "Italy",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Giorgio Chiellini",
+            "Country": "Italy",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Matteo Darmian",
+            "Country": "Italy",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Angelo Ogbonna",
+            "Country": "Italy",
+            "Salary": 9000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Antonio Candreva",
+            "Country": "Italy",
+            "Salary": 25000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Simone Zaza",
+            "Country": "Italy",
+            "Salary": 11000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Alessandro Florenzi",
+            "Country": "Italy",
+            "Salary": 20000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Graziano Pell\u00e8",
+            "Country": "Italy",
+            "Salary": 11000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Thiago Motta",
+            "Country": "Italy",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Ciro Immobile",
+            "Country": "Italy",
+            "Salary": 10000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Salvatore Sirigu",
+            "Country": "Italy",
+            "Salary": 9000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Left",
+            "Name": "Federico Marchetti",
+            "Country": "Italy",
+            "Salary": 5500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Stefano Sturaro",
+            "Country": "Italy",
+            "Salary": 10000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Andrea Barzagli",
+            "Country": "Italy",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Daniele De Rossi",
+            "Country": "Italy",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "\u00c9der",
+            "Country": "Italy",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Marco Parolo",
+            "Country": "Italy",
+            "Salary": 7500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Leonardo Bonucci",
+            "Country": "Italy",
+            "Salary": 30000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Lorenzo Insigne",
+            "Country": "Italy",
+            "Salary": 25000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Federico Bernardeschi",
+            "Country": "Italy",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Stephan El Shaarawy",
+            "Country": "Italy",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Emanuele Giaccherini",
+            "Country": "Italy",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Left",
+            "Name": "Keiren Westwood",
+            "Country": "Republic of Ireland",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "S\u00e9amus Coleman",
+            "Country": "Republic of Ireland",
+            "Salary": 19000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Ciaran Clark",
+            "Country": "Republic of Ireland",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "John O'Shea",
+            "Country": "Republic of Ireland",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Richard Keogh",
+            "Country": "Republic of Ireland",
+            "Salary": 1800000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Glenn Whelan",
+            "Country": "Republic of Ireland",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Aiden McGeady",
+            "Country": "Republic of Ireland",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "James McCarthy",
+            "Country": "Republic of Ireland",
+            "Salary": 17000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Shane Long",
+            "Country": "Republic of Ireland",
+            "Salary": 10000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Robbie Keane",
+            "Country": "Republic of Ireland",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "James McClean",
+            "Country": "Republic of Ireland",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Shane Duffy",
+            "Country": "Republic of Ireland",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Jeff Hendrick",
+            "Country": "Republic of Ireland",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Jonathan Walters",
+            "Country": "Republic of Ireland",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Cyrus Christie",
+            "Country": "Republic of Ireland",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Shay Given",
+            "Country": "Republic of Ireland",
+            "Salary": 500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Stephen Ward",
+            "Country": "Republic of Ireland",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "David Meyler",
+            "Country": "Republic of Ireland",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Robbie Brady",
+            "Country": "Republic of Ireland",
+            "Salary": 6000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Wes Hoolahan",
+            "Country": "Republic of Ireland",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Daryl Murphy",
+            "Country": "Republic of Ireland",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Stephen Quinn",
+            "Country": "Republic of Ireland",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Darren Randolph",
+            "Country": "Republic of Ireland",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Andreas Isaksson",
+            "Country": "Sweden",
+            "Salary": 1200000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Mikael Lustig",
+            "Country": "Sweden",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Erik Johansson",
+            "Country": "Sweden",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Andreas Granqvist",
+            "Country": "Sweden",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Martin Olsson",
+            "Country": "Sweden",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Emil Forsberg",
+            "Country": "Sweden",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Sebastian Larsson",
+            "Country": "Sweden",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Albin Ekdal",
+            "Country": "Sweden",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Kim K\u00e4llstr\u00f6m",
+            "Country": "Sweden",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Zlatan Ibrahimovi\u0107",
+            "Country": "Sweden",
+            "Salary": 15000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Marcus Berg",
+            "Country": "Sweden",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Unknown",
+            "Name": "Robin Olsen",
+            "Country": "Sweden",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Pontus Jansson",
+            "Country": "Sweden",
+            "Salary": 1300000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Victor Lindel\u00f6f",
+            "Country": "Sweden",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Oscar Hiljemark",
+            "Country": "Sweden",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Pontus Wernbloom",
+            "Country": "Sweden",
+            "Salary": 10000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Ludwig Augustinsson",
+            "Country": "Sweden",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Oscar Lewicki",
+            "Country": "Sweden",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Emir Kujovi\u0107",
+            "Country": "Sweden",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "John Guidetti",
+            "Country": "Sweden",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Jimmy Durmaz",
+            "Country": "Sweden",
+            "Salary": 3750000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Erkan Zengin",
+            "Country": "Sweden",
+            "Salary": 3300000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Unknown",
+            "Name": "Patrik Carlgren",
+            "Country": "Sweden",
+            "Salary": 800000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Left",
+            "Name": "Robert Almer",
+            "Country": "Austria",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Gy\u00f6rgy Garics",
+            "Country": "Austria",
+            "Salary": 750000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Both",
+            "Name": "Aleksandar Dragovi\u0107",
+            "Country": "Austria",
+            "Salary": 13000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Martin Hinteregger",
+            "Country": "Austria",
+            "Salary": 9000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Christian Fuchs",
+            "Country": "Austria",
+            "Salary": 4500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Stefan Ilsanker",
+            "Country": "Austria",
+            "Salary": 1800000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Marko Arnautovi\u0107",
+            "Country": "Austria",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "David Alaba",
+            "Country": "Austria",
+            "Salary": 45000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Rubin Okotie",
+            "Country": "Austria",
+            "Salary": 1300000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Zlatko Junuzovi\u0107",
+            "Country": "Austria",
+            "Salary": 7000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Martin Harnik",
+            "Country": "Austria",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Heinz Lindner",
+            "Country": "Austria",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Markus Suttner",
+            "Country": "Austria",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Julian Baumgartlinger",
+            "Country": "Austria",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Sebastian Pr\u00f6dl",
+            "Country": "Austria",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Kevin Wimmer",
+            "Country": "Austria",
+            "Salary": 6500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Florian Klein",
+            "Country": "Austria",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Alessandro Sch\u00f6pf",
+            "Country": "Austria",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Lukas Hinterseer",
+            "Country": "Austria",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Marcel Sabitzer",
+            "Country": "Austria",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Marc Janko",
+            "Country": "Austria",
+            "Salary": 1750000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "Jakob Jantscher",
+            "Country": "Austria",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Left",
+            "Name": "Ramazan \u00d6zcan",
+            "Country": "Austria",
+            "Salary": 1250000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Left",
+            "Name": "G\u00e1bor Kir\u00e1ly",
+            "Country": "Hungary",
+            "Salary": 250000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "\u00c1d\u00e1m Lang",
+            "Country": "Hungary",
+            "Salary": 700000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Mih\u00e1ly Korhut",
+            "Country": "Hungary",
+            "Salary": 450000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Tam\u00e1s K\u00e1d\u00e1r",
+            "Country": "Hungary",
+            "Salary": 750000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Attila Fiola",
+            "Country": "Hungary",
+            "Salary": 750000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "\u00c1kos Elek",
+            "Country": "Hungary",
+            "Salary": 600000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "Bal\u00e1zs Dzsudzs\u00e1k",
+            "Country": "Hungary",
+            "Salary": 6250000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Both",
+            "Name": "\u00c1d\u00e1m Nagy",
+            "Country": "Hungary",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "\u00c1d\u00e1m Szalai",
+            "Country": "Hungary",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Zolt\u00e1n Gera",
+            "Country": "Hungary",
+            "Salary": 500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Kriszti\u00e1n N\u00e9meth",
+            "Country": "Hungary",
+            "Salary": 1400000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "D\u00e9nes Dibusz",
+            "Country": "Hungary",
+            "Salary": 1200000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "D\u00e1niel B\u00f6de",
+            "Country": "Hungary",
+            "Salary": 800000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Gerg\u0151 Lovrencsics",
+            "Country": "Hungary",
+            "Salary": 800000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "L\u00e1szl\u00f3 Kleinheisler",
+            "Country": "Hungary",
+            "Salary": 600000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "\u00c1d\u00e1m Pint\u00e9r",
+            "Country": "Hungary",
+            "Salary": 650000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Nemanja Nikoli\u0107",
+            "Country": "Hungary",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Zolt\u00e1n Stieber",
+            "Country": "Hungary",
+            "Salary": 1300000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Tam\u00e1s Priskin",
+            "Country": "Hungary",
+            "Salary": 700000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Rich\u00e1rd Guzmics",
+            "Country": "Hungary",
+            "Salary": 750000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Barnab\u00e1s Bese",
+            "Country": "Hungary",
+            "Salary": 350000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "P\u00e9ter Gul\u00e1csi",
+            "Country": "Hungary",
+            "Salary": 500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Roland Juh\u00e1sz",
+            "Country": "Hungary",
+            "Salary": 1000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Hannes \u00de\u00f3r Halld\u00f3rsson",
+            "Country": "Iceland",
+            "Salary": 400000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Birkir M\u00e1r S\u00e6varsson",
+            "Country": "Iceland",
+            "Salary": 500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Haukur Hei\u00f0ar Hauksson",
+            "Country": "Iceland",
+            "Salary": 500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Hj\u00f6rtur Hermannsson",
+            "Country": "Iceland",
+            "Salary": 200000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Sverrir Ingi Ingason",
+            "Country": "Iceland",
+            "Salary": 900000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Ragnar Sigur\u00f0sson",
+            "Country": "Iceland",
+            "Salary": 6000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Left",
+            "Name": "J\u00f3hann Berg Gu\u00f0mundsson",
+            "Country": "Iceland",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Birkir Bjarnason",
+            "Country": "Iceland",
+            "Salary": 2500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Kolbeinn Sig\u00fe\u00f3rsson",
+            "Country": "Iceland",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Gylfi Sigur\u00f0sson",
+            "Country": "Iceland",
+            "Salary": 11000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Alfre\u00f0 Finnbogason",
+            "Country": "Iceland",
+            "Salary": 3500000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "\u00d6gmundur Kristinsson",
+            "Country": "Iceland",
+            "Salary": 350000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Ingvar J\u00f3nsson",
+            "Country": "Iceland",
+            "Salary": 100000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "K\u00e1ri \u00c1rnason",
+            "Country": "Iceland",
+            "Salary": 600000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "J\u00f3n Da\u00f0i B\u00f6\u00f0varsson",
+            "Country": "Iceland",
+            "Salary": 800000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "R\u00fanar M\u00e1r Sigurj\u00f3nsson",
+            "Country": "Iceland",
+            "Salary": 400000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Aron Gunnarsson",
+            "Country": "Iceland",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Both",
+            "Name": "The\u00f3d\u00f3r Elmar Bjarnason",
+            "Country": "Iceland",
+            "Salary": 500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "H\u00f6r\u00f0ur Bj\u00f6rgvin Magn\u00fasson",
+            "Country": "Iceland",
+            "Salary": 500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Left",
+            "Name": "Emil Hallfre\u00f0sson",
+            "Country": "Iceland",
+            "Salary": 3000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Arn\u00f3r Ingvi Traustason",
+            "Country": "Iceland",
+            "Salary": 800000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Ei\u00f0ur Gu\u00f0johnsen",
+            "Country": "Iceland",
+            "Salary": 300000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Both",
+            "Name": "Ari Freyr Sk\u00falason",
+            "Country": "Iceland",
+            "Salary": 700000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Left",
+            "Name": "Rui Patr\u00edcio",
+            "Country": "Portugal",
+            "Salary": 14000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Bruno Alves",
+            "Country": "Portugal",
+            "Salary": 2200000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Pepe",
+            "Country": "Portugal",
+            "Salary": 6000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Jos\u00e9 Fonte",
+            "Country": "Portugal",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Rapha\u00ebl Guerreiro",
+            "Country": "Portugal",
+            "Salary": 7500000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "Ricardo Carvalho",
+            "Country": "Portugal",
+            "Salary": 500000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Cristiano Ronaldo",
+            "Country": "Portugal",
+            "Salary": 110000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Jo\u00e3o Moutinho",
+            "Country": "Portugal",
+            "Salary": 18000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "\u00c9der",
+            "Country": "Portugal",
+            "Salary": 5000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Jo\u00e3o M\u00e1rio",
+            "Country": "Portugal",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Vieirinha",
+            "Country": "Portugal",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Left",
+            "Name": "Anthony Lopes",
+            "Country": "Portugal",
+            "Salary": 12000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Danilo",
+            "Country": "Portugal",
+            "Salary": 8000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "William Carvalho",
+            "Country": "Portugal",
+            "Salary": 26000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Andr\u00e9 Gomes",
+            "Country": "Portugal",
+            "Salary": 18000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Renato Sanches",
+            "Country": "Portugal",
+            "Salary": 10000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Both",
+            "Name": "Nani",
+            "Country": "Portugal",
+            "Salary": 16000000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Rafa Silva",
+            "Country": "Portugal",
+            "Salary": 11000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Left",
+            "Name": "Eliseu",
+            "Country": "Portugal",
+            "Salary": 2000000
+        },
+        {
+            "Position": "Forward",
+            "Foot": "Right",
+            "Name": "Ricardo Quaresma",
+            "Country": "Portugal",
+            "Salary": 4000000
+        },
+        {
+            "Position": "Defender",
+            "Foot": "Right",
+            "Name": "C\u00e9dric Soares",
+            "Country": "Portugal",
+            "Salary": 11000000
+        },
+        {
+            "Position": "Goalkeeper",
+            "Foot": "Right",
+            "Name": "Eduardo",
+            "Country": "Portugal",
+            "Salary": 1500000
+        },
+        {
+            "Position": "Midfielder",
+            "Foot": "Right",
+            "Name": "Adrien Silva",
+            "Country": "Portugal",
+            "Salary": 14000000
+        }
+    ],
+    "imgs": [
+        "157_NNQ_rect_chart_2.png",
+        "157_NNQ_rect_chart.png"
+    ]
+}

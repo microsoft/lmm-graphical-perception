@@ -1,0 +1,1088 @@
+{
+    "img_id": 231,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": {
+            "text": "Women's Team Performance vs Economic Development",
+            "subtitle": [
+                "Human Development Index (x), FIFA ranking points (y). 2021 data",
+                "Size of points based on popluation",
+                ""
+            ],
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start",
+            "color": "black"
+        },
+        "config": {
+            "background": "white",
+            "view": {
+                "stroke": "transparent"
+            }
+        },
+        "mark": {
+            "type": "circle",
+            "color": "#3D76E0",
+            "opacity": 0.8
+        },
+        "height": 300,
+        "width": 300,
+        "encoding": {
+            "x": {
+                "field": "Value",
+                "type": "quantitative",
+                "scale": {
+                    "domain": [
+                        0.3,
+                        1
+                    ]
+                },
+                "axis": {
+                    "grid": false
+                },
+                "title": [
+                    "\u27f5                                                                   \u27f6",
+                    "Less Developed                                            More Developed"
+                ]
+            },
+            "y": {
+                "field": "Womens Points",
+                "type": "quantitative",
+                "scale": {
+                    "domain": [
+                        300,
+                        2200
+                    ]
+                },
+                "axis": {
+                    "grid": false
+                },
+                "title": [
+                    "Worse Team                                                   Better Team",
+                    "\u27f5                                                                     \u27f6"
+                ]
+            },
+            "size": {
+                "field": "Population",
+                "type": "quantitative",
+                "title": "Population",
+                "scale": {
+                    "range": [
+                        10,
+                        800
+                    ]
+                },
+                "legend": null
+            },
+            "tooltip": [
+                {
+                    "field": "Country Name",
+                    "type": "ordinal",
+                    "title": "Country"
+                },
+                {
+                    "field": "Womens Points",
+                    "type": "quantitative",
+                    "title": "FIFA Ranking Points",
+                    "format": ".0f"
+                },
+                {
+                    "field": "Value",
+                    "type": "quantitative",
+                    "title": "HDI",
+                    "format": ".2f"
+                },
+                {
+                    "field": "Population",
+                    "type": "quantitative",
+                    "title": "Population",
+                    "format": ","
+                }
+            ]
+        }
+    },
+    "data_dict": [
+        {
+            "Country Name": "Albania",
+            "Population": 2811666,
+            "Womens Points": 1346.01,
+            "Value": 0.796
+        },
+        {
+            "Country Name": "Algeria",
+            "Population": 44616626,
+            "Womens Points": 1288.27,
+            "Value": 0.745
+        },
+        {
+            "Country Name": "Andorra",
+            "Population": 77354,
+            "Womens Points": 751.46,
+            "Value": 0.858
+        },
+        {
+            "Country Name": "Angola",
+            "Population": 33933611,
+            "Womens Points": 1041.91,
+            "Value": 0.586
+        },
+        {
+            "Country Name": "Antigua and Barbuda",
+            "Population": 98728,
+            "Womens Points": 804.42,
+            "Value": 0.788
+        },
+        {
+            "Country Name": "Argentina",
+            "Population": 45808747,
+            "Womens Points": 1660.37,
+            "Value": 0.842
+        },
+        {
+            "Country Name": "Armenia",
+            "Population": 2968128,
+            "Womens Points": 1072.97,
+            "Value": 0.759
+        },
+        {
+            "Country Name": "Australia",
+            "Population": 25739256,
+            "Womens Points": 1906.2,
+            "Value": 0.951
+        },
+        {
+            "Country Name": "Austria",
+            "Population": 8956279,
+            "Womens Points": 1813.37,
+            "Value": 0.916
+        },
+        {
+            "Country Name": "Azerbaijan",
+            "Population": 10145212,
+            "Womens Points": 1274.5,
+            "Value": 0.745
+        },
+        {
+            "Country Name": "Bahrain",
+            "Population": 1748295,
+            "Womens Points": 1254.12,
+            "Value": 0.875
+        },
+        {
+            "Country Name": "Bangladesh",
+            "Population": 166303494,
+            "Womens Points": 1017.16,
+            "Value": 0.661
+        },
+        {
+            "Country Name": "Barbados",
+            "Population": 287708,
+            "Womens Points": 966.8,
+            "Value": 0.79
+        },
+        {
+            "Country Name": "Belarus",
+            "Population": 9340314,
+            "Womens Points": 1457.75,
+            "Value": 0.808
+        },
+        {
+            "Country Name": "Belgium",
+            "Population": 11587882,
+            "Womens Points": 1823.83,
+            "Value": 0.937
+        },
+        {
+            "Country Name": "Belize",
+            "Population": 404915,
+            "Womens Points": 839.85,
+            "Value": 0.683
+        },
+        {
+            "Country Name": "Benin",
+            "Population": 12451031,
+            "Womens Points": 1020.94,
+            "Value": 0.525
+        },
+        {
+            "Country Name": "Bhutan",
+            "Population": 779900,
+            "Womens Points": 769.0,
+            "Value": 0.666
+        },
+        {
+            "Country Name": "Bolivia",
+            "Population": 11832936,
+            "Womens Points": 1213.1,
+            "Value": 0.692
+        },
+        {
+            "Country Name": "Bosnia and Herzegovina",
+            "Population": 3263459,
+            "Womens Points": 1385.2,
+            "Value": 0.78
+        },
+        {
+            "Country Name": "Botswana",
+            "Population": 2397240,
+            "Womens Points": 979.35,
+            "Value": 0.693
+        },
+        {
+            "Country Name": "Brazil",
+            "Population": 213993441,
+            "Womens Points": 1975.82,
+            "Value": 0.754
+        },
+        {
+            "Country Name": "Bulgaria",
+            "Population": 6899125,
+            "Womens Points": 1229.79,
+            "Value": 0.795
+        },
+        {
+            "Country Name": "Burkina Faso",
+            "Population": 21497097,
+            "Womens Points": 1050.87,
+            "Value": 0.449
+        },
+        {
+            "Country Name": "Burundi",
+            "Population": 12255429,
+            "Womens Points": 799.08,
+            "Value": 0.426
+        },
+        {
+            "Country Name": "Cambodia",
+            "Population": 16946446,
+            "Womens Points": 1142.14,
+            "Value": 0.593
+        },
+        {
+            "Country Name": "Cameroon",
+            "Population": 27224262,
+            "Womens Points": 1417.44,
+            "Value": 0.576
+        },
+        {
+            "Country Name": "Canada",
+            "Population": 38246108,
+            "Womens Points": 1986.51,
+            "Value": 0.936
+        },
+        {
+            "Country Name": "Chile",
+            "Population": 19212362,
+            "Womens Points": 1580.9,
+            "Value": 0.855
+        },
+        {
+            "Country Name": "China PR",
+            "Population": 1412360000,
+            "Womens Points": 1862.87,
+            "Value": 0.768
+        },
+        {
+            "Country Name": "Colombia",
+            "Population": 51265841,
+            "Womens Points": 1700.4,
+            "Value": 0.752
+        },
+        {
+            "Country Name": "Comoros",
+            "Population": 888456,
+            "Womens Points": 733.0,
+            "Value": 0.558
+        },
+        {
+            "Country Name": "Congo",
+            "Population": 5657017,
+            "Womens Points": 1161.46,
+            "Value": 0.571
+        },
+        {
+            "Country Name": "Congo DR",
+            "Population": 92377986,
+            "Womens Points": 1159.0,
+            "Value": 0.479
+        },
+        {
+            "Country Name": "Costa Rica",
+            "Population": 5139053,
+            "Womens Points": 1612.44,
+            "Value": 0.809
+        },
+        {
+            "Country Name": "Cote d'Ivoire",
+            "Population": 27053629,
+            "Womens Points": 1379.39,
+            "Value": 0.55
+        },
+        {
+            "Country Name": "Croatia",
+            "Population": 3899000,
+            "Womens Points": 1404.39,
+            "Value": 0.858
+        },
+        {
+            "Country Name": "Cuba",
+            "Population": 11317498,
+            "Womens Points": 1217.56,
+            "Value": 0.764
+        },
+        {
+            "Country Name": "Cyprus",
+            "Population": 1215588,
+            "Womens Points": 1123.46,
+            "Value": 0.896
+        },
+        {
+            "Country Name": "Czechia",
+            "Population": 10703446,
+            "Womens Points": 1675.21,
+            "Value": 0.889
+        },
+        {
+            "Country Name": "Denmark",
+            "Population": 5856733,
+            "Womens Points": 1855.49,
+            "Value": 0.948
+        },
+        {
+            "Country Name": "Dominica",
+            "Population": 72172,
+            "Womens Points": 910.74,
+            "Value": 0.72
+        },
+        {
+            "Country Name": "Dominican Republic",
+            "Population": 10953714,
+            "Womens Points": 1173.44,
+            "Value": 0.767
+        },
+        {
+            "Country Name": "Ecuador",
+            "Population": 17888474,
+            "Womens Points": 1377.83,
+            "Value": 0.74
+        },
+        {
+            "Country Name": "Egypt",
+            "Population": 104258327,
+            "Womens Points": 1228.15,
+            "Value": 0.731
+        },
+        {
+            "Country Name": "El Salvador",
+            "Population": 6518500,
+            "Womens Points": 1148.88,
+            "Value": 0.675
+        },
+        {
+            "Country Name": "Equatorial Guinea",
+            "Population": 1449891,
+            "Womens Points": 1344.47,
+            "Value": 0.596
+        },
+        {
+            "Country Name": "Estonia",
+            "Population": 1329254,
+            "Womens Points": 1180.34,
+            "Value": 0.89
+        },
+        {
+            "Country Name": "Eswatini",
+            "Population": 1172369,
+            "Womens Points": 807.89,
+            "Value": 0.597
+        },
+        {
+            "Country Name": "Ethiopia",
+            "Population": 117876226,
+            "Womens Points": 1117.66,
+            "Value": 0.498
+        },
+        {
+            "Country Name": "Fiji",
+            "Population": 902899,
+            "Womens Points": 1345.58,
+            "Value": 0.73
+        },
+        {
+            "Country Name": "Finland",
+            "Population": 5541696,
+            "Womens Points": 1669.24,
+            "Value": 0.94
+        },
+        {
+            "Country Name": "France",
+            "Population": 67499343,
+            "Womens Points": 2037.69,
+            "Value": 0.903
+        },
+        {
+            "Country Name": "Gabon",
+            "Population": 2278829,
+            "Womens Points": 1079.87,
+            "Value": 0.706
+        },
+        {
+            "Country Name": "Gambia",
+            "Population": 2486937,
+            "Womens Points": 1124.04,
+            "Value": 0.5
+        },
+        {
+            "Country Name": "Georgia",
+            "Population": 3708610,
+            "Womens Points": 1118.09,
+            "Value": 0.802
+        },
+        {
+            "Country Name": "Germany",
+            "Population": 83129285,
+            "Womens Points": 2059.75,
+            "Value": 0.942
+        },
+        {
+            "Country Name": "Ghana",
+            "Population": 31732128,
+            "Womens Points": 1416.77,
+            "Value": 0.632
+        },
+        {
+            "Country Name": "Greece",
+            "Population": 10664568,
+            "Womens Points": 1409.31,
+            "Value": 0.887
+        },
+        {
+            "Country Name": "Grenada",
+            "Population": 113015,
+            "Womens Points": 849.17,
+            "Value": 0.795
+        },
+        {
+            "Country Name": "Guatemala",
+            "Population": 17109746,
+            "Womens Points": 1259.69,
+            "Value": 0.627
+        },
+        {
+            "Country Name": "Guinea",
+            "Population": 13497237,
+            "Womens Points": 1078.56,
+            "Value": 0.465
+        },
+        {
+            "Country Name": "Guinea-Bissau",
+            "Population": 2015490,
+            "Womens Points": 835.18,
+            "Value": 0.483
+        },
+        {
+            "Country Name": "Guyana",
+            "Population": 790329,
+            "Womens Points": 1247.77,
+            "Value": 0.714
+        },
+        {
+            "Country Name": "Haiti",
+            "Population": 11541683,
+            "Womens Points": 1445.71,
+            "Value": 0.535
+        },
+        {
+            "Country Name": "Honduras",
+            "Population": 10062994,
+            "Womens Points": 1145.7,
+            "Value": 0.621
+        },
+        {
+            "Country Name": "Hong Kong",
+            "Population": 7413100,
+            "Womens Points": 1314.35,
+            "Value": 0.952
+        },
+        {
+            "Country Name": "Hungary",
+            "Population": 9709886,
+            "Womens Points": 1538.35,
+            "Value": 0.846
+        },
+        {
+            "Country Name": "Iceland",
+            "Population": 372295,
+            "Womens Points": 1870.66,
+            "Value": 0.959
+        },
+        {
+            "Country Name": "India",
+            "Population": 1393409033,
+            "Womens Points": 1425.51,
+            "Value": 0.633
+        },
+        {
+            "Country Name": "Indonesia",
+            "Population": 276361788,
+            "Womens Points": 1209.02,
+            "Value": 0.705
+        },
+        {
+            "Country Name": "IR Iran",
+            "Population": 85028760,
+            "Womens Points": 1364.73,
+            "Value": 0.774
+        },
+        {
+            "Country Name": "Israel",
+            "Population": 9364000,
+            "Womens Points": 1365.34,
+            "Value": 0.919
+        },
+        {
+            "Country Name": "Italy",
+            "Population": 59066225,
+            "Womens Points": 1868.29,
+            "Value": 0.895
+        },
+        {
+            "Country Name": "Jamaica",
+            "Population": 2973462,
+            "Womens Points": 1543.93,
+            "Value": 0.709
+        },
+        {
+            "Country Name": "Japan",
+            "Population": 125681593,
+            "Womens Points": 1917.07,
+            "Value": 0.925
+        },
+        {
+            "Country Name": "Jordan",
+            "Population": 10269022,
+            "Womens Points": 1377.44,
+            "Value": 0.72
+        },
+        {
+            "Country Name": "Kazakhstan",
+            "Population": 19002586,
+            "Womens Points": 1234.3,
+            "Value": 0.811
+        },
+        {
+            "Country Name": "Kenya",
+            "Population": 54985702,
+            "Womens Points": 991.78,
+            "Value": 0.575
+        },
+        {
+            "Country Name": "Korea Republic",
+            "Population": 51744876,
+            "Womens Points": 1850.09,
+            "Value": 0.925
+        },
+        {
+            "Country Name": "Kyrgyz Republic",
+            "Population": 6694200,
+            "Womens Points": 1120.59,
+            "Value": 0.692
+        },
+        {
+            "Country Name": "Laos",
+            "Population": 7379358,
+            "Womens Points": 1257.98,
+            "Value": 0.607
+        },
+        {
+            "Country Name": "Latvia",
+            "Population": 1883162,
+            "Womens Points": 1168.47,
+            "Value": 0.863
+        },
+        {
+            "Country Name": "Lebanon",
+            "Population": 6769151,
+            "Womens Points": 1032.23,
+            "Value": 0.706
+        },
+        {
+            "Country Name": "Lesotho",
+            "Population": 2159067,
+            "Womens Points": 842.0,
+            "Value": 0.514
+        },
+        {
+            "Country Name": "Liberia",
+            "Population": 5180208,
+            "Womens Points": 891.31,
+            "Value": 0.481
+        },
+        {
+            "Country Name": "Lithuania",
+            "Population": 2795321,
+            "Womens Points": 1219.51,
+            "Value": 0.875
+        },
+        {
+            "Country Name": "Luxembourg",
+            "Population": 639070,
+            "Womens Points": 1150.79,
+            "Value": 0.93
+        },
+        {
+            "Country Name": "Madagascar",
+            "Population": 28427333,
+            "Womens Points": 691.0,
+            "Value": 0.501
+        },
+        {
+            "Country Name": "Malawi",
+            "Population": 19647681,
+            "Womens Points": 942.66,
+            "Value": 0.512
+        },
+        {
+            "Country Name": "Malaysia",
+            "Population": 32776195,
+            "Womens Points": 1231.94,
+            "Value": 0.803
+        },
+        {
+            "Country Name": "Maldives",
+            "Population": 543620,
+            "Womens Points": 952.73,
+            "Value": 0.747
+        },
+        {
+            "Country Name": "Mali",
+            "Population": 20855724,
+            "Womens Points": 1273.24,
+            "Value": 0.428
+        },
+        {
+            "Country Name": "Malta",
+            "Population": 516869,
+            "Womens Points": 1231.0,
+            "Value": 0.918
+        },
+        {
+            "Country Name": "Mauritius",
+            "Population": 1266060,
+            "Womens Points": 363.36,
+            "Value": 0.802
+        },
+        {
+            "Country Name": "Mexico",
+            "Population": 130262220,
+            "Womens Points": 1628.95,
+            "Value": 0.758
+        },
+        {
+            "Country Name": "Moldova",
+            "Population": 2573928,
+            "Womens Points": 1170.7,
+            "Value": 0.767
+        },
+        {
+            "Country Name": "Mongolia",
+            "Population": 3329282,
+            "Womens Points": 1111.95,
+            "Value": 0.739
+        },
+        {
+            "Country Name": "Montenegro",
+            "Population": 620173,
+            "Womens Points": 1251.28,
+            "Value": 0.832
+        },
+        {
+            "Country Name": "Morocco",
+            "Population": 37344787,
+            "Womens Points": 1315.41,
+            "Value": 0.683
+        },
+        {
+            "Country Name": "Mozambique",
+            "Population": 32163045,
+            "Womens Points": 815.14,
+            "Value": 0.446
+        },
+        {
+            "Country Name": "Myanmar",
+            "Population": 54806014,
+            "Womens Points": 1517.95,
+            "Value": 0.585
+        },
+        {
+            "Country Name": "Namibia",
+            "Population": 2587344,
+            "Womens Points": 1020.53,
+            "Value": 0.615
+        },
+        {
+            "Country Name": "Nepal",
+            "Population": 29674920,
+            "Womens Points": 1196.73,
+            "Value": 0.602
+        },
+        {
+            "Country Name": "Netherlands",
+            "Population": 17533405,
+            "Womens Points": 2002.99,
+            "Value": 0.941
+        },
+        {
+            "Country Name": "New Zealand",
+            "Population": 5122600,
+            "Womens Points": 1741.94,
+            "Value": 0.937
+        },
+        {
+            "Country Name": "Nicaragua",
+            "Population": 6702379,
+            "Womens Points": 1157.63,
+            "Value": 0.667
+        },
+        {
+            "Country Name": "Niger",
+            "Population": 25130810,
+            "Womens Points": 877.93,
+            "Value": 0.4
+        },
+        {
+            "Country Name": "Nigeria",
+            "Population": 211400704,
+            "Womens Points": 1535.09,
+            "Value": 0.535
+        },
+        {
+            "Country Name": "North Macedonia",
+            "Population": 2065092,
+            "Womens Points": 1082.42,
+            "Value": 0.77
+        },
+        {
+            "Country Name": "Norway",
+            "Population": 5408320,
+            "Womens Points": 1889.96,
+            "Value": 0.961
+        },
+        {
+            "Country Name": "Palestine",
+            "Population": 4922749,
+            "Womens Points": 1103.05,
+            "Value": 0.715
+        },
+        {
+            "Country Name": "Panama",
+            "Population": 4381583,
+            "Womens Points": 1425.65,
+            "Value": 0.805
+        },
+        {
+            "Country Name": "Papua New Guinea",
+            "Population": 9119005,
+            "Womens Points": 1512.43,
+            "Value": 0.558
+        },
+        {
+            "Country Name": "Paraguay",
+            "Population": 7219641,
+            "Womens Points": 1510.53,
+            "Value": 0.717
+        },
+        {
+            "Country Name": "Peru",
+            "Population": 33359416,
+            "Womens Points": 1334.47,
+            "Value": 0.762
+        },
+        {
+            "Country Name": "Philippines",
+            "Population": 111046910,
+            "Womens Points": 1479.91,
+            "Value": 0.699
+        },
+        {
+            "Country Name": "Poland",
+            "Population": 37781024,
+            "Womens Points": 1647.92,
+            "Value": 0.876
+        },
+        {
+            "Country Name": "Portugal",
+            "Population": 10299423,
+            "Womens Points": 1688.06,
+            "Value": 0.866
+        },
+        {
+            "Country Name": "Republic of Ireland",
+            "Population": 5028230,
+            "Womens Points": 1695.26,
+            "Value": 0.945
+        },
+        {
+            "Country Name": "Romania",
+            "Population": 19115146,
+            "Womens Points": 1574.3,
+            "Value": 0.821
+        },
+        {
+            "Country Name": "Russia",
+            "Population": 143446060,
+            "Womens Points": 1717.04,
+            "Value": 0.822
+        },
+        {
+            "Country Name": "Rwanda",
+            "Population": 13276517,
+            "Womens Points": 894.87,
+            "Value": 0.534
+        },
+        {
+            "Country Name": "Samoa",
+            "Population": 200144,
+            "Womens Points": 1212.01,
+            "Value": 0.707
+        },
+        {
+            "Country Name": "Senegal",
+            "Population": 17196308,
+            "Womens Points": 1258.35,
+            "Value": 0.511
+        },
+        {
+            "Country Name": "Serbia",
+            "Population": 6844078,
+            "Womens Points": 1630.68,
+            "Value": 0.802
+        },
+        {
+            "Country Name": "Seychelles",
+            "Population": 99202,
+            "Womens Points": 884.64,
+            "Value": 0.785
+        },
+        {
+            "Country Name": "Sierra Leone",
+            "Population": 8141343,
+            "Womens Points": 1073.89,
+            "Value": 0.477
+        },
+        {
+            "Country Name": "Singapore",
+            "Population": 5453566,
+            "Womens Points": 1088.77,
+            "Value": 0.939
+        },
+        {
+            "Country Name": "Slovakia",
+            "Population": 5447247,
+            "Womens Points": 1541.41,
+            "Value": 0.848
+        },
+        {
+            "Country Name": "Slovenia",
+            "Population": 2107007,
+            "Womens Points": 1536.95,
+            "Value": 0.918
+        },
+        {
+            "Country Name": "Solomon Islands",
+            "Population": 703995,
+            "Womens Points": 1181.11,
+            "Value": 0.564
+        },
+        {
+            "Country Name": "South Africa",
+            "Population": 60041996,
+            "Womens Points": 1464.36,
+            "Value": 0.713
+        },
+        {
+            "Country Name": "South Sudan",
+            "Population": 11381377,
+            "Womens Points": 649.69,
+            "Value": 0.385
+        },
+        {
+            "Country Name": "Spain",
+            "Population": 47326687,
+            "Womens Points": 1983.13,
+            "Value": 0.905
+        },
+        {
+            "Country Name": "Sri Lanka",
+            "Population": 22156000,
+            "Womens Points": 968.0,
+            "Value": 0.782
+        },
+        {
+            "Country Name": "St. Kitts and Nevis",
+            "Population": 53546,
+            "Womens Points": 1090.74,
+            "Value": 0.777
+        },
+        {
+            "Country Name": "St. Lucia",
+            "Population": 184401,
+            "Womens Points": 982.0,
+            "Value": 0.715
+        },
+        {
+            "Country Name": "St. Vincent and the Grenadines",
+            "Population": 111269,
+            "Womens Points": 950.85,
+            "Value": 0.751
+        },
+        {
+            "Country Name": "Suriname",
+            "Population": 591798,
+            "Womens Points": 1089.15,
+            "Value": 0.73
+        },
+        {
+            "Country Name": "Sweden",
+            "Population": 10415811,
+            "Womens Points": 2050.18,
+            "Value": 0.947
+        },
+        {
+            "Country Name": "Switzerland",
+            "Population": 8697723,
+            "Womens Points": 1775.36,
+            "Value": 0.962
+        },
+        {
+            "Country Name": "Tajikistan",
+            "Population": 9749625,
+            "Womens Points": 1033.87,
+            "Value": 0.685
+        },
+        {
+            "Country Name": "Tanzania",
+            "Population": 61498438,
+            "Womens Points": 965.82,
+            "Value": 0.549
+        },
+        {
+            "Country Name": "Thailand",
+            "Population": 69950844,
+            "Womens Points": 1555.0,
+            "Value": 0.8
+        },
+        {
+            "Country Name": "Timor-Leste",
+            "Population": 1343875,
+            "Womens Points": 973.91,
+            "Value": 0.607
+        },
+        {
+            "Country Name": "Togo",
+            "Population": 8478242,
+            "Womens Points": 1138.33,
+            "Value": 0.539
+        },
+        {
+            "Country Name": "Tonga",
+            "Population": 106759,
+            "Womens Points": 1221.48,
+            "Value": 0.745
+        },
+        {
+            "Country Name": "Trinidad and Tobago",
+            "Population": 1403374,
+            "Womens Points": 1318.11,
+            "Value": 0.81
+        },
+        {
+            "Country Name": "Tunisia",
+            "Population": 11935764,
+            "Womens Points": 1298.6,
+            "Value": 0.731
+        },
+        {
+            "Country Name": "Turkiye",
+            "Population": 85042736,
+            "Womens Points": 1374.84,
+            "Value": 0.838
+        },
+        {
+            "Country Name": "Turkmenistan",
+            "Population": 6117933,
+            "Womens Points": 1075.41,
+            "Value": 0.745
+        },
+        {
+            "Country Name": "Uganda",
+            "Population": 47123533,
+            "Womens Points": 924.09,
+            "Value": 0.525
+        },
+        {
+            "Country Name": "Ukraine",
+            "Population": 43814581,
+            "Womens Points": 1643.46,
+            "Value": 0.773
+        },
+        {
+            "Country Name": "United Arab Emirates",
+            "Population": 9991083,
+            "Womens Points": 1181.72,
+            "Value": 0.911
+        },
+        {
+            "Country Name": "Uruguay",
+            "Population": 3485152,
+            "Womens Points": 1374.14,
+            "Value": 0.809
+        },
+        {
+            "Country Name": "USA",
+            "Population": 331893745,
+            "Womens Points": 2111.47,
+            "Value": 0.921
+        },
+        {
+            "Country Name": "Uzbekistan",
+            "Population": 34915100,
+            "Womens Points": 1523.83,
+            "Value": 0.727
+        },
+        {
+            "Country Name": "Vanuatu",
+            "Population": 314464,
+            "Womens Points": 1132.82,
+            "Value": 0.607
+        },
+        {
+            "Country Name": "Venezuela",
+            "Population": 28704947,
+            "Womens Points": 1494.4,
+            "Value": 0.691
+        },
+        {
+            "Country Name": "Vietnam",
+            "Population": 98168829,
+            "Womens Points": 1643.66,
+            "Value": 0.703
+        },
+        {
+            "Country Name": "Zambia",
+            "Population": 18920657,
+            "Womens Points": 1280.19,
+            "Value": 0.565
+        },
+        {
+            "Country Name": "Zimbabwe",
+            "Population": 15092171,
+            "Womens Points": 1115.59,
+            "Value": 0.593
+        }
+    ],
+    "imgs": [
+        "231_QQQ_rect_chart.png",
+        "231_QQQ_rect_chart_2.png"
+    ]
+}

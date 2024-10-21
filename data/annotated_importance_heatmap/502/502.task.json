@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the characteristic with the highest percentage of physicians.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "What percentage of physicians are in solo practice?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the total percentage of physicians who are either in private practice or solo practice.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find the characteristic with the lowest percentage of physicians.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Are there any characteristics where the percentage of physicians is below 20%?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the characteristics from the highest to the lowest percentage of physicians.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any clusters of characteristics with similar percentages of physicians.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Compute the range of the percentage values across all characteristics.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What is the percentage of physicians who limit or do not see Medicaid patients?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify any anomalies in the distribution of percentages among the characteristics.",
+            "type": "Find Anomalies"
+        }
+    ]
+]

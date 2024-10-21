@@ -1,0 +1,1740 @@
+{
+    "img_id": "1950",
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "DRC GDP decomposed",
+        "title": {
+            "text": "DR CONGO - The worst economic decline of the 20th century in perspective",
+            "anchor": "start",
+            "color": "navy"
+        },
+        "RD NOTES": "The final transform in the code will be the one that appears. So to alter the selection just move one down to the bottom. Alternatively you can block them out using xx",
+        "transform": [
+            {
+                "filter": {
+                    "field": "Country",
+                    "oneOf": [
+                        "DR Congo",
+                        "Thailand",
+                        "Myanmar"
+                    ]
+                }
+            }
+        ],
+        "xxtransform": [
+            {
+                "xxfilter": {
+                    "field": "Country",
+                    "oneOf": [
+                        "DR Congo",
+                        "Senegal",
+                        "Ghana"
+                    ]
+                }
+            }
+        ],
+        "config": {
+            "background": "#FAFAFA"
+        },
+        "height": 700,
+        "width": 700,
+        "xmark": "point",
+        "mark": {
+            "type": "line",
+            "opacity": 1,
+            "interpolate": "",
+            "color": "navy",
+            "point": {
+                "color": "black",
+                "size": "30"
+            }
+        },
+        "encoding": {
+            "x": {
+                "field": "Year",
+                "type": "ordinal",
+                "axis": {
+                    "title": "Year"
+                }
+            },
+            "y": {
+                "field": "GDP",
+                "type": "quantitative",
+                "axis": {
+                    "title": "GDP per capita, 2010 dollars"
+                }
+            },
+            "color": {
+                "field": "Country",
+                "type": "nominal"
+            },
+            "xtooltip": [
+                {
+                    "field": "Year",
+                    "type": "ordinal",
+                    "format": "%Y"
+                },
+                {
+                    "field": "Country",
+                    "type": "ordinal"
+                },
+                {
+                    "field": "GDP",
+                    "type": "quantitative",
+                    "format": "$.2f"
+                }
+            ]
+        }
+    },
+    "data_dict": [
+        {
+            "GDP": 761.4241012,
+            "Year": 1970,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 782.7496692,
+            "Year": 1971,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 793.1365735,
+            "Year": 1972,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 804.6594579,
+            "Year": 1973,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 813.7301881,
+            "Year": 1974,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 781.3048514,
+            "Year": 1975,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 783.1454339,
+            "Year": 1976,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 823.7371161,
+            "Year": 1977,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 864.7831374,
+            "Year": 1978,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 864.0454686,
+            "Year": 1979,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 878.3663184,
+            "Year": 1980,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 877.3179844,
+            "Year": 1981,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 875.5925286,
+            "Year": 1982,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 854.46113,
+            "Year": 1983,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 837.50388,
+            "Year": 1984,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 841.5970044,
+            "Year": 1985,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 869.7244305,
+            "Year": 1986,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 888.9287563,
+            "Year": 1987,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 911.55743,
+            "Year": 1988,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 922.2422646,
+            "Year": 1989,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 929.4867586,
+            "Year": 1990,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 912.2776261,
+            "Year": 1991,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 876.6056761,
+            "Year": 1992,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 852.7676942,
+            "Year": 1993,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 848.9996574,
+            "Year": 1994,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 860.534638,
+            "Year": 1995,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 870.6915227,
+            "Year": 1996,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 848.7306258,
+            "Year": 1997,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 853.1757225,
+            "Year": 1998,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 847.4868263,
+            "Year": 1999,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 828.6832337,
+            "Year": 2000,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 842.3729017,
+            "Year": 2001,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 824.4236696,
+            "Year": 2002,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 825.5857243,
+            "Year": 2003,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 844.3648227,
+            "Year": 2004,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 870.139112,
+            "Year": 2005,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 900.1189897,
+            "Year": 2006,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 935.6760889,
+            "Year": 2007,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 912.3974552,
+            "Year": 2008,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 917.0640467,
+            "Year": 2009,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 967.3405226,
+            "Year": 2010,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 998.9988546,
+            "Year": 2011,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 1016.747951,
+            "Year": 2012,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 1046.343276,
+            "Year": 2013,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 1075.63927,
+            "Year": 2014,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 1107.918537,
+            "Year": 2015,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 1143.065893,
+            "Year": 2016,
+            "Country": "Kenya"
+        },
+        {
+            "GDP": 922.724489,
+            "Year": 1970,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 940.9609355,
+            "Year": 1971,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 951.7821554,
+            "Year": 1972,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1016.911154,
+            "Year": 1973,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1033.028808,
+            "Year": 1974,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1055.577736,
+            "Year": 1975,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1126.551497,
+            "Year": 1976,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1209.378574,
+            "Year": 1977,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1306.001238,
+            "Year": 1978,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1346.087971,
+            "Year": 1979,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1381.533154,
+            "Year": 1980,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1434.316745,
+            "Year": 1981,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1482.560581,
+            "Year": 1982,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1536.696643,
+            "Year": 1983,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1595.780745,
+            "Year": 1984,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1639.989382,
+            "Year": 1985,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1699.555517,
+            "Year": 1986,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 1827.949227,
+            "Year": 1987,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 2035.101026,
+            "Year": 1988,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 2247.127883,
+            "Year": 1989,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 2462.752999,
+            "Year": 1990,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 2638.647711,
+            "Year": 1991,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 2853.850873,
+            "Year": 1992,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 3073.911042,
+            "Year": 1993,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 3290.025524,
+            "Year": 1994,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 3522.478744,
+            "Year": 1995,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 3681.17012,
+            "Year": 1996,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 3537.723364,
+            "Year": 1997,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 3228.155378,
+            "Year": 1998,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 3337.642567,
+            "Year": 1999,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 3452.504846,
+            "Year": 2000,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 3536.601934,
+            "Year": 2001,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 3731.036805,
+            "Year": 2002,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 3969.426548,
+            "Year": 2003,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 4190.044546,
+            "Year": 2004,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 4337.263259,
+            "Year": 2005,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 4525.153984,
+            "Year": 2006,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 4744.330993,
+            "Year": 2007,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 4800.809114,
+            "Year": 2008,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 4743.695179,
+            "Year": 2009,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 5075.297149,
+            "Year": 2010,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 5093.585406,
+            "Year": 2011,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 5437.23361,
+            "Year": 2012,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 5561.292644,
+            "Year": 2013,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 5589.707216,
+            "Year": 2014,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 5733.929049,
+            "Year": 2015,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 5962.540579,
+            "Year": 2016,
+            "Country": "Thailand"
+        },
+        {
+            "GDP": 934.5313068,
+            "Year": 1970,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 905.5277592,
+            "Year": 1971,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 934.2861343,
+            "Year": 1972,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 855.7321643,
+            "Year": 1973,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 866.0627788,
+            "Year": 1974,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 906.1224684,
+            "Year": 1975,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 961.910937,
+            "Year": 1976,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 913.4556834,
+            "Year": 1977,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 836.1545632,
+            "Year": 1978,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 894.3919171,
+            "Year": 1979,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 842.5961286,
+            "Year": 1980,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 809.7675477,
+            "Year": 1981,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 907.2085287,
+            "Year": 1982,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 899.5496251,
+            "Year": 1983,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 837.6014239,
+            "Year": 1984,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 843.0650907,
+            "Year": 1985,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 854.9074983,
+            "Year": 1986,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 862.2695987,
+            "Year": 1987,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 878.5894286,
+            "Year": 1988,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 840.169349,
+            "Year": 1989,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 846.7416482,
+            "Year": 1990,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 818.0445814,
+            "Year": 1991,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 811.1529918,
+            "Year": 1992,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 769.9120224,
+            "Year": 1993,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 769.6752311,
+            "Year": 1994,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 784.4454324,
+            "Year": 1995,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 804.478909,
+            "Year": 1996,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 809.5439793,
+            "Year": 1997,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 837.10137,
+            "Year": 1998,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 908.2714722,
+            "Year": 1999,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 875.4291308,
+            "Year": 2000,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 892.9070672,
+            "Year": 2001,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 876.0738702,
+            "Year": 2002,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 910.5084226,
+            "Year": 2003,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 938.9995641,
+            "Year": 2004,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 965.7632697,
+            "Year": 2005,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 963.3783457,
+            "Year": 2006,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 983.9817345,
+            "Year": 2007,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 992.5965756,
+            "Year": 2008,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 988.5444935,
+            "Year": 2009,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 1000.731657,
+            "Year": 2010,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 988.9034552,
+            "Year": 2011,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 998.301742,
+            "Year": 2012,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 1006.215009,
+            "Year": 2013,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 1016.566086,
+            "Year": 2014,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 1054.284096,
+            "Year": 2015,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 1091.604111,
+            "Year": 2016,
+            "Country": "Senegal"
+        },
+        {
+            "GDP": 1066.829706,
+            "Year": 1970,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 1100.483608,
+            "Year": 1971,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 1073.065636,
+            "Year": 1972,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 1129.936898,
+            "Year": 1973,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 1134.364984,
+            "Year": 1974,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 1048.610258,
+            "Year": 1975,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 965.2595204,
+            "Year": 1976,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 944.9872972,
+            "Year": 1977,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 869.1294906,
+            "Year": 1978,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 848.8117118,
+            "Year": 1979,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 844.5504344,
+            "Year": 1980,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 842.5993249,
+            "Year": 1981,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 818.2302214,
+            "Year": 1982,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 809.6963834,
+            "Year": 1983,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 833.5338731,
+            "Year": 1984,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 816.0805789,
+            "Year": 1985,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 832.231195,
+            "Year": 1986,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 831.6252686,
+            "Year": 1987,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 811.9901839,
+            "Year": 1988,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 777.2437113,
+            "Year": 1989,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 702.083702,
+            "Year": 1990,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 619.6834087,
+            "Year": 1991,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 533.3604575,
+            "Year": 1992,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 443.8441386,
+            "Year": 1993,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 411.282231,
+            "Year": 1994,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 400.9978618,
+            "Year": 1995,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 385.9932483,
+            "Year": 1996,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 355.5045209,
+            "Year": 1997,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 341.8501681,
+            "Year": 1998,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 319.7082715,
+            "Year": 1999,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 290.1699766,
+            "Year": 2000,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 276.3386518,
+            "Year": 2001,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 276.2537905,
+            "Year": 2002,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 282.8402221,
+            "Year": 2003,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 292.5419119,
+            "Year": 2004,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 300.7520341,
+            "Year": 2005,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 306.7186086,
+            "Year": 2006,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 315.4591984,
+            "Year": 2007,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 324.2425356,
+            "Year": 2008,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 322.6209542,
+            "Year": 2009,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 334.2321126,
+            "Year": 2010,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 345.4818015,
+            "Year": 2011,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 357.816815,
+            "Year": 2012,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 375.4447777,
+            "Year": 2013,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 397.5808673,
+            "Year": 2014,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 411.2803411,
+            "Year": 2015,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 407.5680584,
+            "Year": 2016,
+            "Country": "DR Congo"
+        },
+        {
+            "GDP": 1067.78023,
+            "Year": 1970,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1098.150973,
+            "Year": 1971,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1040.398568,
+            "Year": 1972,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1066.78495,
+            "Year": 1973,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1109.720923,
+            "Year": 1974,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 949.3142854,
+            "Year": 1975,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 898.2535203,
+            "Year": 1976,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 903.6771919,
+            "Year": 1977,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 964.6886228,
+            "Year": 1978,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 922.9490453,
+            "Year": 1979,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 905.6356739,
+            "Year": 1980,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 849.1810431,
+            "Year": 1981,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 764.9114447,
+            "Year": 1982,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 705.010041,
+            "Year": 1983,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 740.0914935,
+            "Year": 1984,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 752.9150796,
+            "Year": 1985,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 768.7030416,
+            "Year": 1986,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 783.027921,
+            "Year": 1987,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 804.8413839,
+            "Year": 1988,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 823.2152522,
+            "Year": 1989,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 827.6854427,
+            "Year": 1990,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 847.5739391,
+            "Year": 1991,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 856.2945284,
+            "Year": 1992,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 873.3929618,
+            "Year": 1993,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 877.9895965,
+            "Year": 1994,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 889.8670651,
+            "Year": 1995,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 907.7412315,
+            "Year": 1996,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 923.118188,
+            "Year": 1997,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 943.5306183,
+            "Year": 1998,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 961.7923846,
+            "Year": 1999,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 977.8369874,
+            "Year": 2000,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 996.8079362,
+            "Year": 2001,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1018.224703,
+            "Year": 2002,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1044.051673,
+            "Year": 2003,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1071.65035,
+            "Year": 2004,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1108.701978,
+            "Year": 2005,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1129.21558,
+            "Year": 2006,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1147.831769,
+            "Year": 2007,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1220.684479,
+            "Year": 2008,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1247.414337,
+            "Year": 2009,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1312.584623,
+            "Year": 2010,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1460.608076,
+            "Year": 2011,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1558.409265,
+            "Year": 2012,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1633.458075,
+            "Year": 2013,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1659.739597,
+            "Year": 2014,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1684.669643,
+            "Year": 2015,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1704.557343,
+            "Year": 2016,
+            "Country": "Ghana"
+        },
+        {
+            "GDP": 1101.548124,
+            "Year": 1970,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1229.526024,
+            "Year": 1971,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1287.148329,
+            "Year": 1972,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1332.859027,
+            "Year": 1973,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1439.449003,
+            "Year": 1974,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1410.605483,
+            "Year": 1975,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1467.891075,
+            "Year": 1976,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1542.224681,
+            "Year": 1977,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1452.616217,
+            "Year": 1978,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1371.070028,
+            "Year": 1979,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1361.984618,
+            "Year": 1980,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1313.559368,
+            "Year": 1981,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1257.761161,
+            "Year": 1982,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1145.031356,
+            "Year": 1983,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1101.284404,
+            "Year": 1984,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1195.088447,
+            "Year": 1985,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1186.336492,
+            "Year": 1986,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1147.580041,
+            "Year": 1987,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1202.544591,
+            "Year": 1988,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1255.255954,
+            "Year": 1989,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1362.233552,
+            "Year": 1990,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1328.149524,
+            "Year": 1991,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1329.145885,
+            "Year": 1992,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1316.474835,
+            "Year": 1993,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1294.137211,
+            "Year": 1994,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1289.441046,
+            "Year": 1995,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1309.723111,
+            "Year": 1996,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1314.45806,
+            "Year": 1997,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1318.219336,
+            "Year": 1998,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1291.823618,
+            "Year": 1999,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1326.887449,
+            "Year": 2000,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1351.059734,
+            "Year": 2001,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1598.660512,
+            "Year": 2002,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1718.107413,
+            "Year": 2003,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1850.194364,
+            "Year": 2004,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1920.384201,
+            "Year": 2005,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 1983.737902,
+            "Year": 2006,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 2056.838259,
+            "Year": 2007,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 2128.666266,
+            "Year": 2008,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 2216.499032,
+            "Year": 2009,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 2327.320283,
+            "Year": 2010,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 2376.638377,
+            "Year": 2011,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 2412.860379,
+            "Year": 2012,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 2475.947644,
+            "Year": 2013,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 2563.091698,
+            "Year": 2014,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 2562.521789,
+            "Year": 2015,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 2455.91815,
+            "Year": 2016,
+            "Country": "Nigeria"
+        },
+        {
+            "GDP": 149.6940714,
+            "Year": 1970,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 150.8557119,
+            "Year": 1971,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 147.9381363,
+            "Year": 1972,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 146.5997166,
+            "Year": 1973,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 147.4866238,
+            "Year": 1974,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 149.9289447,
+            "Year": 1975,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 154.5236951,
+            "Year": 1976,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 158.887973,
+            "Year": 1977,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 164.9162219,
+            "Year": 1978,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 168.7642679,
+            "Year": 1979,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 177.9807898,
+            "Year": 1980,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 184.9303493,
+            "Year": 1981,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 190.6097553,
+            "Year": 1982,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 194.5604238,
+            "Year": 1983,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 199.841708,
+            "Year": 1984,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 201.3789272,
+            "Year": 1985,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 195.3912172,
+            "Year": 1986,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 184.0924174,
+            "Year": 1987,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 160.3372896,
+            "Year": 1988,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 163.5501694,
+            "Year": 1989,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 165.6266501,
+            "Year": 1990,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 162.2963278,
+            "Year": 1991,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 175.7513515,
+            "Year": 1992,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 184.1655326,
+            "Year": 1993,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 195.608914,
+            "Year": 1994,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 206.6570279,
+            "Year": 1995,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 217.181025,
+            "Year": 1996,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 226.4651176,
+            "Year": 1997,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 234.5725601,
+            "Year": 1998,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 256.9351289,
+            "Year": 1999,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 288.7279453,
+            "Year": 2000,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 317.8099078,
+            "Year": 2001,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 352.1595924,
+            "Year": 2002,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 396.8325002,
+            "Year": 2003,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 446.4541456,
+            "Year": 2004,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 502.7570102,
+            "Year": 2005,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 564.2616531,
+            "Year": 2006,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 627.7465944,
+            "Year": 2007,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 687.8132788,
+            "Year": 2008,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 755.4774159,
+            "Year": 2009,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 826.322055,
+            "Year": 2010,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 865.671311,
+            "Year": 2011,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 921.2485971,
+            "Year": 2012,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 989.9094009,
+            "Year": 2013,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 1059.212652,
+            "Year": 2014,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 1122.912315,
+            "Year": 2015,
+            "Country": "Myanmar"
+        },
+        {
+            "GDP": 1175.783746,
+            "Year": 2016,
+            "Country": "Myanmar"
+        }
+    ],
+    "imgs": [
+        "1950_OQN_line_chart_2.png",
+        "1950_OQN_line_chart.png"
+    ]
+}

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest population.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the population in millions for the year 2023.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average population from 2015 to 2025.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any year where the population significantly deviates from the trend.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a general upward or downward trend in the population from 2015 to 2025?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "List the years where the population exceeds 5.0 million.",
+            "type": "Filter"
+        },
+        {
+            "description": "Arrange the years in descending order of population.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of the population values from 2015 to 2025?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Calculate the percentage of years where the population is below 5.5 million.",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of years with similar population values.",
+            "type": "Find Clusters"
+        }
+    ]
+]

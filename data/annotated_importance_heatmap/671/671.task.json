@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the reason with the highest percentage of registered voters who did not vote.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the percentage of registered voters who did not vote because they were 'Not interested'.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Order the reasons from the highest to the lowest percentage of registered voters who did not vote.",
+            "type": "Order"
+        },
+        {
+            "description": "Calculate the total percentage of registered voters who did not vote due to 'Illness or disability' and 'Too busy, conflicting schedule'.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any anomalies in the dataset where the percentage of registered voters not voting is unexpectedly high or low.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Identify if there is any correlation between different reasons and the percentage of registered voters who did not vote.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "What is the range of percentages for the different reasons registered voters did not vote?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify clusters of reasons with similar percentages of registered voters who did not vote.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of registered voters did not vote for reasons categorized as 'Other reason'?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the distribution of the percentages of registered voters who did not vote across the different reasons.",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

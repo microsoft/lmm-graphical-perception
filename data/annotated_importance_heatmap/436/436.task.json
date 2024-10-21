@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the province or territory with the highest infant mortality rate.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the infant mortality rate for Manitoba.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "How many provinces or territories have an infant mortality rate less than 6?",
+            "type": "Filter"
+        },
+        {
+            "description": "Calculate the average infant mortality rate across all provinces and territories.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Are there any provinces or territories with significantly higher infant mortality rates compared to others?",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Order the provinces and territories from the lowest to the highest infant mortality rate.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify clusters of provinces or territories with similar infant mortality rates.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the range of infant mortality rates across all provinces and territories?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of provinces and territories have an infant mortality rate higher than 5?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Examine if there is a pattern or trend in the infant mortality rates across the provinces and territories.",
+            "type": "Find Correlation"
+        }
+    ]
+]

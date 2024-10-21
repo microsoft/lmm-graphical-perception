@@ -1,0 +1,290 @@
+{
+    "img_id": 1098,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "mark": "bar",
+        "width": 350,
+        "height": 300,
+        "title": {
+            "text": "Government debt - G7",
+            "subtitle": "$ million. Source: IMF World Economic Outlook 2021",
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start",
+            "color": "black"
+        },
+        "encoding": {
+            "x": {
+                "field": "Year",
+                "type": "nominal",
+                "title": null,
+                "axis": {
+                    "grid": false,
+                    "labelAngle": 360
+                }
+            },
+            "y": {
+                "field": "Value2",
+                "title": null,
+                "type": "quantitative",
+                "scale": {
+                    "domain": [
+                        0,
+                        60000000
+                    ]
+                },
+                "axis": {
+                    "grid": false
+                }
+            },
+            "color": {
+                "field": "Country",
+                "type": "nominal",
+                "legend": {
+                    "orient": "top-left",
+                    "columns": 2
+                },
+                "scale": {
+                    "scheme": "yellowgreenblue"
+                },
+                "title": null
+            },
+            "tooltip": [
+                {
+                    "field": "Country"
+                },
+                {
+                    "field": "Year",
+                    "type": "nominal",
+                    "title": "Year"
+                },
+                {
+                    "field": "Value1",
+                    "type": "quantitative",
+                    "title": "GDP ($ million)"
+                },
+                {
+                    "field": "Value2",
+                    "type": "quantitative",
+                    "title": "Gross debt ($ million)"
+                }
+            ]
+        }
+    },
+    "data_dict": [
+        {
+            "Country": "Canada",
+            "Year": 2016,
+            "Value2": 1467883.2,
+            "Value1": 1528000
+        },
+        {
+            "Country": "Canada",
+            "Year": 2017,
+            "Value2": 1502398.3,
+            "Value1": 1649270
+        },
+        {
+            "Country": "Canada",
+            "Year": 2018,
+            "Value2": 1565772.1,
+            "Value1": 1721820
+        },
+        {
+            "Country": "Canada",
+            "Year": 2019,
+            "Value2": 1584874.3,
+            "Value1": 1741580
+        },
+        {
+            "Country": "Canada",
+            "Year": 2020,
+            "Value2": 2051874.9,
+            "Value1": 1643410
+        },
+        {
+            "Country": "France",
+            "Year": 2016,
+            "Value2": 2516775.0,
+            "Value1": 2472280
+        },
+        {
+            "Country": "France",
+            "Year": 2017,
+            "Value2": 2597390.0,
+            "Value1": 2594240
+        },
+        {
+            "Country": "France",
+            "Year": 2018,
+            "Value2": 2662135.0,
+            "Value1": 2791160
+        },
+        {
+            "Country": "France",
+            "Year": 2019,
+            "Value2": 2737115.0,
+            "Value1": 2717200
+        },
+        {
+            "Country": "France",
+            "Year": 2020,
+            "Value2": 2971278.0,
+            "Value1": 2598910
+        },
+        {
+            "Country": "Germany",
+            "Year": 2016,
+            "Value2": 2497397.5,
+            "Value1": 3468900
+        },
+        {
+            "Country": "Germany",
+            "Year": 2017,
+            "Value2": 2440587.5,
+            "Value1": 3681300
+        },
+        {
+            "Country": "Germany",
+            "Year": 2018,
+            "Value2": 2384640.0,
+            "Value1": 3965570
+        },
+        {
+            "Country": "Germany",
+            "Year": 2019,
+            "Value2": 2365745.5,
+            "Value1": 3861550
+        },
+        {
+            "Country": "Germany",
+            "Year": 2020,
+            "Value2": 2641297.0,
+            "Value1": 3803010
+        },
+        {
+            "Country": "Italy",
+            "Year": 2016,
+            "Value2": 2628474.5,
+            "Value1": 1876550
+        },
+        {
+            "Country": "Italy",
+            "Year": 2017,
+            "Value2": 2678764.0,
+            "Value1": 1961110
+        },
+        {
+            "Country": "Italy",
+            "Year": 2018,
+            "Value2": 2738092.5,
+            "Value1": 2093090
+        },
+        {
+            "Country": "Italy",
+            "Year": 2019,
+            "Value2": 2771385.0,
+            "Value1": 2005140
+        },
+        {
+            "Country": "Italy",
+            "Year": 2020,
+            "Value2": 2954649.0,
+            "Value1": 1884940
+        },
+        {
+            "Country": "Japan",
+            "Year": 2016,
+            "Value2": 11391804.0,
+            "Value1": 5003680
+        },
+        {
+            "Country": "Japan",
+            "Year": 2017,
+            "Value2": 11519100.0,
+            "Value1": 4930840
+        },
+        {
+            "Country": "Japan",
+            "Year": 2018,
+            "Value2": 11638728.9,
+            "Value1": 5036890
+        },
+        {
+            "Country": "Japan",
+            "Year": 2019,
+            "Value2": 11863680.3,
+            "Value1": 5148780
+        },
+        {
+            "Country": "Japan",
+            "Year": 2020,
+            "Value2": 12430749.15,
+            "Value1": 5048690
+        },
+        {
+            "Country": "UK",
+            "Year": 2016,
+            "Value2": 2354051.2,
+            "Value1": 2703240
+        },
+        {
+            "Country": "UK",
+            "Year": 2017,
+            "Value2": 2428456.8,
+            "Value1": 2664710
+        },
+        {
+            "Country": "UK",
+            "Year": 2018,
+            "Value2": 2498496.8,
+            "Value1": 2860980
+        },
+        {
+            "Country": "UK",
+            "Year": 2019,
+            "Value2": 2571855.2,
+            "Value1": 2833300
+        },
+        {
+            "Country": "UK",
+            "Year": 2020,
+            "Value2": 2978889.6,
+            "Value1": 2710970
+        },
+        {
+            "Country": "United States",
+            "Year": 2016,
+            "Value2": 19986420.0,
+            "Value1": 18745100
+        },
+        {
+            "Country": "United States",
+            "Year": 2017,
+            "Value2": 20642150.0,
+            "Value1": 19542980
+        },
+        {
+            "Country": "United States",
+            "Year": 2018,
+            "Value2": 21972290.0,
+            "Value1": 20611880
+        },
+        {
+            "Country": "United States",
+            "Year": 2019,
+            "Value2": 23188590.0,
+            "Value1": 21433230
+        },
+        {
+            "Country": "United States",
+            "Year": 2020,
+            "Value2": 26608340.0,
+            "Value1": 20932750
+        }
+    ],
+    "imgs": [
+        "1098_NQN_bar_chart_2.png",
+        "1098_NQN_bar_chart.png"
+    ]
+}

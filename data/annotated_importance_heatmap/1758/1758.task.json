@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest gross margin as a share of sales.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the gross margin as a share of sales for the year 2005.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Compute the average gross margin as a share of sales from 2002 to 2018.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any year where the gross margin significantly deviates from the surrounding years.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Determine if there is a general upward or downward trend in the gross margin from 2002 to 2018.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Identify the range of gross margin values over the given years.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What is the gross margin as a share of sales in 2010?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Order the years 2005, 2010, and 2015 by their gross margin as a share of sales from highest to lowest.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any clusters of years with similar gross margin values.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Determine the percentage of years with a gross margin above 0.26.",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

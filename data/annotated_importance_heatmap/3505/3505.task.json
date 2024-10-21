@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the price range with the highest share of retailers offering free delivery.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total share of retailers that offer free delivery for orders of \u00a319 or less.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Find any price range that appears to have a significantly lower share of retailers compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Compute the combined share of retailers offering free delivery for orders up to \u00a335.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Is there a correlation between the price range and the share of retailers offering free delivery?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Identify any clusters of price ranges with similar shares of retailers.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the range of the share of retailers offering free delivery?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Order the price ranges from the lowest to the highest share of retailers.",
+            "type": "Order"
+        },
+        {
+            "description": "Which price ranges have a share of retailers greater than 0.1?",
+            "type": "Filter"
+        },
+        {
+            "description": "What percentage of price ranges have a share of retailers less than 0.1?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the province with the highest beer sales.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total beer sales for Alberta.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the combined beer sales for Ontario and Quebec.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any province that has significantly lower beer sales compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Rank the provinces from highest to lowest based on their beer sales.",
+            "type": "Order"
+        },
+        {
+            "description": "How many provinces have beer sales exceeding 1000 million Canadian dollars?",
+            "type": "Filter"
+        },
+        {
+            "description": "Determine the range of beer sales values across all provinces.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify any clusters of provinces with similar beer sales values.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of the provinces have beer sales below 500 million Canadian dollars?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Is there a noticeable correlation between the province and the beer sales?",
+            "type": "Find Correlation"
+        }
+    ]
+]

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the autonomous community with the highest consumption of virgin olive oil.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total consumption of virgin olive oil for Andalusia.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average consumption of virgin olive oil across all autonomous communities.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Which autonomous community has a significantly lower consumption compared to others?",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a noticeable correlation between the autonomous communities and their consumption of virgin olive oil?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "List the autonomous communities that have more than 0.8 liters of virgin olive oil consumption.",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the autonomous communities from the highest to the lowest consumption of virgin olive oil.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify the range of virgin olive oil consumption across all autonomous communities.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of autonomous communities consume less than 0.5 liters of virgin olive oil?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Find any clusters of autonomous communities with similar levels of virgin olive oil consumption.",
+            "type": "Find Clusters"
+        }
+    ]
+]

@@ -1,14 +1,48 @@
-# Project
+## Evaluating Graphical Perception of Large Multimodal Models
+Source code and data for the Graphical Perception Evaluation and Study.
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
 
-As the maintainer of this project, please make a few updates:
+### Chart Reasoning (RQ1 and RQ2 in the paper)
+To get started, copy `openai-keys.env.template` into a file named `openai-keys.env` and fill necessary environment variables (supports only AzureOpenAI keys at the moment). 
+Azure OpenAI keys will be used by `agents/client.py` to initialize models.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+#### Env Setup
+```bash
+conda create --prefix ./env/graphical_perception  python=3.9 -y
+
+conda activate ./env/graphical_perception
+
+pip install -r requirements.txt
+```
+#### Vis-text Data Downloading
+
+```bash
+cd data
+chmod 777 download_data.sh
+./download_data.sh --scenegraphs --vl_spec
+```
+
+#### OpenAI Key Setup
+
+```bash
+cp openai-keys.env.template openai-keys.env
+```
+then edit `openai-keys.env` with your own keys.
+
+#### Run Chart Reasoning Pipeline
+
+In `labs/`, run `chart-reasoning-pipeline.ipynb` to generate tasks, run GPT-4o/4v (determined by `chart_reasoning/utils/clients.py`), and get results evaluated by GPT-4o/4v and the detailed metrics.
+Note that table generation needs executable Chrome browser.
+To evaluate and get the final metrics for open-source models, please run `chart-reasoning-oss-pipeline.ipynb`
+
+
+### Chart Probing (RQ3 in the paper)
+Please refer to `chart_probing/README.md` for more details.
+
+
+### Questions or Bugs?
+If you have any questions, please feel free to contact `drogozhang[AT]gmail[DOT]com` or open an issue so we can help you better and quicker :)
+
 
 ## Contributing
 

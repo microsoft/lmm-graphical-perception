@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the population in millions for the year 2023.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Which year has the highest population?",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the total population across all years shown.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Determine if there is a steady increase in population over the years.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Identify the year with the lowest population.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Find any year where the population significantly deviates from the surrounding years.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Rank the years from the highest to the lowest population.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any clusters of years with similar population values.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the range of population values in millions across all years?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Determine the percentage of years with a population of more than 3.5 million.",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

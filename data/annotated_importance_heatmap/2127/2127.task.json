@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest earnings per share.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the earnings per share in 2016.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average earnings per share from 2015 to 2019.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any year where the earnings per share significantly deviates from the overall trend.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there any visible correlation between the years and the earnings per share?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which years have earnings per share greater than 6 euros?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the years from the highest to the lowest earnings per share.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of the earnings per share values from 2005 to 2019?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the years have earnings per share higher than 6 euros?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of years with similar earnings per share values.",
+            "type": "Find Clusters"
+        }
+    ]
+]

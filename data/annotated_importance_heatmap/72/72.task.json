@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the country with the highest number of ESPRIT Shop-in-Stores in 2019.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "How many Shop-in-Stores are there in Spain?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the total number of Shop-in-Stores across all countries listed.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find the range of the number of Shop-in-Stores across all countries.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify any country with a significantly lower number of Shop-in-Stores compared to Germany.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Which countries have more than 100 Shop-in-Stores?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the countries from the lowest to the highest number of Shop-in-Stores.",
+            "type": "Order"
+        },
+        {
+            "description": "Calculate the average number of Shop-in-Stores across all countries.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify clusters of countries with similar numbers of Shop-in-Stores.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Is there a noticeable pattern in the distribution of Shop-in-Stores among European countries?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

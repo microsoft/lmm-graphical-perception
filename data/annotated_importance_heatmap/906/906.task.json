@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the country with the highest revenue as a percentage of health expenditure.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the range of revenue percentages among the listed countries.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Which countries have a revenue percentage below 0.3?",
+            "type": "Filter"
+        },
+        {
+            "description": "Compute the average revenue percentage across all the countries.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Is there a noticeable cluster of countries with similar revenue percentages?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Identify any country whose revenue percentage is significantly higher or lower than the others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "What is the revenue percentage for Senegal?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Rank the countries from the highest to the lowest revenue percentage.",
+            "type": "Order"
+        },
+        {
+            "description": "What percentage of the countries have a revenue percentage higher than 0.4?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Is there a correlation between the countries and their revenue percentages?",
+            "type": "Find Correlation"
+        }
+    ]
+]

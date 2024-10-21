@@ -1,0 +1,385 @@
+{
+    "img_id": 872,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "A scatterplot showing Highstreeet Spend Index and Average Footfall.",
+        "title": {
+            "text": "Highstreet Recovery",
+            "subtitle": [
+                "Data from April 2022 showing High Street Recovery.",
+                "Index=100 a pre-lockdown baseline Source: Center for Cities"
+            ],
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start",
+            "color": "black"
+        },
+        "height": 200,
+        "width": 200,
+        "mark": {
+            "type": "circle",
+            "size": 100,
+            "color": "rgb(0,67,167)",
+            "opacity": 0.9
+        },
+        "encoding": {
+            "x": {
+                "field": "Spend Index",
+                "type": "quantitative",
+                "scale": {
+                    "zero": false
+                }
+            },
+            "y": {
+                "field": "Average Footfall",
+                "type": "quantitative",
+                "scale": {
+                    "zero": false
+                }
+            },
+            "color": {
+                "field": "High Street Vacancies",
+                "type": "quantitative",
+                "title": "% of Shops Vacant"
+            },
+            "tooltip": [
+                {
+                    "field": "City"
+                },
+                {
+                    "field": "Spend Index"
+                },
+                {
+                    "field": "Average Footfall"
+                },
+                {
+                    "field": "High Street Vacancies"
+                }
+            ]
+        }
+    },
+    "data_dict": [
+        {
+            "High Street Vacancies": NaN,
+            "City": "Average",
+            "Spend Index": 112,
+            "Average Footfall": 90
+        },
+        {
+            "High Street Vacancies": 20.0,
+            "City": "Aberdeen",
+            "Spend Index": 106,
+            "Average Footfall": 110
+        },
+        {
+            "High Street Vacancies": 15.0,
+            "City": "Aldershot",
+            "Spend Index": 70,
+            "Average Footfall": 105
+        },
+        {
+            "High Street Vacancies": 14.0,
+            "City": "Barnsley",
+            "Spend Index": 138,
+            "Average Footfall": 134
+        },
+        {
+            "High Street Vacancies": 18.0,
+            "City": "Birmingham",
+            "Spend Index": 105,
+            "Average Footfall": 77
+        },
+        {
+            "High Street Vacancies": 26.0,
+            "City": "Blackburn",
+            "Spend Index": 125,
+            "Average Footfall": 98
+        },
+        {
+            "High Street Vacancies": 25.0,
+            "City": "Blackpool",
+            "Spend Index": 195,
+            "Average Footfall": 160
+        },
+        {
+            "High Street Vacancies": 16.0,
+            "City": "Bournemouth",
+            "Spend Index": 112,
+            "Average Footfall": 121
+        },
+        {
+            "High Street Vacancies": 28.0,
+            "City": "Bradford",
+            "Spend Index": 133,
+            "Average Footfall": 83
+        },
+        {
+            "High Street Vacancies": 10.0,
+            "City": "Brighton",
+            "Spend Index": 126,
+            "Average Footfall": 111
+        },
+        {
+            "High Street Vacancies": 17.0,
+            "City": "Bristol",
+            "Spend Index": 117,
+            "Average Footfall": 91
+        },
+        {
+            "High Street Vacancies": 19.0,
+            "City": "Burnley",
+            "Spend Index": 138,
+            "Average Footfall": 138
+        },
+        {
+            "High Street Vacancies": 12.0,
+            "City": "Cambridge",
+            "Spend Index": 125,
+            "Average Footfall": 96
+        },
+        {
+            "High Street Vacancies": 23.0,
+            "City": "Cardiff",
+            "Spend Index": 124,
+            "Average Footfall": 103
+        },
+        {
+            "High Street Vacancies": 14.0,
+            "City": "Chatham",
+            "Spend Index": 131,
+            "Average Footfall": 120
+        },
+        {
+            "High Street Vacancies": 16.0,
+            "City": "Coventry",
+            "Spend Index": 104,
+            "Average Footfall": 79
+        },
+        {
+            "High Street Vacancies": 15.0,
+            "City": "Crawley",
+            "Spend Index": 113,
+            "Average Footfall": 104
+        },
+        {
+            "High Street Vacancies": 23.0,
+            "City": "Derby",
+            "Spend Index": 115,
+            "Average Footfall": 98
+        },
+        {
+            "High Street Vacancies": 21.0,
+            "City": "Doncaster",
+            "Spend Index": 123,
+            "Average Footfall": 113
+        },
+        {
+            "High Street Vacancies": 23.0,
+            "City": "Dundee",
+            "Spend Index": 114,
+            "Average Footfall": 140
+        },
+        {
+            "High Street Vacancies": 10.0,
+            "City": "Edinburgh",
+            "Spend Index": 102,
+            "Average Footfall": 110
+        },
+        {
+            "High Street Vacancies": 13.0,
+            "City": "Exeter",
+            "Spend Index": 116,
+            "Average Footfall": 100
+        },
+        {
+            "High Street Vacancies": 19.0,
+            "City": "Glasgow",
+            "Spend Index": 123,
+            "Average Footfall": 95
+        },
+        {
+            "High Street Vacancies": 22.0,
+            "City": "Gloucester",
+            "Spend Index": 112,
+            "Average Footfall": 106
+        },
+        {
+            "High Street Vacancies": 23.0,
+            "City": "Huddersfield",
+            "Spend Index": 144,
+            "Average Footfall": 89
+        },
+        {
+            "High Street Vacancies": 24.0,
+            "City": "Hull",
+            "Spend Index": 135,
+            "Average Footfall": 116
+        },
+        {
+            "High Street Vacancies": 21.0,
+            "City": "Ipswich",
+            "Spend Index": 118,
+            "Average Footfall": 100
+        },
+        {
+            "High Street Vacancies": 20.0,
+            "City": "Leeds",
+            "Spend Index": 116,
+            "Average Footfall": 92
+        },
+        {
+            "High Street Vacancies": 22.0,
+            "City": "Leicester",
+            "Spend Index": 107,
+            "Average Footfall": 92
+        },
+        {
+            "High Street Vacancies": 12.0,
+            "City": "Liverpool",
+            "Spend Index": 134,
+            "Average Footfall": 102
+        },
+        {
+            "High Street Vacancies": 13.0,
+            "City": "London",
+            "Spend Index": 101,
+            "Average Footfall": 59
+        },
+        {
+            "High Street Vacancies": 16.0,
+            "City": "Luton",
+            "Spend Index": 111,
+            "Average Footfall": 81
+        },
+        {
+            "High Street Vacancies": 15.0,
+            "City": "Manchester",
+            "Spend Index": 120,
+            "Average Footfall": 87
+        },
+        {
+            "High Street Vacancies": 19.0,
+            "City": "Mansfield",
+            "Spend Index": 117,
+            "Average Footfall": 122
+        },
+        {
+            "High Street Vacancies": 20.0,
+            "City": "Newcastle",
+            "Spend Index": 122,
+            "Average Footfall": 111
+        },
+        {
+            "High Street Vacancies": 33.0,
+            "City": "Newport",
+            "Spend Index": 102,
+            "Average Footfall": 100
+        },
+        {
+            "High Street Vacancies": 25.0,
+            "City": "Northampton",
+            "Spend Index": 107,
+            "Average Footfall": 103
+        },
+        {
+            "High Street Vacancies": 16.0,
+            "City": "Norwich",
+            "Spend Index": 117,
+            "Average Footfall": 115
+        },
+        {
+            "High Street Vacancies": 17.0,
+            "City": "Nottingham",
+            "Spend Index": 112,
+            "Average Footfall": 96
+        },
+        {
+            "High Street Vacancies": 18.0,
+            "City": "Oxford",
+            "Spend Index": 100,
+            "Average Footfall": 91
+        },
+        {
+            "High Street Vacancies": 16.0,
+            "City": "Peterborough",
+            "Spend Index": 103,
+            "Average Footfall": 111
+        },
+        {
+            "High Street Vacancies": 19.0,
+            "City": "Plymouth",
+            "Spend Index": 127,
+            "Average Footfall": 165
+        },
+        {
+            "High Street Vacancies": 20.0,
+            "City": "Portsmouth",
+            "Spend Index": 115,
+            "Average Footfall": 117
+        },
+        {
+            "High Street Vacancies": 23.0,
+            "City": "Preston",
+            "Spend Index": 107,
+            "Average Footfall": 121
+        },
+        {
+            "High Street Vacancies": 18.0,
+            "City": "Reading",
+            "Spend Index": 106,
+            "Average Footfall": 84
+        },
+        {
+            "High Street Vacancies": 18.0,
+            "City": "Sheffield",
+            "Spend Index": 108,
+            "Average Footfall": 96
+        },
+        {
+            "High Street Vacancies": 11.0,
+            "City": "Southampton",
+            "Spend Index": 105,
+            "Average Footfall": 114
+        },
+        {
+            "High Street Vacancies": 25.0,
+            "City": "Southend",
+            "Spend Index": 129,
+            "Average Footfall": 143
+        },
+        {
+            "High Street Vacancies": 29.0,
+            "City": "Stoke",
+            "Spend Index": 119,
+            "Average Footfall": 110
+        },
+        {
+            "High Street Vacancies": 28.0,
+            "City": "Sunderland",
+            "Spend Index": 109,
+            "Average Footfall": 126
+        },
+        {
+            "High Street Vacancies": 23.0,
+            "City": "Swansea",
+            "Spend Index": 131,
+            "Average Footfall": 132
+        },
+        {
+            "High Street Vacancies": 21.0,
+            "City": "Swindon",
+            "Spend Index": 115,
+            "Average Footfall": 101
+        },
+        {
+            "High Street Vacancies": 11.0,
+            "City": "York",
+            "Spend Index": 131,
+            "Average Footfall": 130
+        }
+    ],
+    "imgs": [
+        "872_QQQ_rect_chart_2.png",
+        "872_QQQ_rect_chart.png"
+    ]
+}

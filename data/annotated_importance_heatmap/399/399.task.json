@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Find the player with the highest rushing yards.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Identify the player with the lowest rushing yards.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total rushing yards for the top three players.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Check if there are any players with significantly lower rushing yards compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Calculate the average rushing yards for all listed players.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any clusters of players with similar rushing yards.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Rank the players from highest to lowest rushing yards.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of rushing yards among all players.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Find the number of players with more than 6000 rushing yards.",
+            "type": "Filter"
+        },
+        {
+            "description": "What is the rushing yard value for Michael Turner?",
+            "type": "Retrieve Value"
+        }
+    ]
+]

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the decile with the highest total income.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total income for the 7th decile.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the difference in total income between the top decile and the 6th decile.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any decile that has a significantly lower total income compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Find out if there is a correlation between the decile ranking and the total income.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "List the deciles that have a total income greater than 20,000 GBP.",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the deciles from highest to lowest based on their total income.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of total income values across all deciles.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of deciles have a total income below 20,000 GBP?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of deciles with similar total income values.",
+            "type": "Find Clusters"
+        }
+    ]
+]

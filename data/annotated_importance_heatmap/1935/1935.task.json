@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the player with the highest number of home runs.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "What is the total number of home runs hit by Willie Stargell?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the range of home runs hit by the players.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "List the players in descending order based on the number of home runs.",
+            "type": "Order"
+        },
+        {
+            "description": "Find any player whose number of home runs significantly deviates from the others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Calculate the combined number of home runs for Roberto Clemente and Pie Traynor.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Is there a noticeable cluster of players with similar home run counts?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Identify the player with the lowest number of home runs.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "How many players have hit more than 1300 home runs?",
+            "type": "Filter"
+        },
+        {
+            "description": "What percentage of players have hit over 1200 home runs?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

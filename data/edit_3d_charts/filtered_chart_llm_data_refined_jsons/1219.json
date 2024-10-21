@@ -1,0 +1,296 @@
+{
+    "img_id": 1219,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "width": 210,
+        "height": 260,
+        "title": {
+            "text": "Do more educated countries emit less greenhouse gases?",
+            "subtitle": "Data is from 2021. Source: Eurostat (2022)",
+            "fontSize": 12,
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start",
+            "color": "#000000",
+            "subtitleColor": "#000000"
+        },
+        "description": "A bubbleplot showing horsepower on x, miles per gallons on y, and binned acceleration on size.",
+        "mark": "point",
+        "encoding": {
+            "color": {
+                "field": "Educational attainment",
+                "legend": "",
+                "type": "quantitative",
+                "scale": {
+                    "scheme": "viridis"
+                }
+            },
+            "x": {
+                "field": "Educational attainment",
+                "type": "quantitative",
+                "title": "Share with at least upper secondary education (%)"
+            },
+            "y": {
+                "field": "Air emissions",
+                "type": "quantitative",
+                "title": "Greenhouse gas emissions"
+            },
+            "size": {
+                "field": "Population",
+                "type": "quantitative",
+                "title": "Population (millions)"
+            },
+            "tooltip": [
+                {
+                    "field": "Country",
+                    "type": "nominal",
+                    "title": "Country"
+                },
+                {
+                    "field": "Educational attainment",
+                    "type": "quantitative",
+                    "title": "Educational attainment"
+                },
+                {
+                    "field": "Population",
+                    "type": "quantitative",
+                    "title": "Population (millions)"
+                }
+            ]
+        }
+    },
+    "data_dict": [
+        {
+            "Country": "Belgium",
+            "Air emissions": 9.53,
+            "Educational attainment": 37.6,
+            "Population": 11.55
+        },
+        {
+            "Country": "Bulgaria",
+            "Air emissions": 8.16,
+            "Educational attainment": 53.3,
+            "Population": 6.92
+        },
+        {
+            "Country": "Czechia",
+            "Air emissions": 10.37,
+            "Educational attainment": 64.5,
+            "Population": 10.49
+        },
+        {
+            "Country": "Denmark",
+            "Air emissions": 12.27,
+            "Educational attainment": 39.8,
+            "Population": 5.84
+        },
+        {
+            "Country": "Germany (until 1990 former territory of the FRG)",
+            "Air emissions": 9.55,
+            "Educational attainment": 52.0,
+            "Population": 83.16
+        },
+        {
+            "Country": "Estonia",
+            "Air emissions": 10.01,
+            "Educational attainment": 47.3,
+            "Population": 1.33
+        },
+        {
+            "Country": "Ireland",
+            "Air emissions": 13.21,
+            "Educational attainment": 37.1,
+            "Population": 5.01
+        },
+        {
+            "Country": "Greece",
+            "Air emissions": 8.57,
+            "Educational attainment": 46.4,
+            "Population": 10.68
+        },
+        {
+            "Country": "Spain",
+            "Air emissions": 6.22,
+            "Educational attainment": 25.6,
+            "Population": 47.4
+        },
+        {
+            "Country": "France",
+            "Air emissions": 6.21,
+            "Educational attainment": 41.6,
+            "Population": 67.66
+        },
+        {
+            "Country": "Croatia",
+            "Air emissions": 5.94,
+            "Educational attainment": 61.3,
+            "Population": 4.04
+        },
+        {
+            "Country": "Italy",
+            "Air emissions": 7.04,
+            "Educational attainment": 42.9,
+            "Population": 59.24
+        },
+        {
+            "Country": "Cyprus",
+            "Air emissions": 9.54,
+            "Educational attainment": 38.4,
+            "Population": 0.9
+        },
+        {
+            "Country": "Latvia",
+            "Air emissions": 6.35,
+            "Educational attainment": 51.6,
+            "Population": 1.89
+        },
+        {
+            "Country": "Lithuania",
+            "Air emissions": 9.83,
+            "Educational attainment": 49.4,
+            "Population": 2.8
+        },
+        {
+            "Country": "Luxembourg",
+            "Air emissions": 16.01,
+            "Educational attainment": 30.4,
+            "Population": 0.63
+        },
+        {
+            "Country": "Hungary",
+            "Air emissions": 6.92,
+            "Educational attainment": 55.4,
+            "Population": 9.73
+        },
+        {
+            "Country": "Malta",
+            "Air emissions": 4.46,
+            "Educational attainment": 36.6,
+            "Population": 0.52
+        },
+        {
+            "Country": "Netherlands",
+            "Air emissions": 10.46,
+            "Educational attainment": 38.9,
+            "Population": 17.48
+        },
+        {
+            "Country": "Austria",
+            "Air emissions": 8.06,
+            "Educational attainment": 49.8,
+            "Population": 8.93
+        },
+        {
+            "Country": "Poland",
+            "Air emissions": 11.12,
+            "Educational attainment": 57.9,
+            "Population": 37.84
+        },
+        {
+            "Country": "Portugal",
+            "Air emissions": 5.67,
+            "Educational attainment": 31.4,
+            "Population": 10.3
+        },
+        {
+            "Country": "Romania",
+            "Air emissions": 6.29,
+            "Educational attainment": 62.1,
+            "Population": 19.2
+        },
+        {
+            "Country": "Slovenia",
+            "Air emissions": 7.64,
+            "Educational attainment": 51.4,
+            "Population": 2.11
+        },
+        {
+            "Country": "Slovakia",
+            "Air emissions": 7.57,
+            "Educational attainment": 62.1,
+            "Population": 5.46
+        },
+        {
+            "Country": "Finland",
+            "Air emissions": 8.9,
+            "Educational attainment": 46.3,
+            "Population": 5.53
+        },
+        {
+            "Country": "Sweden",
+            "Air emissions": 4.66,
+            "Educational attainment": 40.1,
+            "Population": 10.38
+        },
+        {
+            "Country": "Iceland",
+            "Air emissions": 14.61,
+            "Educational attainment": 39.4,
+            "Population": 0.37
+        },
+        {
+            "Country": "Norway",
+            "Air emissions": 12.61,
+            "Educational attainment": 34.7,
+            "Population": 5.39
+        },
+        {
+            "Country": NaN,
+            "Air emissions": NaN,
+            "Educational attainment": NaN,
+            "Population": NaN
+        },
+        {
+            "Country": NaN,
+            "Air emissions": NaN,
+            "Educational attainment": NaN,
+            "Population": NaN
+        },
+        {
+            "Country": NaN,
+            "Air emissions": NaN,
+            "Educational attainment": NaN,
+            "Population": NaN
+        },
+        {
+            "Country": NaN,
+            "Air emissions": NaN,
+            "Educational attainment": NaN,
+            "Population": NaN
+        },
+        {
+            "Country": NaN,
+            "Air emissions": NaN,
+            "Educational attainment": NaN,
+            "Population": NaN
+        },
+        {
+            "Country": NaN,
+            "Air emissions": NaN,
+            "Educational attainment": NaN,
+            "Population": NaN
+        },
+        {
+            "Country": NaN,
+            "Air emissions": NaN,
+            "Educational attainment": NaN,
+            "Population": NaN
+        },
+        {
+            "Country": NaN,
+            "Air emissions": NaN,
+            "Educational attainment": NaN,
+            "Population": NaN
+        },
+        {
+            "Country": NaN,
+            "Air emissions": NaN,
+            "Educational attainment": NaN,
+            "Population": NaN
+        }
+    ],
+    "imgs": [
+        "1219_QQQ_rect_chart_2.png",
+        "1219_QQQ_rect_chart.png"
+    ]
+}

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the country with the highest growth in TikTok downloads.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the growth percentage for Pakistan.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "How many countries have a growth percentage greater than 0.1?",
+            "type": "Filter"
+        },
+        {
+            "description": "Calculate the average growth percentage across all listed countries.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any country with an unusually low growth rate compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Group the countries into clusters based on their growth rates.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Is there a noticeable trend in the growth rates among the countries?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Rank the countries from highest to lowest growth rate.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of growth rates among the countries.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of countries have a growth rate below 0.1?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

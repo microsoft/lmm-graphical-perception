@@ -1,0 +1,433 @@
+{
+    "img_id": 590,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": {
+            "text": "Compound returns",
+            "subtitle": [
+                "Returns from $1 invested today",
+                ""
+            ],
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start",
+            "color": "black"
+        },
+        "width": 500,
+        "height": 300,
+        "transform": [
+            {
+                "calculate": "1/datum.discountFactor",
+                "as": "return"
+            }
+        ],
+        "mark": {
+            "type": "line",
+            "strokeWidth": 2,
+            "opacity": 1
+        },
+        "encoding": {
+            "x": {
+                "field": "year",
+                "type": "quantitative",
+                "title": null
+            },
+            "y": {
+                "field": "return",
+                "type": "quantitative",
+                "title": null
+            },
+            "color": {
+                "type": "nominal",
+                "legend": {
+                    "format": ".0%",
+                    "orient": "top-left",
+                    "fillColor": "white",
+                    "strokeColor": "rgb(128,0,0)",
+                    "cornerRadius": 5,
+                    "padding": 5
+                },
+                "field": "riskFreeRate",
+                "title": "RF Rate"
+            }
+        }
+    },
+    "data_dict": [
+        {
+            "year": 0,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 1,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 2,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 3,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 4,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 5,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 6,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 7,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 8,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 9,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 10,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 11,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 12,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 13,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 14,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 15,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 16,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 17,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 18,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 19,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 20,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 21,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 22,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 23,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 24,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 25,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 26,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 27,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 28,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 29,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 30,
+            "riskFreeRate": 0.01
+        },
+        {
+            "year": 0,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 1,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 2,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 3,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 4,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 5,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 6,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 7,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 8,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 9,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 10,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 11,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 12,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 13,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 14,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 15,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 16,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 17,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 18,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 19,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 20,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 21,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 22,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 23,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 24,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 25,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 26,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 27,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 28,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 29,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 30,
+            "riskFreeRate": 0.03
+        },
+        {
+            "year": 0,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 1,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 2,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 3,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 4,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 5,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 6,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 7,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 8,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 9,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 10,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 11,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 12,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 13,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 14,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 15,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 16,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 17,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 18,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 19,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 20,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 21,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 22,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 23,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 24,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 25,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 26,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 27,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 28,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 29,
+            "riskFreeRate": 0.1
+        },
+        {
+            "year": 30,
+            "riskFreeRate": 0.1
+        }
+    ],
+    "imgs": [
+        "590_QQN_line_chart.png",
+        "590_QQN_line_chart_2.png"
+    ]
+}

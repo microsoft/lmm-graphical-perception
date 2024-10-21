@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the card type with the highest share of respondents.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "What is the share of respondents holding a Tesco Clubcard?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the total share of respondents holding either a Tesco Clubcard or a Sainsbury\u00b4s Nectar Card.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Determine the range of shares of respondents across all card types.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Order the card types from the highest to the lowest share of respondents.",
+            "type": "Order"
+        },
+        {
+            "description": "Find any card type that has a significantly lower share of respondents compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "How many card types have a share of respondents greater than 0.20?",
+            "type": "Filter"
+        },
+        {
+            "description": "Identify any clusters of card types with similar shares of respondents.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Is there a correlation between the card type and the share of respondents?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "What percentage of card types have a share of respondents less than 0.20?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

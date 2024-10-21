@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the soccer player with the highest number of Facebook fans.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total number of Facebook fans for Cristiano Ronaldo.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Compute the average number of Facebook fans across all soccer players shown.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Which soccer player has the lowest number of Facebook fans?",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Find any soccer player that has a significantly lower number of Facebook fans compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a correlation between the soccer player and the number of Facebook fans they have?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Identify any clusters of soccer players with similar numbers of Facebook fans.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Order the soccer players from the highest to the lowest number of Facebook fans.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of Facebook fans across all soccer players.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the soccer players have more than 50 million Facebook fans?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

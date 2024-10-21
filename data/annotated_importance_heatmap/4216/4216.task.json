@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the age group with the highest number of married people.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total number of married people in the 25 to 29 years age group.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the sum of married people in the age groups 30 to 34 years and 35 to 39 years.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any age group that has a significantly lower number of married people compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a strong correlation between age group and the number of married people?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Find the percentage of age groups with more than 500,000 married people.",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Which age groups have fewer than 100,000 married people?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the age groups from the lowest to the highest number of married people.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of the number of married people across all age groups.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify any clusters of age groups with similar numbers of married people.",
+            "type": "Find Clusters"
+        }
+    ]
+]

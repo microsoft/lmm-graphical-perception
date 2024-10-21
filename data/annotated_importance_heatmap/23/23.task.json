@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest number of passengers.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total number of passengers in the year 2003.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average number of passengers over the entire period.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any years where the number of passengers significantly deviated from the overall trend.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a noticeable trend in the number of passengers over the years?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Identify the range of passenger numbers across the years.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Order the years from highest to lowest number of passengers.",
+            "type": "Order"
+        },
+        {
+            "description": "Which years had fewer than 5.5 million passengers?",
+            "type": "Filter"
+        },
+        {
+            "description": "What is the percentage of years with more than 6 million passengers?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify clusters of years with similar passenger numbers.",
+            "type": "Find Clusters"
+        }
+    ]
+]

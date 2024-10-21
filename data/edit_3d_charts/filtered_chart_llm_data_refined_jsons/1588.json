@@ -1,0 +1,2081 @@
+{
+    "img_id": 1588,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "cube-helix-long interpolation, gamma of -0.1",
+        "encoding": {
+            "color": {
+                "field": "Acceleration",
+                "scale": {
+                    "interpolate": {
+                        "gamma": -0.1,
+                        "type": "cubehelix-long"
+                    },
+                    "range": [
+                        "yellow",
+                        "red"
+                    ],
+                    "type": "linear"
+                },
+                "type": "quantitative"
+            },
+            "opacity": {
+                "value": 1
+            },
+            "size": {
+                "value": 60
+            },
+            "x": {
+                "field": "Horsepower",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Miles_per_Gallon",
+                "type": "quantitative"
+            }
+        },
+        "mark": "circle",
+        "transform": [
+            {
+                "as": "accelerationZScore",
+                "calculate": "(datum.Acceleration - 15.52)/2.80"
+            }
+        ]
+    },
+    "data_dict": [
+        {
+            "Horsepower": 130.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 12.0
+        },
+        {
+            "Horsepower": 165.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 11.5
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 11.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 16.0,
+            "Acceleration": 12.0
+        },
+        {
+            "Horsepower": 140.0,
+            "Miles_per_Gallon": 17.0,
+            "Acceleration": 10.5
+        },
+        {
+            "Horsepower": 198.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 10.0
+        },
+        {
+            "Horsepower": 220.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 9.0
+        },
+        {
+            "Horsepower": 215.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 8.5
+        },
+        {
+            "Horsepower": 225.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 10.0
+        },
+        {
+            "Horsepower": 190.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 8.5
+        },
+        {
+            "Horsepower": 115.0,
+            "Miles_per_Gallon": NaN,
+            "Acceleration": 17.5
+        },
+        {
+            "Horsepower": 165.0,
+            "Miles_per_Gallon": NaN,
+            "Acceleration": 11.5
+        },
+        {
+            "Horsepower": 153.0,
+            "Miles_per_Gallon": NaN,
+            "Acceleration": 11.0
+        },
+        {
+            "Horsepower": 175.0,
+            "Miles_per_Gallon": NaN,
+            "Acceleration": 10.5
+        },
+        {
+            "Horsepower": 175.0,
+            "Miles_per_Gallon": NaN,
+            "Acceleration": 11.0
+        },
+        {
+            "Horsepower": 170.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 10.0
+        },
+        {
+            "Horsepower": 160.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 8.0
+        },
+        {
+            "Horsepower": 140.0,
+            "Miles_per_Gallon": NaN,
+            "Acceleration": 8.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 9.5
+        },
+        {
+            "Horsepower": 225.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 10.0
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 24.0,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 22.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 97.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 85.0,
+            "Miles_per_Gallon": 21.0,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 27.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 46.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 20.5
+        },
+        {
+            "Horsepower": 87.0,
+            "Miles_per_Gallon": 25.0,
+            "Acceleration": 17.5
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 24.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 25.0,
+            "Acceleration": 17.5
+        },
+        {
+            "Horsepower": 113.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 12.5
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 21.0,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 215.0,
+            "Miles_per_Gallon": 10.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 200.0,
+            "Miles_per_Gallon": 10.0,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 210.0,
+            "Miles_per_Gallon": 11.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 193.0,
+            "Miles_per_Gallon": 9.0,
+            "Acceleration": 18.5
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 27.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 28.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 25.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": NaN,
+            "Miles_per_Gallon": 25.0,
+            "Acceleration": 19.0
+        },
+        {
+            "Horsepower": 48.0,
+            "Miles_per_Gallon": NaN,
+            "Acceleration": 20.0
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 19.0,
+            "Acceleration": 13.0
+        },
+        {
+            "Horsepower": 105.0,
+            "Miles_per_Gallon": 16.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 17.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 19.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 165.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 12.0
+        },
+        {
+            "Horsepower": 175.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 11.5
+        },
+        {
+            "Horsepower": 153.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 13.0
+        },
+        {
+            "Horsepower": 180.0,
+            "Miles_per_Gallon": 12.0,
+            "Acceleration": 11.5
+        },
+        {
+            "Horsepower": 170.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 12.0
+        },
+        {
+            "Horsepower": 175.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 12.0
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 72.0,
+            "Miles_per_Gallon": 22.0,
+            "Acceleration": 19.0
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 19.0,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 86.0,
+            "Miles_per_Gallon": 23.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 28.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 70.0,
+            "Miles_per_Gallon": 30.0,
+            "Acceleration": 19.5
+        },
+        {
+            "Horsepower": 76.0,
+            "Miles_per_Gallon": 30.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 65.0,
+            "Miles_per_Gallon": 31.0,
+            "Acceleration": 19.0
+        },
+        {
+            "Horsepower": 69.0,
+            "Miles_per_Gallon": 35.0,
+            "Acceleration": 18.0
+        },
+        {
+            "Horsepower": 60.0,
+            "Miles_per_Gallon": 27.0,
+            "Acceleration": 19.0
+        },
+        {
+            "Horsepower": 70.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 20.5
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 24.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 80.0,
+            "Miles_per_Gallon": 25.0,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 54.0,
+            "Miles_per_Gallon": 23.0,
+            "Acceleration": 23.5
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 20.0,
+            "Acceleration": 19.5
+        },
+        {
+            "Horsepower": 86.0,
+            "Miles_per_Gallon": 21.0,
+            "Acceleration": 16.5
+        },
+        {
+            "Horsepower": 165.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 12.0
+        },
+        {
+            "Horsepower": 175.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 12.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 153.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 13.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 17.0,
+            "Acceleration": 11.5
+        },
+        {
+            "Horsepower": 208.0,
+            "Miles_per_Gallon": 11.0,
+            "Acceleration": 11.0
+        },
+        {
+            "Horsepower": 155.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 160.0,
+            "Miles_per_Gallon": 12.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 190.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 12.5
+        },
+        {
+            "Horsepower": 97.0,
+            "Miles_per_Gallon": 19.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 12.5
+        },
+        {
+            "Horsepower": 130.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 140.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 112.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 76.0,
+            "Miles_per_Gallon": 22.0,
+            "Acceleration": 18.0
+        },
+        {
+            "Horsepower": 87.0,
+            "Miles_per_Gallon": 21.0,
+            "Acceleration": 19.5
+        },
+        {
+            "Horsepower": 69.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 18.0
+        },
+        {
+            "Horsepower": 86.0,
+            "Miles_per_Gallon": 22.0,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 92.0,
+            "Miles_per_Gallon": 28.0,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 97.0,
+            "Miles_per_Gallon": 23.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 80.0,
+            "Miles_per_Gallon": 28.0,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 27.0,
+            "Acceleration": 16.5
+        },
+        {
+            "Horsepower": 175.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 13.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 11.5
+        },
+        {
+            "Horsepower": 145.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 13.0
+        },
+        {
+            "Horsepower": 137.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 12.5
+        },
+        {
+            "Horsepower": 198.0,
+            "Miles_per_Gallon": 12.0,
+            "Acceleration": 11.5
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 12.0
+        },
+        {
+            "Horsepower": 158.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 13.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 215.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 11.0
+        },
+        {
+            "Horsepower": 225.0,
+            "Miles_per_Gallon": 12.0,
+            "Acceleration": 11.0
+        },
+        {
+            "Horsepower": 175.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 11.0
+        },
+        {
+            "Horsepower": 105.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 16.5
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 16.0,
+            "Acceleration": 18.0
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 16.5
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 23.0,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 46.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 21.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 11.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 167.0,
+            "Miles_per_Gallon": 12.0,
+            "Acceleration": 12.5
+        },
+        {
+            "Horsepower": 170.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 13.0
+        },
+        {
+            "Horsepower": 180.0,
+            "Miles_per_Gallon": 12.0,
+            "Acceleration": 12.5
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 20.0,
+            "Acceleration": 19.0
+        },
+        {
+            "Horsepower": 72.0,
+            "Miles_per_Gallon": 21.0,
+            "Acceleration": 19.5
+        },
+        {
+            "Horsepower": 94.0,
+            "Miles_per_Gallon": 22.0,
+            "Acceleration": 16.5
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 85.0,
+            "Miles_per_Gallon": 19.0,
+            "Acceleration": 18.5
+        },
+        {
+            "Horsepower": 107.0,
+            "Miles_per_Gallon": 21.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 145.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 13.0
+        },
+        {
+            "Horsepower": 230.0,
+            "Miles_per_Gallon": 16.0,
+            "Acceleration": 9.5
+        },
+        {
+            "Horsepower": 49.0,
+            "Miles_per_Gallon": 29.0,
+            "Acceleration": 19.5
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 24.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 91.0,
+            "Miles_per_Gallon": 20.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 112.0,
+            "Miles_per_Gallon": 19.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 11.0
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 24.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 122.0,
+            "Miles_per_Gallon": 20.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 180.0,
+            "Miles_per_Gallon": 11.0,
+            "Acceleration": 11.0
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 20.0,
+            "Acceleration": 16.5
+        },
+        {
+            "Horsepower": NaN,
+            "Miles_per_Gallon": 21.0,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 19.0,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 67.0,
+            "Miles_per_Gallon": 31.0,
+            "Acceleration": 19.0
+        },
+        {
+            "Horsepower": 80.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 16.5
+        },
+        {
+            "Horsepower": 65.0,
+            "Miles_per_Gallon": 32.0,
+            "Acceleration": 21.0
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 25.0,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 16.0,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 16.0,
+            "Acceleration": 18.0
+        },
+        {
+            "Horsepower": 105.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 16.5
+        },
+        {
+            "Horsepower": 140.0,
+            "Miles_per_Gallon": 16.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 140.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 83.0,
+            "Miles_per_Gallon": 29.0,
+            "Acceleration": 16.5
+        },
+        {
+            "Horsepower": 67.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 78.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 52.0,
+            "Miles_per_Gallon": 31.0,
+            "Acceleration": 16.5
+        },
+        {
+            "Horsepower": 61.0,
+            "Miles_per_Gallon": 32.0,
+            "Acceleration": 19.0
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 28.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 24.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 97.0,
+            "Miles_per_Gallon": 24.0,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 93.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 67.0,
+            "Miles_per_Gallon": 31.0,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 19.0,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 105.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 72.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 21.0
+        },
+        {
+            "Horsepower": 72.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 19.5
+        },
+        {
+            "Horsepower": 170.0,
+            "Miles_per_Gallon": 16.0,
+            "Acceleration": 11.5
+        },
+        {
+            "Horsepower": 145.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 16.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 148.0,
+            "Miles_per_Gallon": 14.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 17.0,
+            "Acceleration": 21.0
+        },
+        {
+            "Horsepower": 105.0,
+            "Miles_per_Gallon": 16.0,
+            "Acceleration": 18.5
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 19.0
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 19.0
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 21.0,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 20.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 129.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 12.0
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 29.0,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 83.0,
+            "Miles_per_Gallon": 23.0,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 20.0,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 78.0,
+            "Miles_per_Gallon": 23.0,
+            "Acceleration": 18.5
+        },
+        {
+            "Horsepower": 96.0,
+            "Miles_per_Gallon": 24.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 71.0,
+            "Miles_per_Gallon": 25.0,
+            "Acceleration": 16.5
+        },
+        {
+            "Horsepower": 97.0,
+            "Miles_per_Gallon": 24.0,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 97.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 70.0,
+            "Miles_per_Gallon": 29.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 19.0,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 23.0,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 23.0,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 98.0,
+            "Miles_per_Gallon": 22.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 115.0,
+            "Miles_per_Gallon": 25.0,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 53.0,
+            "Miles_per_Gallon": 33.0,
+            "Acceleration": 17.5
+        },
+        {
+            "Horsepower": 86.0,
+            "Miles_per_Gallon": 28.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 81.0,
+            "Miles_per_Gallon": 25.0,
+            "Acceleration": 16.9
+        },
+        {
+            "Horsepower": 92.0,
+            "Miles_per_Gallon": 25.0,
+            "Acceleration": 14.9
+        },
+        {
+            "Horsepower": 79.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 17.7
+        },
+        {
+            "Horsepower": 83.0,
+            "Miles_per_Gallon": 27.0,
+            "Acceleration": 15.3
+        },
+        {
+            "Horsepower": 140.0,
+            "Miles_per_Gallon": 17.5,
+            "Acceleration": 13.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 16.0,
+            "Acceleration": 13.0
+        },
+        {
+            "Horsepower": 120.0,
+            "Miles_per_Gallon": 15.5,
+            "Acceleration": 13.9
+        },
+        {
+            "Horsepower": 152.0,
+            "Miles_per_Gallon": 14.5,
+            "Acceleration": 12.8
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 22.0,
+            "Acceleration": 15.4
+        },
+        {
+            "Horsepower": 105.0,
+            "Miles_per_Gallon": 22.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 81.0,
+            "Miles_per_Gallon": 24.0,
+            "Acceleration": 17.6
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 22.5,
+            "Acceleration": 17.6
+        },
+        {
+            "Horsepower": 52.0,
+            "Miles_per_Gallon": 29.0,
+            "Acceleration": 22.2
+        },
+        {
+            "Horsepower": 60.0,
+            "Miles_per_Gallon": 24.5,
+            "Acceleration": 22.1
+        },
+        {
+            "Horsepower": 70.0,
+            "Miles_per_Gallon": 29.0,
+            "Acceleration": 14.2
+        },
+        {
+            "Horsepower": 53.0,
+            "Miles_per_Gallon": 33.0,
+            "Acceleration": 17.4
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 20.0,
+            "Acceleration": 17.7
+        },
+        {
+            "Horsepower": 78.0,
+            "Miles_per_Gallon": 18.0,
+            "Acceleration": 21.0
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 18.5,
+            "Acceleration": 16.2
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 17.5,
+            "Acceleration": 17.8
+        },
+        {
+            "Horsepower": 71.0,
+            "Miles_per_Gallon": 29.5,
+            "Acceleration": 12.2
+        },
+        {
+            "Horsepower": 70.0,
+            "Miles_per_Gallon": 32.0,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 28.0,
+            "Acceleration": 16.4
+        },
+        {
+            "Horsepower": 72.0,
+            "Miles_per_Gallon": 26.5,
+            "Acceleration": 13.6
+        },
+        {
+            "Horsepower": 102.0,
+            "Miles_per_Gallon": 20.0,
+            "Acceleration": 15.7
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 13.2
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 19.0,
+            "Acceleration": 21.9
+        },
+        {
+            "Horsepower": 108.0,
+            "Miles_per_Gallon": 19.0,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 120.0,
+            "Miles_per_Gallon": 16.5,
+            "Acceleration": 16.7
+        },
+        {
+            "Horsepower": 180.0,
+            "Miles_per_Gallon": 16.5,
+            "Acceleration": 12.1
+        },
+        {
+            "Horsepower": 145.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 12.0
+        },
+        {
+            "Horsepower": 130.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 13.0,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 68.0,
+            "Miles_per_Gallon": 31.5,
+            "Acceleration": 18.5
+        },
+        {
+            "Horsepower": 80.0,
+            "Miles_per_Gallon": 30.0,
+            "Acceleration": 14.8
+        },
+        {
+            "Horsepower": 58.0,
+            "Miles_per_Gallon": 36.0,
+            "Acceleration": 18.6
+        },
+        {
+            "Horsepower": 96.0,
+            "Miles_per_Gallon": 25.5,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 70.0,
+            "Miles_per_Gallon": 33.5,
+            "Acceleration": 16.8
+        },
+        {
+            "Horsepower": 145.0,
+            "Miles_per_Gallon": 17.5,
+            "Acceleration": 12.5
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 17.0,
+            "Acceleration": 19.0
+        },
+        {
+            "Horsepower": 145.0,
+            "Miles_per_Gallon": 15.5,
+            "Acceleration": 13.7
+        },
+        {
+            "Horsepower": 130.0,
+            "Miles_per_Gallon": 15.0,
+            "Acceleration": 14.9
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 17.5,
+            "Acceleration": 16.4
+        },
+        {
+            "Horsepower": 105.0,
+            "Miles_per_Gallon": 20.5,
+            "Acceleration": 16.9
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 19.0,
+            "Acceleration": 17.7
+        },
+        {
+            "Horsepower": 98.0,
+            "Miles_per_Gallon": 18.5,
+            "Acceleration": 19.0
+        },
+        {
+            "Horsepower": 180.0,
+            "Miles_per_Gallon": 16.0,
+            "Acceleration": 11.1
+        },
+        {
+            "Horsepower": 170.0,
+            "Miles_per_Gallon": 15.5,
+            "Acceleration": 11.4
+        },
+        {
+            "Horsepower": 190.0,
+            "Miles_per_Gallon": 15.5,
+            "Acceleration": 12.2
+        },
+        {
+            "Horsepower": 149.0,
+            "Miles_per_Gallon": 16.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 78.0,
+            "Miles_per_Gallon": 29.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 24.5,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 18.2
+        },
+        {
+            "Horsepower": 89.0,
+            "Miles_per_Gallon": 25.5,
+            "Acceleration": 15.8
+        },
+        {
+            "Horsepower": 63.0,
+            "Miles_per_Gallon": 30.5,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 83.0,
+            "Miles_per_Gallon": 33.5,
+            "Acceleration": 15.9
+        },
+        {
+            "Horsepower": 67.0,
+            "Miles_per_Gallon": 30.0,
+            "Acceleration": 16.4
+        },
+        {
+            "Horsepower": 78.0,
+            "Miles_per_Gallon": 30.5,
+            "Acceleration": 14.1
+        },
+        {
+            "Horsepower": 97.0,
+            "Miles_per_Gallon": 22.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 21.5,
+            "Acceleration": 12.8
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 21.5,
+            "Acceleration": 13.5
+        },
+        {
+            "Horsepower": 48.0,
+            "Miles_per_Gallon": 43.1,
+            "Acceleration": 21.5
+        },
+        {
+            "Horsepower": 66.0,
+            "Miles_per_Gallon": 36.1,
+            "Acceleration": 14.4
+        },
+        {
+            "Horsepower": 52.0,
+            "Miles_per_Gallon": 32.8,
+            "Acceleration": 19.4
+        },
+        {
+            "Horsepower": 70.0,
+            "Miles_per_Gallon": 39.4,
+            "Acceleration": 18.6
+        },
+        {
+            "Horsepower": 60.0,
+            "Miles_per_Gallon": 36.1,
+            "Acceleration": 16.4
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 19.9,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 140.0,
+            "Miles_per_Gallon": 19.4,
+            "Acceleration": 13.2
+        },
+        {
+            "Horsepower": 139.0,
+            "Miles_per_Gallon": 20.2,
+            "Acceleration": 12.8
+        },
+        {
+            "Horsepower": 105.0,
+            "Miles_per_Gallon": 19.2,
+            "Acceleration": 19.2
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 20.5,
+            "Acceleration": 18.2
+        },
+        {
+            "Horsepower": 85.0,
+            "Miles_per_Gallon": 20.2,
+            "Acceleration": 15.8
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 25.1,
+            "Acceleration": 15.4
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 20.5,
+            "Acceleration": 17.2
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 19.4,
+            "Acceleration": 17.2
+        },
+        {
+            "Horsepower": 105.0,
+            "Miles_per_Gallon": 20.6,
+            "Acceleration": 15.8
+        },
+        {
+            "Horsepower": 85.0,
+            "Miles_per_Gallon": 20.8,
+            "Acceleration": 16.7
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 18.6,
+            "Acceleration": 18.7
+        },
+        {
+            "Horsepower": 120.0,
+            "Miles_per_Gallon": 18.1,
+            "Acceleration": 15.1
+        },
+        {
+            "Horsepower": 145.0,
+            "Miles_per_Gallon": 19.2,
+            "Acceleration": 13.2
+        },
+        {
+            "Horsepower": 165.0,
+            "Miles_per_Gallon": 17.7,
+            "Acceleration": 13.4
+        },
+        {
+            "Horsepower": 139.0,
+            "Miles_per_Gallon": 18.1,
+            "Acceleration": 11.2
+        },
+        {
+            "Horsepower": 140.0,
+            "Miles_per_Gallon": 17.5,
+            "Acceleration": 13.7
+        },
+        {
+            "Horsepower": 68.0,
+            "Miles_per_Gallon": 30.0,
+            "Acceleration": 16.5
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 27.5,
+            "Acceleration": 14.2
+        },
+        {
+            "Horsepower": 97.0,
+            "Miles_per_Gallon": 27.2,
+            "Acceleration": 14.7
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 30.9,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 95.0,
+            "Miles_per_Gallon": 21.1,
+            "Acceleration": 14.8
+        },
+        {
+            "Horsepower": 105.0,
+            "Miles_per_Gallon": 23.2,
+            "Acceleration": 16.7
+        },
+        {
+            "Horsepower": 85.0,
+            "Miles_per_Gallon": 23.8,
+            "Acceleration": 17.6
+        },
+        {
+            "Horsepower": 97.0,
+            "Miles_per_Gallon": 23.9,
+            "Acceleration": 14.9
+        },
+        {
+            "Horsepower": 103.0,
+            "Miles_per_Gallon": 20.3,
+            "Acceleration": 15.9
+        },
+        {
+            "Horsepower": 125.0,
+            "Miles_per_Gallon": 17.0,
+            "Acceleration": 13.6
+        },
+        {
+            "Horsepower": 115.0,
+            "Miles_per_Gallon": 21.6,
+            "Acceleration": 15.7
+        },
+        {
+            "Horsepower": 133.0,
+            "Miles_per_Gallon": 16.2,
+            "Acceleration": 15.8
+        },
+        {
+            "Horsepower": 71.0,
+            "Miles_per_Gallon": 31.5,
+            "Acceleration": 14.9
+        },
+        {
+            "Horsepower": 68.0,
+            "Miles_per_Gallon": 29.5,
+            "Acceleration": 16.6
+        },
+        {
+            "Horsepower": 115.0,
+            "Miles_per_Gallon": 21.5,
+            "Acceleration": 15.4
+        },
+        {
+            "Horsepower": 85.0,
+            "Miles_per_Gallon": 19.8,
+            "Acceleration": 18.2
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 22.3,
+            "Acceleration": 17.3
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 20.2,
+            "Acceleration": 18.2
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 20.6,
+            "Acceleration": 16.6
+        },
+        {
+            "Horsepower": 130.0,
+            "Miles_per_Gallon": 17.0,
+            "Acceleration": 15.4
+        },
+        {
+            "Horsepower": 129.0,
+            "Miles_per_Gallon": 17.6,
+            "Acceleration": 13.4
+        },
+        {
+            "Horsepower": 138.0,
+            "Miles_per_Gallon": 16.5,
+            "Acceleration": 13.2
+        },
+        {
+            "Horsepower": 135.0,
+            "Miles_per_Gallon": 18.2,
+            "Acceleration": 15.2
+        },
+        {
+            "Horsepower": 155.0,
+            "Miles_per_Gallon": 16.9,
+            "Acceleration": 14.9
+        },
+        {
+            "Horsepower": 142.0,
+            "Miles_per_Gallon": 15.5,
+            "Acceleration": 14.3
+        },
+        {
+            "Horsepower": 125.0,
+            "Miles_per_Gallon": 19.2,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 150.0,
+            "Miles_per_Gallon": 18.5,
+            "Acceleration": 13.0
+        },
+        {
+            "Horsepower": 71.0,
+            "Miles_per_Gallon": 31.9,
+            "Acceleration": 14.0
+        },
+        {
+            "Horsepower": 65.0,
+            "Miles_per_Gallon": 34.1,
+            "Acceleration": 15.2
+        },
+        {
+            "Horsepower": 80.0,
+            "Miles_per_Gallon": 35.7,
+            "Acceleration": 14.4
+        },
+        {
+            "Horsepower": 80.0,
+            "Miles_per_Gallon": 27.4,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 77.0,
+            "Miles_per_Gallon": 25.4,
+            "Acceleration": 20.1
+        },
+        {
+            "Horsepower": 125.0,
+            "Miles_per_Gallon": 23.0,
+            "Acceleration": 17.4
+        },
+        {
+            "Horsepower": 71.0,
+            "Miles_per_Gallon": 27.2,
+            "Acceleration": 24.8
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 23.9,
+            "Acceleration": 22.2
+        },
+        {
+            "Horsepower": 70.0,
+            "Miles_per_Gallon": 34.2,
+            "Acceleration": 13.2
+        },
+        {
+            "Horsepower": 70.0,
+            "Miles_per_Gallon": 34.5,
+            "Acceleration": 14.9
+        },
+        {
+            "Horsepower": 65.0,
+            "Miles_per_Gallon": 31.8,
+            "Acceleration": 19.2
+        },
+        {
+            "Horsepower": 69.0,
+            "Miles_per_Gallon": 37.3,
+            "Acceleration": 14.7
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 28.4,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 115.0,
+            "Miles_per_Gallon": 28.8,
+            "Acceleration": 11.3
+        },
+        {
+            "Horsepower": 115.0,
+            "Miles_per_Gallon": 26.8,
+            "Acceleration": 12.9
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 33.5,
+            "Acceleration": 13.2
+        },
+        {
+            "Horsepower": 76.0,
+            "Miles_per_Gallon": 41.5,
+            "Acceleration": 14.7
+        },
+        {
+            "Horsepower": 60.0,
+            "Miles_per_Gallon": 38.1,
+            "Acceleration": 18.8
+        },
+        {
+            "Horsepower": 70.0,
+            "Miles_per_Gallon": 32.1,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 65.0,
+            "Miles_per_Gallon": 37.2,
+            "Acceleration": 16.4
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 28.0,
+            "Acceleration": 16.5
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 26.4,
+            "Acceleration": 18.1
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 24.3,
+            "Acceleration": 20.1
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 19.1,
+            "Acceleration": 18.7
+        },
+        {
+            "Horsepower": 78.0,
+            "Miles_per_Gallon": 34.3,
+            "Acceleration": 15.8
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 29.8,
+            "Acceleration": 15.5
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 31.3,
+            "Acceleration": 17.5
+        },
+        {
+            "Horsepower": 92.0,
+            "Miles_per_Gallon": 37.0,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 32.2,
+            "Acceleration": 15.2
+        },
+        {
+            "Horsepower": 65.0,
+            "Miles_per_Gallon": 46.6,
+            "Acceleration": 17.9
+        },
+        {
+            "Horsepower": 105.0,
+            "Miles_per_Gallon": 27.9,
+            "Acceleration": 14.4
+        },
+        {
+            "Horsepower": 65.0,
+            "Miles_per_Gallon": 40.8,
+            "Acceleration": 19.2
+        },
+        {
+            "Horsepower": 48.0,
+            "Miles_per_Gallon": 44.3,
+            "Acceleration": 21.7
+        },
+        {
+            "Horsepower": 48.0,
+            "Miles_per_Gallon": 43.4,
+            "Acceleration": 23.7
+        },
+        {
+            "Horsepower": 67.0,
+            "Miles_per_Gallon": 36.4,
+            "Acceleration": 19.9
+        },
+        {
+            "Horsepower": 67.0,
+            "Miles_per_Gallon": 30.0,
+            "Acceleration": 21.8
+        },
+        {
+            "Horsepower": 67.0,
+            "Miles_per_Gallon": 44.6,
+            "Acceleration": 13.8
+        },
+        {
+            "Horsepower": NaN,
+            "Miles_per_Gallon": 40.9,
+            "Acceleration": 17.3
+        },
+        {
+            "Horsepower": 67.0,
+            "Miles_per_Gallon": 33.8,
+            "Acceleration": 18.0
+        },
+        {
+            "Horsepower": 62.0,
+            "Miles_per_Gallon": 29.8,
+            "Acceleration": 15.3
+        },
+        {
+            "Horsepower": 132.0,
+            "Miles_per_Gallon": 32.7,
+            "Acceleration": 11.4
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 23.7,
+            "Acceleration": 12.5
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 35.0,
+            "Acceleration": 15.1
+        },
+        {
+            "Horsepower": NaN,
+            "Miles_per_Gallon": 23.6,
+            "Acceleration": 14.3
+        },
+        {
+            "Horsepower": 72.0,
+            "Miles_per_Gallon": 32.4,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 84.0,
+            "Miles_per_Gallon": 27.2,
+            "Acceleration": 15.7
+        },
+        {
+            "Horsepower": 84.0,
+            "Miles_per_Gallon": 26.6,
+            "Acceleration": 16.4
+        },
+        {
+            "Horsepower": 92.0,
+            "Miles_per_Gallon": 25.8,
+            "Acceleration": 14.4
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 23.5,
+            "Acceleration": 12.6
+        },
+        {
+            "Horsepower": 84.0,
+            "Miles_per_Gallon": 30.0,
+            "Acceleration": 12.9
+        },
+        {
+            "Horsepower": 58.0,
+            "Miles_per_Gallon": 39.1,
+            "Acceleration": 16.9
+        },
+        {
+            "Horsepower": 64.0,
+            "Miles_per_Gallon": 39.0,
+            "Acceleration": 16.4
+        },
+        {
+            "Horsepower": 60.0,
+            "Miles_per_Gallon": 35.1,
+            "Acceleration": 16.1
+        },
+        {
+            "Horsepower": 67.0,
+            "Miles_per_Gallon": 32.3,
+            "Acceleration": 17.8
+        },
+        {
+            "Horsepower": 65.0,
+            "Miles_per_Gallon": 37.0,
+            "Acceleration": 19.4
+        },
+        {
+            "Horsepower": 62.0,
+            "Miles_per_Gallon": 37.7,
+            "Acceleration": 17.3
+        },
+        {
+            "Horsepower": 68.0,
+            "Miles_per_Gallon": 34.1,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 63.0,
+            "Miles_per_Gallon": 34.7,
+            "Acceleration": 14.9
+        },
+        {
+            "Horsepower": 65.0,
+            "Miles_per_Gallon": 34.4,
+            "Acceleration": 16.2
+        },
+        {
+            "Horsepower": 65.0,
+            "Miles_per_Gallon": 29.9,
+            "Acceleration": 20.7
+        },
+        {
+            "Horsepower": 74.0,
+            "Miles_per_Gallon": 33.0,
+            "Acceleration": 14.2
+        },
+        {
+            "Horsepower": NaN,
+            "Miles_per_Gallon": 34.5,
+            "Acceleration": 15.8
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 33.7,
+            "Acceleration": 14.4
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 32.4,
+            "Acceleration": 16.8
+        },
+        {
+            "Horsepower": 100.0,
+            "Miles_per_Gallon": 32.9,
+            "Acceleration": 14.8
+        },
+        {
+            "Horsepower": 74.0,
+            "Miles_per_Gallon": 31.6,
+            "Acceleration": 18.3
+        },
+        {
+            "Horsepower": 80.0,
+            "Miles_per_Gallon": 28.1,
+            "Acceleration": 20.4
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": NaN,
+            "Acceleration": 15.4
+        },
+        {
+            "Horsepower": 76.0,
+            "Miles_per_Gallon": 30.7,
+            "Acceleration": 19.6
+        },
+        {
+            "Horsepower": 116.0,
+            "Miles_per_Gallon": 25.4,
+            "Acceleration": 12.6
+        },
+        {
+            "Horsepower": 120.0,
+            "Miles_per_Gallon": 24.2,
+            "Acceleration": 13.8
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 22.4,
+            "Acceleration": 15.8
+        },
+        {
+            "Horsepower": 105.0,
+            "Miles_per_Gallon": 26.6,
+            "Acceleration": 19.0
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 20.2,
+            "Acceleration": 17.1
+        },
+        {
+            "Horsepower": 85.0,
+            "Miles_per_Gallon": 17.6,
+            "Acceleration": 16.6
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 28.0,
+            "Acceleration": 19.6
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 27.0,
+            "Acceleration": 18.6
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 34.0,
+            "Acceleration": 18.0
+        },
+        {
+            "Horsepower": 85.0,
+            "Miles_per_Gallon": 31.0,
+            "Acceleration": 16.2
+        },
+        {
+            "Horsepower": 84.0,
+            "Miles_per_Gallon": 29.0,
+            "Acceleration": 16.0
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 27.0,
+            "Acceleration": 18.0
+        },
+        {
+            "Horsepower": 92.0,
+            "Miles_per_Gallon": 24.0,
+            "Acceleration": 16.4
+        },
+        {
+            "Horsepower": NaN,
+            "Miles_per_Gallon": 23.0,
+            "Acceleration": 20.5
+        },
+        {
+            "Horsepower": 74.0,
+            "Miles_per_Gallon": 36.0,
+            "Acceleration": 15.3
+        },
+        {
+            "Horsepower": 68.0,
+            "Miles_per_Gallon": 37.0,
+            "Acceleration": 18.2
+        },
+        {
+            "Horsepower": 68.0,
+            "Miles_per_Gallon": 31.0,
+            "Acceleration": 17.6
+        },
+        {
+            "Horsepower": 63.0,
+            "Miles_per_Gallon": 38.0,
+            "Acceleration": 14.7
+        },
+        {
+            "Horsepower": 70.0,
+            "Miles_per_Gallon": 36.0,
+            "Acceleration": 17.3
+        },
+        {
+            "Horsepower": 88.0,
+            "Miles_per_Gallon": 36.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 75.0,
+            "Miles_per_Gallon": 36.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 70.0,
+            "Miles_per_Gallon": 34.0,
+            "Acceleration": 16.9
+        },
+        {
+            "Horsepower": 67.0,
+            "Miles_per_Gallon": 38.0,
+            "Acceleration": 15.0
+        },
+        {
+            "Horsepower": 67.0,
+            "Miles_per_Gallon": 32.0,
+            "Acceleration": 15.7
+        },
+        {
+            "Horsepower": 67.0,
+            "Miles_per_Gallon": 38.0,
+            "Acceleration": 16.2
+        },
+        {
+            "Horsepower": 110.0,
+            "Miles_per_Gallon": 25.0,
+            "Acceleration": 16.4
+        },
+        {
+            "Horsepower": 85.0,
+            "Miles_per_Gallon": 38.0,
+            "Acceleration": 17.0
+        },
+        {
+            "Horsepower": 92.0,
+            "Miles_per_Gallon": 26.0,
+            "Acceleration": 14.5
+        },
+        {
+            "Horsepower": 112.0,
+            "Miles_per_Gallon": 22.0,
+            "Acceleration": 14.7
+        },
+        {
+            "Horsepower": 96.0,
+            "Miles_per_Gallon": 32.0,
+            "Acceleration": 13.9
+        },
+        {
+            "Horsepower": 84.0,
+            "Miles_per_Gallon": 36.0,
+            "Acceleration": 13.0
+        },
+        {
+            "Horsepower": 90.0,
+            "Miles_per_Gallon": 27.0,
+            "Acceleration": 17.3
+        },
+        {
+            "Horsepower": 86.0,
+            "Miles_per_Gallon": 27.0,
+            "Acceleration": 15.6
+        },
+        {
+            "Horsepower": 52.0,
+            "Miles_per_Gallon": 44.0,
+            "Acceleration": 24.6
+        },
+        {
+            "Horsepower": 84.0,
+            "Miles_per_Gallon": 32.0,
+            "Acceleration": 11.6
+        },
+        {
+            "Horsepower": 79.0,
+            "Miles_per_Gallon": 28.0,
+            "Acceleration": 18.6
+        },
+        {
+            "Horsepower": 82.0,
+            "Miles_per_Gallon": 31.0,
+            "Acceleration": 19.4
+        }
+    ],
+    "imgs": [
+        "1588_QQQ_rect_chart_2.png",
+        "1588_QQQ_rect_chart.png"
+    ]
+}

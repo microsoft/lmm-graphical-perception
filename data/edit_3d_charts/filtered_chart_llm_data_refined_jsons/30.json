@@ -1,0 +1,3748 @@
+{
+    "img_id": 30,
+    "vl_spec": {
+        "config": {
+            "view": {
+                "continuousWidth": 400,
+                "continuousHeight": 300
+            }
+        },
+        "mark": "point",
+        "encoding": {
+            "color": {
+                "bin": {
+                    "maxbins": 5
+                },
+                "field": "Income",
+                "scale": {
+                    "scheme": "sinebow"
+                },
+                "type": "quantitative"
+            },
+            "x": {
+                "field": "Mobility",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Population",
+                "scale": {
+                    "type": "log"
+                },
+                "type": "quantitative"
+            }
+        },
+        "width": "container",
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json"
+    },
+    "data_dict": [
+        {
+            "Mobility": 0.0621988103,
+            "Population": 576081,
+            "Income": 31560
+        },
+        {
+            "Mobility": 0.0536519401,
+            "Population": 227816,
+            "Income": 29959
+        },
+        {
+            "Mobility": 0.0726351365,
+            "Population": 66708,
+            "Income": 22328
+        },
+        {
+            "Mobility": 0.0562812127,
+            "Population": 727600,
+            "Income": 35884
+        },
+        {
+            "Mobility": 0.0448007919,
+            "Population": 493180,
+            "Income": 38892
+        },
+        {
+            "Mobility": 0.0518358536,
+            "Population": 92753,
+            "Income": 31265
+        },
+        {
+            "Mobility": 0.0473969392,
+            "Population": 1055133,
+            "Income": 36582
+        },
+        {
+            "Mobility": 0.0516631268,
+            "Population": 90016,
+            "Income": 31544
+        },
+        {
+            "Mobility": 0.0795698911,
+            "Population": 64676,
+            "Income": 30683
+        },
+        {
+            "Mobility": 0.0431111902,
+            "Population": 354533,
+            "Income": 33417
+        },
+        {
+            "Mobility": 0.0515273064,
+            "Population": 413331,
+            "Income": 33582
+        },
+        {
+            "Mobility": 0.0437852368,
+            "Population": 1423942,
+            "Income": 41423
+        },
+        {
+            "Mobility": 0.0560836494,
+            "Population": 77361,
+            "Income": 25953
+        },
+        {
+            "Mobility": 0.0544464625,
+            "Population": 164760,
+            "Income": 30726
+        },
+        {
+            "Mobility": 0.0449696705,
+            "Population": 375363,
+            "Income": 36024
+        },
+        {
+            "Mobility": 0.0566615611,
+            "Population": 44861,
+            "Income": 37261
+        },
+        {
+            "Mobility": 0.0606653616,
+            "Population": 54082,
+            "Income": 28767
+        },
+        {
+            "Mobility": 0.0633802786,
+            "Population": 398505,
+            "Income": 37445
+        },
+        {
+            "Mobility": 0.0804810375,
+            "Population": 59681,
+            "Income": 33712
+        },
+        {
+            "Mobility": 0.0297968406,
+            "Population": 71586,
+            "Income": 25531
+        },
+        {
+            "Mobility": 0.0356782004,
+            "Population": 548986,
+            "Income": 32610
+        },
+        {
+            "Mobility": 0.0382470116,
+            "Population": 644101,
+            "Income": 29959
+        },
+        {
+            "Mobility": 0.0418033972,
+            "Population": 361559,
+            "Income": 35617
+        },
+        {
+            "Mobility": 0.0319583789,
+            "Population": 216840,
+            "Income": 31549
+        },
+        {
+            "Mobility": 0.0499866344,
+            "Population": 1412127,
+            "Income": 40546
+        },
+        {
+            "Mobility": 0.0336088166,
+            "Population": 62926,
+            "Income": 29492
+        },
+        {
+            "Mobility": 0.0453549512,
+            "Population": 222553,
+            "Income": 28925
+        },
+        {
+            "Mobility": 0.0470072404,
+            "Population": 536909,
+            "Income": 29500
+        },
+        {
+            "Mobility": 0.0535509437,
+            "Population": 1119468,
+            "Income": 34929
+        },
+        {
+            "Mobility": 0.0497884788,
+            "Population": 124216,
+            "Income": 32919
+        },
+        {
+            "Mobility": 0.0490487516,
+            "Population": 158234,
+            "Income": 28198
+        },
+        {
+            "Mobility": 0.067359142,
+            "Population": 228616,
+            "Income": 34417
+        },
+        {
+            "Mobility": 0.0547646731,
+            "Population": 1040192,
+            "Income": 41886
+        },
+        {
+            "Mobility": 0.0513657629,
+            "Population": 570854,
+            "Income": 36027
+        },
+        {
+            "Mobility": 0.0327529013,
+            "Population": 139055,
+            "Income": 27335
+        },
+        {
+            "Mobility": 0.0671070293,
+            "Population": 458674,
+            "Income": 31028
+        },
+        {
+            "Mobility": 0.0692070574,
+            "Population": 120505,
+            "Income": 26974
+        },
+        {
+            "Mobility": 0.0605108887,
+            "Population": 157181,
+            "Income": 28079
+        },
+        {
+            "Mobility": 0.0354896672,
+            "Population": 41270,
+            "Income": 24121
+        },
+        {
+            "Mobility": 0.0247895233,
+            "Population": 39355,
+            "Income": 22600
+        },
+        {
+            "Mobility": 0.0375340469,
+            "Population": 546560,
+            "Income": 33322
+        },
+        {
+            "Mobility": 0.0625297204,
+            "Population": 103602,
+            "Income": 25123
+        },
+        {
+            "Mobility": 0.0642954856,
+            "Population": 46424,
+            "Income": 27071
+        },
+        {
+            "Mobility": 0.1264222562,
+            "Population": 25202,
+            "Income": 24857
+        },
+        {
+            "Mobility": 0.0487460271,
+            "Population": 69653,
+            "Income": 27488
+        },
+        {
+            "Mobility": 0.0311782081,
+            "Population": 84943,
+            "Income": 27080
+        },
+        {
+            "Mobility": 0.0512128659,
+            "Population": 1381652,
+            "Income": 34077
+        },
+        {
+            "Mobility": 0.1134691536,
+            "Population": 271365,
+            "Income": 28094
+        },
+        {
+            "Mobility": 0.0603968948,
+            "Population": 806561,
+            "Income": 31579
+        },
+        {
+            "Mobility": 0.0672128424,
+            "Population": 186516,
+            "Income": 28236
+        },
+        {
+            "Mobility": 0.0971184596,
+            "Population": 335960,
+            "Income": 29462
+        },
+        {
+            "Mobility": 0.0950535387,
+            "Population": 548154,
+            "Income": 28712
+        },
+        {
+            "Mobility": 0.0551850982,
+            "Population": 253878,
+            "Income": 29496
+        },
+        {
+            "Mobility": 0.0573065914,
+            "Population": 21735,
+            "Income": 21037
+        },
+        {
+            "Mobility": 0.060388945,
+            "Population": 34162,
+            "Income": 29001
+        },
+        {
+            "Mobility": 0.0527185053,
+            "Population": 499101,
+            "Income": 31565
+        },
+        {
+            "Mobility": 0.0688279271,
+            "Population": 74800,
+            "Income": 24715
+        },
+        {
+            "Mobility": 0.1516079605,
+            "Population": 23459,
+            "Income": 30067
+        },
+        {
+            "Mobility": 0.041538462,
+            "Population": 24209,
+            "Income": 30093
+        },
+        {
+            "Mobility": 0.0428298265,
+            "Population": 168122,
+            "Income": 27099
+        },
+        {
+            "Mobility": 0.0566330478,
+            "Population": 89373,
+            "Income": 30514
+        },
+        {
+            "Mobility": 0.0535617173,
+            "Population": 630854,
+            "Income": 36101
+        },
+        {
+            "Mobility": 0.0539629012,
+            "Population": 40542,
+            "Income": 30500
+        },
+        {
+            "Mobility": 0.0891045406,
+            "Population": 94324,
+            "Income": 28365
+        },
+        {
+            "Mobility": 0.0638953075,
+            "Population": 144931,
+            "Income": 22044
+        },
+        {
+            "Mobility": 0.0590868406,
+            "Population": 116256,
+            "Income": 25664
+        },
+        {
+            "Mobility": 0.0684385374,
+            "Population": 49887,
+            "Income": 20802
+        },
+        {
+            "Mobility": 0.1306593716,
+            "Population": 117919,
+            "Income": 20987
+        },
+        {
+            "Mobility": 0.0714285746,
+            "Population": 83451,
+            "Income": 26923
+        },
+        {
+            "Mobility": 0.0627145097,
+            "Population": 123981,
+            "Income": 24892
+        },
+        {
+            "Mobility": 0.0331106596,
+            "Population": 84168,
+            "Income": 25756
+        },
+        {
+            "Mobility": 0.0271325037,
+            "Population": 141711,
+            "Income": 25222
+        },
+        {
+            "Mobility": 0.0221015904,
+            "Population": 146833,
+            "Income": 23169
+        },
+        {
+            "Mobility": 0.0474881269,
+            "Population": 198166,
+            "Income": 31754
+        },
+        {
+            "Mobility": 0.0431115292,
+            "Population": 92131,
+            "Income": 26597
+        },
+        {
+            "Mobility": 0.0816599727,
+            "Population": 44884,
+            "Income": 31853
+        },
+        {
+            "Mobility": 0.0435734168,
+            "Population": 197774,
+            "Income": 30736
+        },
+        {
+            "Mobility": 0.06576325,
+            "Population": 129508,
+            "Income": 28904
+        },
+        {
+            "Mobility": 0.0546255521,
+            "Population": 54214,
+            "Income": 27596
+        },
+        {
+            "Mobility": 0.0281827394,
+            "Population": 1154338,
+            "Income": 37116
+        },
+        {
+            "Mobility": 0.0320140719,
+            "Population": 138746,
+            "Income": 25942
+        },
+        {
+            "Mobility": 0.0642673522,
+            "Population": 164944,
+            "Income": 31026
+        },
+        {
+            "Mobility": 0.0613557659,
+            "Population": 92394,
+            "Income": 27831
+        },
+        {
+            "Mobility": 0.0570192672,
+            "Population": 159374,
+            "Income": 32507
+        },
+        {
+            "Mobility": 0.0572634488,
+            "Population": 1246338,
+            "Income": 39833
+        },
+        {
+            "Mobility": 0.0614474267,
+            "Population": 130610,
+            "Income": 32903
+        },
+        {
+            "Mobility": 0.0715361461,
+            "Population": 138212,
+            "Income": 31374
+        },
+        {
+            "Mobility": 0.0599688478,
+            "Population": 252059,
+            "Income": 28962
+        },
+        {
+            "Mobility": 0.0566761531,
+            "Population": 519583,
+            "Income": 37730
+        },
+        {
+            "Mobility": 0.071056664,
+            "Population": 304068,
+            "Income": 30842
+        },
+        {
+            "Mobility": 0.0710671544,
+            "Population": 230941,
+            "Income": 31581
+        },
+        {
+            "Mobility": 0.0572254322,
+            "Population": 84309,
+            "Income": 29411
+        },
+        {
+            "Mobility": 0.0720288083,
+            "Population": 98362,
+            "Income": 28510
+        },
+        {
+            "Mobility": 0.0570530631,
+            "Population": 490863,
+            "Income": 35728
+        },
+        {
+            "Mobility": 0.0708446875,
+            "Population": 104194,
+            "Income": 29333
+        },
+        {
+            "Mobility": 0.064965196,
+            "Population": 43254,
+            "Income": 31235
+        },
+        {
+            "Mobility": 0.0668229759,
+            "Population": 203077,
+            "Income": 30499
+        },
+        {
+            "Mobility": 0.0484621339,
+            "Population": 418304,
+            "Income": 31877
+        },
+        {
+            "Mobility": 0.060128428,
+            "Population": 2395997,
+            "Income": 42195
+        },
+        {
+            "Mobility": 0.0520584956,
+            "Population": 598228,
+            "Income": 36102
+        },
+        {
+            "Mobility": 0.0683156624,
+            "Population": 763795,
+            "Income": 52947
+        },
+        {
+            "Mobility": 0.0729660839,
+            "Population": 3955969,
+            "Income": 38110
+        },
+        {
+            "Mobility": 0.062430378,
+            "Population": 1533306,
+            "Income": 55175
+        },
+        {
+            "Mobility": 0.0601915196,
+            "Population": 692265,
+            "Income": 55875
+        },
+        {
+            "Mobility": 0.0658892095,
+            "Population": 589177,
+            "Income": 45264
+        },
+        {
+            "Mobility": 0.0578166097,
+            "Population": 1697906,
+            "Income": 38370
+        },
+        {
+            "Mobility": 0.0587789156,
+            "Population": 563598,
+            "Income": 38459
+        },
+        {
+            "Mobility": 0.0492131598,
+            "Population": 1176696,
+            "Income": 38502
+        },
+        {
+            "Mobility": 0.049539458,
+            "Population": 149695,
+            "Income": 25561
+        },
+        {
+            "Mobility": 0.0564204939,
+            "Population": 377001,
+            "Income": 38731
+        },
+        {
+            "Mobility": 0.0496746562,
+            "Population": 320199,
+            "Income": 28321
+        },
+        {
+            "Mobility": 0.0349367075,
+            "Population": 209914,
+            "Income": 29459
+        },
+        {
+            "Mobility": 0.0372132659,
+            "Population": 722201,
+            "Income": 34438
+        },
+        {
+            "Mobility": 0.0353721455,
+            "Population": 72733,
+            "Income": 25544
+        },
+        {
+            "Mobility": 0.0444692373,
+            "Population": 587297,
+            "Income": 34601
+        },
+        {
+            "Mobility": 0.0469857492,
+            "Population": 894291,
+            "Income": 35225
+        },
+        {
+            "Mobility": 0.0410487503,
+            "Population": 525842,
+            "Income": 33294
+        },
+        {
+            "Mobility": 0.031144781,
+            "Population": 35518,
+            "Income": 35155
+        },
+        {
+            "Mobility": 0.0359147042,
+            "Population": 27415,
+            "Income": 27671
+        },
+        {
+            "Mobility": 0.0330490395,
+            "Population": 42098,
+            "Income": 26103
+        },
+        {
+            "Mobility": 0.0318490118,
+            "Population": 241530,
+            "Income": 27878
+        },
+        {
+            "Mobility": 0.0445917435,
+            "Population": 113122,
+            "Income": 26639
+        },
+        {
+            "Mobility": 0.0473826714,
+            "Population": 93044,
+            "Income": 36807
+        },
+        {
+            "Mobility": 0.0489417985,
+            "Population": 131279,
+            "Income": 23378
+        },
+        {
+            "Mobility": 0.0388888903,
+            "Population": 111346,
+            "Income": 26439
+        },
+        {
+            "Mobility": 0.0409670919,
+            "Population": 434615,
+            "Income": 39851
+        },
+        {
+            "Mobility": 0.0326111726,
+            "Population": 386870,
+            "Income": 33836
+        },
+        {
+            "Mobility": 0.0480652973,
+            "Population": 108438,
+            "Income": 26104
+        },
+        {
+            "Mobility": 0.0322265625,
+            "Population": 83808,
+            "Income": 27862
+        },
+        {
+            "Mobility": 0.0320269689,
+            "Population": 74610,
+            "Income": 29575
+        },
+        {
+            "Mobility": 0.0453297347,
+            "Population": 3798017,
+            "Income": 44162
+        },
+        {
+            "Mobility": 0.0402813293,
+            "Population": 135136,
+            "Income": 30888
+        },
+        {
+            "Mobility": 0.0379506648,
+            "Population": 212223,
+            "Income": 30685
+        },
+        {
+            "Mobility": 0.0416666679,
+            "Population": 89228,
+            "Income": 29484
+        },
+        {
+            "Mobility": 0.069715701,
+            "Population": 272150,
+            "Income": 33365
+        },
+        {
+            "Mobility": 0.0449032262,
+            "Population": 148252,
+            "Income": 29631
+        },
+        {
+            "Mobility": 0.0523430221,
+            "Population": 457299,
+            "Income": 32720
+        },
+        {
+            "Mobility": 0.0349603333,
+            "Population": 303656,
+            "Income": 31245
+        },
+        {
+            "Mobility": 0.0344074294,
+            "Population": 65826,
+            "Income": 27083
+        },
+        {
+            "Mobility": 0.0342648029,
+            "Population": 150911,
+            "Income": 27283
+        },
+        {
+            "Mobility": 0.0470258147,
+            "Population": 426634,
+            "Income": 30838
+        },
+        {
+            "Mobility": 0.0581574887,
+            "Population": 172606,
+            "Income": 32715
+        },
+        {
+            "Mobility": 0.0393333323,
+            "Population": 43992,
+            "Income": 29034
+        },
+        {
+            "Mobility": 0.0328861959,
+            "Population": 66396,
+            "Income": 29591
+        },
+        {
+            "Mobility": 0.0276326872,
+            "Population": 181765,
+            "Income": 30170
+        },
+        {
+            "Mobility": 0.022954924,
+            "Population": 61458,
+            "Income": 25284
+        },
+        {
+            "Mobility": 0.0582822077,
+            "Population": 223605,
+            "Income": 32268
+        },
+        {
+            "Mobility": 0.0467728749,
+            "Population": 157091,
+            "Income": 29016
+        },
+        {
+            "Mobility": 0.0360278524,
+            "Population": 95083,
+            "Income": 29115
+        },
+        {
+            "Mobility": 0.0399361029,
+            "Population": 105093,
+            "Income": 26131
+        },
+        {
+            "Mobility": 0.0865883604,
+            "Population": 161169,
+            "Income": 28445
+        },
+        {
+            "Mobility": 0.0504318327,
+            "Population": 1038182,
+            "Income": 38196
+        },
+        {
+            "Mobility": 0.0403225794,
+            "Population": 261112,
+            "Income": 30158
+        },
+        {
+            "Mobility": 0.042383045,
+            "Population": 63233,
+            "Income": 27364
+        },
+        {
+            "Mobility": 0.0612063408,
+            "Population": 623252,
+            "Income": 34256
+        },
+        {
+            "Mobility": 0.0513980016,
+            "Population": 599405,
+            "Income": 33321
+        },
+        {
+            "Mobility": 0.0477876104,
+            "Population": 76853,
+            "Income": 27015
+        },
+        {
+            "Mobility": 0.0330373719,
+            "Population": 367927,
+            "Income": 33533
+        },
+        {
+            "Mobility": 0.0679886714,
+            "Population": 80901,
+            "Income": 28445
+        },
+        {
+            "Mobility": 0.1107491851,
+            "Population": 199334,
+            "Income": 27294
+        },
+        {
+            "Mobility": 0.1599147171,
+            "Population": 53037,
+            "Income": 22244
+        },
+        {
+            "Mobility": 0.1036082506,
+            "Population": 84011,
+            "Income": 25086
+        },
+        {
+            "Mobility": 0.0945812836,
+            "Population": 241044,
+            "Income": 41266
+        },
+        {
+            "Mobility": 0.064007394,
+            "Population": 2512431,
+            "Income": 44194
+        },
+        {
+            "Mobility": 0.0654515326,
+            "Population": 59342,
+            "Income": 39561
+        },
+        {
+            "Mobility": 0.1098117381,
+            "Population": 4632415,
+            "Income": 53706
+        },
+        {
+            "Mobility": 0.0965651348,
+            "Population": 121919,
+            "Income": 32535
+        },
+        {
+            "Mobility": 0.1027253643,
+            "Population": 114408,
+            "Income": 34016
+        },
+        {
+            "Mobility": 0.0991831943,
+            "Population": 57510,
+            "Income": 26896
+        },
+        {
+            "Mobility": 0.0630887821,
+            "Population": 303839,
+            "Income": 36188
+        },
+        {
+            "Mobility": 0.0545927621,
+            "Population": 5327827,
+            "Income": 44745
+        },
+        {
+            "Mobility": 0.0641167387,
+            "Population": 447728,
+            "Income": 37719
+        },
+        {
+            "Mobility": 0.0646153837,
+            "Population": 136888,
+            "Income": 27945
+        },
+        {
+            "Mobility": 0.0644080862,
+            "Population": 540707,
+            "Income": 36938
+        },
+        {
+            "Mobility": 0.0743079185,
+            "Population": 120045,
+            "Income": 30109
+        },
+        {
+            "Mobility": 0.0760736167,
+            "Population": 52801,
+            "Income": 33400
+        },
+        {
+            "Mobility": 0.0526231341,
+            "Population": 509606,
+            "Income": 36931
+        },
+        {
+            "Mobility": 0.063729167,
+            "Population": 1286045,
+            "Income": 37483
+        },
+        {
+            "Mobility": 0.0742486715,
+            "Population": 154452,
+            "Income": 39703
+        },
+        {
+            "Mobility": 0.0765550211,
+            "Population": 83975,
+            "Income": 37711
+        },
+        {
+            "Mobility": 0.078644067,
+            "Population": 84783,
+            "Income": 34474
+        },
+        {
+            "Mobility": 0.0748898685,
+            "Population": 104421,
+            "Income": 34360
+        },
+        {
+            "Mobility": 0.0488145053,
+            "Population": 1179009,
+            "Income": 39002
+        },
+        {
+            "Mobility": 0.0533333346,
+            "Population": 109851,
+            "Income": 32903
+        },
+        {
+            "Mobility": 0.0539811067,
+            "Population": 104034,
+            "Income": 34115
+        },
+        {
+            "Mobility": 0.0512119494,
+            "Population": 1954800,
+            "Income": 42063
+        },
+        {
+            "Mobility": 0.0528455302,
+            "Population": 52963,
+            "Income": 27372
+        },
+        {
+            "Mobility": 0.1065877154,
+            "Population": 134026,
+            "Income": 35835
+        },
+        {
+            "Mobility": 0.0537449978,
+            "Population": 525970,
+            "Income": 36577
+        },
+        {
+            "Mobility": 0.0622914359,
+            "Population": 40195,
+            "Income": 28067
+        },
+        {
+            "Mobility": 0.0727496892,
+            "Population": 86667,
+            "Income": 30746
+        },
+        {
+            "Mobility": 0.081598945,
+            "Population": 176597,
+            "Income": 29945
+        },
+        {
+            "Mobility": 0.051995486,
+            "Population": 1100767,
+            "Income": 39192
+        },
+        {
+            "Mobility": 0.0938271582,
+            "Population": 49985,
+            "Income": 31205
+        },
+        {
+            "Mobility": 0.0762167126,
+            "Population": 66605,
+            "Income": 30726
+        },
+        {
+            "Mobility": 0.0923025683,
+            "Population": 177640,
+            "Income": 31538
+        },
+        {
+            "Mobility": 0.0736145601,
+            "Population": 246623,
+            "Income": 34869
+        },
+        {
+            "Mobility": 0.0694817677,
+            "Population": 260393,
+            "Income": 35092
+        },
+        {
+            "Mobility": 0.0574808046,
+            "Population": 834343,
+            "Income": 38616
+        },
+        {
+            "Mobility": 0.0814732164,
+            "Population": 98981,
+            "Income": 35188
+        },
+        {
+            "Mobility": 0.0601345673,
+            "Population": 657906,
+            "Income": 36189
+        },
+        {
+            "Mobility": 0.0734009892,
+            "Population": 372184,
+            "Income": 35487
+        },
+        {
+            "Mobility": 0.0915141404,
+            "Population": 129528,
+            "Income": 35790
+        },
+        {
+            "Mobility": 0.0661350861,
+            "Population": 192308,
+            "Income": 37701
+        },
+        {
+            "Mobility": 0.0531732403,
+            "Population": 415487,
+            "Income": 34884
+        },
+        {
+            "Mobility": 0.0659465641,
+            "Population": 557161,
+            "Income": 38529
+        },
+        {
+            "Mobility": 0.0490063243,
+            "Population": 1507346,
+            "Income": 42510
+        },
+        {
+            "Mobility": 0.0746864304,
+            "Population": 163284,
+            "Income": 35466
+        },
+        {
+            "Mobility": 0.082625255,
+            "Population": 261832,
+            "Income": 31382
+        },
+        {
+            "Mobility": 0.0908335671,
+            "Population": 347966,
+            "Income": 32345
+        },
+        {
+            "Mobility": 0.0871858522,
+            "Population": 280923,
+            "Income": 30525
+        },
+        {
+            "Mobility": 0.0792389214,
+            "Population": 388604,
+            "Income": 36908
+        },
+        {
+            "Mobility": 0.1169398874,
+            "Population": 55642,
+            "Income": 31875
+        },
+        {
+            "Mobility": 0.1098398194,
+            "Population": 54708,
+            "Income": 30101
+        },
+        {
+            "Mobility": 0.081390135,
+            "Population": 675971,
+            "Income": 38097
+        },
+        {
+            "Mobility": 0.0649108514,
+            "Population": 700866,
+            "Income": 35700
+        },
+        {
+            "Mobility": 0.0566001162,
+            "Population": 423702,
+            "Income": 38660
+        },
+        {
+            "Mobility": 0.050859265,
+            "Population": 2661167,
+            "Income": 42208
+        },
+        {
+            "Mobility": 0.0708944052,
+            "Population": 202967,
+            "Income": 32372
+        },
+        {
+            "Mobility": 0.0684076101,
+            "Population": 188410,
+            "Income": 30313
+        },
+        {
+            "Mobility": 0.0727181509,
+            "Population": 132008,
+            "Income": 32010
+        },
+        {
+            "Mobility": 0.1254040152,
+            "Population": 195637,
+            "Income": 31111
+        },
+        {
+            "Mobility": 0.0648590028,
+            "Population": 225682,
+            "Income": 28949
+        },
+        {
+            "Mobility": 0.0747126415,
+            "Population": 142321,
+            "Income": 24643
+        },
+        {
+            "Mobility": 0.049094066,
+            "Population": 1663807,
+            "Income": 40286
+        },
+        {
+            "Mobility": 0.0644607842,
+            "Population": 326186,
+            "Income": 33186
+        },
+        {
+            "Mobility": 0.1131276488,
+            "Population": 310658,
+            "Income": 28923
+        },
+        {
+            "Mobility": 0.1023769081,
+            "Population": 411749,
+            "Income": 30392
+        },
+        {
+            "Mobility": 0.09514869,
+            "Population": 2561364,
+            "Income": 38686
+        },
+        {
+            "Mobility": 0.0669745952,
+            "Population": 809682,
+            "Income": 34808
+        },
+        {
+            "Mobility": 0.0751668066,
+            "Population": 659098,
+            "Income": 31989
+        },
+        {
+            "Mobility": 0.0640164241,
+            "Population": 468038,
+            "Income": 34411
+        },
+        {
+            "Mobility": 0.1057993695,
+            "Population": 60271,
+            "Income": 26302
+        },
+        {
+            "Mobility": 0.1049584672,
+            "Population": 259942,
+            "Income": 28593
+        },
+        {
+            "Mobility": 0.1264108419,
+            "Population": 40323,
+            "Income": 25062
+        },
+        {
+            "Mobility": 0.1064450294,
+            "Population": 174251,
+            "Income": 28131
+        },
+        {
+            "Mobility": 0.1285289675,
+            "Population": 58143,
+            "Income": 25662
+        },
+        {
+            "Mobility": 0.0972293913,
+            "Population": 347345,
+            "Income": 34109
+        },
+        {
+            "Mobility": 0.1465677172,
+            "Population": 23028,
+            "Income": 23337
+        },
+        {
+            "Mobility": 0.1378403753,
+            "Population": 204354,
+            "Income": 23076
+        },
+        {
+            "Mobility": 0.0685057491,
+            "Population": 344380,
+            "Income": 29101
+        },
+        {
+            "Mobility": 0.0938897133,
+            "Population": 174641,
+            "Income": 31025
+        },
+        {
+            "Mobility": 0.0680161938,
+            "Population": 188559,
+            "Income": 34674
+        },
+        {
+            "Mobility": 0.0870945826,
+            "Population": 408535,
+            "Income": 34829
+        },
+        {
+            "Mobility": 0.0969055369,
+            "Population": 155822,
+            "Income": 29147
+        },
+        {
+            "Mobility": 0.0972972959,
+            "Population": 115649,
+            "Income": 36887
+        },
+        {
+            "Mobility": 0.0613825992,
+            "Population": 273489,
+            "Income": 37999
+        },
+        {
+            "Mobility": 0.076672107,
+            "Population": 1080612,
+            "Income": 35778
+        },
+        {
+            "Mobility": 0.0928838924,
+            "Population": 161132,
+            "Income": 31398
+        },
+        {
+            "Mobility": 0.088044025,
+            "Population": 294558,
+            "Income": 35192
+        },
+        {
+            "Mobility": 0.066782549,
+            "Population": 2369699,
+            "Income": 38618
+        },
+        {
+            "Mobility": 0.0936922133,
+            "Population": 346894,
+            "Income": 32548
+        },
+        {
+            "Mobility": 0.0801330507,
+            "Population": 197898,
+            "Income": 29823
+        },
+        {
+            "Mobility": 0.1629834324,
+            "Population": 41086,
+            "Income": 34878
+        },
+        {
+            "Mobility": 0.1011804417,
+            "Population": 250613,
+            "Income": 27436
+        },
+        {
+            "Mobility": 0.0854566842,
+            "Population": 169879,
+            "Income": 28561
+        },
+        {
+            "Mobility": 0.082840234,
+            "Population": 110160,
+            "Income": 32624
+        },
+        {
+            "Mobility": 0.0833333358,
+            "Population": 1061509,
+            "Income": 40298
+        },
+        {
+            "Mobility": 0.1113667712,
+            "Population": 191962,
+            "Income": 30863
+        },
+        {
+            "Mobility": 0.1074531749,
+            "Population": 857487,
+            "Income": 35125
+        },
+        {
+            "Mobility": 0.1016209498,
+            "Population": 227275,
+            "Income": 31689
+        },
+        {
+            "Mobility": 0.0826314986,
+            "Population": 637958,
+            "Income": 39894
+        },
+        {
+            "Mobility": 0.0963095427,
+            "Population": 1114959,
+            "Income": 38217
+        },
+        {
+            "Mobility": 0.0792682916,
+            "Population": 1051424,
+            "Income": 38699
+        },
+        {
+            "Mobility": 0.0948357806,
+            "Population": 873232,
+            "Income": 39707
+        },
+        {
+            "Mobility": 0.1050008386,
+            "Population": 11781395,
+            "Income": 45509
+        },
+        {
+            "Mobility": 0.1222978607,
+            "Population": 1126217,
+            "Income": 54036
+        },
+        {
+            "Mobility": 0.1024259701,
+            "Population": 5822286,
+            "Income": 51373
+        },
+        {
+            "Mobility": 0.0740116686,
+            "Population": 5602247,
+            "Income": 43746
+        },
+        {
+            "Mobility": 0.0657239258,
+            "Population": 586216,
+            "Income": 44620
+        },
+        {
+            "Mobility": 0.0625960082,
+            "Population": 439269,
+            "Income": 36398
+        },
+        {
+            "Mobility": 0.0626359284,
+            "Population": 154018,
+            "Income": 43805
+        },
+        {
+            "Mobility": 0.0445141047,
+            "Population": 51398,
+            "Income": 31562
+        },
+        {
+            "Mobility": 0.0809096843,
+            "Population": 289843,
+            "Income": 32900
+        },
+        {
+            "Mobility": 0.0680272132,
+            "Population": 33941,
+            "Income": 26505
+        },
+        {
+            "Mobility": 0.0855855867,
+            "Population": 73938,
+            "Income": 27952
+        },
+        {
+            "Mobility": 0.0805980191,
+            "Population": 690459,
+            "Income": 37252
+        },
+        {
+            "Mobility": 0.0931878537,
+            "Population": 321496,
+            "Income": 37131
+        },
+        {
+            "Mobility": 0.083530806,
+            "Population": 95549,
+            "Income": 31204
+        },
+        {
+            "Mobility": 0.078877002,
+            "Population": 265884,
+            "Income": 38571
+        },
+        {
+            "Mobility": 0.0820953399,
+            "Population": 1582997,
+            "Income": 39543
+        },
+        {
+            "Mobility": 0.0810810775,
+            "Population": 9520,
+            "Income": 49651
+        },
+        {
+            "Mobility": 0.0676691756,
+            "Population": 14987,
+            "Income": 48059
+        },
+        {
+            "Mobility": 0.1048499793,
+            "Population": 4974945,
+            "Income": 49445
+        },
+        {
+            "Mobility": 0.1001517475,
+            "Population": 1193391,
+            "Income": 43530
+        },
+        {
+            "Mobility": 0.0901116431,
+            "Population": 118041,
+            "Income": 37048
+        },
+        {
+            "Mobility": 0.0680504739,
+            "Population": 680014,
+            "Income": 36671
+        },
+        {
+            "Mobility": 0.0786178932,
+            "Population": 3405565,
+            "Income": 53281
+        },
+        {
+            "Mobility": 0.0865191147,
+            "Population": 171947,
+            "Income": 41091
+        },
+        {
+            "Mobility": 0.0910326093,
+            "Population": 47701,
+            "Income": 32218
+        },
+        {
+            "Mobility": 0.1022727266,
+            "Population": 47063,
+            "Income": 26975
+        },
+        {
+            "Mobility": 0.1213872805,
+            "Population": 32049,
+            "Income": 32111
+        },
+        {
+            "Mobility": 0.1062801927,
+            "Population": 67833,
+            "Income": 37115
+        },
+        {
+            "Mobility": 0.1015262082,
+            "Population": 92542,
+            "Income": 33974
+        },
+        {
+            "Mobility": 0.1285500675,
+            "Population": 56993,
+            "Income": 36392
+        },
+        {
+            "Mobility": 0.1770657599,
+            "Population": 72898,
+            "Income": 37753
+        },
+        {
+            "Mobility": 0.1971831024,
+            "Population": 33969,
+            "Income": 37685
+        },
+        {
+            "Mobility": 0.1263440847,
+            "Population": 149925,
+            "Income": 34778
+        },
+        {
+            "Mobility": 0.137931034,
+            "Population": 109871,
+            "Income": 35164
+        },
+        {
+            "Mobility": 0.1268896013,
+            "Population": 254139,
+            "Income": 35324
+        },
+        {
+            "Mobility": 0.0852011293,
+            "Population": 2904389,
+            "Income": 47071
+        },
+        {
+            "Mobility": 0.1096979305,
+            "Population": 41526,
+            "Income": 32880
+        },
+        {
+            "Mobility": 0.0842745453,
+            "Population": 141542,
+            "Income": 35545
+        },
+        {
+            "Mobility": 0.1421598494,
+            "Population": 228867,
+            "Income": 42380
+        },
+        {
+            "Mobility": 0.1177325547,
+            "Population": 71187,
+            "Income": 38505
+        },
+        {
+            "Mobility": 0.1265984625,
+            "Population": 78179,
+            "Income": 36400
+        },
+        {
+            "Mobility": 0.1657142788,
+            "Population": 72111,
+            "Income": 34000
+        },
+        {
+            "Mobility": 0.1126346737,
+            "Population": 113442,
+            "Income": 35247
+        },
+        {
+            "Mobility": 0.1224658638,
+            "Population": 222112,
+            "Income": 34720
+        },
+        {
+            "Mobility": 0.1357615888,
+            "Population": 29516,
+            "Income": 36422
+        },
+        {
+            "Mobility": 0.0931849778,
+            "Population": 203768,
+            "Income": 35558
+        },
+        {
+            "Mobility": 0.1173184365,
+            "Population": 252901,
+            "Income": 40330
+        },
+        {
+            "Mobility": 0.1244979948,
+            "Population": 142385,
+            "Income": 33871
+        },
+        {
+            "Mobility": 0.1380908191,
+            "Population": 195533,
+            "Income": 39238
+        },
+        {
+            "Mobility": 0.1148549691,
+            "Population": 549651,
+            "Income": 38576
+        },
+        {
+            "Mobility": 0.0910990387,
+            "Population": 310560,
+            "Income": 38561
+        },
+        {
+            "Mobility": 0.0839002281,
+            "Population": 65966,
+            "Income": 33696
+        },
+        {
+            "Mobility": 0.1244852692,
+            "Population": 370092,
+            "Income": 36499
+        },
+        {
+            "Mobility": 0.1130195782,
+            "Population": 305307,
+            "Income": 33090
+        },
+        {
+            "Mobility": 0.1181933284,
+            "Population": 220109,
+            "Income": 34419
+        },
+        {
+            "Mobility": 0.1671388149,
+            "Population": 116624,
+            "Income": 33582
+        },
+        {
+            "Mobility": 0.0921911746,
+            "Population": 590755,
+            "Income": 40576
+        },
+        {
+            "Mobility": 0.1594827622,
+            "Population": 163189,
+            "Income": 36443
+        },
+        {
+            "Mobility": 0.0958677679,
+            "Population": 101161,
+            "Income": 31206
+        },
+        {
+            "Mobility": 0.1015452519,
+            "Population": 101195,
+            "Income": 31741
+        },
+        {
+            "Mobility": 0.0845864639,
+            "Population": 206909,
+            "Income": 37177
+        },
+        {
+            "Mobility": 0.0677927956,
+            "Population": 382083,
+            "Income": 34871
+        },
+        {
+            "Mobility": 0.1022797301,
+            "Population": 136489,
+            "Income": 35038
+        },
+        {
+            "Mobility": 0.0885935798,
+            "Population": 145734,
+            "Income": 30827
+        },
+        {
+            "Mobility": 0.0809443519,
+            "Population": 382351,
+            "Income": 37759
+        },
+        {
+            "Mobility": 0.1138790026,
+            "Population": 70445,
+            "Income": 34146
+        },
+        {
+            "Mobility": 0.0717817843,
+            "Population": 529703,
+            "Income": 38842
+        },
+        {
+            "Mobility": 0.0691956431,
+            "Population": 584474,
+            "Income": 39333
+        },
+        {
+            "Mobility": 0.0445706695,
+            "Population": 1660659,
+            "Income": 42464
+        },
+        {
+            "Mobility": 0.0730964467,
+            "Population": 135167,
+            "Income": 35849
+        },
+        {
+            "Mobility": 0.0649292618,
+            "Population": 8183799,
+            "Income": 45757
+        },
+        {
+            "Mobility": 0.0735386536,
+            "Population": 622573,
+            "Income": 37848
+        },
+        {
+            "Mobility": 0.0797373354,
+            "Population": 111509,
+            "Income": 26402
+        },
+        {
+            "Mobility": 0.0852446482,
+            "Population": 137456,
+            "Income": 27773
+        },
+        {
+            "Mobility": 0.0505231395,
+            "Population": 2325609,
+            "Income": 42680
+        },
+        {
+            "Mobility": 0.0756756738,
+            "Population": 37989,
+            "Income": 30615
+        },
+        {
+            "Mobility": 0.0911504403,
+            "Population": 84748,
+            "Income": 30777
+        },
+        {
+            "Mobility": 0.0673715994,
+            "Population": 267992,
+            "Income": 40182
+        },
+        {
+            "Mobility": 0.0872936994,
+            "Population": 382997,
+            "Income": 36421
+        },
+        {
+            "Mobility": 0.0896204859,
+            "Population": 152421,
+            "Income": 31869
+        },
+        {
+            "Mobility": 0.0895061716,
+            "Population": 64068,
+            "Income": 32623
+        },
+        {
+            "Mobility": 0.0815548748,
+            "Population": 90551,
+            "Income": 26979
+        },
+        {
+            "Mobility": 0.0997150987,
+            "Population": 76174,
+            "Income": 29629
+        },
+        {
+            "Mobility": 0.1096006781,
+            "Population": 51737,
+            "Income": 32635
+        },
+        {
+            "Mobility": 0.0960288793,
+            "Population": 64601,
+            "Income": 29503
+        },
+        {
+            "Mobility": 0.099227801,
+            "Population": 151629,
+            "Income": 31361
+        },
+        {
+            "Mobility": 0.073929958,
+            "Population": 117387,
+            "Income": 30330
+        },
+        {
+            "Mobility": 0.0744777471,
+            "Population": 138654,
+            "Income": 34572
+        },
+        {
+            "Mobility": 0.0704545453,
+            "Population": 34177,
+            "Income": 28383
+        },
+        {
+            "Mobility": 0.0813443735,
+            "Population": 141040,
+            "Income": 33265
+        },
+        {
+            "Mobility": 0.0790478364,
+            "Population": 265022,
+            "Income": 28913
+        },
+        {
+            "Mobility": 0.1121372059,
+            "Population": 37978,
+            "Income": 29680
+        },
+        {
+            "Mobility": 0.0600515455,
+            "Population": 184036,
+            "Income": 30141
+        },
+        {
+            "Mobility": 0.0668257773,
+            "Population": 73576,
+            "Income": 28334
+        },
+        {
+            "Mobility": 0.0514018685,
+            "Population": 105181,
+            "Income": 26795
+        },
+        {
+            "Mobility": 0.0810322613,
+            "Population": 198671,
+            "Income": 29115
+        },
+        {
+            "Mobility": 0.1875,
+            "Population": 20860,
+            "Income": 33398
+        },
+        {
+            "Mobility": 0.0891148299,
+            "Population": 286544,
+            "Income": 34404
+        },
+        {
+            "Mobility": 0.1016949117,
+            "Population": 5168,
+            "Income": 39706
+        },
+        {
+            "Mobility": 0.174129352,
+            "Population": 14355,
+            "Income": 37115
+        },
+        {
+            "Mobility": 0.1013727561,
+            "Population": 56535,
+            "Income": 29088
+        },
+        {
+            "Mobility": 0.0948379338,
+            "Population": 48599,
+            "Income": 31245
+        },
+        {
+            "Mobility": 0.1119221374,
+            "Population": 22192,
+            "Income": 31879
+        },
+        {
+            "Mobility": 0.1083333343,
+            "Population": 14189,
+            "Income": 30864
+        },
+        {
+            "Mobility": 0.0871369317,
+            "Population": 12442,
+            "Income": 28324
+        },
+        {
+            "Mobility": 0.1467181444,
+            "Population": 29873,
+            "Income": 30736
+        },
+        {
+            "Mobility": 0.1134380475,
+            "Population": 38491,
+            "Income": 26767
+        },
+        {
+            "Mobility": 0.186741367,
+            "Population": 114739,
+            "Income": 35396
+        },
+        {
+            "Mobility": NaN,
+            "Population": 2841,
+            "Income": 30352
+        },
+        {
+            "Mobility": 0.2989130318,
+            "Population": 10029,
+            "Income": 34910
+        },
+        {
+            "Mobility": NaN,
+            "Population": 2753,
+            "Income": 29680
+        },
+        {
+            "Mobility": 0.096474953,
+            "Population": 22745,
+            "Income": 32687
+        },
+        {
+            "Mobility": 0.3333333433,
+            "Population": 6516,
+            "Income": 36561
+        },
+        {
+            "Mobility": 0.0825545192,
+            "Population": 16550,
+            "Income": 25045
+        },
+        {
+            "Mobility": 0.2241784036,
+            "Population": 74541,
+            "Income": 31149
+        },
+        {
+            "Mobility": 0.219101131,
+            "Population": 11487,
+            "Income": 33947
+        },
+        {
+            "Mobility": 0.2297297269,
+            "Population": 2713,
+            "Income": 25283
+        },
+        {
+            "Mobility": 0.2127659619,
+            "Population": 2837,
+            "Income": 30325
+        },
+        {
+            "Mobility": 0.4696969688,
+            "Population": 4009,
+            "Income": 34194
+        },
+        {
+            "Mobility": 0.3571428657,
+            "Population": 8671,
+            "Income": 34793
+        },
+        {
+            "Mobility": NaN,
+            "Population": 2017,
+            "Income": 32705
+        },
+        {
+            "Mobility": 0.0941883773,
+            "Population": 12597,
+            "Income": 24254
+        },
+        {
+            "Mobility": 0.3181818128,
+            "Population": 4105,
+            "Income": 33727
+        },
+        {
+            "Mobility": 0.1660649776,
+            "Population": 12276,
+            "Income": 31217
+        },
+        {
+            "Mobility": 0.2666666806,
+            "Population": 12051,
+            "Income": 29215
+        },
+        {
+            "Mobility": 0.329207927,
+            "Population": 27124,
+            "Income": 29909
+        },
+        {
+            "Mobility": 0.2505694628,
+            "Population": 22035,
+            "Income": 30292
+        },
+        {
+            "Mobility": 0.3383084536,
+            "Population": 24286,
+            "Income": 32277
+        },
+        {
+            "Mobility": 0.1666666716,
+            "Population": 40630,
+            "Income": 30234
+        },
+        {
+            "Mobility": 0.1843575388,
+            "Population": 14160,
+            "Income": 30819
+        },
+        {
+            "Mobility": 0.1186331436,
+            "Population": 200630,
+            "Income": 36624
+        },
+        {
+            "Mobility": 0.1435294151,
+            "Population": 40078,
+            "Income": 35143
+        },
+        {
+            "Mobility": 0.1702127606,
+            "Population": 17801,
+            "Income": 34361
+        },
+        {
+            "Mobility": 0.107066378,
+            "Population": 20859,
+            "Income": 30613
+        },
+        {
+            "Mobility": 0.0700280145,
+            "Population": 8225,
+            "Income": 17401
+        },
+        {
+            "Mobility": 0.1111111119,
+            "Population": 7756,
+            "Income": 31322
+        },
+        {
+            "Mobility": 0.1992687434,
+            "Population": 52825,
+            "Income": 33760
+        },
+        {
+            "Mobility": 0.0952868834,
+            "Population": 101639,
+            "Income": 31567
+        },
+        {
+            "Mobility": 0.2325581461,
+            "Population": 31090,
+            "Income": 34409
+        },
+        {
+            "Mobility": 0.1787564754,
+            "Population": 28038,
+            "Income": 32095
+        },
+        {
+            "Mobility": 0.1279491782,
+            "Population": 108213,
+            "Income": 31651
+        },
+        {
+            "Mobility": 0.1358173043,
+            "Population": 206945,
+            "Income": 34085
+        },
+        {
+            "Mobility": 0.2352941185,
+            "Population": 16013,
+            "Income": 35168
+        },
+        {
+            "Mobility": 0.2240566015,
+            "Population": 38384,
+            "Income": 32842
+        },
+        {
+            "Mobility": NaN,
+            "Population": 2754,
+            "Income": 34890
+        },
+        {
+            "Mobility": 0.1523076892,
+            "Population": 117558,
+            "Income": 36094
+        },
+        {
+            "Mobility": 0.1645569652,
+            "Population": 69851,
+            "Income": 31851
+        },
+        {
+            "Mobility": 0.1893491149,
+            "Population": 14875,
+            "Income": 31084
+        },
+        {
+            "Mobility": 0.2392344475,
+            "Population": 9975,
+            "Income": 31042
+        },
+        {
+            "Mobility": 0.1920529753,
+            "Population": 6264,
+            "Income": 30825
+        },
+        {
+            "Mobility": 0.1392857134,
+            "Population": 11222,
+            "Income": 29623
+        },
+        {
+            "Mobility": 0.1712000072,
+            "Population": 47901,
+            "Income": 31086
+        },
+        {
+            "Mobility": 0.1338199526,
+            "Population": 27613,
+            "Income": 33753
+        },
+        {
+            "Mobility": 0.1204819307,
+            "Population": 19318,
+            "Income": 35617
+        },
+        {
+            "Mobility": 0.157107234,
+            "Population": 20883,
+            "Income": 29594
+        },
+        {
+            "Mobility": 0.0804195777,
+            "Population": 11291,
+            "Income": 26746
+        },
+        {
+            "Mobility": 0.3150684834,
+            "Population": 5412,
+            "Income": 39611
+        },
+        {
+            "Mobility": 0.0924369767,
+            "Population": 20809,
+            "Income": 38653
+        },
+        {
+            "Mobility": 0.3265306056,
+            "Population": 2693,
+            "Income": 37190
+        },
+        {
+            "Mobility": 0.1247139573,
+            "Population": 85394,
+            "Income": 35795
+        },
+        {
+            "Mobility": 0.153061226,
+            "Population": 51470,
+            "Income": 34330
+        },
+        {
+            "Mobility": 0.2307692319,
+            "Population": 58454,
+            "Income": 32542
+        },
+        {
+            "Mobility": 0.1402936429,
+            "Population": 60435,
+            "Income": 34678
+        },
+        {
+            "Mobility": 0.1850079745,
+            "Population": 61106,
+            "Income": 38061
+        },
+        {
+            "Mobility": 0.1287128776,
+            "Population": 49010,
+            "Income": 35648
+        },
+        {
+            "Mobility": 0.1734317392,
+            "Population": 52812,
+            "Income": 34279
+        },
+        {
+            "Mobility": 0.1300448477,
+            "Population": 101165,
+            "Income": 35646
+        },
+        {
+            "Mobility": 0.0910248235,
+            "Population": 595842,
+            "Income": 40108
+        },
+        {
+            "Mobility": 0.1245136186,
+            "Population": 35600,
+            "Income": 31082
+        },
+        {
+            "Mobility": 0.1515837163,
+            "Population": 34687,
+            "Income": 35644
+        },
+        {
+            "Mobility": 0.1672354937,
+            "Population": 48729,
+            "Income": 34862
+        },
+        {
+            "Mobility": 0.0930329561,
+            "Population": 158442,
+            "Income": 33201
+        },
+        {
+            "Mobility": 0.05111821,
+            "Population": 8491,
+            "Income": 18546
+        },
+        {
+            "Mobility": 0.1103448272,
+            "Population": 5126,
+            "Income": 26268
+        },
+        {
+            "Mobility": NaN,
+            "Population": 1193,
+            "Income": 30669
+        },
+        {
+            "Mobility": 0.0242537316,
+            "Population": 11133,
+            "Income": 17598
+        },
+        {
+            "Mobility": 0.1194029823,
+            "Population": 65903,
+            "Income": 33192
+        },
+        {
+            "Mobility": 0.0956375822,
+            "Population": 95526,
+            "Income": 34425
+        },
+        {
+            "Mobility": 0.171581775,
+            "Population": 21345,
+            "Income": 31966
+        },
+        {
+            "Mobility": 0.0319488831,
+            "Population": 22238,
+            "Income": 19815
+        },
+        {
+            "Mobility": 0.1516079605,
+            "Population": 56990,
+            "Income": 31600
+        },
+        {
+            "Mobility": 0.1691842973,
+            "Population": 61167,
+            "Income": 34258
+        },
+        {
+            "Mobility": 0.1111111119,
+            "Population": 42251,
+            "Income": 34343
+        },
+        {
+            "Mobility": 0.1868131906,
+            "Population": 26871,
+            "Income": 35524
+        },
+        {
+            "Mobility": 0.1420996785,
+            "Population": 77708,
+            "Income": 33160
+        },
+        {
+            "Mobility": 0.1125235409,
+            "Population": 187773,
+            "Income": 35655
+        },
+        {
+            "Mobility": 0.100386098,
+            "Population": 25165,
+            "Income": 32028
+        },
+        {
+            "Mobility": 0.0913167521,
+            "Population": 311956,
+            "Income": 35973
+        },
+        {
+            "Mobility": 0.1583514065,
+            "Population": 40078,
+            "Income": 34517
+        },
+        {
+            "Mobility": 0.1242138371,
+            "Population": 48197,
+            "Income": 33242
+        },
+        {
+            "Mobility": 0.0775407478,
+            "Population": 803201,
+            "Income": 39948
+        },
+        {
+            "Mobility": 0.1446345299,
+            "Population": 39751,
+            "Income": 31170
+        },
+        {
+            "Mobility": 0.1622807086,
+            "Population": 16920,
+            "Income": 34904
+        },
+        {
+            "Mobility": NaN,
+            "Population": 2292,
+            "Income": 31316
+        },
+        {
+            "Mobility": 0.145348832,
+            "Population": 8122,
+            "Income": 31506
+        },
+        {
+            "Mobility": 0.1764705926,
+            "Population": 13105,
+            "Income": 33846
+        },
+        {
+            "Mobility": 0.1227678582,
+            "Population": 35939,
+            "Income": 35591
+        },
+        {
+            "Mobility": 0.089342691,
+            "Population": 587132,
+            "Income": 37765
+        },
+        {
+            "Mobility": 0.1785714328,
+            "Population": 6087,
+            "Income": 25562
+        },
+        {
+            "Mobility": 0.1919191927,
+            "Population": 4517,
+            "Income": 31260
+        },
+        {
+            "Mobility": 0.0656216815,
+            "Population": 187782,
+            "Income": 31075
+        },
+        {
+            "Mobility": 0.1176470593,
+            "Population": 23069,
+            "Income": 30720
+        },
+        {
+            "Mobility": 0.204651162,
+            "Population": 11864,
+            "Income": 32575
+        },
+        {
+            "Mobility": 0.2432432473,
+            "Population": 6438,
+            "Income": 36684
+        },
+        {
+            "Mobility": 0.1686746925,
+            "Population": 5953,
+            "Income": 27980
+        },
+        {
+            "Mobility": 0.1486486495,
+            "Population": 10537,
+            "Income": 34879
+        },
+        {
+            "Mobility": 0.1958762854,
+            "Population": 17107,
+            "Income": 36561
+        },
+        {
+            "Mobility": 0.1949152499,
+            "Population": 8509,
+            "Income": 32861
+        },
+        {
+            "Mobility": 0.2045454532,
+            "Population": 5457,
+            "Income": 36524
+        },
+        {
+            "Mobility": 0.1824561357,
+            "Population": 19695,
+            "Income": 32797
+        },
+        {
+            "Mobility": 0.1644295305,
+            "Population": 56033,
+            "Income": 31135
+        },
+        {
+            "Mobility": 0.1652777791,
+            "Population": 48464,
+            "Income": 33765
+        },
+        {
+            "Mobility": 0.0894736871,
+            "Population": 16242,
+            "Income": 33185
+        },
+        {
+            "Mobility": 0.1690140814,
+            "Population": 131682,
+            "Income": 45256
+        },
+        {
+            "Mobility": 0.0754716992,
+            "Population": 12442,
+            "Income": 40411
+        },
+        {
+            "Mobility": 0.1628664434,
+            "Population": 33591,
+            "Income": 26024
+        },
+        {
+            "Mobility": 0.1153677776,
+            "Population": 459601,
+            "Income": 37523
+        },
+        {
+            "Mobility": 0.0870277509,
+            "Population": 2449044,
+            "Income": 46181
+        },
+        {
+            "Mobility": 0.1551724076,
+            "Population": 18232,
+            "Income": 35115
+        },
+        {
+            "Mobility": NaN,
+            "Population": 1967,
+            "Income": 37696
+        },
+        {
+            "Mobility": 0.1133093536,
+            "Population": 42837,
+            "Income": 31771
+        },
+        {
+            "Mobility": 0.1312803924,
+            "Population": 47227,
+            "Income": 33946
+        },
+        {
+            "Mobility": 0.1073891595,
+            "Population": 82076,
+            "Income": 33452
+        },
+        {
+            "Mobility": 0.1578947306,
+            "Population": 38196,
+            "Income": 33330
+        },
+        {
+            "Mobility": 0.1151079163,
+            "Population": 8631,
+            "Income": 34104
+        },
+        {
+            "Mobility": 0.1494252831,
+            "Population": 5609,
+            "Income": 38615
+        },
+        {
+            "Mobility": 0.152823925,
+            "Population": 19894,
+            "Income": 36131
+        },
+        {
+            "Mobility": 0.1863353997,
+            "Population": 11112,
+            "Income": 35206
+        },
+        {
+            "Mobility": 0.1503759325,
+            "Population": 11384,
+            "Income": 36359
+        },
+        {
+            "Mobility": 0.0829986632,
+            "Population": 63338,
+            "Income": 35541
+        },
+        {
+            "Mobility": 0.1718213111,
+            "Population": 21441,
+            "Income": 34022
+        },
+        {
+            "Mobility": 0.145228222,
+            "Population": 17448,
+            "Income": 34953
+        },
+        {
+            "Mobility": 0.0885311887,
+            "Population": 143269,
+            "Income": 28788
+        },
+        {
+            "Mobility": 0.0704687983,
+            "Population": 324513,
+            "Income": 35816
+        },
+        {
+            "Mobility": 0.0722466931,
+            "Population": 553506,
+            "Income": 38847
+        },
+        {
+            "Mobility": 0.1034965068,
+            "Population": 75784,
+            "Income": 36055
+        },
+        {
+            "Mobility": 0.1098626703,
+            "Population": 51584,
+            "Income": 33686
+        },
+        {
+            "Mobility": 0.0926395953,
+            "Population": 51067,
+            "Income": 32282
+        },
+        {
+            "Mobility": 0.1094017103,
+            "Population": 47830,
+            "Income": 29885
+        },
+        {
+            "Mobility": 0.089498803,
+            "Population": 145981,
+            "Income": 34266
+        },
+        {
+            "Mobility": 0.0803461075,
+            "Population": 85465,
+            "Income": 33080
+        },
+        {
+            "Mobility": 0.0701465756,
+            "Population": 1762873,
+            "Income": 42531
+        },
+        {
+            "Mobility": 0.0831134543,
+            "Population": 158300,
+            "Income": 32194
+        },
+        {
+            "Mobility": 0.0825631544,
+            "Population": 88232,
+            "Income": 31289
+        },
+        {
+            "Mobility": 0.1127450988,
+            "Population": 33693,
+            "Income": 27754
+        },
+        {
+            "Mobility": 0.1208459213,
+            "Population": 18093,
+            "Income": 31181
+        },
+        {
+            "Mobility": 0.0655129775,
+            "Population": 302388,
+            "Income": 32705
+        },
+        {
+            "Mobility": 0.0677856654,
+            "Population": 79924,
+            "Income": 34165
+        },
+        {
+            "Mobility": 0.0714676157,
+            "Population": 440866,
+            "Income": 31926
+        },
+        {
+            "Mobility": 0.0748914629,
+            "Population": 137575,
+            "Income": 31417
+        },
+        {
+            "Mobility": 0.0722867027,
+            "Population": 266742,
+            "Income": 30456
+        },
+        {
+            "Mobility": 0.0856643394,
+            "Population": 54651,
+            "Income": 28968
+        },
+        {
+            "Mobility": 0.0887360871,
+            "Population": 138646,
+            "Income": 28758
+        },
+        {
+            "Mobility": 0.0939385965,
+            "Population": 332832,
+            "Income": 29347
+        },
+        {
+            "Mobility": 0.0631011054,
+            "Population": 152466,
+            "Income": 27011
+        },
+        {
+            "Mobility": 0.0918065161,
+            "Population": 384122,
+            "Income": 32612
+        },
+        {
+            "Mobility": 0.0984643176,
+            "Population": 79601,
+            "Income": 26432
+        },
+        {
+            "Mobility": 0.0783574954,
+            "Population": 921246,
+            "Income": 36227
+        },
+        {
+            "Mobility": 0.0810611621,
+            "Population": 51499,
+            "Income": 26343
+        },
+        {
+            "Mobility": 0.200000003,
+            "Population": 26123,
+            "Income": 32076
+        },
+        {
+            "Mobility": 0.1492687911,
+            "Population": 102415,
+            "Income": 31507
+        },
+        {
+            "Mobility": 0.0864412785,
+            "Population": 857648,
+            "Income": 25721
+        },
+        {
+            "Mobility": 0.0849557519,
+            "Population": 81709,
+            "Income": 29489
+        },
+        {
+            "Mobility": 0.081272088,
+            "Population": 13270,
+            "Income": 32267
+        },
+        {
+            "Mobility": 0.0697278902,
+            "Population": 61950,
+            "Income": 26356
+        },
+        {
+            "Mobility": 0.2234636843,
+            "Population": 2975,
+            "Income": 21738
+        },
+        {
+            "Mobility": 0.1166123748,
+            "Population": 113040,
+            "Income": 30443
+        },
+        {
+            "Mobility": 0.1204819307,
+            "Population": 6920,
+            "Income": 22180
+        },
+        {
+            "Mobility": 0.1619496793,
+            "Population": 90061,
+            "Income": 27195
+        },
+        {
+            "Mobility": 0.0673753768,
+            "Population": 287568,
+            "Income": 30597
+        },
+        {
+            "Mobility": 0.0828157365,
+            "Population": 73078,
+            "Income": 28205
+        },
+        {
+            "Mobility": 0.0803662241,
+            "Population": 29588,
+            "Income": 29302
+        },
+        {
+            "Mobility": 0.0861367062,
+            "Population": 240752,
+            "Income": 33188
+        },
+        {
+            "Mobility": 0.1533333361,
+            "Population": 57355,
+            "Income": 33957
+        },
+        {
+            "Mobility": 0.1336405575,
+            "Population": 8490,
+            "Income": 32499
+        },
+        {
+            "Mobility": 0.1171548143,
+            "Population": 9400,
+            "Income": 29000
+        },
+        {
+            "Mobility": NaN,
+            "Population": 1426,
+            "Income": 36160
+        },
+        {
+            "Mobility": 0.0848522931,
+            "Population": 52751,
+            "Income": 27000
+        },
+        {
+            "Mobility": 0.1089108884,
+            "Population": 52031,
+            "Income": 30158
+        },
+        {
+            "Mobility": 0.190721646,
+            "Population": 15778,
+            "Income": 34785
+        },
+        {
+            "Mobility": 0.191304341,
+            "Population": 9185,
+            "Income": 39001
+        },
+        {
+            "Mobility": 0.1211453751,
+            "Population": 32998,
+            "Income": 30590
+        },
+        {
+            "Mobility": 0.2328358144,
+            "Population": 17432,
+            "Income": 33736
+        },
+        {
+            "Mobility": 0.1617021263,
+            "Population": 29937,
+            "Income": 30685
+        },
+        {
+            "Mobility": 0.1360153258,
+            "Population": 31880,
+            "Income": 29327
+        },
+        {
+            "Mobility": 0.1014729962,
+            "Population": 165277,
+            "Income": 33599
+        },
+        {
+            "Mobility": 0.114014253,
+            "Population": 42194,
+            "Income": 36151
+        },
+        {
+            "Mobility": 0.0696202517,
+            "Population": 18628,
+            "Income": 28893
+        },
+        {
+            "Mobility": 0.0693216324,
+            "Population": 1298076,
+            "Income": 41322
+        },
+        {
+            "Mobility": 0.0947368443,
+            "Population": 51191,
+            "Income": 41431
+        },
+        {
+            "Mobility": 0.0643825904,
+            "Population": 1724863,
+            "Income": 34002
+        },
+        {
+            "Mobility": 0.1021594703,
+            "Population": 47805,
+            "Income": 18313
+        },
+        {
+            "Mobility": 0.0956375822,
+            "Population": 64467,
+            "Income": 42197
+        },
+        {
+            "Mobility": 0.1744185984,
+            "Population": 3738,
+            "Income": 44195
+        },
+        {
+            "Mobility": 0.1788869947,
+            "Population": 262282,
+            "Income": 33502
+        },
+        {
+            "Mobility": 0.2329545468,
+            "Population": 31286,
+            "Income": 24735
+        },
+        {
+            "Mobility": 0.2227805704,
+            "Population": 20908,
+            "Income": 22363
+        },
+        {
+            "Mobility": 0.1802656502,
+            "Population": 18377,
+            "Income": 25586
+        },
+        {
+            "Mobility": 0.0832049325,
+            "Population": 21848,
+            "Income": 17379
+        },
+        {
+            "Mobility": 0.09375,
+            "Population": 22118,
+            "Income": 18365
+        },
+        {
+            "Mobility": 0.108853586,
+            "Population": 210580,
+            "Income": 21530
+        },
+        {
+            "Mobility": 0.0916091129,
+            "Population": 978369,
+            "Income": 20392
+        },
+        {
+            "Mobility": 0.1055676043,
+            "Population": 503493,
+            "Income": 30127
+        },
+        {
+            "Mobility": 0.0777777806,
+            "Population": 208437,
+            "Income": 26268
+        },
+        {
+            "Mobility": 0.1157161221,
+            "Population": 320912,
+            "Income": 34849
+        },
+        {
+            "Mobility": 0.0927379802,
+            "Population": 4504013,
+            "Income": 38963
+        },
+        {
+            "Mobility": 0.094970569,
+            "Population": 497770,
+            "Income": 31840
+        },
+        {
+            "Mobility": 0.0773425847,
+            "Population": 191792,
+            "Income": 25251
+        },
+        {
+            "Mobility": 0.093918398,
+            "Population": 103842,
+            "Income": 28783
+        },
+        {
+            "Mobility": 0.0863864273,
+            "Population": 113973,
+            "Income": 31936
+        },
+        {
+            "Mobility": 0.1181434616,
+            "Population": 23666,
+            "Income": 27666
+        },
+        {
+            "Mobility": 0.0734693855,
+            "Population": 6828,
+            "Income": 35219
+        },
+        {
+            "Mobility": 0.0968436152,
+            "Population": 35212,
+            "Income": 26771
+        },
+        {
+            "Mobility": 0.1230604574,
+            "Population": 49316,
+            "Income": 24076
+        },
+        {
+            "Mobility": 0.100081034,
+            "Population": 47297,
+            "Income": 18470
+        },
+        {
+            "Mobility": 0.1144414172,
+            "Population": 54073,
+            "Income": 26412
+        },
+        {
+            "Mobility": 0.1220285296,
+            "Population": 20146,
+            "Income": 28676
+        },
+        {
+            "Mobility": 0.1560891867,
+            "Population": 26918,
+            "Income": 26045
+        },
+        {
+            "Mobility": 0.1032919884,
+            "Population": 191518,
+            "Income": 29968
+        },
+        {
+            "Mobility": 0.0782608688,
+            "Population": 9592,
+            "Income": 23872
+        },
+        {
+            "Mobility": 0.1690140814,
+            "Population": 15157,
+            "Income": 29543
+        },
+        {
+            "Mobility": 0.0966044962,
+            "Population": 151524,
+            "Income": 30238
+        },
+        {
+            "Mobility": 0.1759398431,
+            "Population": 28556,
+            "Income": 31567
+        },
+        {
+            "Mobility": 0.0860215053,
+            "Population": 4093,
+            "Income": 35578
+        },
+        {
+            "Mobility": 0.0880733952,
+            "Population": 21022,
+            "Income": 32588
+        },
+        {
+            "Mobility": 0.1086637303,
+            "Population": 58246,
+            "Income": 30586
+        },
+        {
+            "Mobility": 0.1141975299,
+            "Population": 55256,
+            "Income": 30856
+        },
+        {
+            "Mobility": 0.0675374344,
+            "Population": 281618,
+            "Income": 31690
+        },
+        {
+            "Mobility": 0.1013043448,
+            "Population": 100377,
+            "Income": 29976
+        },
+        {
+            "Mobility": 0.0772482678,
+            "Population": 330714,
+            "Income": 28336
+        },
+        {
+            "Mobility": 0.0913628563,
+            "Population": 1804370,
+            "Income": 39232
+        },
+        {
+            "Mobility": 0.0710824654,
+            "Population": 3405666,
+            "Income": 43436
+        },
+        {
+            "Mobility": 0.0767123252,
+            "Population": 185835,
+            "Income": 32552
+        },
+        {
+            "Mobility": 0.0951065049,
+            "Population": 434643,
+            "Income": 32245
+        },
+        {
+            "Mobility": 0.1141970754,
+            "Population": 289849,
+            "Income": 32365
+        },
+        {
+            "Mobility": 0.0788930878,
+            "Population": 235988,
+            "Income": 31309
+        },
+        {
+            "Mobility": 0.1048808843,
+            "Population": 171610,
+            "Income": 27931
+        },
+        {
+            "Mobility": 0.1121495292,
+            "Population": 48010,
+            "Income": 28343
+        },
+        {
+            "Mobility": 0.0743034035,
+            "Population": 9287,
+            "Income": 29047
+        },
+        {
+            "Mobility": 0.1107882336,
+            "Population": 117982,
+            "Income": 29691
+        },
+        {
+            "Mobility": 0.1871988922,
+            "Population": 60885,
+            "Income": 28315
+        },
+        {
+            "Mobility": 0.1154462844,
+            "Population": 75666,
+            "Income": 28080
+        },
+        {
+            "Mobility": 0.0820752904,
+            "Population": 1154246,
+            "Income": 34352
+        },
+        {
+            "Mobility": 0.1167294234,
+            "Population": 69207,
+            "Income": 25140
+        },
+        {
+            "Mobility": 0.0884798095,
+            "Population": 178371,
+            "Income": 32930
+        },
+        {
+            "Mobility": 0.0707567334,
+            "Population": 210357,
+            "Income": 31877
+        },
+        {
+            "Mobility": 0.0922787189,
+            "Population": 97397,
+            "Income": 26431
+        },
+        {
+            "Mobility": NaN,
+            "Population": 2697,
+            "Income": 16696
+        },
+        {
+            "Mobility": 0.1339529753,
+            "Population": 369296,
+            "Income": 41724
+        },
+        {
+            "Mobility": 0.1599999964,
+            "Population": 10195,
+            "Income": 39972
+        },
+        {
+            "Mobility": NaN,
+            "Population": 1258,
+            "Income": 39909
+        },
+        {
+            "Mobility": 0.0645161271,
+            "Population": 7208,
+            "Income": 27613
+        },
+        {
+            "Mobility": 0.0467836261,
+            "Population": 9196,
+            "Income": 29589
+        },
+        {
+            "Mobility": 0.1118421033,
+            "Population": 6745,
+            "Income": 31291
+        },
+        {
+            "Mobility": 0.1461538523,
+            "Population": 13913,
+            "Income": 38933
+        },
+        {
+            "Mobility": 0.125,
+            "Population": 37347,
+            "Income": 43595
+        },
+        {
+            "Mobility": 0.0708661452,
+            "Population": 15519,
+            "Income": 42159
+        },
+        {
+            "Mobility": 0.122605361,
+            "Population": 20216,
+            "Income": 39002
+        },
+        {
+            "Mobility": 0.0518638566,
+            "Population": 23034,
+            "Income": 23593
+        },
+        {
+            "Mobility": 0.1000000015,
+            "Population": 7385,
+            "Income": 39123
+        },
+        {
+            "Mobility": 0.1304347813,
+            "Population": 5465,
+            "Income": 23637
+        },
+        {
+            "Mobility": 0.1606268436,
+            "Population": 97458,
+            "Income": 35935
+        },
+        {
+            "Mobility": 0.0821484998,
+            "Population": 25840,
+            "Income": 27557
+        },
+        {
+            "Mobility": 0.0475059375,
+            "Population": 24938,
+            "Income": 25615
+        },
+        {
+            "Mobility": 0.0963597447,
+            "Population": 95101,
+            "Income": 32458
+        },
+        {
+            "Mobility": 0.1716417968,
+            "Population": 12386,
+            "Income": 31401
+        },
+        {
+            "Mobility": 0.1474036872,
+            "Population": 37247,
+            "Income": 32675
+        },
+        {
+            "Mobility": 0.1306532621,
+            "Population": 13171,
+            "Income": 34375
+        },
+        {
+            "Mobility": 0.1243184283,
+            "Population": 35804,
+            "Income": 30954
+        },
+        {
+            "Mobility": 0.1044932082,
+            "Population": 46306,
+            "Income": 32114
+        },
+        {
+            "Mobility": 0.1792828739,
+            "Population": 12895,
+            "Income": 30026
+        },
+        {
+            "Mobility": NaN,
+            "Population": 1279,
+            "Income": 27449
+        },
+        {
+            "Mobility": 0.088888891,
+            "Population": 12102,
+            "Income": 28921
+        },
+        {
+            "Mobility": 0.1305191666,
+            "Population": 152638,
+            "Income": 35377
+        },
+        {
+            "Mobility": 0.200000003,
+            "Population": 4191,
+            "Income": 26263
+        },
+        {
+            "Mobility": 0.116883114,
+            "Population": 9202,
+            "Income": 27667
+        },
+        {
+            "Mobility": 0.1259689927,
+            "Population": 93985,
+            "Income": 31692
+        },
+        {
+            "Mobility": 0.1197410971,
+            "Population": 70150,
+            "Income": 33610
+        },
+        {
+            "Mobility": 0.089366518,
+            "Population": 54033,
+            "Income": 30173
+        },
+        {
+            "Mobility": 0.0991379321,
+            "Population": 9871,
+            "Income": 28983
+        },
+        {
+            "Mobility": 0.1302605271,
+            "Population": 18837,
+            "Income": 26385
+        },
+        {
+            "Mobility": 0.1108414233,
+            "Population": 111205,
+            "Income": 32003
+        },
+        {
+            "Mobility": 0.1056273058,
+            "Population": 135756,
+            "Income": 31286
+        },
+        {
+            "Mobility": 0.2641843855,
+            "Population": 46229,
+            "Income": 34452
+        },
+        {
+            "Mobility": 0.1934156418,
+            "Population": 15639,
+            "Income": 31828
+        },
+        {
+            "Mobility": 0.1662689,
+            "Population": 78585,
+            "Income": 34840
+        },
+        {
+            "Mobility": NaN,
+            "Population": 2407,
+            "Income": 30783
+        },
+        {
+            "Mobility": 0.1052926034,
+            "Population": 876156,
+            "Income": 39404
+        },
+        {
+            "Mobility": 0.0993071571,
+            "Population": 58463,
+            "Income": 38210
+        },
+        {
+            "Mobility": 0.0848938823,
+            "Population": 128241,
+            "Income": 39556
+        },
+        {
+            "Mobility": 0.0858484209,
+            "Population": 49495,
+            "Income": 26569
+        },
+        {
+            "Mobility": 0.0803233162,
+            "Population": 218804,
+            "Income": 38838
+        },
+        {
+            "Mobility": 0.0730337054,
+            "Population": 10965,
+            "Income": 30332
+        },
+        {
+            "Mobility": 0.1223021597,
+            "Population": 4174,
+            "Income": 30305
+        },
+        {
+            "Mobility": 0.098867923,
+            "Population": 46190,
+            "Income": 27094
+        },
+        {
+            "Mobility": 0.0659846142,
+            "Population": 755244,
+            "Income": 35591
+        },
+        {
+            "Mobility": 0.052117262,
+            "Population": 21621,
+            "Income": 24360
+        },
+        {
+            "Mobility": 0.0752772912,
+            "Population": 3303211,
+            "Income": 40624
+        },
+        {
+            "Mobility": 0.1105919033,
+            "Population": 42036,
+            "Income": 23579
+        },
+        {
+            "Mobility": 0.0705499947,
+            "Population": 999882,
+            "Income": 35571
+        },
+        {
+            "Mobility": 0.1463671476,
+            "Population": 187857,
+            "Income": 35421
+        },
+        {
+            "Mobility": 0.1061946899,
+            "Population": 14746,
+            "Income": 32805
+        },
+        {
+            "Mobility": 0.0914475247,
+            "Population": 168198,
+            "Income": 30450
+        },
+        {
+            "Mobility": 0.0814509094,
+            "Population": 289883,
+            "Income": 35102
+        },
+        {
+            "Mobility": 0.1267806292,
+            "Population": 40087,
+            "Income": 28799
+        },
+        {
+            "Mobility": 0.0410613976,
+            "Population": 241691,
+            "Income": 20837
+        },
+        {
+            "Mobility": 0.0682675838,
+            "Population": 148677,
+            "Income": 35010
+        },
+        {
+            "Mobility": 0.0871191844,
+            "Population": 120807,
+            "Income": 35364
+        },
+        {
+            "Mobility": 0.113892369,
+            "Population": 41590,
+            "Income": 28357
+        },
+        {
+            "Mobility": 0.0739204213,
+            "Population": 493970,
+            "Income": 35642
+        },
+        {
+            "Mobility": 0.0844841599,
+            "Population": 62170,
+            "Income": 27631
+        },
+        {
+            "Mobility": 0.1240310073,
+            "Population": 11127,
+            "Income": 33157
+        },
+        {
+            "Mobility": 0.1084832922,
+            "Population": 130138,
+            "Income": 31383
+        },
+        {
+            "Mobility": 0.1373439282,
+            "Population": 54045,
+            "Income": 26759
+        },
+        {
+            "Mobility": 0.1179775298,
+            "Population": 8485,
+            "Income": 31770
+        },
+        {
+            "Mobility": 0.1286031008,
+            "Population": 25012,
+            "Income": 28605
+        },
+        {
+            "Mobility": 0.2096774131,
+            "Population": 2509,
+            "Income": 32242
+        },
+        {
+            "Mobility": 0.1375119984,
+            "Population": 389179,
+            "Income": 29115
+        },
+        {
+            "Mobility": 0.108327426,
+            "Population": 1426729,
+            "Income": 36988
+        },
+        {
+            "Mobility": 0.1369095296,
+            "Population": 149590,
+            "Income": 28953
+        },
+        {
+            "Mobility": 0.0925086662,
+            "Population": 269722,
+            "Income": 30119
+        },
+        {
+            "Mobility": 0.1549295783,
+            "Population": 12148,
+            "Income": 30782
+        },
+        {
+            "Mobility": 0.1139240488,
+            "Population": 24250,
+            "Income": 53838
+        },
+        {
+            "Mobility": 0.1589041054,
+            "Population": 38860,
+            "Income": 39506
+        },
+        {
+            "Mobility": 0.2533783913,
+            "Population": 39595,
+            "Income": 26254
+        },
+        {
+            "Mobility": 0.1769911498,
+            "Population": 13715,
+            "Income": 29943
+        },
+        {
+            "Mobility": 0.2053941935,
+            "Population": 80730,
+            "Income": 33999
+        },
+        {
+            "Mobility": 0.0856175944,
+            "Population": 151353,
+            "Income": 29858
+        },
+        {
+            "Mobility": 0.1393939406,
+            "Population": 7609,
+            "Income": 30896
+        },
+        {
+            "Mobility": 0.1098265871,
+            "Population": 7422,
+            "Income": 31635
+        },
+        {
+            "Mobility": 0.0880713463,
+            "Population": 219295,
+            "Income": 33442
+        },
+        {
+            "Mobility": 0.0757927299,
+            "Population": 139540,
+            "Income": 30456
+        },
+        {
+            "Mobility": 0.0719680116,
+            "Population": 256995,
+            "Income": 36289
+        },
+        {
+            "Mobility": 0.0834224597,
+            "Population": 48644,
+            "Income": 29532
+        },
+        {
+            "Mobility": 0.0819778815,
+            "Population": 163178,
+            "Income": 32479
+        },
+        {
+            "Mobility": 0.0936282724,
+            "Population": 729182,
+            "Income": 31666
+        },
+        {
+            "Mobility": 0.1216197163,
+            "Population": 661645,
+            "Income": 28781
+        },
+        {
+            "Mobility": 0.0748793706,
+            "Population": 1419998,
+            "Income": 28267
+        },
+        {
+            "Mobility": 0.0948425978,
+            "Population": 387577,
+            "Income": 31471
+        },
+        {
+            "Mobility": 0.0969090089,
+            "Population": 2570609,
+            "Income": 39560
+        },
+        {
+            "Mobility": 0.1293258816,
+            "Population": 2393183,
+            "Income": 52004
+        },
+        {
+            "Mobility": 0.1602941155,
+            "Population": 61917,
+            "Income": 32701
+        },
+        {
+            "Mobility": 0.1695501804,
+            "Population": 22799,
+            "Income": 31976
+        },
+        {
+            "Mobility": 0.1176470593,
+            "Population": 24379,
+            "Income": 36905
+        },
+        {
+            "Mobility": 0.0910304934,
+            "Population": 453825,
+            "Income": 41398
+        },
+        {
+            "Mobility": 0.0995508954,
+            "Population": 603188,
+            "Income": 43636
+        },
+        {
+            "Mobility": 0.1215258688,
+            "Population": 4642561,
+            "Income": 54014
+        },
+        {
+            "Mobility": 0.0800290108,
+            "Population": 1568418,
+            "Income": 38429
+        },
+        {
+            "Mobility": 0.1097560972,
+            "Population": 5071,
+            "Income": 34004
+        },
+        {
+            "Mobility": 0.1159420311,
+            "Population": 30798,
+            "Income": 38537
+        },
+        {
+            "Mobility": 0.1043647528,
+            "Population": 2813833,
+            "Income": 40913
+        },
+        {
+            "Mobility": 0.0982132256,
+            "Population": 302387,
+            "Income": 26908
+        },
+        {
+            "Mobility": 0.112940833,
+            "Population": 646028,
+            "Income": 40050
+        },
+        {
+            "Mobility": 0.096090205,
+            "Population": 16393360,
+            "Income": 38902
+        },
+        {
+            "Mobility": 0.0902097896,
+            "Population": 88546,
+            "Income": 32663
+        },
+        {
+            "Mobility": 0.1423611045,
+            "Population": 75675,
+            "Income": 24766
+        },
+        {
+            "Mobility": 0.0965794772,
+            "Population": 91126,
+            "Income": 29315
+        },
+        {
+            "Mobility": 0.0935460478,
+            "Population": 99219,
+            "Income": 36330
+        },
+        {
+            "Mobility": 0.0928014889,
+            "Population": 608317,
+            "Income": 34286
+        },
+        {
+            "Mobility": 0.0975247547,
+            "Population": 86890,
+            "Income": 29312
+        },
+        {
+            "Mobility": 0.0927726701,
+            "Population": 220580,
+            "Income": 34298
+        },
+        {
+            "Mobility": 0.0930585414,
+            "Population": 1842889,
+            "Income": 41718
+        },
+        {
+            "Mobility": 0.1043802425,
+            "Population": 65297,
+            "Income": 32881
+        },
+        {
+            "Mobility": 0.0788958147,
+            "Population": 936387,
+            "Income": 34589
+        },
+        {
+            "Mobility": 0.0725744814,
+            "Population": 68741,
+            "Income": 36264
+        },
+        {
+            "Mobility": 0.0817065835,
+            "Population": 255943,
+            "Income": 30403
+        },
+        {
+            "Mobility": 0.1058548018,
+            "Population": 332609,
+            "Income": 34510
+        },
+        {
+            "Mobility": 0.0876747146,
+            "Population": 41271,
+            "Income": 31277
+        },
+        {
+            "Mobility": 0.143790856,
+            "Population": 7226,
+            "Income": 34762
+        },
+        {
+            "Mobility": 0.0817263573,
+            "Population": 153558,
+            "Income": 37787
+        },
+        {
+            "Mobility": 0.1086956486,
+            "Population": 3462,
+            "Income": 33476
+        },
+        {
+            "Mobility": 0.1158536598,
+            "Population": 7935,
+            "Income": 32736
+        },
+        {
+            "Mobility": 0.1016949117,
+            "Population": 14077,
+            "Income": 58628
+        },
+        {
+            "Mobility": 0.1155751273,
+            "Population": 166814,
+            "Income": 35491
+        },
+        {
+            "Mobility": 0.0858400613,
+            "Population": 90478,
+            "Income": 39625
+        },
+        {
+            "Mobility": 0.1085509509,
+            "Population": 3775744,
+            "Income": 44591
+        }
+    ],
+    "imgs": [
+        "30_QQQ_point_chart.png",
+        "30_QQQ_point_chart_2.png"
+    ]
+}

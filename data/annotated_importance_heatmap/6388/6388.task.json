@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Which country has the highest frequency of face mask usage?",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Identify the country with the lowest frequency of face mask usage.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the frequency of face mask usage in the United Kingdom.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Rank the countries from the highest to the lowest frequency of face mask usage.",
+            "type": "Order"
+        },
+        {
+            "description": "Find any countries that have a frequency of face mask usage significantly different from the others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Calculate the average frequency of face mask usage across all listed countries.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "How many countries have a frequency of face mask usage above 0.1?",
+            "type": "Filter"
+        },
+        {
+            "description": "Identify any clusters of countries with similar frequencies of face mask usage.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the range of frequencies of face mask usage across the countries?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Is there a correlation between the country and the frequency of face mask usage?",
+            "type": "Find Correlation"
+        }
+    ]
+]

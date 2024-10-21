@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "What is the revenue from financial services for IBM?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the corporation with the highest revenue from financial services.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the total revenue from financial services for Microsoft, Dell, and Accenture combined.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any corporation that has a significantly lower revenue compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Determine if there is a correlation between the corporation name and its revenue from financial services.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "List the corporations with a revenue from financial services greater than 8 billion U.S. dollars.",
+            "type": "Filter"
+        },
+        {
+            "description": "Arrange the corporations from the highest to the lowest revenue from financial services.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of the revenue from financial services across all corporations?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify the percentage of corporations with a revenue from financial services less than 10 billion U.S. dollars.",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of corporations with similar revenue figures.",
+            "type": "Find Clusters"
+        }
+    ]
+]

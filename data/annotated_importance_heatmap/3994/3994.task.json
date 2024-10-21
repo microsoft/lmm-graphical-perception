@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the program type with the highest number of students.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "How many students are enrolled in the Graduate program (second cycle)?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the range of student enrollments across all program types.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Find any program type with significantly lower student enrollment compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Compute the total number of students enrolled in all programs.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Order the program types from highest to lowest number of students.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any clusters of program types with similar student enrollment numbers.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of the total number of students is enrolled in the Undergraduate program?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Filter out the program types that have fewer than 100,000 students enrolled.",
+            "type": "Filter"
+        },
+        {
+            "description": "Is there a correlation between the program type and the number of students enrolled?",
+            "type": "Find Correlation"
+        }
+    ]
+]

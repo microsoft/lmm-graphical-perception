@@ -1,0 +1,385 @@
+{
+    "img_id": "399",
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "A calculate that takes the messy names in the field, metric, and creates a new field, metricClean, where the names are nicer.",
+        "title": {
+            "text": "Productivity distribution, by firm size",
+            "subtitle": [
+                "Estimates of porductivity distribution, firms with 1-25 employees",
+                ""
+            ],
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start",
+            "color": "black"
+        },
+        "transform": [
+            {
+                "fold": [
+                    "rlp10",
+                    "rlp25",
+                    "rlp50",
+                    "rlp75",
+                    "rlp90"
+                ],
+                "as": [
+                    "metric",
+                    "value"
+                ]
+            },
+            {
+                "calculate": "{'rlp10':'10th', 'rlp25':'25th', 'rlp50':'50th', 'rlp75':'75th', 'rlp90':'90th'}[datum.metric]",
+                "as": "metricClean"
+            }
+        ],
+        "height": 300,
+        "width": 200,
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Size",
+                "type": "quantitative",
+                "title": "Employees",
+                "axis": {
+                    "grid": false,
+                    "format": "d"
+                }
+            },
+            "y": {
+                "field": "value",
+                "type": "quantitative",
+                "title": null,
+                "axis": {
+                    "grid": false,
+                    "format": "d"
+                }
+            },
+            "facet": {
+                "field": "Year",
+                "type": "nominal",
+                "title": null,
+                "columns": 4
+            },
+            "color": {
+                "field": "metricClean",
+                "title": "Percentiles (estimated)",
+                "scale": {
+                    "scheme": "inferno"
+                },
+                "legend": {
+                    "orient": "bottom",
+                    "columns": 5
+                }
+            }
+        }
+    },
+    "data_dict": [
+        {
+            "Year": 2000,
+            "Size": 1
+        },
+        {
+            "Year": 2010,
+            "Size": 1
+        },
+        {
+            "Year": 2020,
+            "Size": 1
+        },
+        {
+            "Year": 2000,
+            "Size": 2
+        },
+        {
+            "Year": 2010,
+            "Size": 2
+        },
+        {
+            "Year": 2020,
+            "Size": 2
+        },
+        {
+            "Year": 2000,
+            "Size": 3
+        },
+        {
+            "Year": 2010,
+            "Size": 3
+        },
+        {
+            "Year": 2020,
+            "Size": 3
+        },
+        {
+            "Year": 2000,
+            "Size": 4
+        },
+        {
+            "Year": 2010,
+            "Size": 4
+        },
+        {
+            "Year": 2020,
+            "Size": 4
+        },
+        {
+            "Year": 2000,
+            "Size": 5
+        },
+        {
+            "Year": 2010,
+            "Size": 5
+        },
+        {
+            "Year": 2020,
+            "Size": 5
+        },
+        {
+            "Year": 2000,
+            "Size": 6
+        },
+        {
+            "Year": 2010,
+            "Size": 6
+        },
+        {
+            "Year": 2020,
+            "Size": 6
+        },
+        {
+            "Year": 2000,
+            "Size": 7
+        },
+        {
+            "Year": 2010,
+            "Size": 7
+        },
+        {
+            "Year": 2020,
+            "Size": 7
+        },
+        {
+            "Year": 2000,
+            "Size": 8
+        },
+        {
+            "Year": 2010,
+            "Size": 8
+        },
+        {
+            "Year": 2020,
+            "Size": 8
+        },
+        {
+            "Year": 2000,
+            "Size": 9
+        },
+        {
+            "Year": 2010,
+            "Size": 9
+        },
+        {
+            "Year": 2020,
+            "Size": 9
+        },
+        {
+            "Year": 2000,
+            "Size": 10
+        },
+        {
+            "Year": 2010,
+            "Size": 10
+        },
+        {
+            "Year": 2020,
+            "Size": 10
+        },
+        {
+            "Year": 2000,
+            "Size": 11
+        },
+        {
+            "Year": 2010,
+            "Size": 11
+        },
+        {
+            "Year": 2020,
+            "Size": 11
+        },
+        {
+            "Year": 2000,
+            "Size": 12
+        },
+        {
+            "Year": 2010,
+            "Size": 12
+        },
+        {
+            "Year": 2020,
+            "Size": 12
+        },
+        {
+            "Year": 2000,
+            "Size": 13
+        },
+        {
+            "Year": 2010,
+            "Size": 13
+        },
+        {
+            "Year": 2020,
+            "Size": 13
+        },
+        {
+            "Year": 2000,
+            "Size": 14
+        },
+        {
+            "Year": 2010,
+            "Size": 14
+        },
+        {
+            "Year": 2020,
+            "Size": 14
+        },
+        {
+            "Year": 2000,
+            "Size": 15
+        },
+        {
+            "Year": 2010,
+            "Size": 15
+        },
+        {
+            "Year": 2020,
+            "Size": 15
+        },
+        {
+            "Year": 2000,
+            "Size": 16
+        },
+        {
+            "Year": 2010,
+            "Size": 16
+        },
+        {
+            "Year": 2020,
+            "Size": 16
+        },
+        {
+            "Year": 2000,
+            "Size": 17
+        },
+        {
+            "Year": 2010,
+            "Size": 17
+        },
+        {
+            "Year": 2020,
+            "Size": 17
+        },
+        {
+            "Year": 2000,
+            "Size": 18
+        },
+        {
+            "Year": 2010,
+            "Size": 18
+        },
+        {
+            "Year": 2020,
+            "Size": 18
+        },
+        {
+            "Year": 2000,
+            "Size": 19
+        },
+        {
+            "Year": 2010,
+            "Size": 19
+        },
+        {
+            "Year": 2020,
+            "Size": 19
+        },
+        {
+            "Year": 2000,
+            "Size": 20
+        },
+        {
+            "Year": 2010,
+            "Size": 20
+        },
+        {
+            "Year": 2020,
+            "Size": 20
+        },
+        {
+            "Year": 2000,
+            "Size": 21
+        },
+        {
+            "Year": 2010,
+            "Size": 21
+        },
+        {
+            "Year": 2020,
+            "Size": 21
+        },
+        {
+            "Year": 2000,
+            "Size": 22
+        },
+        {
+            "Year": 2010,
+            "Size": 22
+        },
+        {
+            "Year": 2020,
+            "Size": 22
+        },
+        {
+            "Year": 2000,
+            "Size": 23
+        },
+        {
+            "Year": 2010,
+            "Size": 23
+        },
+        {
+            "Year": 2020,
+            "Size": 23
+        },
+        {
+            "Year": 2000,
+            "Size": 24
+        },
+        {
+            "Year": 2010,
+            "Size": 24
+        },
+        {
+            "Year": 2020,
+            "Size": 24
+        },
+        {
+            "Year": 2000,
+            "Size": 25
+        },
+        {
+            "Year": 2010,
+            "Size": 25
+        },
+        {
+            "Year": 2020,
+            "Size": 25
+        }
+    ],
+    "imgs": [
+        "399_QQN_point_chart.png",
+        "399_QQN_point_chart_2.png"
+    ]
+}

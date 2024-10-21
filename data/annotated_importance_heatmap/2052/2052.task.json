@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest infant mortality rate.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the range of infant mortality rates across the years.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Calculate the average infant mortality rate over the given period.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any year that shows a significant deviation in the mortality rate compared to the general trend.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Find if there is a downward trend in the infant mortality rate over the years.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which year shows the lowest infant mortality rate?",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Identify clusters of years with similar infant mortality rates.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the infant mortality rate for the year 2012?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the percentage of years with an infant mortality rate below 15.",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "List the years in descending order of infant mortality rate.",
+            "type": "Order"
+        }
+    ]
+]

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the YouTube channel with the highest number of subscribers.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total number of subscribers for the YouTube channels listed.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any YouTube channel that has a significantly lower number of subscribers compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "How many YouTube channels have more than 15 million subscribers?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the YouTube channels from the highest to the lowest number of subscribers.",
+            "type": "Order"
+        },
+        {
+            "description": "Calculate the range of the number of subscribers across all YouTube channels.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What is the percentage of YouTube channels with more than 10 million subscribers?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of YouTube channels with similar subscriber counts.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Is there a correlation between the YouTube channel name and the number of subscribers?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Determine the number of subscribers for 'jeffreestar'.",
+            "type": "Retrieve Value"
+        }
+    ]
+]

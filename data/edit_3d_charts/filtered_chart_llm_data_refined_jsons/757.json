@@ -1,0 +1,677 @@
+{
+    "img_id": 757,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "A bubbleplot with religiosity on the x axis, median age on the y axis, and total population on size.",
+        "title": {
+            "text": "Is there a relationship between a country's religiosity level and the median age of its population?",
+            "subtitle": "Source: Worldometers and Wikipedia",
+            "fontSize": 12,
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start"
+        },
+        "width": 400,
+        "height": 300,
+        "mark": "point",
+        "encoding": {
+            "color": {
+                "field": "Median_Age",
+                "legend": "",
+                "type": "quantitative",
+                "scale": {
+                    "scheme": "turbo"
+                }
+            },
+            "y": {
+                "field": "Median_Age",
+                "type": "quantitative",
+                "title": "Median Age (years)"
+            },
+            "x": {
+                "field": "Religiosity",
+                "type": "quantitative",
+                "title": "Religiosity (%)"
+            },
+            "size": {
+                "field": "Total_Population",
+                "type": "quantitative",
+                "title": "Population"
+            },
+            "tooltip": [
+                {
+                    "field": "Country",
+                    "type": "nominal",
+                    "title": "Country"
+                },
+                {
+                    "field": "Median_Age",
+                    "type": "quantitative",
+                    "title": "Median Age"
+                },
+                {
+                    "field": "Religiosity",
+                    "type": "quantitative",
+                    "title": "Religiosity (%)"
+                },
+                {
+                    "field": "Total_Population",
+                    "type": "quantitative",
+                    "title": "Population"
+                }
+            ]
+        }
+    },
+    "data_dict": [
+        {
+            "Total_Population": 273523615.0,
+            "Religiosity": 96,
+            "Median_Age": 30.0,
+            "Country": "Indonesia"
+        },
+        {
+            "Total_Population": 25499884.0,
+            "Religiosity": 33,
+            "Median_Age": 38.0,
+            "Country": "Australia"
+        },
+        {
+            "Total_Population": 4822233.0,
+            "Religiosity": 18,
+            "Median_Age": 38.0,
+            "Country": "New Zealand"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 67,
+            "Median_Age": NaN,
+            "Country": "United States of America"
+        },
+        {
+            "Total_Population": 4937786.0,
+            "Religiosity": 54,
+            "Median_Age": 38.0,
+            "Country": "Ireland"
+        },
+        {
+            "Total_Population": 67886011.0,
+            "Religiosity": 25,
+            "Median_Age": 40.0,
+            "Country": "United Kingdom of Great Britain and Northern Ireland"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 70,
+            "Median_Age": NaN,
+            "Country": "Singapore"
+        },
+        {
+            "Total_Population": 53771296.0,
+            "Religiosity": 94,
+            "Median_Age": 20.0,
+            "Country": "Kenya"
+        },
+        {
+            "Total_Population": 54409800.0,
+            "Religiosity": 96,
+            "Median_Age": 29.0,
+            "Country": "Myanmar"
+        },
+        {
+            "Total_Population": 17134872.0,
+            "Religiosity": 33,
+            "Median_Age": 43.0,
+            "Country": "Netherlands"
+        },
+        {
+            "Total_Population": 9890402.0,
+            "Religiosity": 76,
+            "Median_Age": 33.0,
+            "Country": "United Arab Emirates"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 22,
+            "Median_Age": NaN,
+            "Country": "Norway"
+        },
+        {
+            "Total_Population": 37742154.0,
+            "Religiosity": 22,
+            "Median_Age": 41.0,
+            "Country": "Canada"
+        },
+        {
+            "Total_Population": 206139589.0,
+            "Religiosity": 77,
+            "Median_Age": 18.0,
+            "Country": "Nigeria"
+        },
+        {
+            "Total_Population": 441543.0,
+            "Religiosity": 86,
+            "Median_Age": 43.0,
+            "Country": "Malta"
+        },
+        {
+            "Total_Population": 18383955.0,
+            "Religiosity": 95,
+            "Median_Age": 18.0,
+            "Country": "Zambia"
+        },
+        {
+            "Total_Population": 83783942.0,
+            "Religiosity": 40,
+            "Median_Age": 46.0,
+            "Country": "Germany"
+        },
+        {
+            "Total_Population": 5792202.0,
+            "Religiosity": 19,
+            "Median_Age": 42.0,
+            "Country": "Denmark"
+        },
+        {
+            "Total_Population": 8654622.0,
+            "Religiosity": 23,
+            "Median_Age": 43.0,
+            "Country": "Switzerland"
+        },
+        {
+            "Total_Population": 21413249.0,
+            "Religiosity": 97,
+            "Median_Age": 34.0,
+            "Country": "Sri Lanka"
+        },
+        {
+            "Total_Population": 83992949.0,
+            "Religiosity": 78,
+            "Median_Age": 32.0,
+            "Country": "Iran (Islamic Republic of)"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 24,
+            "Median_Age": NaN,
+            "Country": "Hong Kong"
+        },
+        {
+            "Total_Population": 9006398.0,
+            "Religiosity": 17,
+            "Median_Age": 43.0,
+            "Country": "Austria"
+        },
+        {
+            "Total_Population": 40222493.0,
+            "Religiosity": 89,
+            "Median_Age": 21.0,
+            "Country": "Iraq"
+        },
+        {
+            "Total_Population": 1207359.0,
+            "Religiosity": 25,
+            "Median_Age": 37.0,
+            "Country": "Cyprus"
+        },
+        {
+            "Total_Population": 9537645.0,
+            "Religiosity": 85,
+            "Median_Age": 22.0,
+            "Country": "Tajikistan"
+        },
+        {
+            "Total_Population": 31072940.0,
+            "Religiosity": 95,
+            "Median_Age": 22.0,
+            "Country": "Ghana"
+        },
+        {
+            "Total_Population": 8655535.0,
+            "Religiosity": 51,
+            "Median_Age": 30.0,
+            "Country": "Israel"
+        },
+        {
+            "Total_Population": 59308690.0,
+            "Religiosity": 85,
+            "Median_Age": 28.0,
+            "Country": "South Africa"
+        },
+        {
+            "Total_Population": 10099265.0,
+            "Religiosity": 16,
+            "Median_Age": 41.0,
+            "Country": "Sweden"
+        },
+        {
+            "Total_Population": 5540720.0,
+            "Religiosity": 23,
+            "Median_Age": 43.0,
+            "Country": "Finland"
+        },
+        {
+            "Total_Population": 2078938.0,
+            "Religiosity": 47,
+            "Median_Age": 45.0,
+            "Country": "Slovenia"
+        },
+        {
+            "Total_Population": 10847910.0,
+            "Religiosity": 87,
+            "Median_Age": 28.0,
+            "Country": "Dominican Republic"
+        },
+        {
+            "Total_Population": 45741007.0,
+            "Religiosity": 93,
+            "Median_Age": 17.0,
+            "Country": "Uganda"
+        },
+        {
+            "Total_Population": 34813871.0,
+            "Religiosity": 96,
+            "Median_Age": 32.0,
+            "Country": "Saudi Arabia"
+        },
+        {
+            "Total_Population": 29136808.0,
+            "Religiosity": 93,
+            "Median_Age": 25.0,
+            "Country": "Nepal"
+        },
+        {
+            "Total_Population": 33469203.0,
+            "Religiosity": 55,
+            "Median_Age": 28.0,
+            "Country": "Uzbekistan"
+        },
+        {
+            "Total_Population": 46754778.0,
+            "Religiosity": 49,
+            "Median_Age": 45.0,
+            "Country": "Spain"
+        },
+        {
+            "Total_Population": 6524195.0,
+            "Religiosity": 72,
+            "Median_Age": 26.0,
+            "Country": "Kyrgyzstan"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 70,
+            "Median_Age": NaN,
+            "Country": "Jamaica"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 97,
+            "Median_Age": NaN,
+            "Country": "Malawi"
+        },
+        {
+            "Total_Population": 7132538.0,
+            "Religiosity": 92,
+            "Median_Age": 26.0,
+            "Country": "Paraguay"
+        },
+        {
+            "Total_Population": 19116201.0,
+            "Religiosity": 60,
+            "Median_Age": 35.0,
+            "Country": "Chile"
+        },
+        {
+            "Total_Population": 69799978.0,
+            "Religiosity": 98,
+            "Median_Age": 40.0,
+            "Country": "Thailand"
+        },
+        {
+            "Total_Population": 5094118.0,
+            "Religiosity": 79,
+            "Median_Age": 33.0,
+            "Country": "Costa Rica"
+        },
+        {
+            "Total_Population": 26545863.0,
+            "Religiosity": 96,
+            "Median_Age": 19.0,
+            "Country": "Cameroon"
+        },
+        {
+            "Total_Population": 6624554.0,
+            "Religiosity": 70,
+            "Median_Age": 26.0,
+            "Country": "Nicaragua"
+        },
+        {
+            "Total_Population": 60461826.0,
+            "Religiosity": 72,
+            "Median_Age": 47.0,
+            "Country": "Italy"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 96,
+            "Median_Age": NaN,
+            "Country": "Guinea"
+        },
+        {
+            "Total_Population": 65273511.0,
+            "Religiosity": 30,
+            "Median_Age": 42.0,
+            "Country": "France"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 92,
+            "Median_Age": NaN,
+            "Country": "Namibia"
+        },
+        {
+            "Total_Population": 10203134.0,
+            "Religiosity": 96,
+            "Median_Age": 24.0,
+            "Country": "Jordan"
+        },
+        {
+            "Total_Population": 14862924.0,
+            "Religiosity": 88,
+            "Median_Age": 19.0,
+            "Country": "Zimbabwe"
+        },
+        {
+            "Total_Population": 3473730.0,
+            "Religiosity": 40,
+            "Median_Age": 36.0,
+            "Country": "Uruguay"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 88,
+            "Median_Age": NaN,
+            "Country": "Panama"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 86,
+            "Median_Age": NaN,
+            "Country": "Mozambique"
+        },
+        {
+            "Total_Population": 50882891.0,
+            "Religiosity": 83,
+            "Median_Age": 31.0,
+            "Country": "Colombia"
+        },
+        {
+            "Total_Population": 43733762.0,
+            "Religiosity": 46,
+            "Median_Age": 41.0,
+            "Country": "Ukraine"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 88,
+            "Median_Age": NaN,
+            "Country": "Burkina Faso"
+        },
+        {
+            "Total_Population": 10196709.0,
+            "Religiosity": 72,
+            "Median_Age": 46.0,
+            "Country": "Portugal"
+        },
+        {
+            "Total_Population": 6825445.0,
+            "Religiosity": 87,
+            "Median_Age": 30.0,
+            "Country": "Lebanon"
+        },
+        {
+            "Total_Population": 11673021.0,
+            "Religiosity": 89,
+            "Median_Age": 26.0,
+            "Country": "Bolivia (Plurinational State of)"
+        },
+        {
+            "Total_Population": 16743927.0,
+            "Religiosity": 96,
+            "Median_Age": 19.0,
+            "Country": "Senegal"
+        },
+        {
+            "Total_Population": 5459642.0,
+            "Religiosity": 47,
+            "Median_Age": 41.0,
+            "Country": "Slovakia"
+        },
+        {
+            "Total_Population": 109581078.0,
+            "Religiosity": 77,
+            "Median_Age": 26.0,
+            "Country": "Philippines"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 75,
+            "Median_Age": NaN,
+            "Country": "Bosnia and Herzegovina"
+        },
+        {
+            "Total_Population": 220892340.0,
+            "Religiosity": 92,
+            "Median_Age": 23.0,
+            "Country": "Pakistan"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 95,
+            "Median_Age": NaN,
+            "Country": "Algeria"
+        },
+        {
+            "Total_Population": 20250833.0,
+            "Religiosity": 95,
+            "Median_Age": 16.0,
+            "Country": "Mali"
+        },
+        {
+            "Total_Population": 45195774.0,
+            "Religiosity": 65,
+            "Median_Age": 32.0,
+            "Country": "Argentina"
+        },
+        {
+            "Total_Population": 18776707.0,
+            "Religiosity": 53,
+            "Median_Age": 31.0,
+            "Country": "Kazakhstan"
+        },
+        {
+            "Total_Population": 32971854.0,
+            "Religiosity": 84,
+            "Median_Age": 31.0,
+            "Country": "Peru"
+        },
+        {
+            "Total_Population": 19237691.0,
+            "Religiosity": 84,
+            "Median_Age": 43.0,
+            "Country": "Romania"
+        },
+        {
+            "Total_Population": 36910560.0,
+            "Religiosity": 96,
+            "Median_Age": 30.0,
+            "Country": "Morocco"
+        },
+        {
+            "Total_Population": 12123200.0,
+            "Religiosity": 93,
+            "Median_Age": 19.0,
+            "Country": "Benin"
+        },
+        {
+            "Total_Population": 102334404.0,
+            "Religiosity": 96,
+            "Median_Age": 25.0,
+            "Country": "Egypt"
+        },
+        {
+            "Total_Population": 28435940.0,
+            "Religiosity": 79,
+            "Median_Age": 30.0,
+            "Country": "Venezuela (Bolivarian Republic of)"
+        },
+        {
+            "Total_Population": 2877797.0,
+            "Religiosity": 50,
+            "Median_Age": 36.0,
+            "Country": "Albania"
+        },
+        {
+            "Total_Population": 1326535.0,
+            "Religiosity": 16,
+            "Median_Age": 42.0,
+            "Country": "Estonia"
+        },
+        {
+            "Total_Population": 145934462.0,
+            "Religiosity": 34,
+            "Median_Age": 40.0,
+            "Country": "Russian Federation"
+        },
+        {
+            "Total_Population": 37846611.0,
+            "Religiosity": 50,
+            "Median_Age": 42.0,
+            "Country": "Poland"
+        },
+        {
+            "Total_Population": 128932753.0,
+            "Religiosity": 73,
+            "Median_Age": 29.0,
+            "Country": "Mexico"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 80,
+            "Median_Age": NaN,
+            "Country": "Togo"
+        },
+        {
+            "Total_Population": 3989167.0,
+            "Religiosity": 81,
+            "Median_Age": 38.0,
+            "Country": "Georgia"
+        },
+        {
+            "Total_Population": 17643054.0,
+            "Religiosity": 82,
+            "Median_Age": 28.0,
+            "Country": "Ecuador"
+        },
+        {
+            "Total_Population": 9660351.0,
+            "Religiosity": 39,
+            "Median_Age": 43.0,
+            "Country": "Hungary"
+        },
+        {
+            "Total_Population": 212559417.0,
+            "Religiosity": 85,
+            "Median_Age": 33.0,
+            "Country": "Brazil"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 79,
+            "Median_Age": NaN,
+            "Country": "Armenia"
+        },
+        {
+            "Total_Population": 1380004385.0,
+            "Religiosity": 90,
+            "Median_Age": 28.0,
+            "Country": "India"
+        },
+        {
+            "Total_Population": 10708981.0,
+            "Religiosity": 16,
+            "Median_Age": 43.0,
+            "Country": "Czechia"
+        },
+        {
+            "Total_Population": 6948445.0,
+            "Religiosity": 34,
+            "Median_Age": 45.0,
+            "Country": "Bulgaria"
+        },
+        {
+            "Total_Population": 6486205.0,
+            "Religiosity": 77,
+            "Median_Age": 28.0,
+            "Country": "El Salvador"
+        },
+        {
+            "Total_Population": 126476461.0,
+            "Religiosity": 14,
+            "Median_Age": 48.0,
+            "Country": "Japan"
+        },
+        {
+            "Total_Population": 8737371.0,
+            "Religiosity": 54,
+            "Median_Age": 42.0,
+            "Country": "Serbia"
+        },
+        {
+            "Total_Population": 4105267.0,
+            "Religiosity": 70,
+            "Median_Age": 44.0,
+            "Country": "Croatia"
+        },
+        {
+            "Total_Population": 11818619.0,
+            "Religiosity": 93,
+            "Median_Age": 33.0,
+            "Country": "Tunisia"
+        },
+        {
+            "Total_Population": NaN,
+            "Religiosity": 97,
+            "Median_Age": NaN,
+            "Country": "Afghanistan"
+        },
+        {
+            "Total_Population": 1886198.0,
+            "Religiosity": 29,
+            "Median_Age": 44.0,
+            "Country": "Latvia"
+        },
+        {
+            "Total_Population": 2722289.0,
+            "Religiosity": 40,
+            "Median_Age": 45.0,
+            "Country": "Lithuania"
+        },
+        {
+            "Total_Population": 16718965.0,
+            "Religiosity": 96,
+            "Median_Age": 26.0,
+            "Country": "Cambodia"
+        },
+        {
+            "Total_Population": 10423054.0,
+            "Religiosity": 71,
+            "Median_Age": 46.0,
+            "Country": "Greece"
+        }
+    ],
+    "imgs": [
+        "757_QQQ_rect_chart_2.png",
+        "757_QQQ_rect_chart.png"
+    ]
+}

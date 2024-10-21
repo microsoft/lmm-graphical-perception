@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Determine the share of respondents using Facebook.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Which social media platform has the highest share of respondents?",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the total share of respondents for Facebook and WhatsApp.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any social media platform with a significantly lower share of respondents compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a noticeable cluster of social media platforms with a share of respondents above 0.50?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Order the social media platforms from the highest to the lowest share of respondents.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of the share of respondents across all social media platforms?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify if there's a correlation between social media platform popularity and the share of respondents.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "What percentage of social media platforms have a share of respondents higher than 0.60?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Which social media platforms have a share of respondents between 0.30 and 0.70?",
+            "type": "Filter"
+        }
+    ]
+]

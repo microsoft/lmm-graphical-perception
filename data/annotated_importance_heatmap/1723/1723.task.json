@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest youth unemployment rate.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the range of youth unemployment rates from 1999 to 2020.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Calculate the average youth unemployment rate over the entire period from 1999 to 2020.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any year where the youth unemployment rate is significantly lower than the surrounding years.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "How many years had a youth unemployment rate higher than 0.09?",
+            "type": "Filter"
+        },
+        {
+            "description": "Describe the trend in youth unemployment rate from 1999 to 2020.",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "What is the youth unemployment rate for the year 2001?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify if there is any noticeable correlation between the year and the youth unemployment rate.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Order the years from the lowest to the highest youth unemployment rate.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any clusters of years with similar youth unemployment rates.",
+            "type": "Find Clusters"
+        }
+    ]
+]

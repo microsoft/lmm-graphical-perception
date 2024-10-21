@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the region with the highest net migration per thousand inhabitants.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the region with the lowest net migration per thousand inhabitants.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the average net migration per thousand inhabitants across all regions.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any region that has a significantly higher net migration compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Identify if there is any region with net migration below 2.0 per thousand inhabitants.",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the regions from the highest to the lowest net migration per thousand inhabitants.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of net migration values across all regions.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of regions have a net migration per thousand inhabitants greater than 3.0?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of regions with similar net migration values.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the net migration per thousand inhabitants for Lombardy?",
+            "type": "Retrieve Value"
+        }
+    ]
+]

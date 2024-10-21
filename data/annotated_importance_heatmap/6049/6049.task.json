@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest proportion of the population aged 15-64 years.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the trend in the proportion of the population aged 15-64 years from 2009 to 2019.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Compute the average proportion of the population aged 15-64 years over the entire period.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Which year shows an anomaly in the proportion of the population aged 15-64 years?",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Filter the years where the proportion of the population aged 15-64 years is above 0.656.",
+            "type": "Filter"
+        },
+        {
+            "description": "Determine the range of the proportion of the population aged 15-64 years between 2009 and 2019.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "How many years have a proportion of the population aged 15-64 years equal to 0.6558?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Rank the years from the highest to the lowest proportion of the population aged 15-64 years.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify clusters of years with similar proportions of the population aged 15-64 years.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of the years have a proportion of the population aged 15-64 years higher than 0.656?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

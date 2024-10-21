@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the war with the highest number of fatalities.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total number of fatalities in the Vietnam Conflict.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average number of fatalities across all the wars listed.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any wars that have significantly fewer fatalities compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Are there any visible clusters of wars with similar fatality numbers?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Rank the wars from the highest to the lowest number of fatalities.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of fatalities across all listed wars?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify if there is any correlation between the time period and the number of fatalities.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "What percentage of wars have fewer than 50,000 fatalities?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Which wars have more than 100,000 fatalities?",
+            "type": "Filter"
+        }
+    ]
+]

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the perpetrator relationship with the highest number of victims.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total number of victims for the 'Father' category.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the combined number of victims for the 'Mother' and 'Father' categories.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any perpetrator relationship that has a significantly lower number of victims compared to 'Mother'.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a noticeable cluster among the relationships with the number of victims between 30,000 and 50,000?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Rank the relationships from the highest to the lowest number of victims.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of victim numbers across all perpetrator relationships?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the categories have more than 100,000 victims?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify if there is any correlation between the perpetrator relationship and the number of victims.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "List the relationships that have fewer than 50,000 victims.",
+            "type": "Filter"
+        }
+    ]
+]

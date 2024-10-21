@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the country with the largest exhibition space.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "How much exhibition space is available in Germany?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the total exhibition space available for Italy and France combined.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Determine the range of exhibition spaces available across all countries.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Find any country with an exhibition space significantly lower than others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Are there any clusters of countries with similar exhibition space values?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "List the countries in descending order of their exhibition space.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the exhibition space value for the country with the second-highest space?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify if there is any noticeable correlation between geographical region and exhibition space.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Determine the percentage of countries with exhibition space greater than 3 million square meters.",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Find the age group with the highest percentage of patients.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the total percentage of patients for age groups 11-15 and 16-17.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any age group that has a significantly higher percentage of patients compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Are there any clusters of age groups with similar percentages of patients?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the percentage of patients in the age group 21-24?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the range of percentages across all age groups.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Order the age groups from the highest to the lowest percentage of patients.",
+            "type": "Order"
+        },
+        {
+            "description": "Find the age groups that have percentages lower than 0.01.",
+            "type": "Filter"
+        },
+        {
+            "description": "What is the percentage of age groups with more than 0.02 percentage of patients?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Is there a correlation between age groups and the percentage of patients?",
+            "type": "Find Correlation"
+        }
+    ]
+]

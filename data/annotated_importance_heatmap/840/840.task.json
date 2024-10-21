@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest net income.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the net income for the year 2017.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average net income from 2015 to 2019.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any anomalies in the net income trend over the years.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "How many years had a net income greater than 100 billion yen?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the years from the highest to the lowest net income.",
+            "type": "Order"
+        },
+        {
+            "description": "Is there a noticeable trend or pattern in the net income over the years?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Determine the range of net incomes observed from 2015 to 2019.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify clusters of years with similar net incomes.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of years had a net income below 100 billion yen?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

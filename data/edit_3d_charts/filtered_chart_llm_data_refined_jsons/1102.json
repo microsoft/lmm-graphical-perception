@@ -1,0 +1,296 @@
+{
+    "img_id": 1102,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "width": {
+            "step": 10
+        },
+        "height": 300,
+        "mark": "bar",
+        "encoding": {
+            "column": {
+                "field": "Time",
+                "type": "nominal",
+                "title": "",
+                "spacing": 0
+            },
+            "y": {
+                "field": "Value",
+                "type": "quantitative",
+                "title": "Energy consumption per capita (megajoules)",
+                "scale": {
+                    "domain": [
+                        0,
+                        100000
+                    ]
+                }
+            },
+            "x": {
+                "field": "Type",
+                "type": "nominal",
+                "axis": {
+                    "title": "",
+                    "labelColor": "white",
+                    "ticks": false
+                }
+            },
+            "color": {
+                "field": "Type",
+                "type": "nominal",
+                "title": "Energy source",
+                "scale": {
+                    "range": [
+                        "#122b39",
+                        "#e6224b",
+                        "#f4c345",
+                        "#00a767",
+                        "#179fdb",
+                        "#36b7b4"
+                    ]
+                }
+            },
+            "tooltip": [
+                {
+                    "field": "Time",
+                    "type": "ordinal",
+                    "title": "Time period"
+                },
+                {
+                    "field": "Type",
+                    "type": "nominal"
+                },
+                {
+                    "field": "Value",
+                    "type": "quantitative",
+                    "title": "Energy consumption per capita (megajoules)"
+                }
+            ]
+        },
+        "config": {
+            "view": {
+                "stroke": "transparent"
+            },
+            "axis": {
+                "domainWidth": 1
+            }
+        }
+    },
+    "data_dict": [
+        {
+            "Time": "1561-1570",
+            "Type": "Human",
+            "Value": 4373
+        },
+        {
+            "Time": "1561-1570",
+            "Type": "Draught Animal",
+            "Value": 6210
+        },
+        {
+            "Time": "1561-1570",
+            "Type": "Firewood",
+            "Value": 6324
+        },
+        {
+            "Time": "1561-1570",
+            "Type": "Wind",
+            "Value": 59
+        },
+        {
+            "Time": "1561-1570",
+            "Type": "Water",
+            "Value": 162
+        },
+        {
+            "Time": "1561-1570",
+            "Type": "Coal",
+            "Value": 2039
+        },
+        {
+            "Time": "1600-1609",
+            "Type": "Human",
+            "Value": 4161
+        },
+        {
+            "Time": "1600-1609",
+            "Type": "Draught Animal",
+            "Value": 4647
+        },
+        {
+            "Time": "1600-1609",
+            "Type": "Firewood",
+            "Value": 4729
+        },
+        {
+            "Time": "1600-1609",
+            "Type": "Wind",
+            "Value": 85
+        },
+        {
+            "Time": "1600-1609",
+            "Type": "Water",
+            "Value": 152
+        },
+        {
+            "Time": "1600-1609",
+            "Type": "Coal",
+            "Value": 3153
+        },
+        {
+            "Time": "1650-1659",
+            "Type": "Human",
+            "Value": 4521
+        },
+        {
+            "Time": "1650-1659",
+            "Type": "Draught Animal",
+            "Value": 4802
+        },
+        {
+            "Time": "1650-1659",
+            "Type": "Firewood",
+            "Value": 3849
+        },
+        {
+            "Time": "1650-1659",
+            "Type": "Wind",
+            "Value": 153
+        },
+        {
+            "Time": "1650-1659",
+            "Type": "Water",
+            "Value": 156
+        },
+        {
+            "Time": "1650-1659",
+            "Type": "Coal",
+            "Value": 6772
+        },
+        {
+            "Time": "1700-1709",
+            "Type": "Human",
+            "Value": 4789
+        },
+        {
+            "Time": "1700-1709",
+            "Type": "Draught Animal",
+            "Value": 5744
+        },
+        {
+            "Time": "1700-1709",
+            "Type": "Firewood",
+            "Value": 3939
+        },
+        {
+            "Time": "1700-1709",
+            "Type": "Wind",
+            "Value": 238
+        },
+        {
+            "Time": "1700-1709",
+            "Type": "Water",
+            "Value": 173
+        },
+        {
+            "Time": "1700-1709",
+            "Type": "Coal",
+            "Value": 14719
+        },
+        {
+            "Time": "1750-1759",
+            "Type": "Human",
+            "Value": 4519
+        },
+        {
+            "Time": "1750-1759",
+            "Type": "Draught Animal",
+            "Value": 5113
+        },
+        {
+            "Time": "1750-1759",
+            "Type": "Firewood",
+            "Value": 3429
+        },
+        {
+            "Time": "1750-1759",
+            "Type": "Wind",
+            "Value": 427
+        },
+        {
+            "Time": "1750-1759",
+            "Type": "Water",
+            "Value": 198
+        },
+        {
+            "Time": "1750-1759",
+            "Type": "Coal",
+            "Value": 21403
+        },
+        {
+            "Time": "1800-1809",
+            "Type": "Human",
+            "Value": 4233
+        },
+        {
+            "Time": "1800-1809",
+            "Type": "Draught Animal",
+            "Value": 3471
+        },
+        {
+            "Time": "1800-1809",
+            "Type": "Firewood",
+            "Value": 1877
+        },
+        {
+            "Time": "1800-1809",
+            "Type": "Wind",
+            "Value": 1282
+        },
+        {
+            "Time": "1800-1809",
+            "Type": "Water",
+            "Value": 111
+        },
+        {
+            "Time": "1800-1809",
+            "Type": "Coal",
+            "Value": 41373
+        },
+        {
+            "Time": "1850-1859",
+            "Type": "Human",
+            "Value": 3564
+        },
+        {
+            "Time": "1850-1859",
+            "Type": "Draught Animal",
+            "Value": 2633
+        },
+        {
+            "Time": "1850-1859",
+            "Type": "Firewood",
+            "Value": 118
+        },
+        {
+            "Time": "1850-1859",
+            "Type": "Wind",
+            "Value": 1280
+        },
+        {
+            "Time": "1850-1859",
+            "Type": "Water",
+            "Value": 89
+        },
+        {
+            "Time": "1850-1859",
+            "Type": "Coal",
+            "Value": 88779
+        }
+    ],
+    "imgs": [
+        "1102_NQN_line_chart.png",
+        "1102_NQN_bar_chart.png",
+        "1102_NQN_bar_chart_2.png",
+        "1102_NQN_line_chart_2.png"
+    ]
+}

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the region with the highest share of hotel rooms.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "What is the share of hotel rooms in Brittany?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the range of the share of hotel rooms across all regions.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "List the regions with a share of hotel rooms greater than 20%.",
+            "type": "Filter"
+        },
+        {
+            "description": "Calculate the total share of hotel rooms for the regions \u00cele-de-France and Provence-Alpes-C\u00f4te d'Azur.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any region that has a significantly lower share of hotel rooms compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there any observable pattern or clustering among regions with similar shares of hotel rooms?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Rank the regions from the highest to the lowest share of hotel rooms.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify if there is a correlation between the share of hotel rooms and the region.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "What percentage of regions have a share of hotel rooms less than 20%?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

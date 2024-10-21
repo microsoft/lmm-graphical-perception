@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the city with the highest dinner cost for two people.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the range of dinner costs for two people across all cities.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Calculate the average dinner cost for two people across the listed cities.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any city whose dinner cost for two is significantly lower than others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a noticeable clustering of cities with similar dinner costs?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the dinner cost for two people in Boston, MA?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Rank the cities from most expensive to least expensive for dinner for two.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any correlation between the cities and their respective dinner costs.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "How many cities have a dinner cost for two people greater than $80?",
+            "type": "Filter"
+        },
+        {
+            "description": "What percentage of the cities have a dinner cost for two people above $80?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

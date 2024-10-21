@@ -1,0 +1,2835 @@
+{
+    "img_id": 1175,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "transform": [
+            {
+                "filter": "datum.Height < 100"
+            }
+        ],
+        "mark": "rect",
+        "height": 660,
+        "width": 950,
+        "encoding": {
+            "y": {
+                "title": "Height (inches)",
+                "bin": {
+                    "maxbins": 40
+                },
+                "field": "Height",
+                "type": "quantitative"
+            },
+            "x": {
+                "bin": {
+                    "maxbins": 60,
+                    "minstep": 1
+                },
+                "field": "Time (seconds)",
+                "title": "Time (seconds)",
+                "type": "quantitative"
+            },
+            "color": {
+                "aggregate": "count",
+                "type": "quantitative",
+                "legend": {
+                    "title": "Count"
+                }
+            }
+        },
+        "config": {
+            "view": {
+                "stroke": "transparent"
+            }
+        }
+    },
+    "data_dict": [
+        {
+            "Height": 71.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 44.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Height": 11.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 62.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 30.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 678.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 5.0,
+            "Time (seconds)": 14.0
+        },
+        {
+            "Height": 5.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 81.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 15.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 68.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 68.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 7894.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Height": 68.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 73.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Height": 73.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 15.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 73.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 78.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 78.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 7.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 73.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 14.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 68.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 68.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 37.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 37.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 30.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 64.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 1234567890.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 64.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 64.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 1.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 97.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 7.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 74.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 94.0,
+            "Time (seconds)": 10.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 71.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 71.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 62.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 96.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 74.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 65.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 43.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 46.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 46.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 41.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 77.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 69.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 71.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 71.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 65.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 63.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 63.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 13.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 40.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 53.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 63.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 59.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 40.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 69.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 53.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 44.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": NaN,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 42.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 39.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 39.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 10.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Height": 53.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 74.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 42.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 65.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 64.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 53.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Height": NaN,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": NaN,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 41.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 44.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 91.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 43.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 41.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 46.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 68.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 59.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 59.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 74.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 62.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 94.0,
+            "Time (seconds)": 10.0
+        },
+        {
+            "Height": 78.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 46.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 63.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 65.0,
+            "Time (seconds)": 11.0
+        },
+        {
+            "Height": 65.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 63.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 59.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 40.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 68.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 69.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 71.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 71.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 65.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 10.0
+        },
+        {
+            "Height": 68.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 62.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 63.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 74.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 62.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 96.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 74.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 65.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 43.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 46.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 46.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 41.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 77.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 69.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 71.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 71.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 65.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 63.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 63.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 13.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 40.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 53.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 63.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 59.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 40.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 69.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 53.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 44.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": NaN,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 42.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 39.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 39.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 10.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Height": 53.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 74.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 42.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 37.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 59.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 64.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 64.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 64.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 64.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 67.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 41.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 44.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 37.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 62.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 42.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 64.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 63.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 59.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 43.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 46.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 46.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 65.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 59.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 59.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 75.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 44.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 62.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 14.0
+        },
+        {
+            "Height": 49.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 63.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 68.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 61.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": NaN,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 71.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Height": 71.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 69.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 64.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 69.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 64.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 15.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 69.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 69.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 59.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 63.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 89.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 65.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 64.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 53.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Height": NaN,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": NaN,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 68.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 68.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 46.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Height": 46.0,
+            "Time (seconds)": 13.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": NaN,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 69.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 59.0,
+            "Time (seconds)": 14.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 17.0
+        },
+        {
+            "Height": 70.0,
+            "Time (seconds)": 16.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 41.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 44.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 91.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 60.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 43.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 51.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 66.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 41.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 54.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 46.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 62.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 68.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 72.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Height": 58.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 45.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 56.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Height": 48.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Height": 47.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Height": 96.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Height": 59.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Height": 59.0,
+            "Time (seconds)": 2.0
+        }
+    ],
+    "imgs": [
+        "1175_QQQ_rect_chart_2.png",
+        "1175_QQQ_rect_chart.png"
+    ]
+}

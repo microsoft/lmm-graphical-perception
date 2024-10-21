@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest domestic spending in billion euros.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total domestic spending for the years 2025 to 2029.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any year where the domestic spending significantly deviates from the trend.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "How many years had domestic spending over 180 billion euros?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the years from the lowest to the highest domestic spending.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify if there is a general trend in domestic spending over the years.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Determine the range of domestic spending values observed from 2014 to 2029.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What is the domestic spending value for the year 2026?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify clusters of years with similar domestic spending values.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Calculate the average domestic spending over the entire period from 2014 to 2029.",
+            "type": "Compute Derived Value"
+        }
+    ]
+]

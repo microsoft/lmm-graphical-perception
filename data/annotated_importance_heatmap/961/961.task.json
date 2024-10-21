@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "What was the import value of silver in FY 2019?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the fiscal year with the highest import value.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the total import value of silver from FY 2016 to FY 2020.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Determine if there is any fiscal year with an import value significantly lower than the others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Identify any correlation between the fiscal year and the import value.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which fiscal years had an import value greater than 200 billion Indian rupees?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the fiscal years from the highest to the lowest import value.",
+            "type": "Order"
+        },
+        {
+            "description": "Find the range of import values across all fiscal years.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of fiscal years had an import value over 200 billion Indian rupees?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of fiscal years with similar import values.",
+            "type": "Find Clusters"
+        }
+    ]
+]

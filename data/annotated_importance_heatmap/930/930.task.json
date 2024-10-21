@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest sales revenue.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total revenue for the years 2017 and 2018 combined.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Which year had a significantly lower revenue compared to other years?",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a noticeable trend in revenue over the years?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "How many years had a revenue greater than 3700 million GBP?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the years from the highest to the lowest revenue.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of revenue values over the given years?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the years had a revenue above 3800 million GBP?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify clusters of years with similar revenue values.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What was the revenue in 2016?",
+            "type": "Retrieve Value"
+        }
+    ]
+]

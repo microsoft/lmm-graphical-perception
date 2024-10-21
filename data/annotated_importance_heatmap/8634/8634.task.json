@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the department with the highest proposed spending on cyber security.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "What is the proposed spending for the Department of Education?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the total proposed spending on cyber security across all departments.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Determine the range of proposed spending values among the departments.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Find any department that has a significantly lower proposed spending compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a correlation between the type of department and the proposed spending on cyber security?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "List the departments with proposed spending greater than 500 million U.S. dollars.",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the departments from the highest to the lowest proposed spending on cyber security.",
+            "type": "Order"
+        },
+        {
+            "description": "How many departments have proposed spending in the range of 200 to 500 million U.S. dollars?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of departments with similar proposed spending values.",
+            "type": "Find Clusters"
+        }
+    ]
+]

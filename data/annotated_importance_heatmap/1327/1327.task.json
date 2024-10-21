@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the country with the highest smartphone penetration rate.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the range of smartphone penetration rates across the top 20 countries.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "How many countries have a smartphone penetration rate above 0.75?",
+            "type": "Filter"
+        },
+        {
+            "description": "Calculate the average smartphone penetration rate for these countries.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any country with a significantly lower smartphone penetration rate compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Are there any clusters of countries with similar smartphone penetration rates?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Rank the countries in descending order based on their smartphone penetration rates.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify if there is a trend or pattern in smartphone penetration rates among these countries.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "What percentage of the countries have a smartphone penetration rate below 0.80?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Retrieve the smartphone penetration rate for the United States.",
+            "type": "Retrieve Value"
+        }
+    ]
+]

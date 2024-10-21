@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the activity with the highest share of leisure travelers.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the total share of leisure travelers for sightseeing and shopping combined.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Determine the range of the share of leisure travelers across all activities.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the activities have a share of leisure travelers above 0.5?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any activity that has a significantly lower share of leisure travelers compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "List the activities in descending order based on the share of leisure travelers.",
+            "type": "Order"
+        },
+        {
+            "description": "Which activities have a share of leisure travelers between 0.4 and 0.6?",
+            "type": "Filter"
+        },
+        {
+            "description": "Are there any clusters of activities with similar shares of leisure travelers?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Identify if there is a correlation between the type of activity and the share of leisure travelers.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Determine the share of leisure travelers for historical locations.",
+            "type": "Retrieve Value"
+        }
+    ]
+]

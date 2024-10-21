@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest transfer spending.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "What was the transfer spending in 2009?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average transfer spending over the entire period.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any year where transfer spending was noticeably lower than the surrounding years.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Determine if there is an upward or downward trend in transfer spending from 2006 to 2020.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "How many years had a transfer spending greater than 100 million pounds?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the years from highest to lowest in terms of transfer spending.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify the range of transfer spending values over the given period.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the years had a transfer spending less than 70 million pounds?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of years with similar transfer spending values.",
+            "type": "Find Clusters"
+        }
+    ]
+]

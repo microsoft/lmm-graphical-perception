@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest total assets.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "What is the value of total assets in billion yuan for the year 2010?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the range of total assets over the given period.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify any years where the total assets significantly deviated from the general trend.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Calculate the average total assets from 2008 to 2019.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Order the years from highest to lowest total assets.",
+            "type": "Order"
+        },
+        {
+            "description": "Find any clusters of years with similar total asset values.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Is there a consistent upward trend in total assets from 2008 to 2019?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "What percentage of years have total assets above 10,000 billion yuan?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify the span of years where the total assets grew the fastest.",
+            "type": "Filter"
+        }
+    ]
+]

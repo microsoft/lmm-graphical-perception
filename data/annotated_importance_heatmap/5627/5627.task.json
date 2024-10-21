@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the country with the highest share of FTAs.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the combined share of FTAs for Bangladesh and the United States.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Which countries have a share of FTAs less than 0.05?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the countries from highest to lowest share of FTAs.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of the share of FTAs among all listed countries?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify if there are any countries with a significantly lower share of FTAs compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Find any clusters of countries with similar shares of FTAs.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Determine the percentage of countries with a share of FTAs greater than 0.1.",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Retrieve the share of FTAs for the United Kingdom.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Is there a correlation between the country and its share of FTAs?",
+            "type": "Find Correlation"
+        }
+    ]
+]

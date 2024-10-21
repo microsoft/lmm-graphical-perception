@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the region with the highest number of reported cases.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total number of cases reported in Lombardy.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "How many regions have more than 400 reported cases?",
+            "type": "Filter"
+        },
+        {
+            "description": "Compute the average number of reported cases across all regions.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any region with significantly fewer reported cases compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Order the regions from the lowest to the highest number of reported cases.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of the number of reported cases across all regions?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify any clusters of regions with similar numbers of reported cases.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Determine the percentage of regions with fewer than 400 reported cases.",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Is there a correlation between the region and the number of reported cases?",
+            "type": "Find Correlation"
+        }
+    ]
+]

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "What was the population in the Tampa-St. Petersburg-Clearwater metro area at the end of 2014?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the year with the highest population in the given timeframe.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the average population over the entire period.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Determine if there is a consistent upward trend in the population over the years.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Find any year where the population decreased compared to the previous year.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "List the years where the population was above 2.9 million.",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the years from the highest to the lowest population.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify the range of population values over the given years.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the years had a population above 2.85 million?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of years with similar population sizes.",
+            "type": "Find Clusters"
+        }
+    ]
+]

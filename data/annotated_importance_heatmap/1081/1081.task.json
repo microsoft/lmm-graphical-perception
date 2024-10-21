@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "What is the share of voice for Wikipedia (wikipedia.org)?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Which website has the highest share of voice?",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Identify any websites with a share of voice significantly lower than the others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "How many websites have a share of voice above 0.04?",
+            "type": "Filter"
+        },
+        {
+            "description": "Determine the total share of voice for Odds Shark (oddsshark.com) and Casino.Org (casino.org).",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Order the websites from highest to lowest based on their share of voice.",
+            "type": "Order"
+        },
+        {
+            "description": "Is there a noticeable clustering of websites with similar shares of voice?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the range of the share of voice values across all websites?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Calculate the average share of voice among all the websites.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify the percentage of websites with a share of voice less than 0.04.",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

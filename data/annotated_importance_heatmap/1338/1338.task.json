@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the food influencer with the highest number of followers.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "How many followers does Ree Drummond - Pioneer Woman have?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the range of followers among the food influencers.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Calculate the total number of followers for all listed food influencers.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any influencers with a significantly lower number of followers compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "How many influencers have more than 5 million followers?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the food influencers from the least to the most number of followers.",
+            "type": "Order"
+        },
+        {
+            "description": "Find any clusters of influencers with similar follower counts.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Is there a pattern observed in the number of followers among the influencers?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify if there is a correlation between the influencer's name length and the number of followers.",
+            "type": "Find Correlation"
+        }
+    ]
+]

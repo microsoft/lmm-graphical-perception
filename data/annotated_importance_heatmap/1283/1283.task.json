@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the radio station with the highest number of listeners.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "What is the total number of listeners reached by BBC Radio 2 and BBC Radio 4 combined?",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Determine the range of listeners reached across all radio stations.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Find any radio station that has an unusually low number of listeners compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "How many radio stations have more than 5,000 listeners?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the radio stations from the most listeners to the least.",
+            "type": "Order"
+        },
+        {
+            "description": "What percentage of radio stations have fewer than 3,000 listeners?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify if there is a correlation between the radio station and the number of listeners reached.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Count the number of radio stations with similar listener counts.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Retrieve the number of listeners for BBC 6 Music.",
+            "type": "Retrieve Value"
+        }
+    ]
+]

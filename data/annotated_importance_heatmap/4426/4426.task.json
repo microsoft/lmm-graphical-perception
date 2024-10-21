@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "What is the share of respondents who think politicians should talk about the NHS?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the issue with the highest share of respondents.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the total share of respondents for 'European Union' and 'Economic growth'.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Is there a strong correlation between 'Immigration' and 'Living standards' in terms of share of respondents?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Determine the range of the share of respondents across all issues.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Order the issues from the highest to the lowest share of respondents.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any issue that has a significantly lower share of respondents compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "What percentage of the issues have a share of respondents greater than 0.3?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Find any clusters of issues with similar shares of respondents.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Which issues have a share of respondents between 0.2 and 0.3?",
+            "type": "Filter"
+        }
+    ]
+]

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest number of shopping malls.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total number of shopping malls at the end of 1990.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average number of shopping malls from 1986 to 2010.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Observe if there is a year with a significant drop in the number of shopping malls compared to the previous year.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Identify the range of the number of shopping malls between 1986 and 2010.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Find any clusters of years where the number of shopping malls remained relatively stable.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Determine if there is a trend in the number of shopping malls over the years.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which years have fewer than 60,000 shopping malls?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the years from the highest to the lowest number of shopping malls.",
+            "type": "Order"
+        },
+        {
+            "description": "What percentage of the years have more than 70,000 shopping malls?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

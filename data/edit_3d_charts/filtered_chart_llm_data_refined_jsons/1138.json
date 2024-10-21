@@ -1,0 +1,1121 @@
+{
+    "img_id": "1138",
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "A scatterplot showing body mass and flipper lengths of penguins.",
+        "height": 400,
+        "width": 400,
+        "mark": "point",
+        "encoding": {
+            "x": {
+                "field": "Reduced Dimension 1",
+                "type": "quantitative",
+                "scale": {
+                    "zero": false
+                }
+            },
+            "y": {
+                "field": "Reduced Dimension 2",
+                "type": "quantitative",
+                "scale": {
+                    "zero": false
+                }
+            },
+            "color": {
+                "field": "confederation",
+                "type": "ordinal",
+                "title": null,
+                "scale": {
+                    "scheme": "spectral"
+                }
+            }
+        },
+        "config": {}
+    },
+    "data_dict": [
+        {
+            "Reduced Dimension 1": 6.420932803854687,
+            "Reduced Dimension 2": -1.6635133924711405,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": 5.357320640550661,
+            "Reduced Dimension 2": 0.1920538291172161,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": 5.135859331071414,
+            "Reduced Dimension 2": -1.4338925813757422,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 4.411146517094214,
+            "Reduced Dimension 2": -1.9537357713523955,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 4.250943163716173,
+            "Reduced Dimension 2": -1.9459744615754453,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 4.268111614652636,
+            "Reduced Dimension 2": -1.0680731654207896,
+            "confederation": "CONMEBOL"
+        },
+        {
+            "Reduced Dimension 1": 3.8766479715052,
+            "Reduced Dimension 2": -1.842417215893229,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 4.595386019670593,
+            "Reduced Dimension 2": 0.2382631632507311,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": 3.513375480775605,
+            "Reduced Dimension 2": -2.323646878405371,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 4.051921529169408,
+            "Reduced Dimension 2": -0.7406860708558274,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 3.49076021269867,
+            "Reduced Dimension 2": -2.4575318081341444,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 3.522472418911052,
+            "Reduced Dimension 2": -2.2415340929531364,
+            "confederation": "CONMEBOL"
+        },
+        {
+            "Reduced Dimension 1": 3.5653151006323496,
+            "Reduced Dimension 2": -0.8866101947580012,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 4.412401448632825,
+            "Reduced Dimension 2": 0.5882575672745622,
+            "confederation": "CONMEBOL"
+        },
+        {
+            "Reduced Dimension 1": 3.618541844629785,
+            "Reduced Dimension 2": -1.453489272403291,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 3.744096987709173,
+            "Reduced Dimension 2": -1.3423215602687986,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 3.805483320279057,
+            "Reduced Dimension 2": -0.807832481402454,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 3.563784344235616,
+            "Reduced Dimension 2": -1.4570028119884109,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 3.712336302201389,
+            "Reduced Dimension 2": -0.625267218850594,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 3.14686996745184,
+            "Reduced Dimension 2": -2.922775521268804,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 3.0376743578302987,
+            "Reduced Dimension 2": -1.7698157280584217,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 3.029865604602831,
+            "Reduced Dimension 2": -2.278916023236396,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 4.158755713718162,
+            "Reduced Dimension 2": 0.8596839976578065,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": 3.215929317832802,
+            "Reduced Dimension 2": -0.3404181003286929,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 3.8944038220858985,
+            "Reduced Dimension 2": 1.6605723103155536,
+            "confederation": "CONMEBOL"
+        },
+        {
+            "Reduced Dimension 1": 3.7622514968628273,
+            "Reduced Dimension 2": 0.9412810604744886,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": 3.3088250241791326,
+            "Reduced Dimension 2": -0.2288450227188067,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 4.011182352301608,
+            "Reduced Dimension 2": 1.0165731338254174,
+            "confederation": "CONMEBOL"
+        },
+        {
+            "Reduced Dimension 1": 2.8420719903103318,
+            "Reduced Dimension 2": -1.049631924593193,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 3.028021749889621,
+            "Reduced Dimension 2": -0.2189083293944086,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 2.7085402161567997,
+            "Reduced Dimension 2": -1.4220286945686451,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 3.0536419408599267,
+            "Reduced Dimension 2": -0.3398359436057721,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 3.700832630233812,
+            "Reduced Dimension 2": 1.6700204020785812,
+            "confederation": "CONMEBOL"
+        },
+        {
+            "Reduced Dimension 1": 2.903173415328788,
+            "Reduced Dimension 2": -0.1829952822404987,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 3.084502356401173,
+            "Reduced Dimension 2": -0.0980638978436323,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": 2.9418202125773867,
+            "Reduced Dimension 2": 0.0748692308126172,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 3.4276639116387515,
+            "Reduced Dimension 2": 0.6458259212563842,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 2.348504532592996,
+            "Reduced Dimension 2": -1.494495858426227,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 2.9353825211354727,
+            "Reduced Dimension 2": 0.2698707176889175,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 2.321344262773204,
+            "Reduced Dimension 2": -1.4081059567209386,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 2.9512599354731264,
+            "Reduced Dimension 2": 0.6700039007317005,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 2.451438315686945,
+            "Reduced Dimension 2": -1.196688901227423,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 2.6392698104889822,
+            "Reduced Dimension 2": 0.7791962749556696,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 2.79048246819756,
+            "Reduced Dimension 2": 1.0769959158711897,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": 3.298286570329878,
+            "Reduced Dimension 2": 2.0840097242476565,
+            "confederation": "CONMEBOL"
+        },
+        {
+            "Reduced Dimension 1": 2.4054985362190973,
+            "Reduced Dimension 2": -0.4203362588545567,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 2.147562763783235,
+            "Reduced Dimension 2": -0.1507344752297805,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 1.5858343290847243,
+            "Reduced Dimension 2": -1.686358518586205,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 1.9696959416547564,
+            "Reduced Dimension 2": -1.086818343122842,
+            "confederation": "OFC"
+        },
+        {
+            "Reduced Dimension 1": 1.7367253739215371,
+            "Reduced Dimension 2": -1.1693496428930834,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 3.352520432855383,
+            "Reduced Dimension 2": 2.6021985182021448,
+            "confederation": "CONMEBOL"
+        },
+        {
+            "Reduced Dimension 1": 2.454560660249709,
+            "Reduced Dimension 2": 0.3046051017471987,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": 2.6378694120547284,
+            "Reduced Dimension 2": 1.5026152782708997,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 1.685262821281699,
+            "Reduced Dimension 2": -0.7883971459809308,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 2.521684118655675,
+            "Reduced Dimension 2": 1.2247922962874993,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 1.9041158899477888,
+            "Reduced Dimension 2": 0.0866860704275001,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 2.4773160018960545,
+            "Reduced Dimension 2": 1.3555261250273027,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 1.4271871469623814,
+            "Reduced Dimension 2": -0.612964501548223,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 2.466727216523764,
+            "Reduced Dimension 2": 1.326497019061548,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 1.3048087443866565,
+            "Reduced Dimension 2": -0.4327360071834443,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 1.1923677531134496,
+            "Reduced Dimension 2": -1.614988690319417,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 3.240572825998944,
+            "Reduced Dimension 2": 4.142636630979134,
+            "confederation": "CONMEBOL"
+        },
+        {
+            "Reduced Dimension 1": 1.3207225881959548,
+            "Reduced Dimension 2": -0.6966293676114663,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 2.0469281549205145,
+            "Reduced Dimension 2": 1.446874693876561,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 1.102204826018045,
+            "Reduced Dimension 2": -1.1432504932025418,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 1.554269320705765,
+            "Reduced Dimension 2": -0.1857332145110796,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 0.7078053094855161,
+            "Reduced Dimension 2": -1.993761300922951,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 1.614451448288045,
+            "Reduced Dimension 2": 0.8838580685108309,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": 1.0683430411869044,
+            "Reduced Dimension 2": -0.0474820726076433,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": 0.8055069556836716,
+            "Reduced Dimension 2": -1.45364422093351,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 1.4820724065882331,
+            "Reduced Dimension 2": 1.2049737260052642,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": 0.8184726622261423,
+            "Reduced Dimension 2": -0.6528640642733988,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 0.7626471579416461,
+            "Reduced Dimension 2": -0.7451168961604762,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 0.579937421548905,
+            "Reduced Dimension 2": -0.8573083097519529,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 0.9124888332259578,
+            "Reduced Dimension 2": -0.1677771446861371,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 2.024238013877516,
+            "Reduced Dimension 2": 3.4433077527434013,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 0.4057374603043552,
+            "Reduced Dimension 2": -1.0692967644420597,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 0.275620620904119,
+            "Reduced Dimension 2": -1.2674341383472207,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 0.3479201559585186,
+            "Reduced Dimension 2": -0.1986545969095121,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 0.2300706402932298,
+            "Reduced Dimension 2": -0.3353706728964159,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": 1.2247254988783678,
+            "Reduced Dimension 2": 2.4472197455033258,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 2.2692320529412653,
+            "Reduced Dimension 2": 5.101624880257175,
+            "confederation": "CONMEBOL"
+        },
+        {
+            "Reduced Dimension 1": -0.4339771451001863,
+            "Reduced Dimension 2": -1.5476684046735851,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 0.0257013610943462,
+            "Reduced Dimension 2": -0.9821110830731336,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -0.0474594611726905,
+            "Reduced Dimension 2": -0.5595676668433511,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -0.0671073015730583,
+            "Reduced Dimension 2": -0.7574027371491144,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -0.1922852688037043,
+            "Reduced Dimension 2": -0.6754115871601106,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 0.5969764256376858,
+            "Reduced Dimension 2": 1.3330578531527366,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -0.1672672009620132,
+            "Reduced Dimension 2": 0.00327849562376,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -0.30255135335245,
+            "Reduced Dimension 2": -0.1091993180317183,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -0.0208354482116427,
+            "Reduced Dimension 2": 0.7990355474394251,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -0.1735753034326176,
+            "Reduced Dimension 2": -0.0241040544579702,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -0.1718750078093451,
+            "Reduced Dimension 2": 0.0404261552502655,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": 0.4592885457754354,
+            "Reduced Dimension 2": 2.8048288440716864,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -0.4349877430451864,
+            "Reduced Dimension 2": -0.1710121896055388,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -0.6230548443019558,
+            "Reduced Dimension 2": -0.5467734705278795,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -0.3260154637859363,
+            "Reduced Dimension 2": 0.2949977934812043,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -0.6895347472759867,
+            "Reduced Dimension 2": -0.3693048767092398,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -0.026765657792839,
+            "Reduced Dimension 2": 1.123189251967126,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -0.3153958241694296,
+            "Reduced Dimension 2": 0.2282788386663424,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -0.4947204827534717,
+            "Reduced Dimension 2": 0.010701674527699,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -0.454032613255331,
+            "Reduced Dimension 2": -0.1757621060161255,
+            "confederation": "OFC"
+        },
+        {
+            "Reduced Dimension 1": -0.3857762460050727,
+            "Reduced Dimension 2": 0.4811520265266863,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -0.8591310568063834,
+            "Reduced Dimension 2": -1.055757559725328,
+            "confederation": "defunct"
+        },
+        {
+            "Reduced Dimension 1": -0.415351000468481,
+            "Reduced Dimension 2": 1.0299029072439774,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -0.1311960593825677,
+            "Reduced Dimension 2": 1.2778676142755352,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -0.584554898266457,
+            "Reduced Dimension 2": -0.2541944111319708,
+            "confederation": "OFC"
+        },
+        {
+            "Reduced Dimension 1": -0.9770614602493264,
+            "Reduced Dimension 2": -1.0520999218775668,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -0.4268939807357054,
+            "Reduced Dimension 2": 1.1513924468198682,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -0.4818256880181493,
+            "Reduced Dimension 2": 0.5444628979750068,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -0.5376438108221485,
+            "Reduced Dimension 2": 0.3554940039521674,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -0.9003804897468086,
+            "Reduced Dimension 2": 0.3579147571633916,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -1.1348370166629844,
+            "Reduced Dimension 2": -0.7317529215531808,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -0.7588721154276895,
+            "Reduced Dimension 2": 0.2815484939663988,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -1.1784750828515629,
+            "Reduced Dimension 2": -0.7573411960142228,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -0.3429679625864669,
+            "Reduced Dimension 2": 2.010794912949452,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": 0.774720909808582,
+            "Reduced Dimension 2": 4.713432937040099,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -1.1078266043280138,
+            "Reduced Dimension 2": -1.4143594599195604,
+            "confederation": "OFC"
+        },
+        {
+            "Reduced Dimension 1": -1.1753196330286422,
+            "Reduced Dimension 2": -0.7578308726232433,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -1.162295247784852,
+            "Reduced Dimension 2": -0.5260164077193656,
+            "confederation": "OFC"
+        },
+        {
+            "Reduced Dimension 1": -1.1503109297151135,
+            "Reduced Dimension 2": -1.0848821616343216,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -1.1174521145199106,
+            "Reduced Dimension 2": 0.4517835661807097,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -1.2455418750929603,
+            "Reduced Dimension 2": -0.0839186670474638,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -0.673994603361063,
+            "Reduced Dimension 2": 1.185026720702447,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -0.9074267458360245,
+            "Reduced Dimension 2": 0.8689327891051594,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -1.547556802228642,
+            "Reduced Dimension 2": -0.8342624791096795,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -0.7966473091080662,
+            "Reduced Dimension 2": 1.3637364847509377,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -1.305598773232172,
+            "Reduced Dimension 2": -0.9243829394585642,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -1.1089228639583155,
+            "Reduced Dimension 2": 0.3483933882587604,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -1.2907188744262956,
+            "Reduced Dimension 2": -0.0916223615046063,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -1.3809750407350767,
+            "Reduced Dimension 2": -0.9816059930051124,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -1.5177997114346458,
+            "Reduced Dimension 2": -0.7364209466755094,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -0.993958940355348,
+            "Reduced Dimension 2": 0.6209022045456806,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -0.7867294053300251,
+            "Reduced Dimension 2": 1.2490532786767654,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -1.512229274291447,
+            "Reduced Dimension 2": -0.5815466073306758,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -1.2421453686440158,
+            "Reduced Dimension 2": 0.0673809879719143,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -1.3454141182120156,
+            "Reduced Dimension 2": -0.1763234519978876,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -1.364404501284642,
+            "Reduced Dimension 2": 0.1170403140419065,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -1.5465193245825235,
+            "Reduced Dimension 2": -0.1174121826242353,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -1.6599325343157785,
+            "Reduced Dimension 2": -0.9754693015455316,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -1.709076353786638,
+            "Reduced Dimension 2": -0.8998578770387688,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -1.697183194766506,
+            "Reduced Dimension 2": -0.3984163697870664,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -1.5787281724008726,
+            "Reduced Dimension 2": -0.5057765836513453,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -1.6284335172019524,
+            "Reduced Dimension 2": -0.2307602419000064,
+            "confederation": "OFC"
+        },
+        {
+            "Reduced Dimension 1": -1.7932719653928837,
+            "Reduced Dimension 2": -0.5102433580504934,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -1.755709733055271,
+            "Reduced Dimension 2": -0.1427247647030999,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -1.3943056497649056,
+            "Reduced Dimension 2": 1.223594179314815,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -1.9260746978319845,
+            "Reduced Dimension 2": -0.5105070850234779,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -1.2538406097398216,
+            "Reduced Dimension 2": 1.3104119886653585,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -1.7809782232796132,
+            "Reduced Dimension 2": -0.0418294250426783,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": 1.007085668101756,
+            "Reduced Dimension 2": 7.247872451242876,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -1.9390306877615828,
+            "Reduced Dimension 2": -1.1298949980856612,
+            "confederation": "OFC"
+        },
+        {
+            "Reduced Dimension 1": -0.9650913312161852,
+            "Reduced Dimension 2": 2.8517175602182374,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -2.0325735193324004,
+            "Reduced Dimension 2": -0.6455407344386292,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -1.910302397719721,
+            "Reduced Dimension 2": 0.1042934029768158,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -1.7904217137966665,
+            "Reduced Dimension 2": 0.7147241740587794,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -2.17842473610352,
+            "Reduced Dimension 2": -0.7866791714371553,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -2.2195737064192618,
+            "Reduced Dimension 2": -0.8460321235679964,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -2.091166972368933,
+            "Reduced Dimension 2": -0.6012614320350218,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -2.087209770432716,
+            "Reduced Dimension 2": -0.3955835368513208,
+            "confederation": "OFC"
+        },
+        {
+            "Reduced Dimension 1": -1.2889072079674784,
+            "Reduced Dimension 2": 1.8232473187706255,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -2.1132730777800885,
+            "Reduced Dimension 2": -0.496049128995811,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -2.2865102601282428,
+            "Reduced Dimension 2": -1.1719182746100478,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -2.1679554382217026,
+            "Reduced Dimension 2": -0.3838510121977046,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -2.316140358971769,
+            "Reduced Dimension 2": -0.7501954830840558,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -2.3533974293441515,
+            "Reduced Dimension 2": -0.5012204893110144,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -2.3176312147323466,
+            "Reduced Dimension 2": -0.434427641762359,
+            "confederation": "OFC"
+        },
+        {
+            "Reduced Dimension 1": -2.0765153364376894,
+            "Reduced Dimension 2": 0.7138585530170951,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -1.324164643282018,
+            "Reduced Dimension 2": 2.8670697634894493,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -0.1167436403309752,
+            "Reduced Dimension 2": 5.322423623458278,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -2.516201767011089,
+            "Reduced Dimension 2": -1.1372376134280742,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -2.463061085274688,
+            "Reduced Dimension 2": -0.9928185178293804,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -2.468451619161834,
+            "Reduced Dimension 2": -0.2364535790399255,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -2.184427624306341,
+            "Reduced Dimension 2": 0.6411039729215376,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -2.5497451530673767,
+            "Reduced Dimension 2": -0.7070023655312764,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -2.486916471403651,
+            "Reduced Dimension 2": -0.3842014189245323,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -2.513131086367221,
+            "Reduced Dimension 2": -0.3025131453788594,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -2.558288273743182,
+            "Reduced Dimension 2": -0.4789183601223904,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -2.4484578540732134,
+            "Reduced Dimension 2": -0.3779668986161333,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -2.514988152368469,
+            "Reduced Dimension 2": -0.6844665903072579,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -2.553238310420765,
+            "Reduced Dimension 2": -0.409695147775249,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -2.2090100684209992,
+            "Reduced Dimension 2": 0.9443338460895312,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -1.7300609473334916,
+            "Reduced Dimension 2": 2.4948773335545424,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -2.2073430950662445,
+            "Reduced Dimension 2": 1.3968895239685142,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -2.385490828497164,
+            "Reduced Dimension 2": 0.5991514810742083,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -1.4353147286469885,
+            "Reduced Dimension 2": 3.064140840659497,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -2.7508374824588864,
+            "Reduced Dimension 2": -0.3673060186077603,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -2.806507865221008,
+            "Reduced Dimension 2": -0.1601199869554018,
+            "confederation": "OFC"
+        },
+        {
+            "Reduced Dimension 1": -2.7677982348142445,
+            "Reduced Dimension 2": 0.0379635137476244,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -2.6080264977974457,
+            "Reduced Dimension 2": 0.3987712621251282,
+            "confederation": "OFC"
+        },
+        {
+            "Reduced Dimension 1": -2.8231230307742763,
+            "Reduced Dimension 2": -0.6873696781275747,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -2.8748692751882343,
+            "Reduced Dimension 2": -0.6131043991392952,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -2.802435746691545,
+            "Reduced Dimension 2": 0.1553220006143023,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -2.9875389283867886,
+            "Reduced Dimension 2": -0.5847580902664049,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -2.7965862785395097,
+            "Reduced Dimension 2": 0.1784663700406977,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -3.049270659112337,
+            "Reduced Dimension 2": -0.9334912054263548,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -3.0964085088018645,
+            "Reduced Dimension 2": -0.6523416719330892,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -3.030547159818584,
+            "Reduced Dimension 2": -0.3053316872565683,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -2.948895481637018,
+            "Reduced Dimension 2": -0.1029396607668967,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -2.909708830576172,
+            "Reduced Dimension 2": -0.1419959156831041,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -3.0458874941765046,
+            "Reduced Dimension 2": -0.1359057714829355,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -3.0547671031815846,
+            "Reduced Dimension 2": -1.455507881153753,
+            "confederation": "defunct"
+        },
+        {
+            "Reduced Dimension 1": -3.1942646089434708,
+            "Reduced Dimension 2": -0.7820796170499301,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -2.6175870317058783,
+            "Reduced Dimension 2": 1.0838546796207922,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -3.2868015380102777,
+            "Reduced Dimension 2": -0.6897694339391076,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -3.151947309994205,
+            "Reduced Dimension 2": -0.1961383018006787,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -3.179926875700501,
+            "Reduced Dimension 2": -0.0496610822066675,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -3.351808116155344,
+            "Reduced Dimension 2": -1.1176302773410256,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -3.220268900044348,
+            "Reduced Dimension 2": -0.094608007863055,
+            "confederation": "CAF"
+        },
+        {
+            "Reduced Dimension 1": -1.2259409957586611,
+            "Reduced Dimension 2": 4.893279971799521,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -3.4058259312471115,
+            "Reduced Dimension 2": -1.1579816402819438,
+            "confederation": "defunct"
+        },
+        {
+            "Reduced Dimension 1": -3.4795609905344214,
+            "Reduced Dimension 2": -0.7817169142936223,
+            "confederation": "OFC"
+        },
+        {
+            "Reduced Dimension 1": -3.2765018727703,
+            "Reduced Dimension 2": 0.0720602432567464,
+            "confederation": "CONCACAF"
+        },
+        {
+            "Reduced Dimension 1": -3.2429308892175217,
+            "Reduced Dimension 2": 0.3628794382173756,
+            "confederation": "AFC"
+        },
+        {
+            "Reduced Dimension 1": -3.13609909688121,
+            "Reduced Dimension 2": 0.5936892624516376,
+            "confederation": "UEFA"
+        },
+        {
+            "Reduced Dimension 1": -3.8007453076076234,
+            "Reduced Dimension 2": -0.9195180479761396,
+            "confederation": "AFC"
+        }
+    ],
+    "imgs": [
+        "1138_QQO_point_chart.png",
+        "1138_QQO_point_chart_2.png"
+    ]
+}

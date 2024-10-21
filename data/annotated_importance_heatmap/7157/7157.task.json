@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the country with the highest percentage of respondents who were 'a little concerned' about the COVID-19 situation.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the percentage of respondents in China who were 'a little concerned' about the COVID-19 situation.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average percentage of respondents who were 'a little concerned' across all countries.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any country with a significantly lower percentage of 'a little concerned' respondents compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Identify if there is a correlation between the country and the percentage of respondents 'a little concerned' about the COVID-19 situation.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which countries have more than 25% of respondents who were 'a little concerned'?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the countries from the highest to the lowest percentage of 'a little concerned' respondents.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of the percentage values of 'a little concerned' respondents across all countries.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What is the percentage of countries with more than 20% of respondents who were 'a little concerned'?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of countries with similar percentages of 'a little concerned' respondents.",
+            "type": "Find Clusters"
+        }
+    ]
+]

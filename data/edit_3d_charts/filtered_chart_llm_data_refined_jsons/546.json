@@ -1,0 +1,193 @@
+{
+    "img_id": 546,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": {
+            "text": "GDP loss by temperature increase scenario",
+            "subtitle": "By most affected country. Source: Swiss Re",
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start",
+            "color": "black"
+        },
+        "width": {
+            "step": 10
+        },
+        "height": 300,
+        "mark": "bar",
+        "encoding": {
+            "column": {
+                "field": "Scenario",
+                "type": "nominal",
+                "spacing": 1,
+                "title": null
+            },
+            "y": {
+                "field": "Value 1",
+                "type": "quantitative",
+                "title": null,
+                "scale": {
+                    "domain": [
+                        -13,
+                        0.5
+                    ]
+                },
+                "axis": {
+                    "grid": false
+                }
+            },
+            "x": {
+                "field": "Country",
+                "type": "nominal",
+                "axis": {
+                    "title": "",
+                    "labelColor": "white",
+                    "ticks": false
+                },
+                "sort": "-y"
+            },
+            "color": {
+                "field": "Country",
+                "scale": {
+                    "scheme": "yellowgreenblue"
+                },
+                "legend": {
+                    "orient": "right"
+                }
+            },
+            "tooltip": [
+                {
+                    "field": "Scenario",
+                    "type": "nominal"
+                },
+                {
+                    "field": "Value 1",
+                    "type": "quantitative",
+                    "title": "GDP loss (%)"
+                },
+                {
+                    "field": "Country",
+                    "type": "nominal"
+                }
+            ]
+        },
+        "config": {
+            "view": {
+                "stroke": "transparent"
+            },
+            "axis": {
+                "domainWidth": 1
+            }
+        }
+    },
+    "data_dict": [
+        {
+            "Value 1": -1.2,
+            "Scenario": 1.4,
+            "Country": "Thailand"
+        },
+        {
+            "Value 1": -1.3,
+            "Scenario": 1.4,
+            "Country": "Philippines"
+        },
+        {
+            "Value 1": -1.2,
+            "Scenario": 1.4,
+            "Country": "Malaysia"
+        },
+        {
+            "Value 1": -0.9,
+            "Scenario": 1.4,
+            "Country": "Saudi Arabia"
+        },
+        {
+            "Value 1": -0.6,
+            "Scenario": 1.4,
+            "Country": "Indonesia"
+        },
+        {
+            "Value 1": -3.0,
+            "Scenario": 2.0,
+            "Country": "Thailand"
+        },
+        {
+            "Value 1": -3.5,
+            "Scenario": 2.0,
+            "Country": "Philippines"
+        },
+        {
+            "Value 1": -4.0,
+            "Scenario": 2.0,
+            "Country": "Malaysia"
+        },
+        {
+            "Value 1": -4.8,
+            "Scenario": 2.0,
+            "Country": "Saudi Arabia"
+        },
+        {
+            "Value 1": -2.0,
+            "Scenario": 2.0,
+            "Country": "Indonesia"
+        },
+        {
+            "Value 1": -4.9,
+            "Scenario": 2.6,
+            "Country": "Thailand"
+        },
+        {
+            "Value 1": -5.8,
+            "Scenario": 2.6,
+            "Country": "Philippines"
+        },
+        {
+            "Value 1": -6.8,
+            "Scenario": 2.6,
+            "Country": "Malaysia"
+        },
+        {
+            "Value 1": -11.6,
+            "Scenario": 2.6,
+            "Country": "Saudi Arabia"
+        },
+        {
+            "Value 1": -3.4,
+            "Scenario": 2.6,
+            "Country": "Indonesia"
+        },
+        {
+            "Value 1": -6.0,
+            "Scenario": 3.2,
+            "Country": "Thailand"
+        },
+        {
+            "Value 1": -6.9,
+            "Scenario": 3.2,
+            "Country": "Philippines"
+        },
+        {
+            "Value 1": -7.8,
+            "Scenario": 3.2,
+            "Country": "Malaysia"
+        },
+        {
+            "Value 1": -12.2,
+            "Scenario": 3.2,
+            "Country": "Saudi Arabia"
+        },
+        {
+            "Value 1": -4.4,
+            "Scenario": 3.2,
+            "Country": "Indonesia"
+        }
+    ],
+    "imgs": [
+        "546_NQN_point_chart.png",
+        "546_NQN_line_chart.png",
+        "546_NQN_bar_chart_2.png",
+        "546_NQN_line_chart_2.png",
+        "546_NQN_bar_chart.png",
+        "546_NQN_point_chart_2.png"
+    ]
+}

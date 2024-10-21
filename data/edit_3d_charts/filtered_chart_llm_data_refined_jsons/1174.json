@@ -1,0 +1,3562 @@
+{
+    "img_id": 1174,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "height": 500,
+        "width": 500,
+        "mark": "point",
+        "params": [
+            {
+                "name": "eventName",
+                "select": {
+                    "type": "point",
+                    "fields": [
+                        "EVENT"
+                    ]
+                },
+                "bind": "legend"
+            },
+            {
+                "name": "activity",
+                "select": {
+                    "type": "point",
+                    "fields": [
+                        "Favorite Activity"
+                    ]
+                },
+                "bind": "legend"
+            }
+        ],
+        "transform": [
+            {
+                "filter": "datum.Height < 100"
+            },
+            {
+                "filter": "!(datum.EVENT === 'Sciencefest 2019' && datum.id < 182)"
+            }
+        ],
+        "encoding": {
+            "x": {
+                "field": "Time (seconds)",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Height",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "EVENT",
+                "type": "nominal"
+            },
+            "shape": {
+                "field": "Favorite Activity",
+                "type": "nominal"
+            },
+            "size": {
+                "value": 300
+            },
+            "opacity": {
+                "condition": {
+                    "test": {
+                        "and": [
+                            {
+                                "param": "eventName"
+                            },
+                            {
+                                "param": "activity"
+                            }
+                        ]
+                    },
+                    "value": 1
+                },
+                "value": 0
+            }
+        }
+    },
+    "data_dict": [
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 71.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 44.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 11.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 58.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 58.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 58.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 62.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 30.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 678.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 56.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 72.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 56.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 58.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 58.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 5.0,
+            "Time (seconds)": 14.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 5.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 66.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 66.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 67.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 81.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 57.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 57.0,
+            "Time (seconds)": 15.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 45.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 45.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 45.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 48.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 47.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 68.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 68.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 7894.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 68.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 73.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 73.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 15.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 49.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 73.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 78.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 78.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 7.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 73.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 50.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 50.0,
+            "Time (seconds)": 14.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 50.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 68.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 68.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 67.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 37.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 37.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 30.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 56.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 64.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 1234567890.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 56.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 52.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 52.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 66.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 66.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 64.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 64.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 1.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 97.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 7.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 72.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 74.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 94.0,
+            "Time (seconds)": 10.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 45.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 58.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 71.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 66.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 71.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 62.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 60.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 61.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 96.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 55.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 74.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 65.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 43.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 61.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 46.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 46.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 41.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 45.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 49.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 51.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 47.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 77.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 51.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 47.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 66.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 49.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 69.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 71.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 72.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 71.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 65.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 63.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 49.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 63.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 50.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 49.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 36.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 36.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 36.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 36.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 36.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 36.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 49.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 36.0,
+            "Time (seconds)": 13.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 40.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 51.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 52.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 36.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 61.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 47.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 53.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 56.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 63.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 49.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 52.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 55.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 59.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 60.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 50.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 49.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 40.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 69.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 36.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 53.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 55.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 44.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": NaN,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 42.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 48.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 39.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 39.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 60.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 36.0,
+            "Time (seconds)": 10.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 52.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 53.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 61.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 61.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 67.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 74.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 45.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 72.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 54.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 48.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 42.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 36.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 66.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 36.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 57.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 72.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 72.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 72.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 65.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 64.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 53.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 54.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": NaN,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": NaN,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 56.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 45.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 47.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 41.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 44.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 91.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 60.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 43.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 51.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 48.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 45.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 47.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 41.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 54.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 46.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 45.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 68.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 72.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 58.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 45.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 48.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 56.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 48.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 47.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 59.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 59.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 74.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 62.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 94.0,
+            "Time (seconds)": 10.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 78.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 46.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 63.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 65.0,
+            "Time (seconds)": 11.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 65.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 67.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 50.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 63.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 59.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 60.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 61.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 51.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 40.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 68.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 69.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 45.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 58.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 71.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 49.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 48.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 51.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 51.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 66.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 71.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 65.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 49.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 67.0,
+            "Time (seconds)": 10.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 68.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 62.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 63.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 67.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 74.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 45.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 45.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 62.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 60.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 61.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 96.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 55.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 74.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 65.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 43.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 61.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 46.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 46.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 41.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 45.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 49.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 51.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 47.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 77.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 51.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 47.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 66.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 49.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 69.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 71.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 72.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 71.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 65.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 63.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 49.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 63.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 50.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 49.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 36.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 36.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 36.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 36.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 36.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 36.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 49.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 36.0,
+            "Time (seconds)": 13.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 40.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 51.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 52.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 36.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 61.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 47.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 53.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 56.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 63.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 49.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 52.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 55.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 59.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 60.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 50.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 49.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 40.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 69.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 36.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 53.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 55.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 44.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": NaN,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 42.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 48.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 39.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 39.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 60.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 36.0,
+            "Time (seconds)": 10.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 52.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 53.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 61.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 61.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 67.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 74.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 45.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 72.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 54.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 48.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 42.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 67.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 36.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 66.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 36.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 57.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 37.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 52.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 52.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 52.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 48.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 52.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 51.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 51.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 59.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 52.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 64.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 64.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 64.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 64.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 67.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 67.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 41.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 61.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 44.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 37.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 62.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 47.0,
+            "Time (seconds)": 7.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 42.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 45.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 72.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 72.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 64.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 66.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 63.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 59.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 48.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 43.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 46.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 36.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 46.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 65.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 66.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 59.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 59.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 56.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 75.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 44.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 36.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 62.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 51.0,
+            "Time (seconds)": 14.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 49.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 63.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 51.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 50.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 61.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 60.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 68.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 61.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 48.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 54.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": NaN,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 54.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 71.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 71.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 69.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 64.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 69.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 64.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 58.0,
+            "Time (seconds)": 15.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 51.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 51.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 54.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 69.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 69.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 59.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 63.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 57.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 70.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 60.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 48.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 89.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 48.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 72.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 72.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 72.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 65.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 70.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 48.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 64.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 53.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 50.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 54.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": NaN,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": NaN,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 68.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 68.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 46.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 46.0,
+            "Time (seconds)": 13.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 57.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": NaN,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 69.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 57.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 52.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 59.0,
+            "Time (seconds)": 14.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 56.0,
+            "Time (seconds)": 9.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 56.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 55.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 56.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 47.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 47.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 54.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 66.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 66.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 55.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 56.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 52.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 58.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 60.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 45.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 60.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 70.0,
+            "Time (seconds)": 17.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 70.0,
+            "Time (seconds)": 16.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 47.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 41.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 44.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 91.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 60.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": NaN,
+            "Height": 43.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 51.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 48.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 45.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 47.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 50.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 66.0,
+            "Time (seconds)": 4.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 41.0,
+            "Time (seconds)": 0.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 54.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 46.0,
+            "Time (seconds)": 6.0
+        },
+        {
+            "Favorite Activity": "Gaming",
+            "Height": 45.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 62.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 68.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Art",
+            "Height": 72.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 50.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Other",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 58.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Sports",
+            "Height": 72.0,
+            "Time (seconds)": 2.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 58.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 45.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 48.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 56.0,
+            "Time (seconds)": 1.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 48.0,
+            "Time (seconds)": 5.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 47.0,
+            "Time (seconds)": 3.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 96.0,
+            "Time (seconds)": 8.0
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 59.0,
+            "Time (seconds)": NaN
+        },
+        {
+            "Favorite Activity": "Cooking",
+            "Height": 59.0,
+            "Time (seconds)": 2.0
+        }
+    ],
+    "imgs": [
+        "1174_QQN_point_chart_2.png",
+        "1174_QQN_point_chart.png"
+    ]
+}

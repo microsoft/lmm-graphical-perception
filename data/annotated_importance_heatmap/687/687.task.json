@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "What was the number of employees in the financial services sector in the UK in the year 2002?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the year with the highest number of employees.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the range of the number of employees over the years.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Calculate the average number of employees from 2001 to 2019.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any year where there was a significant drop in the number of employees.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "List the years where the number of employees was below 1.17 million.",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the years from highest to lowest based on the number of employees.",
+            "type": "Order"
+        },
+        {
+            "description": "Is there a general trend in the number of employees from 2001 to 2019?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Identify clusters of years with similar numbers of employees.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Determine the percentage of years with more than 1.18 million employees.",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

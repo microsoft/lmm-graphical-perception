@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the month with the highest number of hires.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total number of hires in September 2020.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average number of hires over the provided months.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any month that shows a significant deviation in hires compared to other months.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Are there any clusters of months with similar hire numbers?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Evaluate if there is a correlation between the month and the number of hires.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "What months have hire numbers greater than 6 million?",
+            "type": "Filter"
+        },
+        {
+            "description": "Arrange the months in descending order of hire numbers.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of hire numbers across all months.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of months have hire numbers below 6 million?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

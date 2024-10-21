@@ -1,0 +1,257 @@
+{
+    "img_id": 1150,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "A bubbleplot showing horsepower on x, miles per gallons on y, and binned acceleration on size.",
+        "mark": "point",
+        "encoding": {
+            "x": {
+                "field": "points",
+                "type": "quantitative",
+                "title": "Average points"
+            },
+            "y": {
+                "field": "gdp",
+                "type": "quantitative",
+                "title": "GDP per capita"
+            },
+            "size": {
+                "field": "pop",
+                "type": "quantitative",
+                "title": "Population"
+            }
+        },
+        "config": {}
+    },
+    "data_dict": [
+        {
+            "gdp": 20136,
+            "points": 0.727,
+            "pop": 42523418.0
+        },
+        {
+            "gdp": 1724787,
+            "points": 2.019,
+            "pop": 25740000.0
+        },
+        {
+            "gdp": 43544,
+            "points": 1.385,
+            "pop": 1381000.0
+        },
+        {
+            "gdp": 460751,
+            "points": 0.655,
+            "pop": 171200000.0
+        },
+        {
+            "gdp": 2707,
+            "points": 0.75,
+            "pop": 760000.0
+        },
+        {
+            "gdp": 18464,
+            "points": 0.375,
+            "pop": 421000.0
+        },
+        {
+            "gdp": 28330,
+            "points": 0.444,
+            "pop": 17040000.0
+        },
+        {
+            "gdp": 850000,
+            "points": 0.333,
+            "pop": 25055000.0
+        },
+        {
+            "gdp": 5840,
+            "points": 0.5,
+            "pop": 170184.0
+        },
+        {
+            "gdp": 368100,
+            "points": 1.086,
+            "pop": 7600000.0
+        },
+        {
+            "gdp": 3468566,
+            "points": 0.941,
+            "pop": 1411944971.0
+        },
+        {
+            "gdp": 1289429,
+            "points": 0.937,
+            "pop": 278462000.0
+        },
+        {
+            "gdp": 1973738,
+            "points": 2.13,
+            "pop": 88000000.0
+        },
+        {
+            "gdp": 282876,
+            "points": 1.63,
+            "pop": 44575000.0
+        },
+        {
+            "gdp": 4300621,
+            "points": 2.0,
+            "pop": 124891000.0
+        },
+        {
+            "gdp": 48066,
+            "points": 1.436,
+            "pop": 11837000.0
+        },
+        {
+            "gdp": 183568,
+            "points": 1.703,
+            "pop": 4161000.0
+        },
+        {
+            "gdp": 9750,
+            "points": 1.282,
+            "pop": 6543000.0
+        },
+        {
+            "gdp": 16250,
+            "points": 0.464,
+            "pop": 7500000.0
+        },
+        {
+            "gdp": 24494,
+            "points": 1.208,
+            "pop": 6288000.0
+        },
+        {
+            "gdp": 23420,
+            "points": 0.378,
+            "pop": 641000.0
+        },
+        {
+            "gdp": 434059,
+            "points": 1.188,
+            "pop": 34032000.0
+        },
+        {
+            "gdp": 5900,
+            "points": 0.75,
+            "pop": 454914.0
+        },
+        {
+            "gdp": 15720,
+            "points": 0.792,
+            "pop": 3029000.0
+        },
+        {
+            "gdp": 59530,
+            "points": 0.773,
+            "pop": 54486253.0
+        },
+        {
+            "gdp": 39028,
+            "points": 0.579,
+            "pop": 30200000.0
+        },
+        {
+            "gdp": 4582,
+            "points": 1.639,
+            "pop": 26180000.0
+        },
+        {
+            "gdp": 108969,
+            "points": 1.568,
+            "pop": 4181000.0
+        },
+        {
+            "gdp": 376493,
+            "points": 0.125,
+            "pop": 229785000.0
+        },
+        {
+            "gdp": 19698,
+            "points": 1.265,
+            "pop": 5683000.0
+        },
+        {
+            "gdp": 401662,
+            "points": 0.897,
+            "pop": 115699395.0
+        },
+        {
+            "gdp": 221369,
+            "points": 1.617,
+            "pop": 2113000.0
+        },
+        {
+            "gdp": 1010588,
+            "points": 2.022,
+            "pop": 35849000.0
+        },
+        {
+            "gdp": 423632,
+            "points": 0.974,
+            "pop": 5541000.0
+        },
+        {
+            "gdp": 1734207,
+            "points": 2.126,
+            "pop": 51617000.0
+        },
+        {
+            "gdp": 73739,
+            "points": 0.462,
+            "pop": 23480000.0
+        },
+        {
+            "gdp": 21450,
+            "points": 1.52,
+            "pop": 19541000.0
+        },
+        {
+            "gdp": 9983,
+            "points": 1.341,
+            "pop": 10000000.0
+        },
+        {
+            "gdp": 534758,
+            "points": 1.021,
+            "pop": 70100000.0
+        },
+        {
+            "gdp": 1959,
+            "points": 0.0,
+            "pop": 1645000.0
+        },
+        {
+            "gdp": 74439,
+            "points": 1.413,
+            "pop": 5302000.0
+        },
+        {
+            "gdp": 503913,
+            "points": 1.517,
+            "pop": 10100000.0
+        },
+        {
+            "gdp": 79117,
+            "points": 1.775,
+            "pop": 35283000.0
+        },
+        {
+            "gdp": 413808,
+            "points": 0.966,
+            "pop": 99100000.0
+        },
+        {
+            "gdp": 27594,
+            "points": 0.897,
+            "pop": 31100000.0
+        }
+    ],
+    "imgs": [
+        "1150_QQQ_rect_chart.png",
+        "1150_QQQ_rect_chart_2.png"
+    ]
+}

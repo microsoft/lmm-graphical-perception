@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the key product sector with the highest CAGR.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the CAGR for the 'Footwear' sector.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average CAGR across all key product sectors.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any product sector with a CAGR significantly lower than others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "What is the range of CAGR values across all key product sectors?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Rank the key product sectors from highest to lowest CAGR.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify clusters of key product sectors with similar CAGR values.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Is there a noticeable correlation between product sector and the CAGR?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which key product sectors have a CAGR greater than 0.03?",
+            "type": "Filter"
+        },
+        {
+            "description": "What percentage of the key product sectors have a CAGR higher than 0.04?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

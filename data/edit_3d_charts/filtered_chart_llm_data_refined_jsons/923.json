@@ -1,0 +1,420 @@
+{
+    "img_id": 923,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": {
+            "text": " Household Spending",
+            "subtitle": "Composition of spending, by income quitile and sub series. Source: Joseph Rowntree Foundation",
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start",
+            "color": "black"
+        },
+        "height": 250,
+        "width": 250,
+        "transform": [
+            {
+                "calculate": "if(datum.Type === 'Housing, water, electricity', 0, if(datum.Type === 'Food and non-alcoholic drinks', 1 ,if(datum.Type === 'Clothing and footwear', 2 , 3)))",
+                "as": "TypeOrder"
+            }
+        ],
+        "params": [
+            {
+                "name": "highlight",
+                "select": {
+                    "type": "point",
+                    "on": "mouseover"
+                }
+            }
+        ],
+        "mark": "bar",
+        "encoding": {
+            "x": {
+                "field": "Income Quintile",
+                "type": "nominal",
+                "title": "Equivilised Income Quintile"
+            },
+            "y": {
+                "field": "Value",
+                "type": "quantitative",
+                "title": "Percentage of Total Spend"
+            },
+            "fillOpacity": {
+                "condition": {
+                    "param": "highlight",
+                    "value": 1
+                },
+                "value": 0.6
+            },
+            "color": {
+                "field": "Type",
+                "type": "nominal",
+                "title": "Type of Spending",
+                "scale": {
+                    "domain": [
+                        "Other",
+                        "Miscellaneous goods and services",
+                        "Restaurants and hotels",
+                        "Education",
+                        "Recreation and culture",
+                        "Communication",
+                        "Transport",
+                        "Health",
+                        "Households goods and services",
+                        "Alcohol and tobacco",
+                        "Clothing and footwear",
+                        "Food and non-alcoholic drinks",
+                        "Housing, water, electricity"
+                    ],
+                    "scheme": "inferno"
+                }
+            },
+            "order": {
+                "field": "TypeOrder"
+            },
+            "tooltip": [
+                {
+                    "field": "Value",
+                    "type": "quantitative",
+                    "title": "Percentage (%)"
+                },
+                {
+                    "field": "Type",
+                    "type": "nominal",
+                    "title": "Type of Spending"
+                }
+            ]
+        }
+    },
+    "data_dict": [
+        {
+            "Type": "Housing, water, electricity",
+            "Value": 28,
+            "Income Quintile": "1 - Poorest"
+        },
+        {
+            "Type": "Food and non-alcoholic drinks",
+            "Value": 15,
+            "Income Quintile": "1 - Poorest"
+        },
+        {
+            "Type": "Clothing and footwear",
+            "Value": 4,
+            "Income Quintile": "1 - Poorest"
+        },
+        {
+            "Type": "Alcohol and tobacco",
+            "Value": 3,
+            "Income Quintile": "1 - Poorest"
+        },
+        {
+            "Type": "Households goods and services",
+            "Value": 5,
+            "Income Quintile": "1 - Poorest"
+        },
+        {
+            "Type": "Health",
+            "Value": 1,
+            "Income Quintile": "1 - Poorest"
+        },
+        {
+            "Type": "Transport",
+            "Value": 11,
+            "Income Quintile": "1 - Poorest"
+        },
+        {
+            "Type": "Communication",
+            "Value": 5,
+            "Income Quintile": "1 - Poorest"
+        },
+        {
+            "Type": "Recreation and culture",
+            "Value": 11,
+            "Income Quintile": "1 - Poorest"
+        },
+        {
+            "Type": "Education",
+            "Value": 0,
+            "Income Quintile": "1 - Poorest"
+        },
+        {
+            "Type": "Restaurants and hotels",
+            "Value": 7,
+            "Income Quintile": "1 - Poorest"
+        },
+        {
+            "Type": "Miscellaneous goods and services",
+            "Value": 7,
+            "Income Quintile": "1 - Poorest"
+        },
+        {
+            "Type": "Other",
+            "Value": 3,
+            "Income Quintile": "1 - Poorest"
+        },
+        {
+            "Type": "Housing, water, electricity",
+            "Value": 25,
+            "Income Quintile": "2"
+        },
+        {
+            "Type": "Food and non-alcoholic drinks",
+            "Value": 13,
+            "Income Quintile": "2"
+        },
+        {
+            "Type": "Clothing and footwear",
+            "Value": 3,
+            "Income Quintile": "2"
+        },
+        {
+            "Type": "Alcohol and tobacco",
+            "Value": 3,
+            "Income Quintile": "2"
+        },
+        {
+            "Type": "Households goods and services",
+            "Value": 7,
+            "Income Quintile": "2"
+        },
+        {
+            "Type": "Health",
+            "Value": 1,
+            "Income Quintile": "2"
+        },
+        {
+            "Type": "Transport",
+            "Value": 13,
+            "Income Quintile": "2"
+        },
+        {
+            "Type": "Communication",
+            "Value": 4,
+            "Income Quintile": "2"
+        },
+        {
+            "Type": "Recreation and culture",
+            "Value": 11,
+            "Income Quintile": "2"
+        },
+        {
+            "Type": "Education",
+            "Value": 1,
+            "Income Quintile": "2"
+        },
+        {
+            "Type": "Restaurants and hotels",
+            "Value": 7,
+            "Income Quintile": "2"
+        },
+        {
+            "Type": "Miscellaneous goods and services",
+            "Value": 7,
+            "Income Quintile": "2"
+        },
+        {
+            "Type": "Other",
+            "Value": 5,
+            "Income Quintile": "2"
+        },
+        {
+            "Type": "Housing, water, electricity",
+            "Value": 23,
+            "Income Quintile": "3"
+        },
+        {
+            "Type": "Food and non-alcoholic drinks",
+            "Value": 12,
+            "Income Quintile": "3"
+        },
+        {
+            "Type": "Clothing and footwear",
+            "Value": 4,
+            "Income Quintile": "3"
+        },
+        {
+            "Type": "Alcohol and tobacco",
+            "Value": 2,
+            "Income Quintile": "3"
+        },
+        {
+            "Type": "Households goods and services",
+            "Value": 6,
+            "Income Quintile": "3"
+        },
+        {
+            "Type": "Health",
+            "Value": 1,
+            "Income Quintile": "3"
+        },
+        {
+            "Type": "Transport",
+            "Value": 13,
+            "Income Quintile": "3"
+        },
+        {
+            "Type": "Communication",
+            "Value": 4,
+            "Income Quintile": "3"
+        },
+        {
+            "Type": "Recreation and culture",
+            "Value": 12,
+            "Income Quintile": "3"
+        },
+        {
+            "Type": "Education",
+            "Value": 1,
+            "Income Quintile": "3"
+        },
+        {
+            "Type": "Restaurants and hotels",
+            "Value": 8,
+            "Income Quintile": "3"
+        },
+        {
+            "Type": "Miscellaneous goods and services",
+            "Value": 8,
+            "Income Quintile": "3"
+        },
+        {
+            "Type": "Other",
+            "Value": 6,
+            "Income Quintile": "3"
+        },
+        {
+            "Type": "Housing, water, electricity",
+            "Value": 21,
+            "Income Quintile": "4"
+        },
+        {
+            "Type": "Food and non-alcoholic drinks",
+            "Value": 10,
+            "Income Quintile": "4"
+        },
+        {
+            "Type": "Clothing and footwear",
+            "Value": 4,
+            "Income Quintile": "4"
+        },
+        {
+            "Type": "Alcohol and tobacco",
+            "Value": 2,
+            "Income Quintile": "4"
+        },
+        {
+            "Type": "Households goods and services",
+            "Value": 6,
+            "Income Quintile": "4"
+        },
+        {
+            "Type": "Health",
+            "Value": 1,
+            "Income Quintile": "4"
+        },
+        {
+            "Type": "Transport",
+            "Value": 15,
+            "Income Quintile": "4"
+        },
+        {
+            "Type": "Communication",
+            "Value": 4,
+            "Income Quintile": "4"
+        },
+        {
+            "Type": "Recreation and culture",
+            "Value": 13,
+            "Income Quintile": "4"
+        },
+        {
+            "Type": "Education",
+            "Value": 1,
+            "Income Quintile": "4"
+        },
+        {
+            "Type": "Restaurants and hotels",
+            "Value": 10,
+            "Income Quintile": "4"
+        },
+        {
+            "Type": "Miscellaneous goods and services",
+            "Value": 8,
+            "Income Quintile": "4"
+        },
+        {
+            "Type": "Other",
+            "Value": 5,
+            "Income Quintile": "4"
+        },
+        {
+            "Type": "Housing, water, electricity",
+            "Value": 20,
+            "Income Quintile": "5 - Richest"
+        },
+        {
+            "Type": "Food and non-alcoholic drinks",
+            "Value": 8,
+            "Income Quintile": "5 - Richest"
+        },
+        {
+            "Type": "Clothing and footwear",
+            "Value": 4,
+            "Income Quintile": "5 - Richest"
+        },
+        {
+            "Type": "Alcohol and tobacco",
+            "Value": 2,
+            "Income Quintile": "5 - Richest"
+        },
+        {
+            "Type": "Households goods and services",
+            "Value": 6,
+            "Income Quintile": "5 - Richest"
+        },
+        {
+            "Type": "Health",
+            "Value": 2,
+            "Income Quintile": "5 - Richest"
+        },
+        {
+            "Type": "Transport",
+            "Value": 15,
+            "Income Quintile": "5 - Richest"
+        },
+        {
+            "Type": "Communication",
+            "Value": 3,
+            "Income Quintile": "5 - Richest"
+        },
+        {
+            "Type": "Recreation and culture",
+            "Value": 14,
+            "Income Quintile": "5 - Richest"
+        },
+        {
+            "Type": "Education",
+            "Value": 1,
+            "Income Quintile": "5 - Richest"
+        },
+        {
+            "Type": "Restaurants and hotels",
+            "Value": 10,
+            "Income Quintile": "5 - Richest"
+        },
+        {
+            "Type": "Miscellaneous goods and services",
+            "Value": 8,
+            "Income Quintile": "5 - Richest"
+        },
+        {
+            "Type": "Other",
+            "Value": 7,
+            "Income Quintile": "5 - Richest"
+        }
+    ],
+    "imgs": [
+        "923_NQN_bar_chart_2.png",
+        "923_NQN_bar_chart.png"
+    ]
+}

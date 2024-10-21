@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Determine the share of total expenditures for Jamaica.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Which country has the highest share of total expenditures?",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the average share of total expenditures across all listed countries.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any country that has a significantly lower share of expenditures compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Determine if there is a correlation between the country and its share of total expenditures.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "What countries have a share of total expenditures greater than 0.2?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the countries from the highest to the lowest share of total expenditures.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify the range of the share of total expenditures across all countries.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the countries have a share of total expenditures above 0.15?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of countries with similar shares of total expenditures.",
+            "type": "Find Clusters"
+        }
+    ]
+]

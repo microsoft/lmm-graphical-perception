@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the main concern with the highest number of young people contacting Childline.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total number of young people who contacted Childline about family relationships.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average number of young people contacting Childline across all main concerns.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any main concern that has a significantly lower number of young people compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Identify if there is a correlation between the type of concern and the number of young people contacting Childline.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which main concerns have more than 20,000 young people contacting Childline?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the main concerns from the highest to the lowest number of young people contacting Childline.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of the number of young people contacting Childline across all main concerns.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the main concerns have more than 15,000 young people contacting Childline?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of main concerns with similar numbers of young people contacting Childline.",
+            "type": "Find Clusters"
+        }
+    ]
+]

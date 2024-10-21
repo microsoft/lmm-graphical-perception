@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the month with the highest growth rate of HICP.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the growth rate of HICP for January '19.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average growth rate of HICP over the given months.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any months with a significantly lower growth rate of HICP compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Are there any clusters of months with similar growth rates of HICP?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Identify if there is a noticeable trend in the growth rate of HICP over the months.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which months have a growth rate of HICP greater than 0.03?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the months from the highest to the lowest growth rate of HICP.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of the growth rates of HICP across the months.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of months have a growth rate of HICP below 0.03?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

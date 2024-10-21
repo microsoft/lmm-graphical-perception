@@ -1,0 +1,1197 @@
+{
+    "img_id": "405",
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "A calculate that takes the messy names in the field, metric, and creates a new field, metricClean, where the names are nicer.",
+        "title": {
+            "text": "Entry and Exit rates - major industry groups",
+            "subtitle": [
+                "Ratio of entrants and exiters to total firms",
+                ""
+            ],
+            "subtitleFontStyle": "italic",
+            "subtitleFontSize": 10,
+            "anchor": "start",
+            "color": "black"
+        },
+        "transform": [
+            {
+                "fold": [
+                    "entryRate",
+                    "exitRate"
+                ],
+                "as": [
+                    "metric",
+                    "value"
+                ]
+            },
+            {
+                "calculate": "{'entryRate':'Entry', 'exitRate': 'Exit'}[datum.metric]",
+                "as": "metricClean"
+            }
+        ],
+        "height": 75,
+        "width": 75,
+        "mark": {
+            "type": "line",
+            "strokeWidth": 1,
+            "point": false
+        },
+        "encoding": {
+            "x": {
+                "field": "year",
+                "type": "quantitative",
+                "title": null,
+                "axis": {
+                    "grid": false,
+                    "format": "d"
+                }
+            },
+            "y": {
+                "field": "value",
+                "type": "quantitative",
+                "title": null,
+                "scale": {
+                    "domain": [
+                        0,
+                        0.3
+                    ]
+                },
+                "axis": {
+                    "grid": false,
+                    "format": "%"
+                }
+            },
+            "facet": {
+                "field": "Industry",
+                "type": "nominal",
+                "title": null,
+                "columns": 4
+            },
+            "color": {
+                "field": "metricClean",
+                "title": null,
+                "scale": {
+                    "range": [
+                        "blue",
+                        "orange"
+                    ]
+                },
+                "legend": {
+                    "orient": "bottom",
+                    "columns": 2
+                }
+            }
+        }
+    },
+    "data_dict": [
+        {
+            "year": 1997,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 1997,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 1997,
+            "Industry": "Retail"
+        },
+        {
+            "year": 1997,
+            "Industry": "Construction"
+        },
+        {
+            "year": 1997,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 1997,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 1997,
+            "Industry": "Other service"
+        },
+        {
+            "year": 1997,
+            "Industry": "Transport"
+        },
+        {
+            "year": 1997,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 1997,
+            "Industry": "IT"
+        },
+        {
+            "year": 1997,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 1997,
+            "Industry": "Other business"
+        },
+        {
+            "year": 1998,
+            "Industry": "Other business"
+        },
+        {
+            "year": 1998,
+            "Industry": "Construction"
+        },
+        {
+            "year": 1998,
+            "Industry": "Other service"
+        },
+        {
+            "year": 1998,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 1998,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 1998,
+            "Industry": "Transport"
+        },
+        {
+            "year": 1998,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 1998,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 1998,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 1998,
+            "Industry": "Retail"
+        },
+        {
+            "year": 1998,
+            "Industry": "IT"
+        },
+        {
+            "year": 1998,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 1999,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 1999,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 1999,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 1999,
+            "Industry": "Retail"
+        },
+        {
+            "year": 1999,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 1999,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 1999,
+            "Industry": "Construction"
+        },
+        {
+            "year": 1999,
+            "Industry": "Other business"
+        },
+        {
+            "year": 1999,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 1999,
+            "Industry": "Other service"
+        },
+        {
+            "year": 1999,
+            "Industry": "Transport"
+        },
+        {
+            "year": 1999,
+            "Industry": "IT"
+        },
+        {
+            "year": 2000,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2000,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2000,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2000,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2000,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2000,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2000,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2000,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2000,
+            "Industry": "IT"
+        },
+        {
+            "year": 2000,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2000,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2000,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2001,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2001,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2001,
+            "Industry": "IT"
+        },
+        {
+            "year": 2001,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2001,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2001,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2001,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2001,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2001,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2001,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2001,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2001,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2002,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2002,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2002,
+            "Industry": "IT"
+        },
+        {
+            "year": 2002,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2002,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2002,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2002,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2002,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2002,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2002,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2002,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2002,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2003,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2003,
+            "Industry": "IT"
+        },
+        {
+            "year": 2003,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2003,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2003,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2003,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2003,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2003,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2003,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2003,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2003,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2003,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2004,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2004,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2004,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2004,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2004,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2004,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2004,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2004,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2004,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2004,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2004,
+            "Industry": "IT"
+        },
+        {
+            "year": 2004,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2005,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2005,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2005,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2005,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2005,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2005,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2005,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2005,
+            "Industry": "IT"
+        },
+        {
+            "year": 2005,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2005,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2005,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2005,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2006,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2006,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2006,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2006,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2006,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2006,
+            "Industry": "IT"
+        },
+        {
+            "year": 2006,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2006,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2006,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2006,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2006,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2006,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2007,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2007,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2007,
+            "Industry": "IT"
+        },
+        {
+            "year": 2007,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2007,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2007,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2007,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2007,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2007,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2007,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2007,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2007,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2008,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2008,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2008,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2008,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2008,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2008,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2008,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2008,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2008,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2008,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2008,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2008,
+            "Industry": "IT"
+        },
+        {
+            "year": 2009,
+            "Industry": "IT"
+        },
+        {
+            "year": 2009,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2009,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2009,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2009,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2009,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2009,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2009,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2009,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2009,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2009,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2009,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2010,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2010,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2010,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2010,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2010,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2010,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2010,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2010,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2010,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2010,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2010,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2010,
+            "Industry": "IT"
+        },
+        {
+            "year": 2011,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2011,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2011,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2011,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2011,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2011,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2011,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2011,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2011,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2011,
+            "Industry": "IT"
+        },
+        {
+            "year": 2011,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2011,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2012,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2012,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2012,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2012,
+            "Industry": "IT"
+        },
+        {
+            "year": 2012,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2012,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2012,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2012,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2012,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2012,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2012,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2012,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2013,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2013,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2013,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2013,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2013,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2013,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2013,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2013,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2013,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2013,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2013,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2013,
+            "Industry": "IT"
+        },
+        {
+            "year": 2014,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2014,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2014,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2014,
+            "Industry": "IT"
+        },
+        {
+            "year": 2014,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2014,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2014,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2014,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2014,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2014,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2014,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2014,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2015,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2015,
+            "Industry": "IT"
+        },
+        {
+            "year": 2015,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2015,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2015,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2015,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2015,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2015,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2015,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2015,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2015,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2015,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2016,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2016,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2016,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2016,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2016,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2016,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2016,
+            "Industry": "IT"
+        },
+        {
+            "year": 2016,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2016,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2016,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2016,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2016,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2017,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2017,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2017,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2017,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2017,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2017,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2017,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2017,
+            "Industry": "IT"
+        },
+        {
+            "year": 2017,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2017,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2017,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2017,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2018,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2018,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2018,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2018,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2018,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2018,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2018,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2018,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2018,
+            "Industry": "IT"
+        },
+        {
+            "year": 2018,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2018,
+            "Industry": "Retail"
+        },
+        {
+            "year": 2018,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2019,
+            "Industry": "Automotive"
+        },
+        {
+            "year": 2019,
+            "Industry": "Manufacturing"
+        },
+        {
+            "year": 2019,
+            "Industry": "Other service"
+        },
+        {
+            "year": 2019,
+            "Industry": "Hospitality"
+        },
+        {
+            "year": 2019,
+            "Industry": "Wholesale"
+        },
+        {
+            "year": 2019,
+            "Industry": "IT"
+        },
+        {
+            "year": 2019,
+            "Industry": "Recreation & culture"
+        },
+        {
+            "year": 2019,
+            "Industry": "Other business"
+        },
+        {
+            "year": 2019,
+            "Industry": "Transport"
+        },
+        {
+            "year": 2019,
+            "Industry": "Construction"
+        },
+        {
+            "year": 2019,
+            "Industry": "z. Others"
+        },
+        {
+            "year": 2019,
+            "Industry": "Retail"
+        }
+    ],
+    "imgs": [
+        "405_QQN_line_chart_2.png",
+        "405_QQN_line_chart.png"
+    ]
+}

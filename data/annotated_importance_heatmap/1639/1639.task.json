@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the time period with the highest number of farm tractors produced.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the number of farm tractors produced from July 2015 to June 2016.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the total number of farm tractors produced from July 2014 to June 2017.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any time period that has significantly lower tractor production compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Identify if there is a noticeable trend in the number of tractors produced over the given periods.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which time periods have tractor production numbers higher than 50,000?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the time periods from the highest to the lowest number of farm tractors produced.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of tractor production numbers across all time periods.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What is the percentage of time periods with tractor production numbers higher than 40,000?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify clusters of time periods with similar tractor production numbers.",
+            "type": "Find Clusters"
+        }
+    ]
+]

@@ -1,0 +1,14 @@
+autopep8
+jupyter
+vega==4.0.0
+numpy==1.22.4
+pandas==1.5.3
+dataframe-image==0.2.4
+namedlist
+matplotlib
+flask
+flask-cors
+openai==1.13.4
+vl-convert-python==1.6.1
+python-dotenv
+tabulate

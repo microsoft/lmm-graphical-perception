@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "What was the 'Full game' value for the year 2020?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the year with the highest 'Full game' value.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the average 'Full game' value from 2018 to 2022.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Which years had a 'Full game' value less than 10?",
+            "type": "Filter"
+        },
+        {
+            "description": "Determine if there is any noticeable trend in the 'Full game' values over the years.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Rank the years from the highest to the lowest 'Full game' value.",
+            "type": "Order"
+        },
+        {
+            "description": "Identify any anomalies in the 'Full game' values from 2012 to 2022.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "What is the range of 'Full game' values from 2012 to 2022?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "How many years had a 'Full game' value between 8 and 11?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of years with similar 'Full game' values.",
+            "type": "Find Clusters"
+        }
+    ]
+]

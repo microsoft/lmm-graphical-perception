@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "What is the number of physicians in the Psychiatry specialty area?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the specialty area with the highest number of physicians.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Compute the total number of physicians across all specialty areas shown.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any specialty area that has an unusually low number of physicians compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Determine if there is a correlation between the specialty area and the number of physicians.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which specialty areas have more than 2000 physicians?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the specialty areas from the highest to the lowest number of physicians.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of the number of physicians across all specialty areas.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "What percentage of the specialty areas have more than 1500 physicians?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify any clusters of specialty areas with a similar number of physicians.",
+            "type": "Find Clusters"
+        }
+    ]
+]

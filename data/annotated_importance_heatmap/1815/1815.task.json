@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the year with the highest imports of cereals.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total imports of cereals in 2014/15.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average imports of cereals over the given years.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any year that has significantly lower imports of cereals compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Examine if there is any correlation between the years and the imports of cereals.",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which years had more than 2 million metric tons of cereal imports?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the years from the highest to the lowest imports of cereals.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of cereal imports across all the given years?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify any clusters of years with similar import values.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What percentage of the years had imports greater than 1.5 million metric tons?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

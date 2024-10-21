@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify which winery had the highest turnover in 2017.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the turnover value for Antinori in 2017.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Rank the wineries from highest to lowest turnover in 2017.",
+            "type": "Order"
+        },
+        {
+            "description": "Find the winery with the lowest turnover in 2017.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Calculate the total turnover of the top three wineries in 2017.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Are there any wineries with very similar turnover values? If so, name them.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Determine the range of turnover values among the top ten wineries in 2017.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify any winery with a significantly lower turnover than the others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "What percentage of the wineries have a turnover greater than 300 million euros?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Is there a noticeable correlation between the winery names and their turnover values in 2017?",
+            "type": "Find Correlation"
+        }
+    ]
+]

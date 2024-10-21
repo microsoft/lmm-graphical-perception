@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the country with the highest assets in 2014.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the total assets of Germany in 2014.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Calculate the average assets of the listed countries in 2014.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any country that has significantly lower assets compared to others in 2014.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there a noticeable correlation between the country and the amount of assets in 2014?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which countries have assets greater than 5000 billion euros in 2014?",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the countries from the highest to the lowest assets in 2014.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the range of assets in 2014 across the listed countries?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify the percentage of countries with assets below 3000 billion euros in 2014.",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Locate any clusters of countries with similar asset values in 2014.",
+            "type": "Find Clusters"
+        }
+    ]
+]

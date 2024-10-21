@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the country with the highest percentage of agriculture dedicated biotech companies.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "What is the percentage of agriculture dedicated biotech companies in New Zealand?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Determine the range of agriculture percentages across all countries.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Find any country with a significantly lower percentage of agriculture dedicated biotech companies compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Are there any countries with the same percentage of agriculture dedicated biotech companies?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Calculate the total percentage of agriculture dedicated biotech companies for all countries combined.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "List the countries with an agriculture percentage greater than 0.1.",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the countries from the highest to the lowest percentage of agriculture dedicated biotech companies.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the average percentage of agriculture dedicated biotech companies across all listed countries?",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Identify any correlations between the country and the percentage of agriculture dedicated biotech companies.",
+            "type": "Find Correlation"
+        }
+    ]
+]

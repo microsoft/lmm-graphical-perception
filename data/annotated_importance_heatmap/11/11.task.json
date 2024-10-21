@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "What was the total number of prescriptions in 2005?",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Identify the year with the highest number of prescriptions.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the average number of prescriptions from 2004 to 2017.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any year that has a significantly lower number of prescriptions compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Is there an increasing trend in the number of prescriptions over the years?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "Which years had more than 90 million prescriptions?",
+            "type": "Filter"
+        },
+        {
+            "description": "Order the years from highest to lowest based on the total number of prescriptions.",
+            "type": "Order"
+        },
+        {
+            "description": "Determine the range of total prescriptions over the years.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Identify the percentage of years with more than 95 million prescriptions.",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "How many clusters of years have similar prescription values?",
+            "type": "Find Clusters"
+        }
+    ]
+]

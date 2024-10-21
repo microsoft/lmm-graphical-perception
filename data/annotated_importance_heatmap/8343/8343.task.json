@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Identify the country with the largest population size per credit institution in 2015.",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Determine the population size per credit institution in Belgium for the year 2015.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "List the countries where the population size per credit institution exceeds 200,000 in 2015.",
+            "type": "Filter"
+        },
+        {
+            "description": "Rank the countries from highest to lowest based on their population size per credit institution in 2015.",
+            "type": "Order"
+        },
+        {
+            "description": "Calculate the total population size per credit institution for all listed countries in 2015.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Find any country with a notably lower population size per credit institution compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "Identify clusters of countries with similar population sizes per credit institution in 2015.",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "What is the range of population sizes per credit institution across the countries in 2015?",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Is there a noticeable correlation between the country and the population size per credit institution in 2015?",
+            "type": "Find Correlation"
+        },
+        {
+            "description": "What percentage of the countries have a population size per credit institution greater than 150,000 in 2015?",
+            "type": "Characterize Distribution"
+        }
+    ]
+]

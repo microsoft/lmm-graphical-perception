@@ -1,0 +1,202 @@
+{
+    "img_id": 1140,
+    "vl_spec": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "A bubbleplot showing horsepower on x, miles per gallons on y, and binned acceleration on size.",
+        "height": 340,
+        "width": 340,
+        "mark": "point",
+        "encoding": {
+            "x": {
+                "field": "Points",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "GDP(PPP, US$ billion)",
+                "type": "quantitative",
+                "title": "GDP (PPP, US$ billions)"
+            },
+            "tooltip": [
+                {
+                    "field": "Country",
+                    "type": "nominal"
+                },
+                {
+                    "field": "GDP(PPP, US$ billion)",
+                    "type": "quantitative"
+                },
+                {
+                    "field": "Population (millions)",
+                    "type": "quantitative"
+                }
+            ],
+            "size": {
+                "field": "Population (millions)",
+                "type": "quantitative"
+            }
+        },
+        "config": {}
+    },
+    "data_dict": [
+        {
+            "Country": "Austria",
+            "GDP(PPP, US$ billion)": 534.57,
+            "Population (millions)": 8.946,
+            "Points": 40
+        },
+        {
+            "Country": "Belgium",
+            "GDP(PPP, US$ billion)": 659.25,
+            "Population (millions)": 11.555,
+            "Points": 73
+        },
+        {
+            "Country": "Bosnia and Herzegovina",
+            "GDP(PPP, US$ billion)": 56.65,
+            "Population (millions)": 3.481,
+            "Points": 3
+        },
+        {
+            "Country": "Bulgaria",
+            "GDP(PPP, US$ billion)": 178.16,
+            "Population (millions)": 6.839,
+            "Points": 17
+        },
+        {
+            "Country": "Croatia",
+            "GDP(PPP, US$ billion)": 132.62,
+            "Population (millions)": 4.034,
+            "Points": 44
+        },
+        {
+            "Country": "Czech Republic",
+            "GDP(PPP, US$ billion)": 471.76,
+            "Population (millions)": 10.495,
+            "Points": 41
+        },
+        {
+            "Country": "Denmark",
+            "GDP(PPP, US$ billion)": 374.03,
+            "Population (millions)": 5.84,
+            "Points": 33
+        },
+        {
+            "Country": "France",
+            "GDP(PPP, US$ billion)": 3358.91,
+            "Population (millions)": 65.447,
+            "Points": 130
+        },
+        {
+            "Country": "Germany",
+            "GDP(PPP, US$ billion)": 4888.36,
+            "Population (millions)": 83.196,
+            "Points": 225
+        },
+        {
+            "Country": "Greece",
+            "GDP(PPP, US$ billion)": 344.17,
+            "Population (millions)": 10.679,
+            "Points": 8
+        },
+        {
+            "Country": "Hungary",
+            "GDP(PPP, US$ billion)": 362.0,
+            "Population (millions)": 9.731,
+            "Points": 48
+        },
+        {
+            "Country": "Iceland",
+            "GDP(PPP, US$ billion)": 22.12,
+            "Population (millions)": 0.369,
+            "Points": 1
+        },
+        {
+            "Country": "Italy",
+            "GDP(PPP, US$ billion)": 2734.61,
+            "Population (millions)": 59.236,
+            "Points": 156
+        },
+        {
+            "Country": "Netherlands",
+            "GDP(PPP, US$ billion)": 1095.45,
+            "Population (millions)": 17.475,
+            "Points": 104
+        },
+        {
+            "Country": "Norway",
+            "GDP(PPP, US$ billion)": 383.373,
+            "Population (millions)": 5.415,
+            "Points": 9
+        },
+        {
+            "Country": "Poland",
+            "GDP(PPP, US$ billion)": 1437.81,
+            "Population (millions)": 37.84,
+            "Points": 57
+        },
+        {
+            "Country": "Portugal",
+            "GDP(PPP, US$ billion)": 379.69,
+            "Population (millions)": 10.292,
+            "Points": 57
+        },
+        {
+            "Country": "Romania",
+            "GDP(PPP, US$ billion)": 651.64,
+            "Population (millions)": 19.202,
+            "Points": 29
+        },
+        {
+            "Country": "Russia",
+            "GDP(PPP, US$ billion)": 4494.22,
+            "Population (millions)": 145.558,
+            "Points": 67
+        },
+        {
+            "Country": "Serbia",
+            "GDP(PPP, US$ billion)": 148.68,
+            "Population (millions)": 6.872,
+            "Points": 63
+        },
+        {
+            "Country": "Slovenia",
+            "GDP(PPP, US$ billion)": 93.14,
+            "Population (millions)": 60.143,
+            "Points": 4
+        },
+        {
+            "Country": "Spain",
+            "GDP(PPP, US$ billion)": 1983.11,
+            "Population (millions)": 0.182,
+            "Points": 110
+        },
+        {
+            "Country": "Sweden",
+            "GDP(PPP, US$ billion)": 622.83,
+            "Population (millions)": 10.452,
+            "Points": 70
+        },
+        {
+            "Country": "Switzerland",
+            "GDP(PPP, US$ billion)": 674.01,
+            "Population (millions)": 8.67,
+            "Points": 50
+        },
+        {
+            "Country": "Turkey",
+            "GDP(PPP, US$ billion)": 2953.94,
+            "Population (millions)": 84.68,
+            "Points": 16
+        },
+        {
+            "Country": "Ukraine",
+            "GDP(PPP, US$ billion)": 588.45,
+            "Population (millions)": 41.077,
+            "Points": 7
+        }
+    ],
+    "imgs": [
+        "1140_QQQ_point_chart.png",
+        "1140_QQQ_point_chart_2.png"
+    ]
+}

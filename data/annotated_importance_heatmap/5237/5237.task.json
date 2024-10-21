@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "description": "Determine the number of immigrants from Poland.",
+            "type": "Retrieve Value"
+        },
+        {
+            "description": "Which country has the highest number of immigrants?",
+            "type": "Find Extremum"
+        },
+        {
+            "description": "Identify any country with a significantly lower number of immigrants compared to others.",
+            "type": "Find Anomalies"
+        },
+        {
+            "description": "How many countries have more than 3000 immigrants?",
+            "type": "Filter"
+        },
+        {
+            "description": "Compute the total number of immigrants from the top three countries.",
+            "type": "Compute Derived Value"
+        },
+        {
+            "description": "Is there any noticeable clustering of countries with similar numbers of immigrants?",
+            "type": "Find Clusters"
+        },
+        {
+            "description": "Determine the span of the number of immigrants across all countries.",
+            "type": "Determine Range"
+        },
+        {
+            "description": "Rank the countries from the highest to the lowest number of immigrants.",
+            "type": "Order"
+        },
+        {
+            "description": "What is the percentage of countries with fewer than 2500 immigrants?",
+            "type": "Characterize Distribution"
+        },
+        {
+            "description": "Identify if there is a correlation between the country and the number of immigrants.",
+            "type": "Find Correlation"
+        }
+    ]
+]
