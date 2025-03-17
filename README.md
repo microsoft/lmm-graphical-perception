@@ -1,5 +1,5 @@
 ## Evaluating Graphical Perception of Large Multimodal Models
-Source code and data for the Graphical Perception Evaluation and Study.
+Source code and data for the Graphical Perception Evaluation and Study: [Zhang et al. 2025](https://arxiv.org/abs/2503.10857)
 
 
 ### Chart Reasoning (RQ1 and RQ2 in the paper)
